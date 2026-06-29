@@ -247,6 +247,9 @@
         function getCurrentVariant() {
           var value = $('[sm-rc-variant-selector]').val();
           var target = $('[sm-rc-variant-selector]').find('[value="' + value + '"]');
+          // The storefront can generate option combinations (e.g. "12-Pack / Wild Berry")
+          // that do not map to a real variant. Track that so we can disable Add To Cart.
+          currentVariant.exists = value != null && value !== '' && target.length > 0;
           currentVariant.title = target.attr('data-title');
           currentVariant.sub = target.attr('data-sub');
           currentVariant.id = target.attr('value');
@@ -256,6 +259,22 @@
           currentVariant.img_url = target.attr('data-image');
 
           // setVariantParam( value );
+        }
+
+        function isCurrentVariantPurchasable() {
+          return currentVariant.exists && currentVariant.available != 'false';
+        }
+
+        function updateAddToCartState() {
+          if (isCurrentVariantPurchasable()) {
+            $('[sm-rc-add-to-cart]').prop('disabled', false);
+            $('.oos-text').hide();
+            $('.is-text').show();
+          } else {
+            $('[sm-rc-add-to-cart]').prop('disabled', true);
+            $('.oos-text').show();
+            $('.is-text').hide();
+          }
         }
         getCurrentVariant();
 
@@ -343,27 +362,11 @@
                   $('.pdp__subscribe').show();
                 }
 
-                if (currentVariant.available == 'false') {
-                  $('[sm-rc-add-to-cart]').prop('disabled', true);
-                  $('.oos-text').show();
-                  $('.is-text').hide();
-                } else {
-                  $('[sm-rc-add-to-cart]').prop('disabled', false);
-                  $('.oos-text').hide();
-                  $('.is-text').show();
-                }
+                updateAddToCartState();
               }
             }, 100); // checks every 500 milliseconds
 
-            if (currentVariant.available == 'false') {
-              $('[sm-rc-add-to-cart]').prop('disabled', true);
-              $('.oos-text').show();
-              $('.is-text').hide();
-            } else {
-              $('[sm-rc-add-to-cart]').prop('disabled', false);
-              $('.oos-text').hide();
-              $('.is-text').show();
-            }
+            updateAddToCartState();
         }
         renderVariables();
 
@@ -373,6 +376,12 @@
 
         $('[sm-rc-add-to-cart]').on('click', function () {
           var qty = 1;
+
+          // Guard against adding an option combination that has no real variant.
+          if (!isCurrentVariantPurchasable()) {
+            updateAddToCartState();
+            return;
+          }
 
           if (currentPlan.id == 'false') {
             CartJS.addItem(
