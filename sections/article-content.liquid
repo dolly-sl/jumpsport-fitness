@@ -1,0 +1,105 @@
+<section class="article section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }}">
+  <div class="container container--sm">
+    <div class="article__heading text-center">
+      <span class="article__date eyebrow scheme-color">
+        {{ article.published_at | date: '%B %e, %Y' }}
+      </span>
+      <h1 class="heading--two scheme-color">{{ article.title }}</h1>
+    </div>
+    <div class="article__image">
+      <img src="{{ article.image | img_url: '950x' }}" alt="{{ article.image.alt | escape }}">
+    </div>
+    <div class="article__content scheme-color">
+      {{ article.content }}
+    </div>
+    {% if article.metafields.article.article_product != blank %}
+      {% render 'product-card-article', data: article.metafields.article.article_product.value %}
+    {% endif %}
+    {% comment %} ARTICLE FOOTER {% endcomment %}
+    <div class="article__footer">
+      <div class="article__share  d-flex justify-between align-center">
+        <div class="tags text-center">
+          <span class="label">Tags: </span>
+          {% for tag in article.tags %}
+            <a href="/blogs/bounce-blog/tagged/{{ tag | handleize }}">
+              {{- tag -}}
+            </a>
+            {%- if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </div>
+        <div class="share d-flex align-center justify-center">
+          <span class="label">Share: </span>
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u={{ shop.url }}{{ article.url | url_param_escape }}"
+            target="_blank"
+            class="share__fb"
+          >
+            <span class="sr-only">Share to Facebook</span>
+            <img src="{{ 'icon-share-facebook.svg' | asset_url }}" alt="">
+          </a>
+          <a
+            href="https://twitter.com/intent/tweet?text={{ shop.url }}{{ article.url | url_param_escape }}"
+            target="_blank"
+            class="share__twitter"
+          >
+            <span class="sr-only">Share to Twitter</span>
+            <img src="{{ 'icon-share-twitter.svg' | asset_url }}" alt="">
+          </a>
+          <a
+            href="//pinterest.com/pin/create/button/?url={{ shop.url }}{{ article.url | url_param_escape }}&amp;media={{  article.image | img_url: 'master' | url_param_escape }}&amp;description={{ article.title | url_param_escape }}"
+            target="_blank"
+            class="share__pinterest"
+          >
+            <span class="sr-only">Share to Pinterest</span>
+            <img src="{{ 'icon-share-pinterest.svg' | asset_url }}" alt="">
+          </a>
+          <a
+            href="mailto:?subject={{ article.title | url_param_escape }}&amp;body={{ article.excerpt  | url_param_escape }}"
+            target="_blank"
+            class="share__email"
+          >
+            <span class="sr-only">Share via Email</span>
+            <img src="{{ 'icon-share-print.svg' | asset_url }}" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Article Content",
+  "settings": [
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Article Content"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["article"]
+  }
+}
+{% endschema %}

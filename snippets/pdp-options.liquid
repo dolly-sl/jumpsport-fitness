@@ -1,0 +1,101 @@
+{% for product_option in product.options_with_values %}
+  <div
+    class="option__wrap option__wrap--buttons {% if product_option.name contains 'Color' %}option__wrap--swatches{% endif %}"
+    data-option="sm-rc-option{{ forloop.index }}-selector"
+  >
+    <div class="option__heading d-flex align-center justify-between">
+      <label>
+        {{- product_option.name -}}
+      </label>
+      {% for tip in shop.metaobjects.product_options_tooltip.values %}
+        {% if tip.option_name.value == product_option.name %}
+          <a
+            href="#"
+            data-modal="{{ tip.option_name.value | handleize }}"
+            class="tooltip-launch d-flex align-center btn--modal"
+          >
+            <img src="{{ 'icon-info.svg' | asset_url }}" alt="">
+            <span>What is this?</span>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="btn__wrap d-flex">
+      {% for value in product_option.values %}
+        {% if template.suffix contains 'liquid-hydrogen' %}
+        <div
+        {% else %}
+          <button
+        {% endif %}
+          data-val="{{- value | replace: '"', '' -}}"
+          class="btn btn--outline {% if product_option.name contains 'Color' %}btn--swatch{% endif %} d-flex align-center{% if forloop.first == true %} active{% endif %}"
+        >
+          {% assign syntheticSwatch = value.swatch.color %}
+          {% for swatch in shop.metaobjects['shopify--color-pattern'].values %}
+            {% assign swatchLabel = swatch.label | strip %}
+            {% assign swatchValue = value | strip %}
+            {% if swatchLabel == swatchValue %}
+              {% if swatch.image != blank %}
+                {% assign syntheticSwatch = swatch.image
+                  | img_url
+                  | prepend: 'background:url('
+                  | append: ') center center/cover no-repeat;'
+                %}
+              {% else %}
+                {% assign syntheticSwatch = swatch.color | prepend: 'background:' | append: ';' %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+
+          <span
+            class="check d-flex align-center justify-center {% if value.swatch.color != blank %}check--swatch{% endif %}"
+            style="{{ syntheticSwatch }}"
+          ></span>
+          <span class="value">{{- value -}}</span>
+          {% if template.suffix contains 'liquid-hydrogen' %}
+          </div>
+            {% else %}
+            </button>
+            {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
+
+{% for tip in shop.metaobjects.product_options_tooltip.values %}
+  <div class="modal modal--tooltip" id="{{ tip.option_name.value | handleize }}">
+    <div class="modal__bg"></div>
+    <div class="modal__wrap">
+      <div class="modal__heading d-flex">
+        <img src="{{ 'icon-info.svg' | asset_url }}" alt="">
+        <h2 class="heading--four">{{ tip.tooltip_title.value }}</h2>
+        <button class="modal--close">
+          <span class="sr-only">Close Modal</span>
+          <img src="{{ 'icon-close.svg' | asset_url }}" alt="">
+        </button>
+      </div>
+      <div class="modal__inner">
+        {% for content_block in tip.content_block.value %}
+          <div class="tip-block d-flex justify-between">
+            <div class="tip-block__image">
+              <img
+                src="{{ content_block.image.value | img_url: '160x160' }}"
+                srcset="{{ content_block.image.value | img_url: '320x320' }} 2x"
+                alt="{{ content_block.image.value.alt }}"
+              >
+            </div>
+            <div class="tip-block__info">
+              <h3>
+                {{ content_block.title.value }}
+              </h3>
+              <span class="subtitle">
+                {{ content_block.sub_title.value }}
+              </span>
+              {{ content_block.copy | metafield_tag }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endfor %}

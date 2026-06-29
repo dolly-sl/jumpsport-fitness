@@ -1,0 +1,320 @@
+<section
+  class="quote-slider section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+  id="quote-slider--{{ section.id }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  {% unless section.settings.hide_bg == true %}
+    <img src="{{ 'pattern-bg.png' | asset_img_url: 'master' }}" alt="" class="quote-slider__bg">
+  {% endunless %}
+  <div class="container">
+    <div class="quote-slider__slider swiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide" {{ block.shopify_attributes }}>
+            <div class="inner text-center">
+              <span class="eyebrow scheme-color">
+                {{ section.settings.eyebrow }}
+              </span>
+              {% render 'dynamic-heading',
+                level: block.settings.heading_level,
+                title: block.settings.quote,
+                classList: block.settings.heading_level_display
+              %}
+              <p class="author scheme-color">- {{ block.settings.author }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const quoteSlider = new Swiper('#quote-slider--{{ section.id }} .swiper', {
+    slidesPerView: 1,
+    loop: true,
+    effect: 'fade',
+    fadeEffect: { crossFade: true },
+    autoplay: true,
+  });
+</script>
+
+{% if section.settings['padding_bottom-mobile'] == 'never-going-to-hit'
+  or section.settings['padding_top-mobile'] == 'never-going-to-hit'
+%}
+  <style>
+    @media(max-width: 768px) {
+      #quote-slider--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top-mobile }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom-mobile }}px !important;
+      }
+    }
+  </style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Quote Slider",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "padding_top",
+      "type": "select",
+      "label": "Padding Top",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom",
+      "type": "select",
+      "label": "Padding Bottom",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_top-mobile",
+      "type": "select",
+      "label": "Padding Top - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom-mobile",
+      "type": "select",
+      "label": "Padding Bottom - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "hide_bg",
+      "type": "checkbox",
+      "label": "Hide Background Image?"
+    },
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "quote",
+      "name": "Quote",
+      "settings": [
+        {
+          "id": "quote",
+          "type": "text",
+          "label": "Quote"
+        },
+        {
+          "type": "select",
+          "id": "heading_level",
+          "label": "Heading Level",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h2"
+        },
+        {
+          "id": "author",
+          "type": "text",
+          "label": "Author"
+        },
+        {
+          "type": "select",
+          "id": "heading_level_display",
+          "label": "Heading Level - Display",
+          "options": [
+            {
+              "value": "",
+              "label": "Natural"
+            },
+            {
+              "value": "heading--one",
+              "label": "H1"
+            },
+            {
+              "value": "heading--two",
+              "label": "H2"
+            },
+            {
+              "value": "heading--three",
+              "label": "H3"
+            },
+            {
+              "value": "heading--four",
+              "label": "H4"
+            },
+            {
+              "value": "heading--five",
+              "label": "H5"
+            },
+            {
+              "value": "heading--six",
+              "label": "H6"
+            }
+          ],
+          "default": ""
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Quote Slider"
+    }
+  ]
+}
+{% endschema %}

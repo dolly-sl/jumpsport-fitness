@@ -1,0 +1,288 @@
+{% assign has_icons = 'false' %}
+
+{% for block in section.blocks %}
+  {% if block.settings.icon != blank %}
+    {% assign has_icons = 'true' %}
+  {% endif %}
+{% endfor %}
+
+<section
+  class="hero hero--xl {% if section.blocks == empty %}hero--no-blocks{% endif %} hero--{{section.settings.copy_align}}"
+  id="hero--{{ section.id }}"
+>
+  {% if section.settings.video != blank %}
+    {{ section.settings.video | video_tag: autoplay: true, loop: true, muted: true, playsinline: true, controls: false }}
+  {% else %}
+    {% if section.settings.image_mobile != blank %}
+      {% assign mobileImage = section.settings.image_mobile %}
+    {% else %}
+      {% assign mobileImage = section.settings.image %}
+    {% endif %}
+    <img
+      class="hero__bg"
+      src="{{ section.settings.image | image_url: width: 1920, height: 800, crop: 'center' }}"
+      srcset="{{ mobileImage | image_url: width: 750, height: 1200, crop: 'center' }} 768w, {{ section.settings.image | image_url: width: 1920, height: 800, crop: 'center' }} 1920w"
+      alt="{{ section.settings.image.alt | escape }}"
+    >
+  {% endif %}
+  <div class="hero__copy">
+    <div class="container container--md">
+      <div class="inner align--{{ section.settings.copy_align }}">
+        <span class="eyebrow eyebrow--italic">
+          {{ section.settings.eyebrow }}
+        </span>
+        <{{ section.settings.heading_level }} class="heading--hero">
+          {{ section.settings.title }}
+        </{{ section.settings.heading_level }}>
+        {% if section.settings.subtitle != blank %}
+          <div class="hero__subtitle">
+            {{ section.settings.subtitle }}
+          </div>
+        {% endif %}
+        {% if section.settings.btn_url != blank or section.settings.link_url != blank %}
+          <div class="actions d-flex align-center">
+            {% if section.settings.btn_url != blank %}
+              <a href="{{ section.settings.btn_url }}" class="btn btn--white btn--outline-hover btn--arrow btn--xl">
+                {{ section.settings.btn_copy }}
+              </a>
+            {% endif %}
+            {% if section.settings.link_url != blank and section.settings.link_copy != blank %}
+              <a href="{{ section.settings.link_url }}" class="btn btn--outline btn--arrow btn--xl">
+                {{ section.settings.link_copy }}
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="arch-wrap{% if section.blocks == empty %} arch-wrap--no-blocks{% endif %}">
+    <div class="arch-wrap__inner">
+      {% comment %} {% render 'hero-arch' %} {% endcomment %}
+      <img
+        src="{{ 'hero-arc-xl-' | append: section.settings.arch_color | append: '.svg' | asset_url }}"
+        alt=""
+        class="arc arc--desktop"
+      >
+      {% if section.blocks == empty %}
+        <img
+          src="{{ 'hero-arc-xl-' | append: section.settings.arch_color | append: '.svg' | asset_url }}"
+          alt=""
+          class="arc arc--mobile"
+        >
+      {% else %}
+        <img
+          src="{{ 'hero-arc-mobile-xl-' | append: section.settings.arch_color | append: '.svg' | asset_url }}"
+          alt=""
+          class="arc arc--mobile"
+        >
+      {% endif %}
+
+      <div class="hero__blocks">
+        <div class="container d-flex justify-center">
+          {% for block in section.blocks %}
+            <div class="callout {% if block.settings.icon != blank %}callout--slash{% endif %} d-flex align-center icons--{{ has_icons }}">
+              {% if block.settings.icon != blank %}
+                <img
+                  src="{{ block.settings.icon | img_url: '20x' }}"
+                  srcset="{{ block.settings.icon | img_url: '40x' }}"
+                  alt=""
+                >
+              {% endif %}
+
+              <span class="eyebrow">
+                {{ block.settings.title }}
+              </span>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if section.settings.image_mobile != blank %}
+  <style>
+    #hero--{{ section.id }} .hero__bg--mobile {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+     #hero--{{ section.id }} .hero__bg--mobile {
+        display: block;
+      }
+
+      #hero--{{ section.id }} .hero__bg--desktop {
+        display: none;
+      }
+    }
+  </style>
+{% endif %}
+
+{% if section.index0 == 0 %}
+  <script>
+    jQuery(document).ready(function ($) {
+      $('#hero--{{ section.id }}').next('.shopify-section').find('.section-block').css('padding-top', '100px');
+    });
+  </script>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Hero - XL",
+  "settings": [
+    {
+      "id": "video",
+      "type": "video",
+      "label": "Video"
+    },
+    {
+      "id": "image",
+      "type": "image_picker",
+      "label": "Background",
+      "info": "Dimensions: 1920 x 800px"
+    },
+    {
+      "id": "image_mobile",
+      "type": "image_picker",
+      "label": "Background - Mobile",
+      "info": "Dimensions: 750 x 1200px"
+    },
+    {
+      "type": "select",
+      "id": "copy_align",
+      "label": "Copy alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": "Eyebrow"
+    },
+    {
+      "type": "select",
+      "id": "heading_level",
+      "label": "Heading Level",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h1"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title",
+      "default": "Title"
+    },
+    {
+      "id": "subtitle",
+      "type": "textarea",
+      "label": "Subtitle / Description",
+      "default": "<p></p>"
+    },
+    {
+      "id": "btn_url",
+      "type": "url",
+      "label": "Button URL"
+    },
+    {
+      "id": "btn_copy",
+      "type": "text",
+      "label": "Button Copy"
+    },
+    {
+      "id": "link_url",
+      "type": "url",
+      "label": "Link URL"
+    },
+    {
+      "id": "link_copy",
+      "type": "text",
+      "label": "Link Copy"
+    },
+    {
+      "type": "select",
+      "id": "arch_color",
+      "label": "Arch Color",
+      "options": [
+        {
+          "value": "green",
+          "label": "Green"
+        },
+        {
+          "value": "orange",
+          "label": "Orange"
+        },
+        {
+          "value": "pink",
+          "label": "Pink"
+        }
+      ],
+      "default": "green"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Callout",
+      "limit": 3,
+      "settings": [
+        {
+          "id": "icon",
+          "type": "image_picker",
+          "label": "Icon",
+          "info": "40 x 40px"
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "label": "Title"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero - XL"
+    }
+  ]
+}
+{% endschema %}

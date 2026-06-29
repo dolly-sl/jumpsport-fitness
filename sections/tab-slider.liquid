@@ -1,0 +1,551 @@
+<section
+  class="tab-slider section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+  id="tab-slider--{{ section.id }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  <div class="container">
+    <div class="tab-slider__heading d-flex justify-between">
+      <div class="copy">
+        {% if section.settings.title != blank %}
+          {% render 'dynamic-heading',
+            level: section.settings.heading_level,
+            title: section.settings.title,
+            classList: section.settings.heading_level_display
+          %}
+        {% endif %}
+        <div class="tabs d-flex">
+          {% for block in section.blocks %}
+            <button
+              class="tab scheme-color {% if forloop.first == true %}active{%endif%}"
+              data-index="{{ forloop.index0 }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.title }}
+            </button>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="actions">
+        {% if section.settings.btn_url != blank and section.settings.btn_copy != blank %}
+          <a href="{{ section.settings.btn_url }}" class="btn btn--solid btn--arrow">
+            {{ section.settings.btn_copy }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="tab-slider__slider swiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide" {{ block.shopify_attributes }}>
+            <div class="inner d-flex">
+              <div class="slide__content">
+                <div class="inner d-flex align-center justify-between">
+                  <div class="info">
+                    {% if block.settings.eyebrow != blank %}
+                      <span class="eyebrow">
+                        {{ block.settings.eyebrow }}
+                      </span>
+                    {% endif %}
+                    {% if block.settings.image_eyebrow != blank %}
+                      <img
+                        src="{{ block.settings.image_eyebrow | img_url: 'master' }}"
+                        alt="{{ block.settings.image_eyebrow.alt | escape }}"
+                        class="eye-logo"
+                      >
+                    {% endif %}
+                    {% if block.settings.title != blank and block.settings.title != '' %}
+                      {% render 'dynamic-heading',
+                        level: block.settings.heading_level,
+                        title: block.settings.title,
+                        classList: block.settings.heading_level_display
+                      %}
+                    {% endif %}
+                    {{ block.settings.copy }}
+                    {% if block.settings.btn_url != blank %}
+                      <div class="actions">
+                        <a href="{{ block.settings.btn_url }}" class="btn btn--solid btn--arrow btn--xl">
+                          {{ block.settings.btn_copy }}
+                        </a>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="image">
+                    <img
+                      loading="lazy"
+                      src="{{ block.settings.image | img_url: '370x' }}"
+                      srcset="{{ block.settings.image | img_url: '740x' }} 2x"
+                      alt="{{ block.settings.image.alt | escape }}"
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="slide__details">
+                <div class="inner">
+                  <span class="eyebrow"> At A Glance </span>
+                  {{ block.settings.glance }}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      {% render 'swiper-nav', color: section.settings.background %}
+    </div>
+    <div class="tab-slider__mobile">
+      {% for block in section.blocks %}
+        <div class="accordion__group{% if forloop.first == true %} active{% endif %}">
+          <button class="accordion__heading">
+            <h3 class="heading--four">
+              {{ block.settings.title }}
+            </h3>
+          </button>
+          <div
+            class="accordion__copy"
+            {% if forloop.first == true %}
+              style="display:block;"
+            {% endif %}
+          >
+            {% if block.settings.eyebrow != blank %}
+              <span class="eyebrow">
+                {{ block.settings.eyebrow }}
+              </span>
+            {% endif %}
+            {{ block.settings.copy }}
+            <div class="image">
+              <img
+                src="{{ block.settings.image | img_url: '370x' }}"
+                srcset="{{ block.settings.image | img_url: '740x' }} 2x"
+                alt="{{ block.settings.image.alt | escape }}"
+              >
+            </div>
+            <div class="details">
+              <span class="eyebrow"> At A Glance </span>
+              {{ block.settings.glance }}
+            </div>
+            {% if block.settings.btn_url != blank %}
+              <div class="actions">
+                <a href="{{ block.settings.btn_url }}" class="btn btn--solid btn--arrow btn--xl">
+                  {{ block.settings.btn_copy }}
+                </a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<script>
+  jQuery(document).ready(function () {
+    const tabSlider = new Swiper('#tab-slider--{{ section.id }} .swiper', {
+      slidesPerView: 1,
+      loop: true,
+      effect: 'fade',
+      navigation: {
+        nextEl: '#tab-slider--{{ section.id }} .swiper__nav .arrow--right',
+        prevEl: '#tab-slider--{{ section.id }} .swiper__nav .arrow--left',
+      },
+    });
+
+    // Change slide, activate tab
+    tabSlider.on('transitionEnd', function () {
+      $('#tab-slider--{{ section.id }} .tab').removeClass('active');
+      $('#tab-slider--{{ section.id }} .tab[data-index="' + tabSlider.realIndex + '"]').addClass('active');
+    });
+
+    // Click tab, go to slide
+    $('#tab-slider--{{ section.id }} .tab').on('click', function () {
+      if (!$(this).hasClass('active')) {
+        const slideIndex = $(this).attr('data-index');
+        tabSlider.slideTo(slideIndex);
+        $('#tab-slider--{{ section.id }} .tab').removeClass('active');
+        $(this).addClass('active');
+      }
+    });
+  });
+</script>
+
+{% if section.settings['padding_bottom-mobile'] == 'never-going-to-hit'
+  or section.settings['padding_top-mobile'] == 'never-going-to-hit'
+%}
+  <style>
+    @media(max-width: 768px) {
+      #tab-slider--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top-mobile }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom-mobile }}px !important;
+      }
+    }
+  </style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Tab Slider",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "padding_top",
+      "type": "select",
+      "label": "Padding Top",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom",
+      "type": "select",
+      "label": "Padding Bottom",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_top-mobile",
+      "type": "select",
+      "label": "Padding Top - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom-mobile",
+      "type": "select",
+      "label": "Padding Bottom - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "type": "select",
+      "id": "heading_level",
+      "label": "Heading Level",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "heading_level_display",
+      "label": "Heading Level - Display",
+      "options": [
+        {
+          "value": "",
+          "label": "Natural"
+        },
+        {
+          "value": "heading--one",
+          "label": "H1"
+        },
+        {
+          "value": "heading--two",
+          "label": "H2"
+        },
+        {
+          "value": "heading--three",
+          "label": "H3"
+        },
+        {
+          "value": "heading--four",
+          "label": "H4"
+        },
+        {
+          "value": "heading--five",
+          "label": "H5"
+        },
+        {
+          "value": "heading--six",
+          "label": "H6"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    },
+    {
+      "id": "btn_url",
+      "type": "url",
+      "label": "Button URL"
+    },
+    {
+      "id": "btn_copy",
+      "type": "text",
+      "label": "Button Copy"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "id": "eyebrow",
+          "type": "text",
+          "label": "Eyebrow"
+        },
+        {
+          "id": "image_eyebrow",
+          "type": "image_picker",
+          "label": "Image - Eyebrow ( optional )"
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "type": "select",
+          "id": "heading_level",
+          "label": "Heading Level",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h3"
+        },
+        {
+          "type": "select",
+          "id": "heading_level_display",
+          "label": "Heading Level - Display",
+          "options": [
+            {
+              "value": "",
+              "label": "Natural"
+            },
+            {
+              "value": "heading--one",
+              "label": "H1"
+            },
+            {
+              "value": "heading--two",
+              "label": "H2"
+            },
+            {
+              "value": "heading--three",
+              "label": "H3"
+            },
+            {
+              "value": "heading--four",
+              "label": "H4"
+            },
+            {
+              "value": "heading--five",
+              "label": "H5"
+            },
+            {
+              "value": "heading--six",
+              "label": "H6"
+            }
+          ],
+          "default": ""
+        },
+        {
+          "id": "copy",
+          "type": "richtext",
+          "label": "Copy"
+        },
+        {
+          "id": "btn_url",
+          "type": "url",
+          "label": "Button URL"
+        },
+        {
+          "id": "btn_copy",
+          "type": "text",
+          "label": "Button Copy"
+        },
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image",
+          "info": "740 x 1160px"
+        },
+        {
+          "id": "glance",
+          "type": "richtext",
+          "label": "At A Glance"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tab Slider"
+    }
+  ]
+}
+{% endschema %}

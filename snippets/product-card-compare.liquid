@@ -1,0 +1,154 @@
+{% assign lowest_price = data.first_available_variant.price %}
+{%- assign product_handle = data.title | handleize | strip -%}
+{% for variant in data.variants %}
+  {% if variant.available %}
+    {% if variant.price < lowest_price %}
+      {% assign lowest_price = variant.price %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<div class="card card--compare" data-handle="{{ product_handle }}" {{ block.shopify_attributes }}>
+  <div class="card__inner text-center">
+    <div class="card__image{% if data.images[1] != blank %} card__image--hover{% endif %}">
+      <a href="{{ data.url }}">
+        <img
+          loading="lazy"
+          src="{{ data.featured_image | img_url: '205x205' }}"
+          srcset="{{ data.featured_image | img_url: '410x410' }} 2x"
+          alt="{{ data.featured_image.alt | escape }}"
+          class="image image--main"
+        >
+        {% if data.images[1] != blank %}
+          <img
+            loading="lazy"
+            src="{{ data.images[1].src | img_url: '205x205' }}"
+            srcset="{{data.images[1].src | img_url: '410x410' }} 2x"
+            alt="{{ data.images[1].alt | escape }}"
+            class="image image--two"
+          >
+        {% endif %}
+      </a>
+    </div>
+    <div class="card__select">
+      {%- assign card_options = compare_list | split: ',' -%}
+
+      <select>
+        {% for card in card_options %}
+          {%- assign option = card | split: ':' -%}
+          {%- assign value = option[1] | strip -%}
+          <option
+            value="{{-  value | strip -}}"
+            {%- if value == product_handle -%}
+              selected disabled
+            {%- endif -%}
+          >
+            {{- option[0] -}}
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="card__info">
+      <a href="{{ data.url }}">
+        <h3 class="heading--five">
+          {{ data.title }}
+        </h3>
+      </a>
+      <div class="heading--six price">Starting at {{ lowest_price | money }}</div>
+      <div class="details text-center">
+        <p class="detail">
+          {{ data.metafields.compare.frame_size }}
+        </p>
+        <p class="detail">
+          {{ data.metafields.compare.bounce_type }}
+        </p>
+        <p class="detail">{{ data.metafields.compare.max_weight }}</p>
+      </div>
+      <div class="details-table">
+        <div class="row">
+          <h4 class="label scheme-color">Model Names {% render 'compare-tooltip', title: 'Model Names' %}</h4>
+          <span class="value scheme-color">
+            {{ data.metafields.compare.model_names }}
+          </span>
+        </div>
+        <div class="row">
+          <h4 class="label scheme-color">Elastic Cords {% render 'compare-tooltip', title: 'Elastic Cords' %}</h4>
+          <span class="value scheme-color">
+            {{ data.metafields.compare.elastic_cords }}
+          </span>
+        </div>
+        <div class="row">
+          <h4 class="label scheme-color">
+            Adjustable Tension {% render 'compare-tooltip', title: 'Adjustable Tension' %}
+          </h4>
+          <span class="value scheme-color">
+            {{ data.metafields.compare.firmness_levels }}
+          </span>
+        </div>
+        <div class="row">
+          <h4 class="label scheme-color">Bounce Cycles {% render 'compare-tooltip', title: 'Bounce Cycles' %}</h4>
+          <span class="value scheme-color">
+            {{ data.metafields.compare.bounce_cycles }}
+          </span>
+        </div>
+        <div class="row">
+          <h4 class="label scheme-color">Mat Diameter {% render 'compare-tooltip', title: 'Mat Diameter' %}</h4>
+          <span class="value scheme-color">
+            {{ data.metafields.compare.mat_diameter }}
+          </span>
+        </div>
+        <div class="row">
+          <h4 class="label scheme-color">Frame Option {% render 'compare-tooltip', title: 'Frame Option' %}</h4>
+          <span class="value scheme-color">
+            {{ data.metafields.compare.frame_option }}
+          </span>
+        </div>
+        <div class="row">
+          <h4 class="label scheme-color">Legs {% render 'compare-tooltip', title: 'Legs' %}</h4>
+          <span class="value scheme-color">
+            {{ data.metafields.compare.legs }}
+          </span>
+        </div>
+        <div class="row">
+          <h4 class="label scheme-color">Recommendation {% render 'compare-tooltip', title: 'Recommendation' %}</h4>
+          <span class="value scheme-color">
+            {{ data.metafields.compare.recommend }}
+          </span>
+        </div>
+        {% comment %}
+          <div class="row">
+            <h4 class="label scheme-color">Bounce Cycles {% render 'compare-tooltip', title: 'Bounce Cycles' %}</h4>
+            <span class="value scheme-color">
+              {{ data.metafields.compare.bounce_area }}
+            </span>
+          </div>
+        {% endcomment %}
+        {% comment %}
+          <div class="row">
+            <h4 class="label scheme-color">Area With Skirt {% render 'compare-tooltip', title: 'Area With Skirt' %}</h4>
+            <span class="value scheme-color">
+              {{ data.metafields.compare.area_with_skirt }}
+            </span>
+          </div>
+        {% endcomment %}
+
+        {% comment %}
+          <div class="row">
+            <h4 class="label scheme-color">Weight {% render 'compare-tooltip', title: 'Weight' %}</h4>
+            <span class="value scheme-color">
+              {{ data.metafields.compare.weight }}
+            </span>
+          </div>
+        {% endcomment %}
+      </div>
+      <div class="actions">
+        {% unless section.settings.expanded == true %}
+          <button class="action">View More</button>
+        {% endunless %}
+        {% unless section.settings.expanded == false %}
+          <a href="{{ data.url }}" class="btn btn--solid" aria-label="Shop now for {{ data.title }}"> Shop Now </a>
+        {% endunless %}
+      </div>
+    </div>
+  </div>
+</div>

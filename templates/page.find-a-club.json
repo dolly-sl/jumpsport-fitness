@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "heading": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "xs",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "Find a Club",
+        "heading_level": "h1",
+        "heading_level_display": "",
+        "title": "JumpSport Club & Studio Locator",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "heading_copy_HfcT84": {
+      "type": "heading-copy",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xs",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "copy_align": "center",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "eyebrow": "",
+        "title": "",
+        "copy": "",
+        "liquid": "<div id='storerocket-widget' style='width:100%;' data-storerocket-env='p' data-storerocket-id='kDJ36714mn' data-storerocket-geolocation='false'><p style='text-align:center;font-size:13px;padding:10px;'>Store locator is loading from StoreRocket <a target='_blank' href='https:\/\/storerocket.io' style='font-size:13px;'>Store Locator App<\/a>..<\/p><\/div><script>(function(){var a=document.createElement('script');a.type='text\/javascript';a.async=!0;a.src='https:\/\/cdn.storerocket.io\/js\/widget-mb.js';var b=document.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b);}());<\/script>\n\n<div style=\"text-center; margin-top: 30px;\">\n<p>Can't find a club near you?<br\/> Call to speak with one of our Trampoline Experts!<\/p>\n<p><strong>1-888-567-5867<\/strong><\/p>\n\n<p>Is your club not listed? Fill out our Contact Us form and we will get you added.<\/p>\n<\/div>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "heading_copy_HfcT84"
+  ]
+}

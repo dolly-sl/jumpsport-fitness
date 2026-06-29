@@ -1,0 +1,21 @@
+{% if section.settings.top_arch == true or section.settings.bottom_arch == true %}
+  {% assign arch_location = '' %}
+  {% if section.settings.top_arch == true %}
+    {% assign arch_location = 'arch-wrap--top' %}
+  {% else %}
+    {% assign arch_location = 'arch-wrap--bottom' %}
+  {% endif %}
+
+  <div class="arch-wrap {{ arch_location }}">
+    <div class="arch-wrap__inner">
+      {% assign arch_color = 'arch-' | append: color | append: '.svg' %}
+      {% assign arch_color_mobile = 'arch-' | append: color | append: '-mobile' | append: '.svg' %}
+      <img
+        src="{{ arch_color | asset_url }}"
+        srcset="{{ arch_color_mobile | asset_url }} 768w, {{ arch_color | asset_url }} 1920w"
+        alt=""
+        class="arch"
+      >
+    </div>
+  </div>
+{% endif %}

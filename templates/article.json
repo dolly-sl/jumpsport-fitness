@@ -1,0 +1,28 @@
+{
+  "sections": {
+    "article": {
+      "type": "article-content",
+      "settings": {
+        "background": "white"
+      }
+    },
+    "related": {
+      "type": "blog-cards-article",
+      "settings": {
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "title": "You May Also Enjoy",
+        "btn_url": "shopify:\/\/blogs\/bounce-blog",
+        "btn_copy": "View More"
+      }
+    }
+  },
+  "order": [
+    "article",
+    "related"
+  ]
+}

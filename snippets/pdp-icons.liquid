@@ -1,0 +1,33 @@
+<style>
+    .pdp__icons {
+      column-count: 3;
+      flex-wrap: nowrap;
+    }
+    .pdp-buyflow__content .content__blocks .pdp__icons .icon {
+      width: 100%;
+    }
+    .pdp-buyflow__content .content__blocks .pdp__icons .icon span {
+      text-transform: none;
+      letter-spacing: .1px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .pdp-buyflow__content .content__blocks .pdp__addons .addon-wrap {
+      border-bottom: 0;
+    }
+</style>
+<div class="inner d-flex justfy-between">
+  {% for icon in product.metafields.pdp.icons.value %}
+    <div class="icon d-flex align-center">
+      <img
+        src="{{ icon.icon | img_url: '20x20' }}"
+        srcset="{{ icon.icon | img_url: '40x40' }} 2x"
+        alt=""
+        loading="lazy"
+      >
+      <span class="eyebrow">
+        {{ icon.title }}
+      </span>
+    </div>
+  {% endfor %}
+</div>

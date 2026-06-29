@@ -1,0 +1,13 @@
+{% for tip in shop.metaobjects.compare_tooltip.values %}
+  {% if tip.match_title.value == title %}
+    <div class="tooltip">
+      <div class="tooltip__inner">
+        <img src="{{ 'triangle-top.svg' | asset_url }}" class="tri" alt="">
+        <span class="title">
+          {{ tip.title.value }}
+        </span>
+        {{ tip.copy | metafield_tag }}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

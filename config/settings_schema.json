@@ -1,0 +1,292 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Sleepify Theme",
+    "theme_version": "1.0.1",
+    "theme_author": "Sleepless Media",
+    "theme_documentation_url": "https:\/\/github.com\/Shopify\/skeleton-theme",
+    "theme_support_url": "https:\/\/github.com\/Shopify\/skeleton-theme\/issues"
+  },
+  {
+    "name": "Favicon Image",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon Image",
+        "info": "Image should be in PNG format at minimum of 256 x 256 pixels"
+      }
+    ]
+  },
+  {
+    "name": "Padding Sizes",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Padding Top - Desktop"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-xs",
+        "label": "XS"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-sm",
+        "label": "SM"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-md",
+        "label": "MD"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-lg",
+        "label": "LG"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-xl",
+        "label": "XL"
+      },
+      {
+        "type": "header",
+        "content": "Padding Bottom - Desktop"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-xs",
+        "label": "XS"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-sm",
+        "label": "SM"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-md",
+        "label": "MD"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-lg",
+        "label": "LG"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-xl",
+        "label": "XL"
+      },
+      {
+        "type": "header",
+        "content": "Padding Top - Mobile"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-mobile-xs",
+        "label": "XS"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-mobile-sm",
+        "label": "SM"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-mobile-md",
+        "label": "MD"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-mobile-lg",
+        "label": "LG"
+      },
+      {
+        "type": "number",
+        "id": "padding-top-mobile-xl",
+        "label": "XL"
+      },
+      {
+        "type": "header",
+        "content": "Padding Bottom - Mobile"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-mobile-xs",
+        "label": "XS"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-mobile-sm",
+        "label": "SM"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-mobile-md",
+        "label": "MD"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-mobile-lg",
+        "label": "LG"
+      },
+      {
+        "type": "number",
+        "id": "padding-bottom-mobile-xl",
+        "label": "XL"
+      }
+    ]
+  },
+  {
+    "name": "Compare Products",
+    "settings": [
+      {
+        "type": "product_list",
+        "id": "compare_products",
+        "label": "Products to Compare"
+      }
+    ]
+  },
+  {
+    "name": "Country Links",
+    "settings": [
+      {
+        "type": "url",
+        "id": "australia",
+        "label": "Australia"
+      },
+      {
+        "type": "url",
+        "id": "austria",
+        "label": "Austria"
+      },
+      {
+        "type": "url",
+        "id": "costa_rica",
+        "label": "Costa Rica"
+      },
+      {
+        "type": "url",
+        "id": "ecuador",
+        "label": "Ecuador"
+      },
+      {
+        "type": "url",
+        "id": "finland",
+        "label": "Finland"
+      },
+      {
+        "type": "url",
+        "id": "france",
+        "label": "France"
+      },
+      {
+        "type": "url",
+        "id": "germany",
+        "label": "Germany"
+      },
+      {
+        "type": "url",
+        "id": "italy",
+        "label": "Italy"
+      },
+      {
+        "type": "url",
+        "id": "mexico",
+        "label": "Mexico"
+      },
+      {
+        "type": "url",
+        "id": "nz",
+        "label": "New Zealand"
+      },
+      {
+        "type": "url",
+        "id": "portugal",
+        "label": "Portugal"
+      },
+      {
+        "type": "url",
+        "id": "slovenia",
+        "label": "Slovenia"
+      },
+      {
+        "type": "url",
+        "id": "south_africa",
+        "label": "South Africa"
+      },
+      {
+        "type": "url",
+        "id": "spain",
+        "label": "Spain"
+      },
+      {
+        "type": "url",
+        "id": "canada",
+        "label": "Canada"
+      },
+      {
+        "type": "url",
+        "id": "uk",
+        "label": "United Kingdom"
+      },
+      {
+        "type": "url",
+        "id": "venezuala",
+        "label": "Venezuela"
+      },
+      {
+        "type": "url",
+        "id": "netherlands",
+        "label": "Netherlands"
+      }
+    ]
+  },
+  {
+    "name": "Social Links",
+    "settings": [
+      {
+        "type": "text",
+        "id": "instagram",
+        "label": "Instagram"
+      },
+      {
+        "type": "text",
+        "id": "facebook",
+        "label": "Facebook"
+      },
+      {
+        "type": "text",
+        "id": "x",
+        "label": "X"
+      },
+      {
+        "type": "text",
+        "id": "tiktok",
+        "label": "TikTok"
+      },
+      {
+        "type": "text",
+        "id": "pinterest",
+        "label": "Pinterest"
+      },
+      {
+        "type": "text",
+        "id": "youtube",
+        "label": "YouTube"
+      }
+    ]
+  },
+  {
+    "name": "Free Shipping",
+    "settings": [
+      {
+        "id": "free_ship",
+        "type": "number",
+        "label": "Free Shipping Threshold"
+      }
+    ]
+  }
+]

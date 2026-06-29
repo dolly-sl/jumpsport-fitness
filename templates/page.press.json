@@ -1,0 +1,579 @@
+{
+  "sections": {
+    "page": {
+      "type": "page-content",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "cta_heading_WDMM7w": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h1",
+        "heading_level_display": "",
+        "title": "Press",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "sxs_hrBKzz": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_Aq4d63": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boston.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Ways to revive those resolutions for a healthier you",
+            "copy": "<p>February 15, 2026<\/p>",
+            "btn_url": "https:\/\/www.bostonherald.com\/2026\/02\/15\/ways-to-revive-those-resolutions-for-a-healthier-you\/",
+            "btn_copy": "Visit Boston Herald"
+          }
+        },
+        "sxs_q9TeXD": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hgtv-2.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "12 Health and Wellness Products to Help You Reach Your Goals This Year",
+            "copy": "<p>February 9, 2026<\/p>",
+            "btn_url": "https:\/\/www.hgtv.com\/lifestyle\/health-and-wellness\/best-health-and-fitness-products-to-help-reach-your-goals",
+            "btn_copy": "Visit HGTV"
+          }
+        },
+        "sxs_6D6i9p": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/canyon.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Canyon Ranch Wellness Gold List for 2026",
+            "copy": "<p>February 12, 2026<\/p>",
+            "btn_url": "https:\/\/www.bostonherald.com\/2026\/02\/15\/ways-to-revive-those-resolutions-for-a-healthier-you\/",
+            "btn_copy": "Visit Canyon Ranch"
+          }
+        },
+        "sxs_bDEqqy": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hgtv.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "12 Health and Wellness Products to Help You Reach Your Goals This Year",
+            "copy": "<p>February 09, 2026<\/p>",
+            "btn_url": "https:\/\/www.hgtv.com\/lifestyle\/health-and-wellness\/best-health-and-fitness-products-to-help-reach-your-goals",
+            "btn_copy": "Visit HGTV"
+          }
+        },
+        "sxs_bTzVXw": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/very-well.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "The 13 Best Rebounders & Trampolines of 2026, After Testing 42 Top Options",
+            "copy": "<p>January 15, 2026<\/p>",
+            "btn_url": "https:\/\/www.verywellfit.com\/best-trampolines-and-rebounders-4157428#toc-best-overall-jumpsport-350-fitness-trampoline",
+            "btn_copy": "Visit verywellfit.com"
+          }
+        },
+        "sxs_YY9Jjc": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/self.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "The Best Trampoline Rebounders for Low-Impact Cardio Workouts at Home",
+            "copy": "<p>July 15, 2025<\/p>",
+            "btn_url": "https:\/\/www.self.com\/story\/best-rebounder-trampolines",
+            "btn_copy": "Visit self.com"
+          }
+        },
+        "sxs_gFwxtL": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-CNN.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "The Playground 808 brings trampoline fitness to the Islands",
+            "copy": "<p>May 30, 2025<\/p>",
+            "btn_url": "https:\/\/www.hinowdaily.com\/2025\/05\/31\/playground-808-brings-trampoline-fitness-islands\/",
+            "btn_copy": "Visit hinowdaily.com"
+          }
+        },
+        "sxs_neV7en": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-cbs-boston.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Boston barre studio brings high-intensity low-impact workout using mini trampolines",
+            "copy": "<p>February 8, 2025<\/p>",
+            "btn_url": "https:\/\/youtu.be\/7WSycVkRQEw?si=vrlkx-DUT5SMkrAR",
+            "btn_copy": "Visit YouTube"
+          }
+        },
+        "sxs_CyCWFB": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-CNN.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "The 10 best mini trampolines and rebounders for your at-home workout routine",
+            "copy": "<p>January 25, 2025<\/p>",
+            "btn_url": "https:\/\/www.cnn.com\/cnn-underscored\/health-fitness\/best-mini-trampolines",
+            "btn_copy": "Visit CNN.com"
+          }
+        },
+        "sxs_ViCntt": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/purist.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Lymphatic Flow",
+            "copy": "<p>November 6, 2024<\/p>",
+            "btn_url": "https:\/\/thepuristonline.com\/2024\/10\/lymphatic-flow\/",
+            "btn_copy": "Visit YouTube"
+          }
+        },
+        "sxs_wXepVa": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-prevention.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "11 Best Exercise Trampolines to Level Up Your Cardio Workouts",
+            "copy": "<p>January 21, 2025<\/p>",
+            "btn_url": "https:\/\/www.prevention.com\/fitness\/workout-clothes-gear\/g37377794\/best-exercise-trampolines\/",
+            "btn_copy": "Visit Prevention.com"
+          }
+        },
+        "sxs_Xe7gmL": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-new-york.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "9 Best Fitness Trampolines for Rebound Exercise, According to Instructors and a Physical Therapist",
+            "copy": "<p>January 9, 2025<\/p>",
+            "btn_url": "https:\/\/nymag.com\/strategist\/article\/best-fitness-trampolines-for-rebound-exercise.html",
+            "btn_copy": "Visit NYMag.com"
+          }
+        },
+        "sxs_Vd7j8M": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-katie.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Looking for a Better Way To Break a Sweat? Try Rebounding",
+            "copy": "<p>January 8, 2025<\/p>",
+            "btn_url": "https:\/\/katiecouric.com\/health\/body-and-soul\/benefits-of-rebounding\/",
+            "btn_copy": "Visit KatieCouric.com"
+          }
+        },
+        "sxs_6pD3P9": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6-family-savvy.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Rebounding with JumpSport: A Safe, Low-Impact Fitness Practice for Midlife Women",
+            "copy": "<p>December 13, 2024<\/p>",
+            "btn_url": "https:\/\/www.familysavvy.com\/55348-2\/",
+            "btn_copy": "Visit FamilySavvy.com"
+          }
+        },
+        "sxs_iGe6YY": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7-health.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "The 14 Best Exercise Trampolines, According to Fitness Experts",
+            "copy": "<p>December 3, 2024<\/p>",
+            "btn_url": "https:\/\/www.health.com\/fitness\/fitness-gear\/exercise-trampoline",
+            "btn_copy": "Visit Health.com"
+          }
+        },
+        "sxs_GHmWHx": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8-verywellfit.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "The 8 Best Trampolines and Rebounders of 2023",
+            "copy": "<p>November 30, 2024<\/p>",
+            "btn_url": "https:\/\/www.verywellfit.com\/best-trampolines-and-rebounders-4157428",
+            "btn_copy": "Visit VeryWellFit.com"
+          }
+        },
+        "sxs_bgUMBd": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9-athletech.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "The Ness, Loved by Eva Longoria & Gwyneth Paltrow, Launches Flagship Studio",
+            "copy": "<p>November 15, 2024<\/p>",
+            "btn_url": "https:\/\/athletechnews.com\/the-ness-launches-flagship-studio\/",
+            "btn_copy": "Visit Athletechnews.com"
+          }
+        },
+        "sxs_qRXhUi": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-JS.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "The Benefits of Rebounding with Steve Carver | JumpSport Fitness Master Trainer",
+            "copy": "<p>September 15, 2024<\/p>",
+            "btn_url": "https:\/\/www.youtube.com\/watch?v=dOJm45wprAU",
+            "btn_copy": "Visit YouTube.com"
+          }
+        },
+        "sxs_fLAAC8": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11-cbs-clubstudio.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Club Studio has trampolines and more to help you stay active - YouTube",
+            "copy": "<p>August 19, 2024<\/p>",
+            "btn_url": "https:\/\/www.cbsnews.com\/gooddaysacramento\/video\/club-studio-has-trampolines-and-more-to-help-you-stay-active\/",
+            "btn_copy": "Visit CBSNews.com"
+          }
+        },
+        "sxs_tTD6rw": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12-green-matters.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Rebounding Exercises: Benefits and How To",
+            "copy": "<p>July 30, 2024<\/p>",
+            "btn_url": "https:\/\/www.greenmatters.com\/health-and-wellness\/rebounding-exercises",
+            "btn_copy": "Visit GreenMatters.com"
+          }
+        },
+        "sxs_D9ehrw": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13-canvas.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Meet Elena Ricardo: JumpSport Fitness Instructor & Business Owner",
+            "copy": "<p>July 29, 2024<\/p>",
+            "btn_url": "https:\/\/canvasrebel.com\/meet-elena-ricardo\/",
+            "btn_copy": "Visit CanvasRebel.com"
+          }
+        },
+        "sxs_r7eRgA": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14-spreaker.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Fun and Easy Trampoline Fitness with Steve Carver",
+            "copy": "<p>June 10, 2024<\/p>",
+            "btn_url": "https:\/\/www.spreaker.com\/episode\/fun-and-easy-trampoline-fitness-with-steve-carver--60298994",
+            "btn_copy": "Visit Spreaker.com"
+          }
+        },
+        "sxs_PPcxeU": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15-medium.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Healthy To A Hundred: Steve Carver of JumpSport On 5 Things You Need To Live A Long, Healthy, & Fulfilling Life",
+            "copy": "<p>June 2, 2024<\/p>",
+            "btn_url": "https:\/\/medium.com\/authority-magazine\/healthy-to-a-hundred-steve-carver-of-jumpsport-on-5-things-you-need-to-live-a-long-healthy-7c7007af589d",
+            "btn_copy": "Visit Medium.com"
+          }
+        },
+        "sxs_d7wyp7": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16-plant.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "The Bounce Lifestyle with Steve Carver – PTP491",
+            "copy": "<p>March 19, 2024<\/p>",
+            "btn_url": "https:\/\/www.planttrainers.com\/the-bounce-lifestyle-with-steve-carver-ptp491\/",
+            "btn_copy": "Visit PlantTrainers.com"
+          }
+        },
+        "sxs_e6jcDG": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17-W.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Small Space, Big Impact: Trampoline Workouts For Summer Health",
+            "copy": "<p>March 14, 2024<\/p>",
+            "btn_url": "https:\/\/wellbeingmagazine.com\/small-space-big-impact-trampoline-workouts-for-summer-health\/",
+            "btn_copy": "Visit WellBeingMagazine.com"
+          }
+        },
+        "sxs_p8nxwr": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/18-podbean.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Steve Carver: Colitis Journey & JumpSport (E94)",
+            "copy": "<p>January 19, 2024<\/p>",
+            "btn_url": "https:\/\/crohnsfitnessfood.podbean.com\/e\/steve-carver-colitis-journey-jumpsport-e94\/",
+            "btn_copy": "Visit CrohnsFitnessFood.com"
+          }
+        },
+        "sxs_mPYQWA": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19-snow.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "How To Prevent Ski Injuries With The Canadian Olympic Team's Method",
+            "copy": "<p>December 22, 2023<\/p>",
+            "btn_url": "https:\/\/snowbrains.com\/how-to-prevent-ski-injuries-with-the-canadian-olympic-teams-method\/",
+            "btn_copy": "Visit SnowBrains.com"
+          }
+        },
+        "sxs_7irtU3": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20-listen.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Steve Carver On The Positive Benefits Trampoline Exercises Have On Mental Health",
+            "copy": "<p>December 3, 2023<\/p>",
+            "btn_url": "https:\/\/lnns.co\/QyPkWnTzcAC",
+            "btn_copy": "Visit Inns.co"
+          }
+        },
+        "sxs_dT6LwP": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21-vogue.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Why You Should Consider a Trampoline Workout This Winter",
+            "copy": "<p>December 2, 2023<\/p>",
+            "btn_url": "https:\/\/www.vogue.com\/article\/trampoline-workout-rebounding-benefits",
+            "btn_copy": "Visit Vogue.com"
+          }
+        },
+        "sxs_yikBK8": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22-cbs-barre.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Barre Groove combines traditional fitness classes with trampoline routines",
+            "copy": "<p>November 30, 2023<\/p>",
+            "btn_url": "https:\/\/www.youtube.com\/watch?v=Bd5rc5qvqns",
+            "btn_copy": "Visit YouTube.com"
+          }
+        },
+        "sxs_Chr3Kg": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23-sherri.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Trampoline Workout by Jane DO featured on the Sherri Show",
+            "copy": "<p>October 20, 2023<\/p>",
+            "btn_url": "https:\/\/www.sherrishowtv.com\/video\/trampoline-workout\/",
+            "btn_copy": "Visit Sherrishowtv.com"
+          }
+        },
+        "sxs_Tmmxgc": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/24-podfollow.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "407: Steve Carver - A New Revolution In Fitness with JumpSport Trampolines",
+            "copy": "<p>October 20, 2023<\/p>",
+            "btn_url": "https:\/\/podfollow.com\/over-40-fitness-hacks\/episode\/b0bae99cb0e43d2abdeb8281349d7f6e245e2cfe\/view",
+            "btn_copy": "Visit PodFollow.com"
+          }
+        },
+        "sxs_Lt7CPy": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25-wlox.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Video: Unique trampoline workout with Jane DO",
+            "copy": "<p>October 19, 2023<\/p>",
+            "btn_url": "https:\/\/www.wlox.com\/video\/2023\/10\/19\/video-unique-trampoline-workout\/",
+            "btn_copy": "Visit Wlox.com"
+          }
+        },
+        "sxs_wKgezG": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/26-babyboom.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Bounce Your Way to Fun and Fitness with JumpSport Trampolines",
+            "copy": "<p>September 7, 2023<\/p>",
+            "btn_url": "https:\/\/babyboomster.com\/bounce-your-way-to-fun-and-fitness-with-jumpsport-trampolines\/",
+            "btn_copy": "Visit BabyBoomster.com"
+          }
+        },
+        "sxs_RaypAD": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/29-news9.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Good Life List: Trampoline Fitness",
+            "copy": "<p>May 16, 2023<\/p>",
+            "btn_url": "https:\/\/www.news9.com\/story\/646399a6b6fa99072ac64885\/good-life-list:-trampoline-fitness",
+            "btn_copy": "Visit News9.com"
+          }
+        },
+        "sxs_tXqrCQ": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/30-houstonlife.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Work up a sweat at home with these fun mini-trampoline exercises",
+            "copy": "<p>May 3, 2023<\/p>",
+            "btn_url": "https:\/\/www.click2houston.com\/houston-life\/2023\/05\/03\/work-up-a-sweat-at-home-with-these-fun-mini-trampoline-exercises\/",
+            "btn_copy": "Visit Click2Houston.com"
+          }
+        },
+        "sxs_enDQr4": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/31-amo.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Eva Longoria Flaunts Fit Figure at 48 in a White Sports Bra and Matching Leggings — She Credits Her Healthy Lifestyle for It",
+            "copy": "<p>April 3, 2023<\/p>",
+            "btn_url": "https:\/\/news.amomama.com\/402214-eva-longoria-flaunts-fit-figure-at-48-in.html",
+            "btn_copy": "Visit News.Amomama.com"
+          }
+        },
+        "sxs_GxncGT": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/32-purewow.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "I Tried a Trampolining Workout Class and Now I Want to Buy a Trampoline",
+            "copy": "<p>January 19, 2023<\/p>",
+            "btn_url": "https:\/\/www.purewow.com\/wellness\/trampolining-workout-san-francisco",
+            "btn_copy": "Visit Wlox.com"
+          }
+        },
+        "sxs_RnErMT": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/33-nbc-boston.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Bounce Benefits: The positive impact of moving & grooving on a trampoline",
+            "copy": "<p>January 11, 2023<\/p>",
+            "btn_url": "https:\/\/www.nbcboston.com\/on-air\/as-seen-on\/bounce-benefits-the-positive-impact-of-moving-grooving-on-a-trampoline\/2942371\/",
+            "btn_copy": "Visit NBCBoston.com"
+          }
+        },
+        "sxs_4JqCtU": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/34-abc7.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "JumpSport Fitness Trampoline 350 In Home Rebounding Workout",
+            "copy": "<p>January 6, 2023<\/p>",
+            "btn_url": "https:\/\/www.youtube.com\/watch?v=88hZf-q8UTU",
+            "btn_copy": "Visit YouTube.com"
+          }
+        }
+      },
+      "block_order": [
+        "sxs_Aq4d63",
+        "sxs_q9TeXD",
+        "sxs_6D6i9p",
+        "sxs_bDEqqy",
+        "sxs_bTzVXw",
+        "sxs_YY9Jjc",
+        "sxs_gFwxtL",
+        "sxs_neV7en",
+        "sxs_CyCWFB",
+        "sxs_ViCntt",
+        "sxs_wXepVa",
+        "sxs_Xe7gmL",
+        "sxs_Vd7j8M",
+        "sxs_6pD3P9",
+        "sxs_iGe6YY",
+        "sxs_GHmWHx",
+        "sxs_bgUMBd",
+        "sxs_qRXhUi",
+        "sxs_fLAAC8",
+        "sxs_tTD6rw",
+        "sxs_D9ehrw",
+        "sxs_r7eRgA",
+        "sxs_PPcxeU",
+        "sxs_d7wyp7",
+        "sxs_e6jcDG",
+        "sxs_p8nxwr",
+        "sxs_mPYQWA",
+        "sxs_7irtU3",
+        "sxs_dT6LwP",
+        "sxs_yikBK8",
+        "sxs_Chr3Kg",
+        "sxs_Tmmxgc",
+        "sxs_Lt7CPy",
+        "sxs_wKgezG",
+        "sxs_RaypAD",
+        "sxs_tXqrCQ",
+        "sxs_enDQr4",
+        "sxs_GxncGT",
+        "sxs_RnErMT",
+        "sxs_4JqCtU"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "width": false
+      }
+    }
+  },
+  "order": [
+    "page",
+    "cta_heading_WDMM7w",
+    "sxs_hrBKzz"
+  ]
+}

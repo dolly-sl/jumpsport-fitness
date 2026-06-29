@@ -1,0 +1,158 @@
+<footer class="footer footer--primary">
+  <div class="arch-wrap">
+    <div class="arch-wrap__inner">
+      {% comment %} {% render 'hero-arch' %} {% endcomment %}
+      <img
+        src="{{ 'footer-arc-xl.svg' | asset_url }}"
+        alt=""
+        class="arc"
+      >
+    </div>
+  </div>
+  <div class="footer__inner">
+    <div class="container d-flex justify-between">
+      <div class="footer__intro">
+        <img src="{{ 'logo-full.svg' | asset_url }}" alt="JumpSport Logo">
+        <div class="copy-wrap">
+          {{ section.settings.footer_copy }}
+        </div>
+        <div class="contact-wrap">
+          {{ section.settings.footer_contact }}
+        </div>
+      </div>
+      <div class="footer__menus d-flex justify-between">
+        {% for block in section.blocks %}
+          <div class="menu menu--desktop">
+            <h3 class="menu__heading heading--six">
+              {{ block.settings.title }}
+            </h3>
+            <nav>
+              <ul class="list-reset">
+                {% for link in linklists[block.settings.menu].links %}
+                  <li>
+                    <a href="{{ link.url }}">
+                      {{ link.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </nav>
+          </div>
+        {% endfor %}
+        <div class="menu menu--mobile">
+          {% for block in section.blocks %}
+            <div class="accordion__group">
+              <button class="accordion__heading">
+                <h3 class="heading--four">
+                  {{ block.settings.title }}
+                </h3>
+              </button>
+              <div class="accordion__copy">
+                <nav>
+                  <ul class="list-reset">
+                    {% for link in linklists[block.settings.menu].links %}
+                      <li>
+                        <a href="{{ link.url }}">
+                          {{ link.title }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="footer__newsletter">
+        {% comment %}
+          <h2 class="heading--four">
+            {{ section.settings.news_title }}
+          </h2>
+        {% endcomment %}
+        {% render 'social-icons' %}
+      </div>
+      <div class="footer__disclaimer">
+        <div class="inner">
+          {{ section.settings.footer_disclaimer }}
+        </div>
+      </div>
+      <div class="footer__bottom d-flex justify-between">
+        <div class="copyright">
+          <p>&copy; 1997 - {{ 'now' | date: '%Y' }} JumpSport, Inc. All Rights Reserved</p>
+        </div>
+        <div class="credit">Web Design by <a href="https://sleeplessmedia.com" target="_blank">Sleepless</a></div>
+        <div class="util-menu">
+          <nav>
+            <ul class="list-reset d-flex">
+              {% for link in linklists[section.settings.utility_menu].links %}
+                <li>
+                  <a href="{{ link.url }}">
+                    {{ link.title }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+{% render 'padding-styles' %}
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [
+    {
+      "id": "footer_copy",
+      "type": "richtext",
+      "label": "Copy"
+    },
+    {
+      "id": "footer_contact",
+      "type": "html",
+      "label": "Contact Copy"
+    },
+    {
+      "id": "news_title",
+      "type": "text",
+      "label": "Newsletter Heading"
+    },
+    {
+      "id": "footer_disclaimer",
+      "type": "richtext",
+      "label": "Disclaimer"
+    },
+    {
+      "id": "utility_menu",
+      "type": "link_list",
+      "label": "Utility Menu"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "menu",
+      "name": "Menu",
+      "limit": 2,
+      "settings": [
+        {
+          "id": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "id": "menu",
+          "type": "link_list",
+          "label": "Menu"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Footer"
+    }
+  ]
+}
+{% endschema %}

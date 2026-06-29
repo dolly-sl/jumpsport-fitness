@@ -1,0 +1,56 @@
+<div class="card card--compare card--horizontal" {{ block.shopify_attributes }}>
+  <a href="{{  data.url }}" class="card__inner d-flex align-center justify-between">
+    {% if data.metafields.product.product_tag != blank %}
+      <div class="card__tag tag" style="background:{{ data.metafields.product.product_tag.value.tag_color }}">
+        <span>
+          {{ data.metafields.product.product_tag.value.tag_copy }}
+        </span>
+      </div>
+    {% endif %}
+    <div class="card__image{% if data.images[1] != blank %} card__image--hover{% endif %}">
+      <img
+        loading="lazy"
+        src="{{ data.featured_image | img_url: '205x205' }}"
+        srcset="{{ data.featured_image | img_url: '410x410' }} 2x"
+        alt="{{ data.featured_image.alt | escape }}"
+        class="image image--main"
+      >
+      {% if data.images[1] != blank %}
+        <img
+          loading="lazy"
+          src="{{ data.images[1].src | img_url: '205x205' }}"
+          srcset="{{data.images[1].src | img_url: '410x410' }} 2x"
+          alt="{{ data.images[1].alt | escape }}"
+          class="image image--two"
+        >
+      {% endif %}
+    </div>
+    <div class="card__info">
+      <h3 class="heading--four">
+        {{ data.title }}
+      </h3>
+      <div class="price">
+        {% if data.price_varies == true %}
+          Starting at
+        {% endif %}
+        {% if data.available %}
+          {% assign lowest_price = data.first_available_variant.price %}
+
+          {% for variant in data.variants %}
+            {% if variant.available %}
+              {% if variant.price < lowest_price %}
+                {% assign lowest_price = variant.price %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {{ lowest_price | money }}
+        {% else %}
+          {{ data.price | money }}
+        {% endif %}
+      </div>
+      <div class="details">
+        <p class="detail">{{ data.metafields.compare.frame_size }} | {{ data.metafields.compare.max_weight }}</p>
+      </div>
+    </div>
+  </a>
+</div>

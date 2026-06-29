@@ -1,0 +1,521 @@
+{% assign product_list = settings.compare_products %}
+
+{% capture compare_list %}
+  {% for prod in product_list %}
+    {{- prod.title -}}:{{- prod.title | handleize -}}{% unless forloop.last == true %},{% endunless %}
+  {% endfor %}
+{% endcapture %}
+<section
+  class="compare {% if section.settings.expanded == true %}compare--expanded{% else %}compare--toggle{% endif %} section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+  id="compare--{{ section.id }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  <div class="container">
+    {% if section.settings.title != blank or section.settings.copy != blank %}
+      <div class="compare__heading text-center">
+        {% render 'dynamic-heading',
+          level: section.settings.heading_level,
+          title: section.settings.title,
+          classList: section.settings.heading_level_display
+        %}
+        <div class="scheme-color">
+          {{ section.settings.copy }}
+        </div>
+      </div>
+    {% endif %}
+    <div class="compare__list compare__list--desktop d-flex">
+      <table>
+        <thead>
+          <tr>
+            {% for prod in product_list %}
+              {% assign lowest_price = prod.first_available_variant.price %}
+              {%- assign product_handle = prod.title | handleize | strip -%}
+              {% for variant in prod.variants %}
+                {% if variant.available %}
+                  {% if variant.price < lowest_price %}
+                    {% assign lowest_price = variant.price %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              <th>
+                <div class="card__image{% if prod.images[1] != blank %} card__image--hover{% endif %}">
+                  <a href="{{ prod.url }}">
+                    <img
+                      loading="lazy"
+                      src="{{ prod.featured_image | img_url: '205x205' }}"
+                      srcset="{{ prod.featured_image | img_url: '410x410' }} 2x"
+                      alt="{{ prod.featured_image.alt  | escape }}"
+                      class="image image--main"
+                    >
+                    {% if prod.images[1] != blank %}
+                      <img
+                        loading="lazy"
+                        src="{{ prod.images[1].src | img_url: '205x205' }}"
+                        srcset="{{prod.images[1].src | img_url: '410x410' }} 2x"
+                        alt="{{ prod.images[1].alt  | escape }}"
+                        class="image image--two"
+                      >
+                    {% endif %}
+                  </a>
+                </div>
+                <div class="card__info">
+                  <a href="{{ prod.url }}">
+                    <h3 class="heading--five">
+                      {{ prod.title }}
+                    </h3>
+                  </a>
+                  <div class="heading--six price">Starting at {{ lowest_price | money }}</div>
+                  <div class="details text-center">
+                    <p class="detail">
+                      {{ prod.metafields.compare.frame_size }}
+                    </p>
+                    <p class="detail">
+                      {{ prod.metafields.compare.bounce_type }}
+                    </p>
+                    <p class="detail">{{ prod.metafields.compare.max_weight }}</p>
+                  </div>
+                </div>
+              </th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for prod in product_list %}
+              <td>
+                <h4 class="label scheme-color">Model Names {% render 'compare-tooltip', title: 'Model Names' %}</h4>
+                <span class="value scheme-color">
+                  {{ prod.metafields.compare.model_names }}
+                </span>
+              </td>
+            {% endfor %}
+          </tr>
+          <tr>
+            {% for prod in product_list %}
+              <td>
+                <h4 class="label scheme-color">Elastic Cords {% render 'compare-tooltip', title: 'Elastic Cords' %}</h4>
+                <span class="value scheme-color">
+                  {{ prod.metafields.compare.elastic_cords }}
+                </span>
+              </td>
+            {% endfor %}
+          </tr>
+          <tr>
+            {% for prod in product_list %}
+              <td>
+                <h4 class="label scheme-color">
+                  Adjustable Tension {% render 'compare-tooltip', title: 'Adjustable Tension' %}
+                </h4>
+                <span class="value scheme-color">
+                  {{ prod.metafields.compare.firmness_levels }}
+                </span>
+              </td>
+            {% endfor %}
+          </tr>
+          <tr>
+            {% for prod in product_list %}
+              <td>
+                <h4 class="label scheme-color">Bounce Cycles {% render 'compare-tooltip', title: 'Bounce Cycles' %}</h4>
+                <span class="value scheme-color">
+                  {{ prod.metafields.compare.bounce_cycles }}
+                </span>
+              </td>
+            {% endfor %}
+          </tr>
+          <tr class="hidden extra-info">
+            {% for prod in product_list %}
+              <td>
+                <h4 class="label scheme-color">Mat Diameter {% render 'compare-tooltip', title: 'Mat Diameter' %}</h4>
+                <span class="value scheme-color">
+                  {{ prod.metafields.compare.mat_diameter }}
+                </span>
+              </td>
+            {% endfor %}
+          </tr>
+
+          <tr class="hidden extra-info">
+            {% for prod in product_list %}
+              <td>
+                <h4 class="label scheme-color">Frame Option {% render 'compare-tooltip', title: 'Frame Option' %}</h4>
+                <span class="value scheme-color">
+                  {{ prod.metafields.compare.frame_option }}
+                </span>
+              </td>
+            {% endfor %}
+          </tr>
+          <tr class="hidden extra-info">
+            {% for prod in product_list %}
+              <td>
+                <h4 class="label scheme-color">Legs {% render 'compare-tooltip', title: 'Legs' %}</h4>
+                <span class="value scheme-color">
+                  {{ prod.metafields.compare.legs }}
+                </span>
+              </td>
+            {% endfor %}
+          </tr>
+          <tr class="hidden extra-info">
+            {% for prod in product_list %}
+              <td>
+                <h4 class="label scheme-color">
+                  Recommendation {% render 'compare-tooltip', title: 'Recommendation' %}
+                </h4>
+                <span class="value scheme-color">
+                  {{ prod.metafields.compare.recommend }}
+                </span>
+              </td>
+            {% endfor %}
+          </tr>
+          {% unless section.settings.expanded == true %}
+            <tr class="hidden extra-info">
+              {% for prod in product_list %}
+                <td>
+                  <a href="{{ prod.url }}" class="btn btn--solid"> Shop Now </a>
+                </td>
+              {% endfor %}
+            </tr>
+          {% endunless %}
+          <tr>
+            {% for prod in product_list %}
+              <td>
+                {% unless section.settings.expanded == true %}
+                  <button class="action">View More</button>
+                {% endunless %}
+                {% unless section.settings.expanded == false %}
+                  <a href="{{ prod.url }}" class="btn btn--solid"> Shop Now </a>
+                {% endunless %}
+              </td>
+            {% endfor %}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="compare__list compare__list--mobile d-flex">
+      <div class="column column--one">
+        {% for prod in product_list %}
+          {% render 'product-card-compare', data: prod, compare_list: compare_list %}
+        {% endfor %}
+      </div>
+      <div class="column column--two">
+        {% for prod in product_list %}
+          {% render 'product-card-compare', data: prod, compare_list: compare_list %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  jQuery(document).ready(function ($) {
+    $('#compare--{{ section.id }} table .action').on('click', function () {
+      if ($(this).text() == 'View More') {
+        $('#compare--{{ section.id }}  table .action').text('View Less');
+      } else {
+        $('#compare--{{ section.id }} table .action').text('View More');
+      }
+
+      $('#compare--{{ section.id }} table .extra-info').toggleClass('hidden');
+    });
+
+    //disableOptions();
+
+    $('#compare--{{ section.id }} .card__select select').on('change', function (e) {
+      //e.preventDefault();
+
+      var chosenValue = $(this).val();
+
+      $(this).closest('.card').hide();
+
+      $(this)
+        .closest('.column')
+        .find('.card[data-handle="' + chosenValue + '"]')
+        .show();
+
+      $(this)
+        .closest('.column')
+        .find('.card[data-handle="' + chosenValue + '"]')
+        .find('option[value="' + chosenValue + '"]')
+        .prop('selected', true);
+
+      //
+      $(this).closest('.column').find('.card__select select option[disabled=disabled]').prop('disabled', false);
+
+      //disableOptions();
+    });
+  });
+
+  function disableOptions() {
+    jQuery('#compare--{{ section.id }} .card').each(function () {
+      var cardHandle = jQuery(this).attr('data-handle');
+
+      if (jQuery(this).is(':visible')) {
+        jQuery('#compare--{{ section.id }} .card__select select')
+          .find('option[value="' + cardHandle + '"]')
+          .attr('disabled', 'disabled');
+      }
+    });
+  }
+</script>
+{% if section.settings['padding_bottom-mobile'] == 'never-going-to-hit'
+  or section.settings['padding_top-mobile'] == 'never-going-to-hit'
+%}
+  <style>
+    @media(max-width: 768px) {
+      #compare--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top-mobile }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom-mobile }}px !important;
+      }
+    }
+  </style>
+{% endif %}
+{% schema %}
+{
+  "name": "Compare Chart",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "padding_top",
+      "type": "select",
+      "label": "Padding Top",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom",
+      "type": "select",
+      "label": "Padding Bottom",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_top-mobile",
+      "type": "select",
+      "label": "Padding Top - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom-mobile",
+      "type": "select",
+      "label": "Padding Bottom - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "expanded",
+      "type": "checkbox",
+      "label": "Expanded?"
+    },
+    {
+      "type": "select",
+      "id": "heading_level",
+      "label": "Heading Level",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "heading_level_display",
+      "label": "Heading Level - Display",
+      "options": [
+        {
+          "value": "",
+          "label": "Natural"
+        },
+        {
+          "value": "heading--one",
+          "label": "H1"
+        },
+        {
+          "value": "heading--two",
+          "label": "H2"
+        },
+        {
+          "value": "heading--three",
+          "label": "H3"
+        },
+        {
+          "value": "heading--four",
+          "label": "H4"
+        },
+        {
+          "value": "heading--five",
+          "label": "H5"
+        },
+        {
+          "value": "heading--six",
+          "label": "H6"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    },
+    {
+      "id": "copy",
+      "type": "richtext",
+      "label": "Copy"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Compare Chart"
+    }
+  ]
+}
+{% endschema %}

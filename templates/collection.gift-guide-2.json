@@ -1,0 +1,324 @@
+{
+  "sections": {
+    "hero_collection_xGPFJD": {
+      "type": "hero-collection",
+      "blocks": {
+        "text_QAB8qD": {
+          "type": "text",
+          "settings": {
+            "collection": "shop-all",
+            "title": "Shop All"
+          }
+        },
+        "text_GkckjM": {
+          "type": "text",
+          "settings": {
+            "collection": "fitness-trampolines",
+            "title": ""
+          }
+        },
+        "text_xwG6t6": {
+          "type": "text",
+          "settings": {
+            "collection": "limited-editions-trampolines",
+            "title": "Limited Editions"
+          }
+        },
+        "text_QRTzhf": {
+          "type": "text",
+          "settings": {
+            "collection": "rebounder-accessories",
+            "title": ""
+          }
+        },
+        "text_ppYGdC": {
+          "type": "text",
+          "settings": {
+            "collection": "mini-trampoline-replacement-parts",
+            "title": ""
+          }
+        },
+        "text_XJEakc": {
+          "type": "text",
+          "settings": {
+            "collection": "sales-and-clearance",
+            "title": "Sales & Clearance"
+          }
+        }
+      },
+      "block_order": [
+        "text_QAB8qD",
+        "text_GkckjM",
+        "text_xwG6t6",
+        "text_QRTzhf",
+        "text_ppYGdC",
+        "text_XJEakc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sales_1920x450_1.jpg",
+        "copy_align": "left",
+        "heading_level": "h1",
+        "title": "",
+        "arch_color": "pink"
+      }
+    },
+    "list": {
+      "type": "collection-list",
+      "settings": {}
+    },
+    "cta_image_hMNL6G": {
+      "type": "cta-image",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "lg",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/memorial-graphic.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Memorial Day Sale: 10% Off Sitewide",
+        "copy": "<p>Get 10% off site-wide—trampolines, accessories, parts and more! No code needed; savings automatically applied at checkout.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "cta_image_Er6LXL": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "md",
+        "padding_top-mobile": "lg",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/JFT-girls-1200x.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "JumpSport Fitness Trampolines",
+        "copy": "<p>Feel strong, confident, and energized with a JumpSport Fitness Trampoline—your fun, low-impact way to get fit.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_c8afDW": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "fitness-trampolines"
+      }
+    },
+    "cta_image_CKqqdU": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "xs",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "xs",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/JFT-Elevate-girl-doodip-1200x.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Wellness Products",
+        "copy": "<p>Enhance your rebounding experience with wellness products designed for recovery, strength, and flexibility—perfect complements to your fitness trampoline.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_QKdVx6": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "wellness-products"
+      }
+    },
+    "cta_image_aAFFfG": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/JFT_-STK-Gisselly-_1200x_01a343af-7ffe-4868-b951-865a787baaec.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Handle Bars & Accessories",
+        "copy": "<p>Enhance your workouts with JumpSport fitness accessories. From handle bars for stability to resistance bands for strength, our accessories transform your fitness routine, adapting to your goals for a more effective and enjoyable workout.<\/p>",
+        "btn_url": "shopify:\/\/collections\/rebounder-accessories",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_UzqeXH": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "btn_url": "",
+        "btn_copy": "Shop All Accessories",
+        "collection": "rebounder-accessories"
+      }
+    },
+    "cta_image_CDNKHa": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/JFT-replacement_bumper-1200x.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Replacements Parts",
+        "copy": "<p>Keep your rebounder in peak condition with high quality replacement elastic cords, jumping mats, silicone feet, and more.<\/p>",
+        "btn_url": "shopify:\/\/collections\/mini-trampoline-replacement-parts",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_ENFFwd": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "btn_url": "",
+        "btn_copy": "Shop Replacement Parts",
+        "collection": "mini-trampoline-replacement-parts"
+      }
+    },
+    "cta_image_n9PTFV": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/JFT-Squat-Gisselly-1200x.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Sales & Clearance Deals",
+        "copy": "<p>Score incredible deals on inspected, warranty-backed fitness trampolines and accessories! Explore our <strong>Sales & Clearance<\/strong> selection for unbeatable prices on top-quality equipment. Elevate your workouts, improve balance, and add excitement to your fitness routine. Shop now while supplies last!<\/p>",
+        "btn_url": "shopify:\/\/collections\/sales-and-clearance",
+        "btn_copy": "Shop Sales & Clearance"
+      }
+    },
+    "cta_image_md3rgY": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/Wurf_lifestyle-office_scene-_1200x_37779345-e57f-42a2-9947-24c5c4f8e1d6.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Office Movement",
+        "copy": "<p>Discover ergonomic standing desks and accessories in our Wurf collection, designed for productive, comfortable workspaces. Our air-spring boards and rocker boards help you stand more comfortably, longer.<\/p>",
+        "btn_url": "shopify:\/\/collections\/office-movement",
+        "btn_copy": "Shop Office Movement"
+      }
+    },
+    "cta_image_zUteNb": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/dvd.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Workout Videos",
+        "copy": "<p>Elevate your fitness routine with low-impact trampoline workouts tailored for all fitness levels. Discover dynamic routines like cardio, strength training, Barre, HIIT, and more.<\/p>",
+        "btn_url": "shopify:\/\/collections\/trampoline-workout-video",
+        "btn_copy": "Shop Workout Videos"
+      }
+    }
+  },
+  "order": [
+    "hero_collection_xGPFJD",
+    "list",
+    "cta_image_hMNL6G",
+    "cta_image_Er6LXL",
+    "collection_slider_c8afDW",
+    "cta_image_CKqqdU",
+    "collection_slider_QKdVx6",
+    "cta_image_aAFFfG",
+    "collection_slider_UzqeXH",
+    "cta_image_CDNKHa",
+    "collection_slider_ENFFwd",
+    "cta_image_n9PTFV",
+    "cta_image_md3rgY",
+    "cta_image_zUteNb"
+  ]
+}

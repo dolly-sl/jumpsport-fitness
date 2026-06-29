@@ -1,0 +1,422 @@
+<style>
+    .featured__cards .card__inner {
+        height: 100%;
+    }
+    .boost-sd__filter-product-list {
+        padding-top: 10px;
+    }
+    .card--compare p.detail {
+        margin-bottom: 5px;
+    }
+    .card--compare p.detail:last-child {
+        margin-bottom: 0;
+    }
+    @media screen and (min-width: 768px) {
+    .featured__cards .card--horizontal {
+        display: block;  
+        width: 100%; 
+    }
+    }
+    @media screen and (min-width: 992px) {
+    .featured__cards {
+        column-count: 3;
+        flex-wrap: nowrap;
+    }
+    .featured__cards .card--horizontal {
+        display: block;   
+    }
+    }
+    @media screen and (min-width: 1200px) {
+        .featured .container {
+            padding: 0;
+        }
+    }
+    @media screen and (min-width: 1360px) {
+        .featured .container {
+            padding: 0 15px;
+        }
+    }
+</style>
+
+{% assign product_list = settings.compare_products %}
+<section
+  id="featured--{{ section.id }}"
+  class="featured section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  <div class="container container--xl">
+    <div class="featured__heading d-flex justify-between align-center">
+      {% if section.settings.title != blank %}
+        {% render 'dynamic-heading',
+          level: section.settings.heading_level,
+          title: section.settings.title,
+          classList: section.settings.heading_level_display
+        %}
+      {% endif %}
+      {% if section.settings.btn_url != blank and section.settings.btn_copy != blank %}
+        <div class="actions">
+          <a href="{{ section.settings.btn_url }}" class="btn btn--solid btn--arrow">
+            {{ section.settings.btn_copy }}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+    <div class="featured__cards d-flex">
+    
+
+        <div class="card card--compare card--horizontal">
+  <a href="/products/39-essential-fitness-trampoline" class="card__inner d-flex align-center justify-between">
+    
+    <div class="card__image card__image--hover">
+      <img loading="lazy" src="//www.jumpsport.com/cdn/shop/files/transparent_220_reduced_png_205x205.png?v=1740109639" srcset="//www.jumpsport.com/cdn/shop/files/transparent_220_reduced_png_410x410.png?v=1740109639 2x" alt="JumpSport 39 inch ESSENTIAL solid frame, black, model 220" class="image image--main">
+      
+        <img loading="lazy" src="https://www.jumpsport.com/cdn/shop/files/220_lay-flat_1200x1200_1_1220x1220.jpg?v=1741807468" srcset="https://www.jumpsport.com/cdn/shop/files/220_lay-flat_1200x1200_1_1220x1220.jpg?v=1741807468 2x" alt="JumpSport 39&quot; ESSENTIAL Fitness Trampoline" class="image image--two">
+      
+    </div>
+    <div class="card__info">
+      <h3 class="heading--four">
+        ESSENTIAL
+      </h3>
+      <div class="price">
+        
+          Best for beginners and light cardio
+        
+      </div>
+      <div class="details">
+        <p class="detail">Soft, comfortable bounce</p>
+        <p class="detail">Simple, durable design</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+
+        <div class="card card--compare card--horizontal">
+  <a href="/products/39-premium-fitness-trampoline" class="card__inner d-flex align-center justify-between">
+    
+    <div class="card__image card__image--hover">
+      <img loading="lazy" src="//www.jumpsport.com/cdn/shop/files/350_transparent_1220x1220_1_205x205.png?v=1740516050" srcset="//www.jumpsport.com/cdn/shop/files/350_transparent_1220x1220_1_410x410.png?v=1740516050 2x" alt="JumpSport 39 inch PREMIUM trampoline" class="image image--main">
+      
+        <img loading="lazy" src="https://www.jumpsport.com/cdn/shop/files/350_layflat_1220x1220_d54f95b3-318b-450f-a288-a2f8affd6e0f_1220x1220.webp?v=1740516050" srcset="https://www.jumpsport.com/cdn/shop/files/350_layflat_1220x1220_d54f95b3-318b-450f-a288-a2f8affd6e0f_1220x1220.webp?v=1740516050 2x" alt="Girl kneeling on the JumpSport 39 inch PREMIUM trampoline" class="image image--two">
+      
+    </div>
+    <div class="card__info">
+      <h3 class="heading--four">
+        PREMIUM
+      </h3>
+      <div class="price">
+        
+          Best for everyday fitness & progression
+        
+      </div>
+      <div class="details">
+        <p class="detail">Adjustable firmness</p>
+        <p class="detail">Stronger rebound for cardio + toning</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+
+        <div class="card card--compare card--horizontal">
+  <a href="/products/jumpsport-39-pro-fitness-trampoline" class="card__inner d-flex align-center justify-between">
+    
+      <div class="card__tag tag" style="background:#00857f">
+        <span>
+          Most Popular
+        </span>
+      </div>
+    
+    <div class="card__image card__image--hover">
+      <img loading="lazy" src="//www.jumpsport.com/cdn/shop/files/350_PRO_1220x1220_2_205x205.png?v=1769895947" srcset="//www.jumpsport.com/cdn/shop/files/350_PRO_1220x1220_2_410x410.png?v=1769895947 2x" alt="JumpSport 39 inch PRO trampoline model 350 PRO in black" class="image image--main">
+      
+        <img loading="lazy" src="https://www.jumpsport.com/cdn/shop/files/350_PRO_layflat_1220x1220_5f46dd20-8132-4b74-86e9-3064837b4cb1_1220x1220.webp?v=1769895947" srcset="https://www.jumpsport.com/cdn/shop/files/350_PRO_layflat_1220x1220_5f46dd20-8132-4b74-86e9-3064837b4cb1_1220x1220.webp?v=1769895947 2x" alt="Girl at the beach on a JumpSport 39 inch PRO trampoline model 350 PRO" class="image image--two">
+      
+    </div>
+    <div class="card__info">
+      <h3 class="heading--four">
+        PRO
+      </h3>
+      <div class="price">
+        
+          Best for advanced users & studios
+        
+      </div>
+      <div class="details">
+        <p class="detail">Firm to extra-firm bounce</p>
+        <p class="detail">Maximum durability and performance</p>
+      </div>
+    </div>
+  </a>
+</div>
+      
+    </div>
+  </div>
+</section>
+{% if section.settings['padding_bottom-mobile'] == 'never-going-to-hit'
+  or section.settings['padding_top-mobile'] == 'never-going-to-hit'
+%}
+  <style>
+    @media(max-width: 768px) {
+      #featured--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top-mobile }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom-mobile }}px !important;
+      }
+    }
+  </style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Trampoline Lines",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "padding_top",
+      "type": "select",
+      "label": "Padding Top",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom",
+      "type": "select",
+      "label": "Padding Bottom",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_top-mobile",
+      "type": "select",
+      "label": "Padding Top - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom-mobile",
+      "type": "select",
+      "label": "Padding Bottom - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "type": "select",
+      "id": "heading_level",
+      "label": "Heading Level",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "heading_level_display",
+      "label": "Heading Level - Display",
+      "options": [
+        {
+          "value": "",
+          "label": "Natural"
+        },
+        {
+          "value": "heading--one",
+          "label": "H1"
+        },
+        {
+          "value": "heading--two",
+          "label": "H2"
+        },
+        {
+          "value": "heading--three",
+          "label": "H3"
+        },
+        {
+          "value": "heading--four",
+          "label": "H4"
+        },
+        {
+          "value": "heading--five",
+          "label": "H5"
+        },
+        {
+          "value": "heading--six",
+          "label": "H6"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    },
+    {
+      "id": "btn_url",
+      "type": "url",
+      "label": "Button URL"
+    },
+    {
+      "id": "btn_copy",
+      "type": "text",
+      "label": "Button Copy"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trampoline Lines"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,244 @@
+<section class="hero hero--cta hero--{{section.settings.copy_align}}" id="hero--{{ section.id }}">
+  {% if section.settings.video != blank %}
+    {{
+      section.settings.video
+      | video_tag: autoplay: true, loop: true, muted: true, playsinline: true, controls: false, image_size: '1920x'
+    }}
+  {% endif %}
+  {% if section.settings.image != blank %}
+    <img
+      loading="lazy"
+      src="{{ section.settings.image | img_url: '1920x800', crop: 'center' }}"
+      alt="{{ section.settings.image.alt | escape }}"
+      class="hero__bg hero__bg--desktop"
+    >
+  {% endif %}
+  {% if section.settings.image_mobile != blank %}
+    <img
+      loading="lazy"
+      src="{{ section.settings.image_mobile | img_url: '750x1200', crop: 'center' }}"
+      alt="{{ section.settings.image_mobile.alt | escape }}"
+      class="hero__bg hero__bg--mobile"
+    >
+  {% else %}
+    <img
+      loading="lazy"
+      src="{{ section.settings.image | img_url: '750x1200', crop: 'center' }}"
+      alt="{{ section.settings.image.alt | escape }}"
+      class="hero__bg hero__bg--mobile"
+    >
+  {% endif %}
+  {% if section.settings.title != blank %}
+    <div class="hero__copy">
+      <div class="container container--md">
+        <div class="inner align--{{ section.settings.copy_align }}">
+          {% if section.settings.image_eyebrow != blank %}
+            <img
+              src="{{ section.settings.image_eyebrow | img_url: 'master' }}"
+              alt="{{ section.settings.image_eyebrow.alt | escape }}"
+              class="eye-logo"
+            >
+          {% endif %}
+          {% if section.settings.eyebrow != blank %}
+            <span class="eyebrow">
+              {{ section.settings.eyebrow }}
+            </span>
+          {% endif %}
+          <{{ section.settings.heading_level }}>
+            {{ section.settings.title }}
+          </{{ section.settings.heading_level }}>
+          {{ section.settings.copy }}
+          {% if section.settings.btn_url != blank and section.settings.btn_copy != blank %}
+            <div class="actions">
+              <a href="{{ section.settings.btn_url }}" class="btn btn--white btn--arrow btn--xl">
+                {{ section.settings.btn_copy }}
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+{% if section.settings.image_mobile != blank %}
+  <style>
+    #hero--{{ section.id }} .hero__bg--mobile {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+     #hero--{{ section.id }} .hero__bg--mobile {
+        display: block;
+      }
+
+      #hero--{{ section.id }} .hero__bg--desktop {
+        display: none;
+      }
+    }
+  </style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Hero - CTA",
+  "settings": [
+    {
+      "id": "video",
+      "type": "video",
+      "label": "Video"
+    },
+    {
+      "id": "image",
+      "type": "image_picker",
+      "label": "Background",
+      "info": "Dimensions: 1920 x 580px"
+    },
+    {
+      "id": "image_mobile",
+      "type": "image_picker",
+      "label": "Background - Mobile",
+      "info": "Dimensions: 750 x 1200px"
+    },
+    {
+      "type": "select",
+      "id": "copy_align",
+      "label": "Copy alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "color",
+      "label": "Color",
+      "options": [
+        {
+          "value": "dark",
+          "label": "Dark"
+        },
+        {
+          "value": "light",
+          "label": "Light"
+        }
+      ],
+      "default": "light"
+    },
+    {
+      "id": "image_eyebrow",
+      "type": "image_picker",
+      "label": "Image - Eyebrow ( optional )"
+    },
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow"
+    },
+    {
+      "type": "select",
+      "id": "heading_level",
+      "label": "Heading Level",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "heading_level_display",
+      "label": "Heading Level - Display",
+      "options": [
+        {
+          "value": "",
+          "label": "Natural"
+        },
+        {
+          "value": "heading--one",
+          "label": "H1"
+        },
+        {
+          "value": "heading--two",
+          "label": "H2"
+        },
+        {
+          "value": "heading--three",
+          "label": "H3"
+        },
+        {
+          "value": "heading--four",
+          "label": "H4"
+        },
+        {
+          "value": "heading--five",
+          "label": "H5"
+        },
+        {
+          "value": "heading--six",
+          "label": "H6"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    },
+    {
+      "id": "copy",
+      "type": "richtext",
+      "label": "Copy"
+    },
+    {
+      "id": "btn_url",
+      "type": "url",
+      "label": "Button URL"
+    },
+    {
+      "id": "btn_copy",
+      "type": "text",
+      "label": "Button Copy"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero - CTA"
+    }
+  ]
+}
+{% endschema %}

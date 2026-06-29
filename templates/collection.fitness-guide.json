@@ -1,0 +1,478 @@
+{
+  "sections": {
+    "hero_collection_xGPFJD": {
+      "type": "hero-collection",
+      "blocks": {
+        "text_CyLxVJ": {
+          "type": "text",
+          "settings": {
+            "collection": "gift-guide",
+            "title": "All Gifts"
+          }
+        },
+        "text_QAB8qD": {
+          "type": "text",
+          "settings": {
+            "collection": "beginners-wellness-focused-trampolines-adapters",
+            "title": "Beginner & Wellness Gifts"
+          }
+        },
+        "text_GkckjM": {
+          "type": "text",
+          "settings": {
+            "collection": "strength-performance-training-trampolines-adapters",
+            "title": "Strength & Performance Training"
+          }
+        },
+        "text_xwG6t6": {
+          "type": "text",
+          "settings": {
+            "collection": "home-gym-essentials-on-a-budget",
+            "title": "Home Gym Essentials"
+          }
+        },
+        "text_QRTzhf": {
+          "type": "text",
+          "settings": {
+            "collection": "pop-of-color-trampolines",
+            "title": "Pop of Color"
+          }
+        },
+        "text_ppYGdC": {
+          "type": "text",
+          "settings": {
+            "collection": "active-agers-fitness-equipment",
+            "title": "Active Agers"
+          }
+        }
+      },
+      "block_order": [
+        "text_CyLxVJ",
+        "text_QAB8qD",
+        "text_GkckjM",
+        "text_xwG6t6",
+        "text_QRTzhf",
+        "text_ppYGdC"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sales_1920x450_1.webp",
+        "copy_align": "left",
+        "heading_level": "h1",
+        "title": "",
+        "arch_color": "green"
+      }
+    },
+    "list": {
+      "type": "collection-list",
+      "settings": {}
+    },
+    "cta_heading_BR9TyV": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Beginner & Wellness",
+        "copy": "<p><strong>Build confidence. Move mindfully. Feel better.<\/strong><\/p><p>Perfect for anyone starting their fitness journey or prioritizing low-impact, feel-good movement. These trampolines and accessories support balance, coordination, and gentle strength—making movement accessible, safe, and empowering.<\/p><p>Ideal for beginners, wellness seekers, and those easing back into fitness.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_c8afDW": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "",
+        "heading_size": "lg",
+        "heading_level": "h3",
+        "heading_level_display": "",
+        "title": "Shop Beginner & Wellness Equipment",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "beginners-wellness-focused-trampolines-adapters"
+      }
+    },
+    "cta_heading_ac9gGx": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "xs",
+        "padding_bottom-mobile": "lg",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "copy": "",
+        "btn_url": "shopify:\/\/collections\/beginners-wellness-focused-trampolines-adapters",
+        "btn_copy": "Shop Beginner & Wellness Equipment"
+      }
+    },
+    "cta_heading_BdKaYq": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Strength & Performance Training",
+        "copy": "<p><strong>Train harder. Jump higher. Push limits.<\/strong><\/p><p>Designed for athletes and fitness enthusiasts who crave intensity. These high-performance trampolines and training tools support explosive movement, strength building, and advanced programming—on and off the rebounder.<\/p><p>Built for endurance, power, and progression.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_MhYCxL": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "",
+        "heading_size": "lg",
+        "heading_level": "h3",
+        "heading_level_display": "",
+        "title": "Shop Strength & Performance Equipment",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "strength-performance-training-trampolines-adapters"
+      }
+    },
+    "cta_heading_AfDF7Q": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "xs",
+        "padding_bottom-mobile": "xl",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "copy": "",
+        "btn_url": "shopify:\/\/collections\/strength-performance-training-trampolines-adapters",
+        "btn_copy": "Shop Strength & Performance Equipment"
+      }
+    },
+    "cta_heading_ebXaWa": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Home Gym Essentials",
+        "copy": "<p><strong>Everything you need to stay consistent at home.<\/strong><\/p><p>No gym membership required. These compact, durable essentials help you create an effective home workout setup—perfect for small spaces, daily movement, and budget-friendly fitness.<\/p><p>Reliable tools for cardio, strength, and recovery.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_abbj84": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "xs",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "",
+        "heading_size": "lg",
+        "heading_level": "h3",
+        "heading_level_display": "",
+        "title": "Shop Home Gym Essentials",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "home-gym-essentials-on-a-budget"
+      }
+    },
+    "cta_heading_JLFrd7": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "xs",
+        "padding_bottom-mobile": "lg",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "copy": "",
+        "btn_url": "shopify:\/\/collections\/home-gym-essentials-trampolines",
+        "btn_copy": "Shop Home Gym Essentials"
+      }
+    },
+    "cta_heading_3dpdTN": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Pop of Color",
+        "copy": "<p><strong>Fitness that reflects your personality.<\/strong><\/p><p>Movement is personal—and so is style. These vibrant trampolines and accessories let you express yourself while you work out. Choose colors that match your energy, mood, and motivation.<\/p><p>Because when your equipment excites you, consistency comes easier.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_gUWmRn": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "",
+        "heading_size": "lg",
+        "heading_level": "h3",
+        "heading_level_display": "",
+        "title": "Shop Pop of Color",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "pop-of-color-trampolines"
+      }
+    },
+    "cta_heading_xE7QUQ": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "xs",
+        "padding_bottom-mobile": "xl",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "copy": "",
+        "btn_url": "shopify:\/\/collections\/pop-of-color-trampolines",
+        "btn_copy": "Shop Pop of Color"
+      }
+    },
+    "cta_heading_ixUcTg": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Active Agers",
+        "copy": "<p><strong>Move well. Stay strong. Live fully.<\/strong><\/p><p>Designed for longevity and confidence, these picks support balance, stability, and low-impact strength. Thoughtful accessories and supportive trampolines help you stay active through every stage of life.<\/p><p>Movement that feels good today—and supports tomorrow.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_XMEiDJ": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "",
+        "heading_size": "lg",
+        "heading_level": "h3",
+        "heading_level_display": "",
+        "title": "Shop Active Agers Equipment",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "active-agers-fitness-equipment"
+      }
+    },
+    "cta_heading_rN6fBW": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "xs",
+        "padding_bottom-mobile": "lg",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "copy": "",
+        "btn_url": "shopify:\/\/collections\/active-agers-fitness-equipment",
+        "btn_copy": "Shop Active Agers Equipment"
+      }
+    },
+    "cta_heading_wX6e9M": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Fitness Accessories",
+        "copy": "<p><strong>Small tools. Big impact.<\/strong><\/p><p>These versatile add-ons enhance any rebounder setup—great for improving strength, balance, recovery, and overall workout variety. Ideal for leveling up your routine without overhauling your space.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_RNCMJ8": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "",
+        "heading_size": "lg",
+        "heading_level": "h3",
+        "heading_level_display": "",
+        "title": "A Little Something Extra",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "under-250-add-on-gifts-stocking-stuffers"
+      }
+    },
+    "cta_heading_D4NVRy": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Professional Grade Picks",
+        "copy": "<p><strong>Top-tier performance. No compromises.<\/strong><\/p><p>For those who want the best of the best. These premium trampolines deliver unmatched durability, bounce quality, and versatility—designed to anchor a serious home gym and support advanced training.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_LrMPt4": {
+      "type": "collection-slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "",
+        "heading_size": "lg",
+        "heading_level": "h3",
+        "heading_level_display": "",
+        "title": "Best Of The Best Trampolines",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "premium-showstoppers-over-400"
+      }
+    }
+  },
+  "order": [
+    "hero_collection_xGPFJD",
+    "list",
+    "cta_heading_BR9TyV",
+    "collection_slider_c8afDW",
+    "cta_heading_ac9gGx",
+    "cta_heading_BdKaYq",
+    "collection_slider_MhYCxL",
+    "cta_heading_AfDF7Q",
+    "cta_heading_ebXaWa",
+    "collection_slider_abbj84",
+    "cta_heading_JLFrd7",
+    "cta_heading_3dpdTN",
+    "collection_slider_gUWmRn",
+    "cta_heading_xE7QUQ",
+    "cta_heading_ixUcTg",
+    "collection_slider_XMEiDJ",
+    "cta_heading_rN6fBW",
+    "cta_heading_wX6e9M",
+    "collection_slider_RNCMJ8",
+    "cta_heading_D4NVRy",
+    "collection_slider_LrMPt4"
+  ]
+}

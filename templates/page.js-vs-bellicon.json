@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "cta-heading": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "sm",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "The #1 Choice",
+        "heading_level": "h1",
+        "heading_level_display": "heading--two",
+        "title": "JumpSport VS Bellicon Rebounders",
+        "copy": "<p>Choosing between the two best names in the business? JumpSport and Bellicon both represent the gold standard of elastic cord trampolines, standing far above low-cost alternatives. However, the details—from leg design to bounce customization—make all the difference. Explore our side-by-side breakdown to find the perfect match for your health and wellness goals.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "vs_table_QJgW7g": {
+      "type": "vs-table",
+      "blocks": {
+        "row_zmCh6Y": {
+          "type": "row",
+          "settings": {
+            "title": "Frame",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>1.5mm thick steel, 1.25\" wide tube; Commercial grade construction<\/p>",
+            "val_other": "<p>1.2mm thick steel, 1.25\" wide tube; quality German craftsmanship<\/p>"
+          }
+        },
+        "row_W3dE6w": {
+          "type": "row",
+          "settings": {
+            "title": "Legs",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>Arched for unmatched stability with 42\" footprint<\/p>",
+            "val_other": "<p>Straight with 39\" footprint, potential for tipping, folding optional<\/p>"
+          }
+        },
+        "row_Jzwb7H": {
+          "type": "row",
+          "settings": {
+            "title": "Step-Up Stability",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "val_js": "<p>12.5\" Height on 39\" and 44\" Frames; Lower center of gravity + wider footprint =  Easy access, step-up feels more secure<\/p>",
+            "val_other": "<p>14\" Height on all Frames; Higher center of gravity + narrower footprint =  May feel less secure for beginners<\/p>"
+          }
+        },
+        "row_Va9KtC": {
+          "type": "row",
+          "settings": {
+            "title": "Elastic Cord Suspension System",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>39\" - 30 or 36 cords w\/ 2-5 year warranty<br\/>44\" - 36 cords w\/ 5 year warranty<br\/>48\" - 36 cords w\/ 5 year warranty<\/p>",
+            "val_other": "<p>39\" - 30 cords w\/ 1 year warranty<br\/>44\" - 36 cords w\/ 1 year warranty<br\/>49\" - 42 cords w\/ 1 year warranty<\/p>"
+          }
+        },
+        "row_wiHW4B": {
+          "type": "row",
+          "settings": {
+            "title": "3\" Bounce Cycles",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>Up to 1.6 million (4-Knot cords)<\/p>",
+            "val_other": "<p>Up to 500k (\"strong\" cords)<\/p>"
+          }
+        },
+        "row_BTzafA": {
+          "type": "row",
+          "settings": {
+            "title": "Firmness Levels",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>7 adjustable settings and two firmness options (4-Knot cords)<\/p>",
+            "val_other": "<p>Non-adjustable; choose one cord firmness before ordering<\/p>"
+          }
+        },
+        "row_LTbFbm": {
+          "type": "row",
+          "settings": {
+            "title": "Weight Rating",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>250 lb – 425 lb (depending on model)<\/p>",
+            "val_other": "<p>80 - 440 lb (depending on cord)<\/p>"
+          }
+        },
+        "row_QkPRGp": {
+          "type": "row",
+          "settings": {
+            "title": "Videos",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>30 day Free Trial to streaming videos & additional DVDs for purchase<\/p>",
+            "val_other": "<p>30 day Free Trial to streaming videos<\/p>"
+          }
+        },
+        "row_k4cFU3": {
+          "type": "row",
+          "settings": {
+            "title": "Price Range",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>39” - $249+<br\/>44” - $399+<br\/>48\" - $649<\/p>",
+            "val_other": "<p>39\" - $699+<br\/>44\" - $799+<br\/>49\" - $899+<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_zmCh6Y",
+        "row_W3dE6w",
+        "row_Jzwb7H",
+        "row_Va9KtC",
+        "row_wiHW4B",
+        "row_BTzafA",
+        "row_LTbFbm",
+        "row_QkPRGp",
+        "row_k4cFU3"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title_col_1": "JumpSport",
+        "image_col_1": "shopify:\/\/shop_images\/jumpsport_compare_700x700_0a6ba4b6-892b-48ab-b3c6-5a721a23cdd8.webp",
+        "title_col_2": "Bellicon",
+        "image_col_2": "shopify:\/\/shop_images\/bellicon_700x700_987c908a-12d1-4db9-b02a-d6f30051aa10.webp",
+        "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+        "btn_copy": "Shop JumpSport Trampolines",
+        "disclaimer": "<p>BOUNCE CYCLE NOTE: To measure durability, we rely on cycle testing— standard protocol in the fitness industry.  Our engineers use proprietary equipment to simulate the average amount each cord stretches per bounce (avg. of 3” on fitness trampolines). Each successful bounce 'cycle' consists of a full stretch and return of a cord to its original length without significant wear, breaking, or loss of tension. This allows us to accurately estimate the lifespan of the entire suspension system under consistent use.<br\/>WARRANTY NOTE: Listed warranties are for residential use. For commercial warranties, visit individual product pages.<\/p>"
+      }
+    },
+    "hero_cta_fWkJVq": {
+      "type": "hero-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1920x580_1.webp",
+        "image_mobile": "shopify:\/\/shop_images\/700x1080_1.webp",
+        "copy_align": "center",
+        "color": "light",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Reliability, Longetivity, and Usability",
+        "copy": "<p>JumpSport is the #1 choice of club and home fitness for reliability, longevity, and usability. Originally inspired by Bellicon, we significantly advanced their designs to deliver stable arched legs, 3X the number of bounce cycles, and firmness adjustability all at a lower price point.<\/p>",
+        "btn_url": "shopify:\/\/pages\/compare-jumpsport-trampolines",
+        "btn_copy": "Compare JumpSport Trampolines"
+      }
+    },
+    "accordions_ieTi6D": {
+      "type": "accordions",
+      "blocks": {
+        "text_w3tpMC": {
+          "type": "text",
+          "settings": {
+            "title": "Quality & Safety",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Quality can often be quantified by price and warranty. A low-price bungee trampoline will have a very short warranty and come with poor quality parts. Be prepared to feel a harsh bounce and expect a short life of the product before it is ready to be replaced. JumpSport Fitness Trampolines come with the longest warranty on the market. If you do exceed the 1.6 million bounces our products are tested to, we always have replacement elastic cords for your trampoline.<\/p><p>Safety is often overlooked with a mini-trampoline. Low-quality trampolines use straight legs that are highly susceptible to tipping, smaller diameter frames that can't withstand repetitive use, and unreliable handles that aren't securely attached to the frame. JumpSport Fitness Trampolines use patented, super-stable arched legs that allow users to stand the trampoline upright to use as a stability bar and allow for easy stacking in club situations. We also use thick frame tubes and bolt-fastened handles that are optimal for Barre workouts.<\/p>"
+          }
+        },
+        "text_aXkpCz": {
+          "type": "text",
+          "settings": {
+            "title": "Workout Videos",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>With some of the best fitness programming and master trainers in the industry, JumpSport Fitness Trampoline workout videos are proven to burn just as many calories in 20 mins as a 30 min running workout, and to feel 10% less strenuous. Read the <a href=\"https:\/\/www.acefitness.org\/continuing-education\/prosource\/october-2016\/6081\/ace-sponsored-research-putting-mini-trampolines-to-the-test\/\">American Council on Exercise <\/a>study for more details. With a 30-day Free Trial to streaming workouts, there's no reason you can't get bouncing today!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_w3tpMC",
+        "text_aXkpCz"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "What To Look For When Comparing Bungee Rebounders",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    }
+  },
+  "order": [
+    "cta-heading",
+    "vs_table_QJgW7g",
+    "hero_cta_fWkJVq",
+    "accordions_ieTi6D"
+  ]
+}

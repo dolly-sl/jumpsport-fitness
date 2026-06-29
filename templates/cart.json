@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "cart": {
+      "type": "cart",
+      "blocks": {
+        "shipping_TXD7Ga": {
+          "type": "shipping",
+          "settings": {}
+        },
+        "order_total_LDdgta": {
+          "type": "order_total",
+          "settings": {}
+        },
+        "checkout_QkCJMA": {
+          "type": "checkout",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "shipping_TXD7Ga",
+        "order_total_LDdgta",
+        "checkout_QkCJMA"
+      ],
+      "settings": {
+        "header": "Your Cart",
+        "taxes": "Taxes & Shipping calculated at checkout",
+        "related_heading": "You May Also Like",
+        "btn_url": ""
+      }
+    },
+    "heading_copy_AUcjyN": {
+      "type": "heading-copy",
+      "name": "Heading \/ Copy",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "",
+        "padding_bottom-mobile": "md",
+        "copy_align": "center",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "eyebrow": "",
+        "title": "Here’s to feeling good every time you move.",
+        "copy": "",
+        "liquid": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "product_slider_cart_mCntE7": {
+      "type": "product-slider-cart",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "title": "You May Also Like",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    }
+  },
+  "order": [
+    "cart",
+    "heading_copy_AUcjyN",
+    "product_slider_cart_mCntE7"
+  ]
+}

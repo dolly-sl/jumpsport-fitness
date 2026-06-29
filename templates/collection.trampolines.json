@@ -1,0 +1,424 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-collection",
+      "blocks": {
+        "text_3R69Fn": {
+          "type": "text",
+          "settings": {
+            "collection": "shop-all",
+            "title": "Shop All"
+          }
+        },
+        "text_M9WmLp": {
+          "type": "text",
+          "settings": {
+            "collection": "fitness-trampolines",
+            "title": "Fitness Trampolines"
+          }
+        },
+        "text_tYEPJ9": {
+          "type": "text",
+          "settings": {
+            "collection": "wellness-products",
+            "title": "Wellness Products"
+          }
+        },
+        "text_nh7JDC": {
+          "type": "text",
+          "settings": {
+            "collection": "rebounder-accessories",
+            "title": ""
+          }
+        },
+        "text_RtYY7P": {
+          "type": "text",
+          "settings": {
+            "collection": "mini-trampoline-replacement-parts",
+            "title": ""
+          }
+        },
+        "text_HHPfQF": {
+          "type": "text",
+          "settings": {
+            "collection": "sales-and-clearance",
+            "title": "Sales & Clearance"
+          }
+        }
+      },
+      "block_order": [
+        "text_3R69Fn",
+        "text_M9WmLp",
+        "text_tYEPJ9",
+        "text_nh7JDC",
+        "text_RtYY7P",
+        "text_HHPfQF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sales_1920x450_1.jpg",
+        "copy_align": "left",
+        "heading_level": "h1",
+        "title": "",
+        "arch_color": "pink"
+      }
+    },
+    "featured_compare_CwNQC9": {
+      "type": "featured-compare",
+      "name": "Trampoline Lines",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "6e3eeed4-d71f-41e8-8aef-003f1e2853ed": {
+      "type": "apps",
+      "blocks": {
+        "boost_ai_search_discovery_filter_product_list_ssr_PL6wnk": {
+          "type": "shopify:\/\/apps\/boost-ai-search-filter\/blocks\/filter-product-list-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "boost_ai_search_discovery_filter_product_list_ssr_PL6wnk"
+      ],
+      "settings": {}
+    },
+    "product_features_zWQaWU": {
+      "type": "product-features",
+      "blocks": {
+        "feature_D7axBz": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-mat.webp",
+            "title": "Enhanced Mat",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Featuring reinforced stitching and enhanced lay-flat mat technology, JumpSport extends your usable space and provides added protection.",
+            "url": "shopify:\/\/pages\/best-rebounder-trampoline"
+          }
+        },
+        "feature_7tTwQG": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-arched-legs.webp",
+            "title": "Arched Legs",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Smart engineering meets real-world stability. Arched legs keep your rebounder steady, stackable, and tip-resistant—so every jump feels solid, every time.",
+            "url": "shopify:\/\/pages\/best-rebounder-trampoline"
+          }
+        },
+        "feature_7XF7Ti": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-elastic-cords.webp",
+            "title": "Premium Elastic Cords",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "JumpSport uses elastic cords instead of metal springs to create a quieter, joint-friendly bounce.",
+            "url": "shopify:\/\/pages\/best-rebounder-trampoline"
+          }
+        },
+        "feature_3DLQtB": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-space.webp",
+            "title": "More Space",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Be free to move more. The durable jumping surface extends over the cords to add protection and additional space for increased creativity.",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_D7axBz",
+        "feature_7tTwQG",
+        "feature_7XF7Ti",
+        "feature_3DLQtB"
+      ],
+      "name": "Product Features",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "black",
+        "padding_top": "lg",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Why JumpSport Fitness Trampolines Are Built Different",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "tab_slider_ET7EBy": {
+      "type": "tab-slider",
+      "blocks": {
+        "slide_gTzDYT": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 1",
+            "title": "Trampoline Frame",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>Selecting the right trampoline frame ensures you get the comfort, performance, and convenience you need for your fitness routine.<\/strong><\/p><p>The 39\" frame is a great choice for smaller spaces or those who want a compact, versatile option, while the 44\" provides a more spacious jumping area, perfect for taller users, heavier bouncers, or anyone who wants extra room to move. <\/p><p>Folding frames are ideal for smaller spaces, easy storage, or on-the-go use. 3-piece self-assembly frames are a budget friendly option with the same stability as our other frames. Think about your height, space, and how you’ll use it to find your perfect match.<\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-weight-capacity.webp",
+            "glance": "<ul><li><strong>39\" Frame:<\/strong> Compact, versatile, great for smaller spaces.<\/li><li><strong>44\" Frame:<\/strong> Spacious surface, ideal for taller\/heavier users or bigger movement.<\/li><li><strong>Folding Frames:<\/strong> Portable, easy to store or travel with.<\/li><li><strong>3-Piece Frames:<\/strong> Durable, self assembly, budget friendly.<\/li><li><strong>Usage Needs:<\/strong> Choose based on space and workout style.<\/li><\/ul>"
+          }
+        },
+        "slide_VHEWcM": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 2",
+            "title": "Firmness",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>One of our best features is our unique cord system that gives you the freedom to customize your bounce firmness. <\/strong><\/p><p>A softer bounce delivers a deeper, smoother rebound, increasing workout intensity while being gentle on joints. A firmer bounce provides a shorter, quicker rebound, making it ideal for fast-paced exercises and high repetitions. <\/p><p>Adjustable cords allow you to customize the firmness and extend the life of your trampoline by tightening the cords as they wear. Cords can also be replaced or upgraded over time, expanding the bounce experience. <\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-firmness.webp",
+            "glance": "<ul><li><strong>Softer Bounce:<\/strong> Deeper, smoother rebound, gentle on joints.<\/li><li><strong>Firmer Bounce:<\/strong> Quick, more stable, perfect for fast choreography or stability workouts.<\/li><li><strong>Adjustability:<\/strong> Customize bounce firmness and extend longevity as cords wear.<\/li><li><strong>Maintenance:<\/strong> Check & adjust cords regularly for optimal performance. <\/li><\/ul>"
+          }
+        },
+        "slide_UFTcq8": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 3",
+            "title": "Weight Capacity",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>JumpSport trampolines provide a sturdy, stable platform that can be adapted to the bouncers’ weight or bounce intensity. Understanding weight capacity ensures safe, durable trampoline performance.<\/strong><\/p><p>Weight capacity includes two factors: static load, the maximum weight the frame and cords can hold, and user weight rating, the highest weight for safe, active use during workouts. <\/p><p>Depending on the model, our trampolines support weights from 225 to 325 pounds, offering a range of options for different users. For heavy or frequent use, PRO models provide extra cords and adjustable tension for added durability and comfort. Selecting a trampoline that matches the highest user weight ensures safety, performance, and longevity for every workout.<\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-mat-styles.webp",
+            "glance": "<ul><li><strong>User Weight Rating:<\/strong> Depending on model, 225 to 325 pounds.<\/li><li><strong>PRO Models:<\/strong> More cords for a firmer bounce.<\/li><li><strong>44” Models:<\/strong> Extra Firm cords for heavy bouncers or frequent use.<\/li><li><strong>Durability:<\/strong> Designed to handle high-intensity, long-term use.<\/li><li><strong>Safety Tip:<\/strong> Select weight rating based on the heaviest active user.<\/li><li><strong>Customizable:<\/strong> Adjustable cords for personalized tension and performance.<\/li><\/ul>"
+          }
+        },
+        "slide_gNEDYk": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 4",
+            "title": "Mat Styles",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>Are you a skirt mat or padded petal person? The mat style you chose can affect comfort, stability on the trampoline, and your overall jumping experience.<\/strong><\/p><p>Skirt-style mats offer a lay-flat extended skirt over the bungees, maximizing the jumping area for unrestricted movement. Padded petal mats provide extra padding over the cords for enhanced comfort and safety, additionally making them ideal if you plan to lay on the mat or use your hands during workouts. <\/p><p>All models include reinforced stitching and lay-flat mat technology, keeping the jumping skirt or padded petals secure for added protection and space. Select a mat style based on your comfort, safety, and workout needs.<\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-trampoline-frame.webp",
+            "glance": "<ul><li><strong>Skirt-Style Mats:<\/strong> Structured surface for maximum jumping area.<\/li><li><strong>Padded Petal Mats:<\/strong> Extra padding for added comfort and safety.<\/li><li><strong>Lay-Flat Technology:<\/strong> Prevents lifting for secure, stable performance.<\/li><li><strong>Comfort:<\/strong> Padded petals are ideal for hand or mat-based use.<\/li><li><strong>Durability:<\/strong> High-quality materials designed for long-term use.<\/li><li><strong>Safety:<\/strong> Minimized cord exposure with padded extensions.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_gTzDYT",
+        "slide_VHEWcM",
+        "slide_UFTcq8",
+        "slide_gNEDYk"
+      ],
+      "name": "Tab Slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "sm",
+        "padding_bottom-mobile": "sm",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "How to Choose a Fitness Trampoline",
+        "btn_url": "shopify:\/\/pages\/jumpsport-fitness-trampoline-buyers-guide",
+        "btn_copy": "View Buyer's Guide"
+      }
+    },
+    "compare_xBW87K": {
+      "type": "compare",
+      "name": "Compare Chart",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "sm",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "expanded": false,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Compare Fitness Trampoline Models",
+        "copy": ""
+      }
+    },
+    "accordions_7MLxDL": {
+      "type": "accordions",
+      "blocks": {
+        "text_WzkjDb": {
+          "type": "text",
+          "settings": {
+            "title": "What’s the difference between JumpSport Essential, Premium, and PRO trampolines?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>JumpSport fitness trampolines are designed around three performance levels.<\/p><ul><li><strong>Essential<\/strong> models offer a soft, comfortable bounce ideal for beginners, walking, balance work, and gentle cardio.<\/li><li><strong>Premium<\/strong> models feature adjustable firmness, making them great for consistent home workouts and progression.<\/li><li><strong>PRO<\/strong> models deliver a firm to extra-firm bounce with maximum durability — trusted by advanced users and professional studios.<\/li><\/ul><p>Choosing the right level depends on your fitness goals, workout intensity, and how often you plan to train.<\/p>"
+          }
+        },
+        "text_J99LWc": {
+          "type": "text",
+          "settings": {
+            "title": "Is rebounding safe for your joints?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Yes — when designed properly. JumpSport fitness trampolines use elastic cord technology instead of metal springs, creating a smooth, cushioned bounce that reduces impact on knees, hips, and ankles.<\/p><p>Many users choose rebounding as a low-impact alternative to running, HIIT on hard floors, or traditional plyometrics.<\/p>"
+          }
+        },
+        "text_qfNjAf": {
+          "type": "text",
+          "settings": {
+            "title": "How much space do I need for a fitness trampoline?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Most home users choose between 39\" and 44\" frames.<\/p><ul><li>A <strong>39\" trampoline<\/strong> fits comfortably in small home gyms or apartments.<\/li><li>A <strong>44\" trampoline<\/strong> provides more lateral space for larger movements.<\/li><\/ul><p>You’ll also want ceiling clearance for overhead arm movement. Most standard ceilings work well for rebounding workouts.<\/p>"
+          }
+        },
+        "text_F8FmwK": {
+          "type": "text",
+          "settings": {
+            "title": "Which fitness trampoline is best for beginners?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>The <strong>Essential<\/strong> models are ideal for beginners because they offer a softer, more forgiving bounce. They’re great for balance training, walking, light cardio, and building confidence.<\/p><p>If you plan to increase workout intensity over time, a <strong>Premium<\/strong> model with adjustable firmness is also a strong option.<\/p>"
+          }
+        },
+        "text_bLCeMa": {
+          "type": "text",
+          "settings": {
+            "title": "What weight limit do JumpSport fitness trampolines support?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Weight limits vary by model, but most JumpSport trampolines support between <strong>250 and 300 pounds<\/strong>, with PRO models offering higher durability for intense, frequent use.<\/p><p>Always choose a model rated above your body weight for optimal performance and longevity.<\/p>"
+          }
+        },
+        "text_zTebed": {
+          "type": "text",
+          "settings": {
+            "title": "What size trampoline should I choose — 39\" or 44\"?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Choose a <strong>39\" model<\/strong> if:<\/p><ul><li>You’re under 6 ft tall<\/li><li>You have limited space<\/li><li>You prefer a compact workout surface<\/li><\/ul><p>Choose a <strong>44\" model<\/strong> if:<\/p><ul><li>You’re taller<\/li><li>You want more lateral movement room<\/li><li>You prefer a slightly larger workout platform<\/li><\/ul><p>Both sizes are designed for low-impact cardio and strength training.<\/p>"
+          }
+        },
+        "text_wrXLtK": {
+          "type": "text",
+          "settings": {
+            "title": "How long do fitness trampolines last?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>JumpSport trampolines are engineered for long-term durability. Depending on the model, elastic cords are rated for hundreds of thousands to over a million bounce cycles.<\/p><p>With regular use and proper care, many users enjoy years of consistent performance.<\/p>"
+          }
+        },
+        "text_RWnhGa": {
+          "type": "text",
+          "settings": {
+            "title": "Are JumpSport trampolines quiet?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Yes. Because they use elastic cords instead of metal springs, JumpSport fitness trampolines are significantly quieter than traditional trampolines.<\/p><p>They’re suitable for apartments, shared living spaces, and early-morning workouts.<\/p>"
+          }
+        },
+        "text_QmLxRb": {
+          "type": "text",
+          "settings": {
+            "title": "Do I need a handle bar?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>A handle bar is optional but helpful for:<\/p><ul><li>Beginners<\/li><li>Balance training<\/li><li>Recovery workouts<\/li><li>Added stability during high-intensity sessions<\/li><\/ul><p>Many users start without one and add it later as needed.<\/p>"
+          }
+        },
+        "text_RRTqdd": {
+          "type": "text",
+          "settings": {
+            "title": "What warranty comes with JumpSport fitness trampolines?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Warranty coverage varies by model, but JumpSport offers strong protection on frames and elastic cord systems. Specific warranty details are listed on each product page.<\/p><p>This ensures long-term confidence in your investment.<\/p>"
+          }
+        },
+        "text_Thp7mC": {
+          "type": "text",
+          "settings": {
+            "title": "What workouts can I do on a fitness trampoline?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Fitness trampolines support:<\/p><ul><li>Low-impact cardio<\/li><li>HIIT-style interval training<\/li><li>Strength and resistance work<\/li><li>Balance and core exercises<\/li><li>Recovery and mobility sessions<\/li><\/ul><p>Many users also follow guided programs through JumpSport Fitness TV.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WzkjDb",
+        "text_J99LWc",
+        "text_qfNjAf",
+        "text_F8FmwK",
+        "text_bLCeMa",
+        "text_zTebed",
+        "text_wrXLtK",
+        "text_RWnhGa",
+        "text_QmLxRb",
+        "text_RRTqdd",
+        "text_Thp7mC"
+      ],
+      "custom_css": [
+        ".accordion__copy ul {margin-bottom: 15px;}"
+      ],
+      "name": "Accordions",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "sm",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Common Questions About Fitness Trampolines",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "list": {
+      "type": "collection-list",
+      "settings": {}
+    },
+    "custom_liquid_cer4Jd": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const discountedHandles = [\n      \"jumpsport-39-pro-fitness-trampoline\",\n\"39-essential-fitness-trampoline\",\n      \"39-premium-fitness-trampoline\"\n    ];\n\n    function applyDiscountToBoostPrices() {\n      const productItems = document.querySelectorAll(\".boost-sd__product-item\");\n\n      productItems.forEach(item => {\n        const dataProductRaw = item.getAttribute(\"data-product\");\n        if (!dataProductRaw) return;\n\n        let productData;\n        try {\n          productData = JSON.parse(dataProductRaw.replace(\/&quot;\/g, '\"'));\n        } catch (e) {\n          console.error(\"Invalid JSON in data-product\", e);\n          return;\n        }\n\n        const handle = productData?.handle;\n        const priceMin = parseFloat(productData?.priceMin);\n\n        if (!handle || !discountedHandles.includes(handle) || isNaN(priceMin)) return;\n\n        const priceSpan = item.querySelector(\".boost-sd__product-price--default .boost-sd__format-currency\");\n        if (!priceSpan || priceSpan.dataset.discountApplied === \"true\") return;\n\n        const discountedPrice = (priceMin * 0.85).toFixed(2);\n\n        \/\/ Create sale price span\n        const salePriceEl = document.createElement(\"span\");\n        salePriceEl.style.marginRight = \"6px\";\n        salePriceEl.style.color = \"black\";\n        salePriceEl.textContent = `$${discountedPrice}`;\n\n        \/\/ Create original price span\n        const originalPriceEl = document.createElement(\"span\");\n        originalPriceEl.style.textDecoration = \"line-through\";\n        originalPriceEl.style.color = \"black\";\n        originalPriceEl.textContent = `$${priceMin.toFixed(2)}`;\n\n        \/\/ Clear and inject new content\n        priceSpan.textContent = \"\";\n        priceSpan.appendChild(salePriceEl);\n        priceSpan.appendChild(originalPriceEl);\n        priceSpan.dataset.discountApplied = \"true\";\n      });\n    }\n\n    \/\/ Initial run after Boost loads products\n    setTimeout(applyDiscountToBoostPrices, 1000);\n\n    \/\/ Observe Boost re-renders\n    const observer = new MutationObserver(applyDiscountToBoostPrices);\n    observer.observe(document.body, { childList: true, subtree: true });\n  });\n<\/script>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const DISCOUNT_HANDLES = [\n      \"jumpsport-39-pro-fitness-trampoline\",\n      \"39-essential-fitness-trampoline\",\n      \"39-premium-fitness-trampoline\"\n    ];\n\n    function applySaleTags() {\n      const products = document.querySelectorAll(\".boost-sd__product-item\");\n\n      products.forEach(product => {\n        const raw = product.getAttribute(\"data-product\");\n        if (!raw) return;\n\n        let parsed;\n        try {\n          parsed = JSON.parse(raw.replace(\/&quot;\/g, '\"'));\n        } catch (e) {\n          console.error(\"Failed to parse product JSON:\", e);\n          return;\n        }\n\n        if (!parsed.handle || !DISCOUNT_HANDLES.includes(parsed.handle)) return;\n\n        \/\/ Avoid duplicate tag\n        const alreadyInjected = product.querySelector('.boost-sd__product-label--sale[data-injected=\"true\"]');\n        if (alreadyInjected) return;\n\n        const labelHTML = `\n          <div class=\"boost-sd__product-label boost-sd__product-label--text boost-sd__product-label--rounded-rectangle boost-sd__product-label--sale\" data-injected=\"true\">\n            <span class=\"boost-sd__product-label-text\"><span>15% Off<\/span><\/span>\n          <\/div>\n        `;\n\n        const target = product.querySelector(\n          \".boost-sd__product-image-column--in-top.boost-sd__product-image-column--left\"\n        );\n\n        if (target) {\n          target.insertAdjacentHTML(\"afterbegin\", labelHTML);\n        }\n      });\n    }\n\n    \/\/ Run on load and observe Boost updates\n    setTimeout(applySaleTags, 1000);\n    const observer = new MutationObserver(applySaleTags);\n    observer.observe(document.body, { childList: true, subtree: true });\n  });\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "featured_compare_CwNQC9",
+    "6e3eeed4-d71f-41e8-8aef-003f1e2853ed",
+    "product_features_zWQaWU",
+    "tab_slider_ET7EBy",
+    "compare_xBW87K",
+    "accordions_7MLxDL",
+    "list",
+    "custom_liquid_cer4Jd"
+  ]
+}

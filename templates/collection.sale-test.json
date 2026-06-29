@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "hero_xl_QRBTcJ": {
+      "type": "hero-xl",
+      "blocks": {
+        "text_wHYrKq": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-check.svg",
+            "title": "Lifetime Frame Warranty"
+          }
+        },
+        "text_mX73w6": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-money.svg",
+            "title": "Pay Over Time"
+          }
+        },
+        "text_QbP44d": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-truck.svg",
+            "title": "Free Shipping*"
+          }
+        }
+      },
+      "block_order": [
+        "text_wHYrKq",
+        "text_mX73w6",
+        "text_QbP44d"
+      ],
+      "name": "Hero - XL",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tranquil_Collection_Hero.webp",
+        "copy_align": "left",
+        "eyebrow": "Rise & Rebound",
+        "heading_level": "h1",
+        "title": "Shop PRO Fitness Trampolines | Wellness & TRUE COLORS",
+        "subtitle": "<p><\/p>",
+        "btn_url": "",
+        "btn_copy": "",
+        "link_url": "",
+        "link_copy": "",
+        "arch_color": "green"
+      }
+    },
+    "product_tiers_tLr7fh": {
+      "type": "product-tiers",
+      "blocks": {
+        "tier_HrEdGf": {
+          "type": "tier",
+          "settings": {
+            "color": "",
+            "eyebrow": "eyebrow",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "title": "TEST PRODUCT",
+            "sub_title": "sub title",
+            "copy": "<p>copy example<\/p>",
+            "disclaimer": "disclaimer",
+            "btn_url": "shopify:\/\/products\/jumpsport-39-pro-fitness-trampoline",
+            "btn_copy": "39\" PRO TRUE COLORS"
+          }
+        },
+        "tier_WDh7jb": {
+          "type": "tier",
+          "settings": {
+            "color": "",
+            "eyebrow": "eyebrow",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "title": "TEST PRODUCT",
+            "sub_title": "Sub TItle",
+            "copy": "<p>copy example<\/p>",
+            "disclaimer": "disclaimer",
+            "btn_url": "shopify:\/\/products\/44-pro-fitness-trampoline",
+            "btn_copy": "44\" PRO TRUE COLORS"
+          }
+        }
+      },
+      "block_order": [
+        "tier_HrEdGf",
+        "tier_WDh7jb"
+      ],
+      "disabled": true,
+      "name": "Product Tiers",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "1741811124fd1208be": {
+      "type": "apps",
+      "blocks": {
+        "boost_ai_search_discovery_filter_product_list_ssr_7j7CpR": {
+          "type": "shopify:\/\/apps\/boost-ai-search-filter\/blocks\/filter-product-list-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "boost_ai_search_discovery_filter_product_list_ssr_7j7CpR"
+      ],
+      "settings": {}
+    },
+    "list": {
+      "type": "collection-list",
+      "settings": {}
+    },
+    "custom_liquid_zaCr8T": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const discountedHandles = [\n      \"jumpsport-39-pro-fitness-trampoline\",\n\"39-essential-fitness-trampoline\",\n      \"39-premium-fitness-trampoline\"\n    ];\n\n    function applyDiscountToBoostPrices() {\n      const productItems = document.querySelectorAll(\".boost-sd__product-item\");\n\n      productItems.forEach(item => {\n        const dataProductRaw = item.getAttribute(\"data-product\");\n        if (!dataProductRaw) return;\n\n        let productData;\n        try {\n          productData = JSON.parse(dataProductRaw.replace(\/&quot;\/g, '\"'));\n        } catch (e) {\n          console.error(\"Invalid JSON in data-product\", e);\n          return;\n        }\n\n        const handle = productData?.handle;\n        const priceMin = parseFloat(productData?.priceMin);\n\n        if (!handle || !discountedHandles.includes(handle) || isNaN(priceMin)) return;\n\n        const priceSpan = item.querySelector(\".boost-sd__product-price--default .boost-sd__format-currency\");\n        if (!priceSpan || priceSpan.dataset.discountApplied === \"true\") return;\n\n        const discountedPrice = (priceMin * 0.85).toFixed(2);\n\n        \/\/ Create sale price span\n        const salePriceEl = document.createElement(\"span\");\n        salePriceEl.style.marginRight = \"6px\";\n        salePriceEl.style.color = \"black\";\n        salePriceEl.textContent = `$${discountedPrice}`;\n\n        \/\/ Create original price span\n        const originalPriceEl = document.createElement(\"span\");\n        originalPriceEl.style.textDecoration = \"line-through\";\n        originalPriceEl.style.color = \"black\";\n        originalPriceEl.textContent = `$${priceMin.toFixed(2)}`;\n\n        \/\/ Clear and inject new content\n        priceSpan.textContent = \"\";\n        priceSpan.appendChild(salePriceEl);\n        priceSpan.appendChild(originalPriceEl);\n        priceSpan.dataset.discountApplied = \"true\";\n      });\n    }\n\n    \/\/ Initial run after Boost loads products\n    setTimeout(applyDiscountToBoostPrices, 1000);\n\n    \/\/ Observe Boost re-renders\n    const observer = new MutationObserver(applyDiscountToBoostPrices);\n    observer.observe(document.body, { childList: true, subtree: true });\n  });\n<\/script>"
+      }
+    },
+    "collection_slider_7HNQMq": {
+      "type": "collection-slider",
+      "name": "Collection Slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Additional Discounted Items",
+        "btn_url": "shopify:\/\/collections\/sales-and-clearance",
+        "btn_copy": "Shop  Clearance",
+        "collection": "sales-and-clearance"
+      }
+    },
+    "cta_image_n9PTFV": {
+      "type": "cta-image",
+      "disabled": true,
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/39__standard_handle_lifestyle_1200x1200_2dd5e75c-a36e-47f6-a33a-724984e9239a.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Clearance Items Available Now",
+        "copy": "<p>Get them before they're gone!<\/p>",
+        "btn_url": "shopify:\/\/collections\/sales-and-clearance",
+        "btn_copy": "Shop Clearance"
+      }
+    },
+    "cta_image_Er6LXL": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "md",
+        "padding_top-mobile": "lg",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/JFT-Elevate-girl-doodip-1200x.jpg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Unlock $25 Off Your First Fitness Purchase",
+        "copy": "<p>Shop Now and Save Big on Your Favorite Items.<br\/>Hurry, Limited Stock!<\/p><p><em>(Offer valid for new subscribers only)<\/em><\/p>",
+        "btn_url": "https:\/\/jumpsport.attn.tv\/p\/7mk\/landing-page",
+        "btn_copy": "See Offer"
+      }
+    }
+  },
+  "order": [
+    "hero_xl_QRBTcJ",
+    "product_tiers_tLr7fh",
+    "1741811124fd1208be",
+    "list",
+    "custom_liquid_zaCr8T",
+    "collection_slider_7HNQMq",
+    "cta_image_n9PTFV",
+    "cta_image_Er6LXL"
+  ]
+}

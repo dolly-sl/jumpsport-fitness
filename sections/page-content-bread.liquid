@@ -1,0 +1,593 @@
+<section class="page page--default">
+  <div class="container">
+    <div class="page__heading text-center">
+      <h1>
+        {{ page.title }}
+      </h1>
+    </div>
+    <div class="page__content">
+      <script src="https://connect-preview.breadpayments.com/financing-sdk.js"></script>
+      <script src="https://connect-preview.breadpayments.com/sdk.js"></script>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+        :root {
+          --font-primary: #13294b;
+          --font-secondary: #1c8195;
+          --primary: #13294b;
+          --secondary: #1c8195;
+          --tertiary: #f4f5f5;
+          --highlight: #fafafa;
+          --white: #fff;
+          --border: #d0d3d4;
+          --font-family: Poppins, sans-serif;
+
+          --text-sm-size: 0.875rem;
+          --text-sm-line-height: 1.3rem;
+          --text-xl-size: 1.25rem;
+          --text-xl-line-height: 1.75rem;
+
+          --text-2xl-size: 1.5rem;
+          --text-2xl-line-height: 2rem;
+
+          --text-3xl-size: 2.25rem;
+          --text-3xl-line-height: 2.5rem;
+
+          --text-4xl-size: 3.375rem;
+          --text-4xl-line-height: 4rem;
+          --font-bold: 700;
+        }
+
+        *,
+        ::after,
+        ::before {
+          box-sizing: border-box;
+          border-width: 0;
+          margin: 0;
+        }
+
+        img,
+        svg {
+          display: block;
+          max-width: 100%;
+        }
+
+        button {
+          font: inherit;
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          overflow-wrap: break-word;
+        }
+
+        body {
+          -webkit-font-smoothing: antialiased;
+          color: var(--font-primary);
+          font-family: var(--font-family);
+          line-height: 1.5;
+          font-size: 1rem;
+        }
+
+        /* Components */
+        .bread-button-primary {
+          background-color: var(--secondary);
+          padding: 0.75rem 2.5rem 0.75rem 2.5rem;
+          color: var(--white);
+          border-radius: 9999px;
+          width: 100%;
+          max-width: 360px;
+          font-weight: var(--font-bold);
+          cursor: pointer;
+        }
+
+        /* Components */
+        .bread-link-button {
+          background-color: var(--white);
+          padding: 0.75rem 2.5rem 0.75rem 2.5rem;
+          color: var(--font-secondary);
+          border-radius: 9999px;
+          border: 2px solid var(--secondary);
+          font-weight: var(--font-bold);
+          text-decoration: none;
+        }
+
+        /* Layout */
+        /* Header */
+        .bread-header {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-bottom: 3rem;
+        }
+
+        .bread-header .bread-title {
+          padding: 1rem 1rem 2rem 1rem;
+          margin-top: 2.5rem;
+        }
+
+        .bread-header .bread-hero {
+          width: 100%;
+        }
+
+        .bread-header .bread-title h1 {
+          font-size: var(--text-4xl-size);
+          line-height: var(--text-4xl-line-height);
+          font-weight: var(--font-bold);
+          margin-bottom: 1.5rem;
+        }
+
+        .bread-header .bread-title p {
+          font-size: var(--text-xl-size);
+          line-height: var(--text-xl-line-height);
+          text-align: left;
+          margin-bottom: 1.5rem;
+        }
+
+        .bread-header .bread-title .bread-title-cta {
+          text-align: center;
+        }
+
+        /* Payment plans */
+        .bread-payment-plans {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin-bottom: 1.5rem;
+        }
+
+        .bread-payment-plans .payment-plan h1 {
+          font-size: var(--text-3xl-size);
+          line-height: var(--text-3xl-line-height);
+          font-weight: var(--font-bold);
+          margin-bottom: 0.5rem;
+        }
+
+        .bread-payment-plans .payment-plan p {
+          font-size: var(--text-xl-size);
+          line-height: var(--text-xl-line-height);
+        }
+
+        /* Loan terms */
+        .bread-loan-terms {
+          display: flex;
+          flex-direction: column;
+          gap: 3rem;
+          justify-content: center;
+          width: 100%;
+          padding: 0 2rem 0 2rem;
+          margin-bottom: 2.5rem;
+        }
+
+        .bread-loan-terms .bread-terms-section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+        }
+
+        .bread-loan-terms .bread-terms-section .bread-terms-icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 9999px;
+          background-color: var(--tertiary);
+          width: 9rem;
+          height: 9rem;
+          margin-bottom: 1rem;
+        }
+
+        .bread-loan-terms .bread-terms-section .bread-terms-icon svg {
+          fill: var(--primary);
+        }
+
+        .bread-loan-terms .bread-terms-section .bread-terms-content {
+          text-align: center;
+        }
+
+        .bread-loan-terms .bread-terms-section .bread-terms-content h2 {
+          font-size: var(--text-2xl-size);
+          line-height: var(--text-2xl-line-height);
+          font-weight: var(--font-bold);
+          margin-bottom: 0.5rem;
+        }
+
+        .bread-get-your-rate {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2rem;
+        }
+
+        .bread-financing-made-easy {
+          width: 100%;
+          background-color: var(--tertiary);
+        }
+
+        .bread-financing-made-easy .bread-financing-made-easy-content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 3rem 1rem 3rem 1rem;
+        }
+
+        .bread-financing-made-easy .bread-financing-made-easy-content h1 {
+          font-size: var(--text-4xl-size);
+          line-height: var(--text-4xl-line-height);
+          text-align: center;
+          font-weight: var(--font-bold);
+          margin-bottom: 1.5rem;
+        }
+
+        .bread-financing-made-easy .bread-financing-made-easy-content .bread-financing-made-easy-items {
+          display: flex;
+          flex-direction: column;
+          row-gap: 1.5rem;
+        }
+
+        .bread-financing-made-easy
+          .bread-financing-made-easy-content
+          .bread-financing-made-easy-items
+          .bread-financing-made-easy-item {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          border-radius: 1.5rem;
+          padding: 2.5rem;
+        }
+
+        .bread-financing-made-easy
+          .bread-financing-made-easy-content
+          .bread-financing-made-easy-items
+          .bread-financing-made-easy-item
+          h2 {
+          font-size: var(--text-4xl-size);
+          line-height: var(--text-4xl-line-height);
+          text-align: left;
+          font-weight: var(--font-bold);
+          margin-bottom: 1.5rem;
+        }
+
+        .bread-financing-made-easy
+          .bread-financing-made-easy-content
+          .bread-financing-made-easy-items
+          .bread-financing-made-easy-item
+          p.step-subtext {
+          font-weight: var(--font-bold);
+          margin-bottom: 0.5rem;
+        }
+
+        .bread-financing-made-easy
+          .bread-financing-made-easy-content
+          .bread-financing-made-easy-items
+          .bread-financing-step-one {
+          color: var(--white);
+          background-color: var(--primary);
+        }
+
+        .bread-financing-made-easy
+          .bread-financing-made-easy-content
+          .bread-financing-made-easy-items
+          .bread-financing-step-two {
+          color: var(--white);
+          background-color: var(--secondary);
+        }
+
+        .bread-financing-made-easy
+          .bread-financing-made-easy-content
+          .bread-financing-made-easy-items
+          .bread-financing-step-three {
+          background-color: var(--white);
+          border: 2px solid var(--border);
+        }
+
+        /* Questions */
+        .bread-questions {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: var(--highlight);
+          gap: 2rem;
+          padding: 1.5rem 0 1.5rem 0;
+          margin-bottom: 2rem;
+        }
+
+        .bread-questions h2 {
+          font-size: var(--text-2xl-size);
+          line-height: var(--text-2xl-line-height);
+          font-weight: var(--font-bold);
+        }
+
+        /* Disclosures */
+        .bread-disclosures {
+          font-size: var(--text-sm-size);
+          line-height: var(--text-sm-line-height);
+          text-align: left;
+          padding: 2rem 1rem 2rem 1rem;
+        }
+
+        .bread-disclosures p {
+          margin-bottom: 1rem;
+        }
+
+        .bread-footer {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2rem;
+        }
+
+        /* Medium */
+        @media (min-width: 768px) {
+          /* Header */
+          .bread-header {
+            flex-direction: row;
+            justify-content: start;
+            column-gap: 2rem;
+            margin-bottom: 0;
+          }
+
+          .bread-header .bread-title {
+            order: 2;
+            margin-top: 2.5rem;
+            max-width: 56rem;
+          }
+
+          .bread-header .bread-title .bread-title-cta {
+            text-align: left;
+          }
+
+          .bread-header .bread-hero {
+            order: 1;
+            max-width: 600px;
+            min-width: 400px;
+          }
+
+          /* Payment plans */
+          .bread-payment-plans .payment-plan h1 {
+            font-size: var(--text-4xl-size);
+            line-height: var(--text-4xl-line-height);
+          }
+
+          /* Loan terms */
+          .bread-loan-terms {
+            flex-direction: row;
+          }
+
+          .bread-loan-terms .bread-terms-section {
+            max-width: 360px;
+          }
+
+          /* Financing made easy */
+          .bread-financing-made-easy .bread-financing-made-easy-content .bread-financing-made-easy-items {
+            display: flex;
+            flex-direction: row;
+            column-gap: normal;
+          }
+
+          .bread-financing-made-easy
+            .bread-financing-made-easy-content
+            .bread-financing-made-easy-items
+            .bread-financing-made-easy-item {
+            width: 33.333333%;
+            max-width: 360px;
+          }
+
+          .bread-financing-made-easy
+            .bread-financing-made-easy-content
+            .bread-financing-made-easy-items
+            .bread-financing-step-one {
+            border-radius: 0;
+            border-top-left-radius: 1.5rem;
+            border-bottom-left-radius: 1.5rem;
+          }
+
+          .bread-financing-made-easy
+            .bread-financing-made-easy-content
+            .bread-financing-made-easy-items
+            .bread-financing-step-two {
+            border-radius: 0;
+          }
+
+          .bread-financing-made-easy
+            .bread-financing-made-easy-content
+            .bread-financing-made-easy-items
+            .bread-financing-step-three {
+            border-radius: 0;
+            border-top-right-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+          }
+
+          .bread-disclosures {
+            padding: 1rem 5rem 1rem 5rem;
+          }
+
+          .bread-questions {
+            flex-direction: row;
+          }
+
+          .bread-button-primary {
+            width: fit-content;
+          }
+        }
+      </style>
+
+      <!-- Header -->
+      <div class="bread-header">
+        <div class="bread-title">
+          <h1>Pay over time</h1>
+          <p>
+            We&apos;ve partnered with <strong>Bread Pay&trade;</strong> so you can buy what you want now and pay later
+            at a pace that works for you.
+          </p>
+          <div class="bread-title-cta">
+            <button
+              type="button"
+              class="bread-button-primary"
+              id="pre-qualify-button"
+            >
+              See if you prequalify
+            </button>
+          </div>
+        </div>
+        <div class="bread-hero bread-w-full">
+          <img
+            class=""
+            src="https://assets.platform.breadpayments.com/dynamic-financing/headline.png"
+            alt="Pay over time"
+          >
+        </div>
+      </div>
+
+      <!-- Payment plans -->
+      <div class="bread-payment-plans">
+        <div class="payment-plan" id="payment-plan"></div>
+      </div>
+
+      <!-- Loan terms -->
+      <div class="bread-loan-terms">
+        <div class="bread-terms-section">
+          <div class="bread-terms-icon">
+            <object
+              type="image/svg+xml"
+              data="https://assets.platform.breadpayments.com/dynamic-financing/simple-application-icon.svg"
+            ></object>
+          </div>
+
+          <div class="bread-terms-content">
+            <h2>Simple application</h2>
+            <p>Get a decision in seconds without affecting your credit score.</p>
+          </div>
+        </div>
+
+        <div class="bread-terms-section">
+          <div class="bread-terms-icon">
+            <object
+              type="image/svg+xml"
+              data="https://assets.platform.breadpayments.com/dynamic-financing/pricing-icon.svg"
+            ></object>
+          </div>
+
+          <div class="bread-terms-content">
+            <h2>Straightforward pricing</h2>
+            <p>What you see is what you get. No hidden fees, prepayment penalties or compound interest.</p>
+          </div>
+        </div>
+
+        <div class="bread-terms-section">
+          <div class="bread-terms-icon">
+            <object
+              type="image/svg+xml"
+              data="https://assets.platform.breadpayments.com/dynamic-financing/pay-icon.svg"
+            ></object>
+          </div>
+          <div class="bread-terms-content">
+            <h2>Pay at your own pace</h2>
+            <div id="loan-terms"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bread-get-your-rate">
+        <button type="button" id="get-rate-button" class="bread-button-primary">Get your rate</button>
+      </div>
+
+      <!-- Financing made easy -->
+      <div class="bread-financing-made-easy">
+        <div class="bread-financing-made-easy-content">
+          <h1>Financing made easy</h1>
+          <div class="bread-financing-made-easy-items">
+            <div class="bread-financing-made-easy-item bread-financing-step-one">
+              <h2>Step 1</h2>
+              <p class="step-subtext">Shop our website</p>
+              <p>
+                Add items to your cart. Choose Bread Pay&trade; and get a real-time decision without affecting your
+                credit score.
+              </p>
+            </div>
+
+            <div class="bread-financing-made-easy-item bread-financing-step-two">
+              <h2>Step 2</h2>
+              <p class="step-subtext">Select your plan</p>
+              <p>Pick the option that works for your budget.</p>
+            </div>
+
+            <div
+              class="bread-financing-made-easy-item bread-financing-step-three"
+            >
+              <h2>Step 3</h2>
+              <p class="step-subtext">Complete your purchase</p>
+              <p>Get your items now and pay over time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bread-placement"></div>
+
+      <!-- Questions -->
+      <div class="bread-questions">
+        <h2 class="">Still have questions?</h2>
+        <a
+          target="_blank"
+          class="bread-link-button"
+          href="https://www.breadfinancial.com/en/help-center.html"
+          >Help center</a
+        >
+      </div>
+
+      <!-- Disclosures -->
+      <div class="bread-disclosures" id="disclosure"></div>
+
+      <!-- Footer -->
+      <div class="bread-footer">
+        <object
+          type="image/svg+xml"
+          data="https://assets.platform.breadpayments.com/dynamic-financing/bread-logo.svg"
+        ></object>
+      </div>
+      <script>
+        // Financing SDK Setup
+        window.BreadFinancing.setup({
+          merchantId: 'a7f99db7-7903-47f0-8008-e89166635ad9',
+        });
+
+        window.BreadFinancing.renderToContainers({
+          paymentPlanContainerId: 'payment-plan',
+          loanTermsContainerId: 'loan-terms',
+          disclosureContainerId: 'disclosure',
+        });
+
+        // Bread SDK setup
+        var placement = {
+          allowCheckout: false,
+          domID: 'bread-placement',
+        };
+
+        BreadPayments.setup({
+          integrationKey: '9f2a8731-d66c-43dd-9427-c8329b54caad',
+          onInitialized: () => {
+            BreadPayments.registerPlacements([placement]);
+          },
+        });
+
+        BreadPayments.on('INSTALLMENT:APPLICATION_CHECKOUT', () => {});
+        BreadPayments.on('INSTALLMENT:APPLICATION_DECISIONED', () => {});
+
+        function openBreadExperience(e) {
+          e.preventDefault();
+          BreadPayments.openExperienceForPlacement([placement]);
+        }
+
+        const preQualifyButtonEl = document.getElementById('pre-qualify-button');
+        const getRateButtonEl = document.getElementById('get-rate-button');
+
+        preQualifyButtonEl.addEventListener('click', openBreadExperience);
+        getRateButtonEl.addEventListener('click', openBreadExperience);
+      </script>
+    </div>
+  </div>
+</section>

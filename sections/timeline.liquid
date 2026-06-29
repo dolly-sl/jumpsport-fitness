@@ -1,0 +1,285 @@
+<section
+  class="timeline section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+  id="timeline--{{ section.id }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  <div class="timeline__wrap timeline__wrap--desktop">
+    <div class="timeline__bg"></div>
+    {% comment %} <img src="{{ 'timeline-bg.svg' | asset_url }}" alt="" class="timeline__bg"> {% endcomment %}
+    <div class="container container--xl">
+      <div class="timeline__slider swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide__inner d-flex">
+              {% for block in section.blocks %}
+                <div class="event">
+                  <div class="event__inner">
+                    <h2 class="heading--six d-flex align-center">
+                      {{ block.settings.year }}
+                    </h2>
+                    <span class="heading">
+                      {{ block.settings.title }}
+                    </span>
+                    <div class="copy">
+                      {{ block.settings.copy }}
+                    </div>
+                  </div>
+                </div>
+                {% assign mod = forloop.index | modulo: 5 %}
+                {% if mod == 0 %}
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-slide__inner d-flex">
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline__mobile">
+        {% for block in section.blocks %}
+          <div class="event">
+            <div class="event__inner">
+              <h2 class="heading--six d-flex align-center">
+                {{ block.settings.year }}
+              </h2>
+              <span class="heading">
+                {{ block.settings.title }}
+              </span>
+              <div class="copy">
+                {{ block.settings.copy }}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      {% render 'swiper-nav', color: section.settings.background %}
+    </div>
+  </div>
+</section>
+
+<script>
+  const timelineSlider = new Swiper('#timeline--{{ section.id }} .swiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    navigation: {
+      nextEl: '#timeline--{{ section.id }} .swiper__nav .arrow--right',
+      prevEl: '#timeline--{{ section.id }} .swiper__nav .arrow--left',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 1,
+        centeredSlides: false,
+      },
+    },
+  });
+</script>
+
+{% if section.settings['padding_bottom-mobile'] == 'never-going-to-hit'
+  or section.settings['padding_top-mobile'] == 'never-going-to-hit'
+%}
+  <style>
+    @media(max-width: 768px) {
+      #timeline--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top-mobile }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom-mobile }}px !important;
+      }
+    }
+  </style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Timeline",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "padding_top",
+      "type": "select",
+      "label": "Padding Top",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom",
+      "type": "select",
+      "label": "Padding Bottom",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_top-mobile",
+      "type": "select",
+      "label": "Padding Top - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom-mobile",
+      "type": "select",
+      "label": "Padding Bottom - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "event",
+      "name": "Event",
+      "settings": [
+        {
+          "id": "year",
+          "type": "text",
+          "label": "Year"
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "id": "copy",
+          "type": "richtext",
+          "label": "Copy"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Timeline"
+    }
+  ]
+}
+{% endschema %}

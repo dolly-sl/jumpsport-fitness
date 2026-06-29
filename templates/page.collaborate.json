@@ -1,0 +1,132 @@
+{
+  "sections": {
+    "page": {
+      "type": "page-content",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "cta_heading_96mp9y": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h1",
+        "heading_level_display": "",
+        "title": "Collaborate With Us",
+        "copy": "<p>Are you a fitness studio that incorporates JumpSport Fitness Trampolines into your workouts? Let’s work together! We love partnering with studios that share our passion for dynamic, low-impact, and results-driven fitness. Whether you want to collaborate on social media, earn commissions through our affiliate program, or become a Premier Partner, we offer multiple ways to connect.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "sxs_zDPkkw": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_9eXFEa": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/miami_dolphins_event.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Social Media Collaborations",
+            "copy": "<p>We’re always looking for inspiring fitness influencers or clubs to connect with!  If you use JumpSport Fitness Trampolines (or you'd like to), let’s showcase your workouts and help grow the bounce community. Share your story, be featured on our channels, and inspire more people to bounce into better health.<\/p><ul><li>Get featured on our social media & website<\/li><li>Co-create content with JumpSport<\/li><li>Reach new fitness enthusiasts<\/li><\/ul><p><strong>DM us on <\/strong><a href=\"https:\/\/instagram.com\/jumpsportfitness\"><span style=\"text-decoration:underline\"><strong>Instagram<\/strong><\/span><\/a><strong> or <\/strong><a href=\"https:\/\/www.tiktok.com\/@jumpsportfitness\"><span style=\"text-decoration:underline\"><strong>TikTok<\/strong><\/span><\/a><strong> to get started<\/strong><\/p>",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "sxs_KJGAbt": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/940x940_collaborate.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "JumpSport Affiliate Program",
+            "copy": "<p>Want to earn commissions while sharing your love for JumpSport? Join our affiliate program and get rewarded for every sale you generate. Perfect for studios, instructors, and fitness influencers!<\/p><ul><li>Earn commission on every qualified referral—with room to grow<\/li><li>Access to exclusive promotions and partner-only opportunities<\/li><li>Track your performance with a personalized affiliate dashboard<\/li><li>Custom referral links for a seamless customer experience<\/li><\/ul><p><strong>Our affiliate program is curated and subject to approval.<\/strong><br\/><br\/>Submit an application to be considered and if approved, you'll receive a private invitation to join!<\/p>",
+            "btn_url": "https:\/\/www.jumpsport.com\/pages\/collab",
+            "btn_copy": "Sign Up for the Affiliate Program"
+          }
+        },
+        "sxs_fkTxiD": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radical_Rebounding_940x940_1b28d855-3a66-4451-9cb6-ff2e93f4e6a3.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Become a JumpSport Premier Partner",
+            "copy": "<p>Take your studio partnership to the next level! Our <strong>Premier Partner Program<\/strong> is designed for studios that want to build a deeper connection with JumpSport, gain VIP support, and unlock exclusive benefits.<\/p><ul><li>Special collaborations and free products for giveaways<\/li><li>Early access to new products & training materials<\/li><li>Studio spotlight features on our website & social channels<\/li><\/ul>",
+            "btn_url": "shopify:\/\/pages\/become-a-premier-partner-jumpsport",
+            "btn_copy": "Apply to Be a Premier Partner"
+          }
+        },
+        "sxs_r3DHMr": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/high-res-image.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Host An Exclusive Podcast Interview With Mr. Bouncer",
+            "copy": "<p>Looking for a dynamic guest to share expert fitness insights? Book a podcast interview with Steve Carver (aka Mr. Bouncer)—JumpSport Master Trainer and Director of Business & Product Development. With over 30 years in the fitness industry, Steve brings a wealth of experience in training, product innovation, and the power of rebounding.<\/p><ul><li>Expert insights on rebounding & fitness trends<\/li><li>The science behind low-impact, high-intensity workouts<\/li><li>How JumpSport is revolutionizing studio fitness<\/li><\/ul>",
+            "btn_url": "shopify:\/\/pages\/connect-with-our-team-contact-jumpsport",
+            "btn_copy": "Request a Podcast Interview"
+          }
+        }
+      },
+      "block_order": [
+        "sxs_9eXFEa",
+        "sxs_KJGAbt",
+        "sxs_fkTxiD",
+        "sxs_r3DHMr"
+      ],
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "width": false
+      }
+    },
+    "cta_heading_M3gW6b": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": false,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Let’s Jump Higher Together!",
+        "copy": "<p>Whether you’re looking to share your workouts, grow your business, or take advantage of exclusive perks, we’re excited to collaborate with you. Pick the best opportunity for your studio and let’s make rebounding bigger than ever!<\/p>",
+        "btn_url": "https:\/\/jumpsport.com\/pages\/connect-with-our-team-contact-jumpsport",
+        "btn_copy": "Connect With Our Team"
+      }
+    }
+  },
+  "order": [
+    "page",
+    "cta_heading_96mp9y",
+    "sxs_zDPkkw",
+    "cta_heading_M3gW6b"
+  ]
+}

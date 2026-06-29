@@ -1,0 +1,344 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-xl",
+      "blocks": {
+        "text_UcT7Bp": {
+          "type": "text",
+          "settings": {
+            "title": "CARDIO, BARRE, HIIT, STRENGTH TRAINING, BALANCE"
+          }
+        }
+      },
+      "block_order": [
+        "text_UcT7Bp"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/strength_training_kit.jpg",
+        "copy_align": "center",
+        "eyebrow": "Fun and Effective Workouts for Full-Body Fitness",
+        "heading_level": "h1",
+        "title": "Mini Trampoline Exercises",
+        "btn_url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts",
+        "btn_copy": "Get Free Access",
+        "link_url": "",
+        "link_copy": "",
+        "arch_color": "orange"
+      }
+    },
+    "cta_heading_c74jnY": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Discover Why Mini Trampoline Exercises Are the Ultimate Workout",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "sxs_Py8T9x": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_3AVEXt": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-alternate_raw_BTC-jsf-210525-3069__96087.1669756242.1280.1280.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Best Trampoline Exercises For Adults",
+            "copy": "<ul><li><strong>Health Bounce<\/strong>: Beginner trampoline classes can start with a health bounce and are accessible to any fitness level and body type and can be tailored to any tempo<\/li><li><strong>Bounce Cardio<\/strong>: From dance routines to tabata intervals, reach your VO2 Max quicker and with less effort<\/li><li><strong>Enhanced Barre<\/strong>: Take barre moves to a new level on an unstable surface and add low-impact cardio<\/li><li><strong>Low-Impact HIIT<\/strong>: Get all of the high intensity benefits, while protecting your joints with low-impact exercise<\/li><li><strong>Total-Body Sculpting<\/strong>: Add weights, bands, or tone muscle with total-body workouts that go beyond bouncing<\/li><li><strong>Balance & Mobility<\/strong>: Improve your stability and coordination with exercises that challenge your balance on a trampoline, while also enhancing your mobility and flexibility<\/li><\/ul>",
+            "btn_url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts",
+            "btn_copy": "Explore JumpSport Fitness TV"
+          }
+        }
+      },
+      "block_order": [
+        "sxs_3AVEXt"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "width": true
+      }
+    },
+    "cta_heading_Yk7Vjh": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Beginner Trampoline Exercises",
+        "copy": "<p>Entering into a new fitness routine isn’t always easy. Thankfully, trampolines offer variable intensity fitness programming for any age, skill level, or body type. We recommend you start off slow and ease your way into more advanced workouts. <\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "instagram_embed_JQPRGL": {
+      "type": "instagram-embed",
+      "blocks": {
+        "embed_xdyBMj": {
+          "type": "embed",
+          "settings": {
+            "embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/DcJrcm9BO_A?si=p0S1vywrZLiNoYAl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "title": "29 Minute JumpSport Introductory Workout",
+            "heading_level": "div",
+            "url": ""
+          }
+        },
+        "embed_beJLfc": {
+          "type": "embed",
+          "settings": {
+            "embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/-D2-faIgnWw?si=xzvqFXarAP91Y9Dt\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "title": "10 Minute Beginner Workout From Earth & Owl",
+            "heading_level": "div",
+            "url": ""
+          }
+        },
+        "embed_Am69Gk": {
+          "type": "embed",
+          "settings": {
+            "embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/XZqGahCc9PY?si=R6rLhn7jqX2Lp038\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "title": "30 Minute NO BOUNCING Mobility & Balance Beginner Workout",
+            "heading_level": "div",
+            "url": ""
+          }
+        },
+        "embed_immYAp": {
+          "type": "embed",
+          "settings": {
+            "embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/-YPViqieZQI?si=35Iow1vAQ0Wp1OhK\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "title": "10 Minute Beginner Bounce Workout",
+            "heading_level": "div",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "embed_xdyBMj",
+        "embed_beJLfc",
+        "embed_Am69Gk",
+        "embed_immYAp"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "white",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "cta_heading_AfYpq9": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Next Level Trampoline Exercises",
+        "copy": "<p>Ready to take your trampoline workouts to new heights? Intermediate and advanced trampoline exercises are designed to challenge your strength, endurance, and coordination. Advanced trampoline exercises often include high-intensity interval training (HIIT), complex jumping sequences, and strength moves that engage multiple muscle groups. These workouts are perfect for those looking to push their limits and achieve new fitness goals. Let’s dive into these routines and elevate your trampoline fitness journey!<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "instagram_embed_zwdX3F": {
+      "type": "instagram-embed",
+      "blocks": {
+        "embed_TfCJkp": {
+          "type": "embed",
+          "settings": {
+            "embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/31Yvqr43-7w?si=PGon-PfjhuKu4qlD\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "title": "25 Minute Intermediate Cardio Class From Michelle Briehler",
+            "heading_level": "div",
+            "url": "https:\/\/www.youtube.com\/watch?v=31Yvqr43-7w"
+          }
+        },
+        "embed_deqgyT": {
+          "type": "embed",
+          "settings": {
+            "embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/mCuxRpf5_js?si=I-crxQ2h8ZII_cvX\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "title": "35 Minute Resistance Band Intermediate Class",
+            "heading_level": "div",
+            "url": "https:\/\/www.youtube.com\/watch?v=mCuxRpf5_js"
+          }
+        },
+        "embed_WhPBHp": {
+          "type": "embed",
+          "settings": {
+            "embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/VJecC8SOFyE?si=d-9k0BWmizIlIAjS&amp;start=166\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "title": "30 Minute Intermediate Handle Bar Workout with Perspirology",
+            "heading_level": "div",
+            "url": ""
+          }
+        },
+        "embed_VMez7n": {
+          "type": "embed",
+          "settings": {
+            "embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/iHafnTY8L-0?si=dhtJ-Q59r4nvbLLC&amp;start=182\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+            "title": "35 Minute Advanced Cardio with JumpIt Online",
+            "heading_level": "div",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "embed_TfCJkp",
+        "embed_deqgyT",
+        "embed_WhPBHp",
+        "embed_VMez7n"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "cta_heading_6LPkcq": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Discover More Trampoline Exercises On JumpSport Fitness TV",
+        "copy": "<p>Interested in more? <strong>JumpSport Fitness TV<\/strong> is home to over 200 on demand video workouts. Choose from Cardio, Barre, Dance, HIIT, Strength Training and more — discover workouts that interest you, or try something new, all on your fitness trampoline.<\/p>",
+        "btn_url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts",
+        "btn_copy": "Start A Free Trial"
+      }
+    },
+    "accordions_LMVUCh": {
+      "type": "accordions",
+      "blocks": {
+        "text_QwrE7C": {
+          "type": "text",
+          "settings": {
+            "title": "What muscles do trampoline exercises work?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Trampoline exercises engage every cell in your body. Primarily they work the leg muscles, including the quadriceps, hamstrings, and calves. They also engage the core muscles for stability and balance, and can help tone the glutes and lower back. Additionally, some upper body muscles, like the arms and shoulders, are activated when doing raised arm movements.<\/p>"
+          }
+        },
+        "text_Cd4jPd": {
+          "type": "text",
+          "settings": {
+            "title": "How do you exercise on a trampoline safely and effectively?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Trampoline exercises are generally safe if done correctly and on a well-maintained trampoline. However, like any physical activity, they carry some risk of injury. To exercise safely and effectively on a trampoline, <\/p><ol><li>Consult your physician and work with a fitness professional who has experience training with rebounders to ensure the safest use of your trampoline<\/li><li>Ensure your trampoline is in good condition<\/li><li>Always warm up before starting<\/li><li>Use a handle bar for added stability<\/li><li>Use controlled movements and progressively add difficulty as you get more comfortable<\/li><\/ol><p>Video workouts from verified professionals, like those featured on JumpSport Fitness TV, when followed properly can provide you with a safe and effective workout. <\/p>"
+          }
+        },
+        "text_g3gDd6": {
+          "type": "text",
+          "settings": {
+            "title": "What are some common rebounding exercise moves?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<ol><li><strong>Health Bounce<\/strong>: Press down without your feet leaving the mat. Add step variations for an easy <\/li><li><strong>Marching<\/strong>: This is a great warm-up move. Stand upright in the center of the trampoline and march in place, lifting your knees high.<\/li><li><strong>Basic Bounce<\/strong>: Keeping your head level, not moving up and down, press down into the mat and lift your knees and feet up. Focus on hinging at the hips and knees while keeping your upper body stable.<\/li><li><strong>Single-Leg Bounces<\/strong>: Bounce on one leg at a time to improve balance and coordination.<\/li><li><strong>High Knees<\/strong>: Jog in place while lifting your knees as high as possible.<\/li><li><strong>In-and-Out Jumps<\/strong>: Jump your feet out wide and then back together, similar to a jumping jack.<\/li><li><strong>Torso Twists<\/strong>: Twist your torso from side to side while bouncing to engage your core.<\/li><li><strong>Squats<\/strong>: Perform squats on the rebounder to work your legs and glutes.<\/li><li><strong>Jump Squats<\/strong>: Add a jump to your squats for an extra challenge.<\/li><\/ol>"
+          }
+        },
+        "text_48xjC6": {
+          "type": "text",
+          "settings": {
+            "title": "What is the best trampoline for exercise?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Simply put, any JumpSport Fitness Trampoline is far superior to all other mini trampolines on the market. No other brand offers patented arched legs and adjustable tension elastic cords. No other brand is designed for hundreds of bounce hours and to withstand the rigors of commercial use. Learn more about what makes JumpSport different.Answer?<\/p>"
+          }
+        },
+        "text_3PJnnH": {
+          "type": "text",
+          "settings": {
+            "title": "Can children benefit from trampoline exercises?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Yes, children can benefit greatly from trampoline exercises. These activities help improve their balance, coordination, and motor skills. Additionally, trampolining supports cardiovascular health, strengthens muscles, and can enhance their overall physical fitness. It's also a fun way for kids to stay active and develop a love for exercise.<\/p>"
+          }
+        },
+        "text_XWK3pt": {
+          "type": "text",
+          "settings": {
+            "title": "Can adults over 60 years old benefit from trampoline exercises?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Yes, adults over 60 years old can absolutely benefit from trampoline exercises! Rebounding is a low-impact workout that’s gentle on the joints while providing significant health benefits. It can help improve balance, coordination, and bone density, as well as support cardiovascular health and lymphatic drainage. Many older adults find trampoline exercises to be an enjoyable and effective way to stay active and maintain mobility.<\/p><p>To learn more about tailored exercises for this age group, check out our <strong>Active Ager's Exercise page<\/strong>, where we highlight safe and effective routines designed specifically for older adults.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_QwrE7C",
+        "text_Cd4jPd",
+        "text_g3gDd6",
+        "text_48xjC6",
+        "text_3PJnnH",
+        "text_XWK3pt"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "FAQs About Trampoline Exercises",
+        "btn_url": "#",
+        "btn_copy": ""
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "cta_heading_c74jnY",
+    "sxs_Py8T9x",
+    "cta_heading_Yk7Vjh",
+    "instagram_embed_JQPRGL",
+    "cta_heading_AfYpq9",
+    "instagram_embed_zwdX3F",
+    "cta_heading_6LPkcq",
+    "accordions_LMVUCh"
+  ]
+}

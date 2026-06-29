@@ -1,0 +1,192 @@
+<section class="hero hero--collection hero--{{section.settings.copy_align}}" id="hero--{{ section.id }}">
+  {% if section.settings.video != blank %}
+    {{
+      section.settings.video
+      | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: '1920x'
+    }}
+  {% else %}
+    {% if section.settings.image_mobile != blank %}
+      {% assign mobileImage = section.settings.image_mobile %}
+    {% else %}
+      {% assign mobileImage = section.settings.image %}
+    {% endif %}
+    {% if section.settings.image != blank %}
+      <img
+        class="hero__bg"
+        src="{{ section.settings.image | image_url: width: 1920, height: 450, crop: 'center' }}"
+        srcset="{{ mobileImage | image_url: width: 750, height: 1200, crop: 'center' }} 768w, {{ section.settings.image | image_url: width: 1920, height: 450, crop: 'center' }} 1920w"
+        alt="{{ section.settings.image.alt | escape }}"
+      >
+    {% endif %}
+  {% endif %}
+  <div class="hero__copy">
+    <div class="container container--xl">
+      <div class="inner align--{{ section.settings.copy_align }}">
+        <{{ section.settings.heading_level }} class="heading--two">
+          {{ section.settings.title }}
+        </{{ section.settings.heading_level }}>
+        {% if section.settings.copy != blank %}
+          <div class="hero__desc">
+            {{ section.settings.copy }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="arch-wrap">
+    <div class="arch-wrap__inner">
+      {% comment %} {% render 'hero-arch' %} {% endcomment %}
+      <img
+        src="{{ 'hero-arc-xl-' | append: section.settings.arch_color | append: '.svg' | asset_url }}"
+        alt=""
+        class="arc arc--desktop"
+      >
+      <img
+        src="{{ 'hero-arc-xl-' | append: section.settings.arch_color | append: '.svg' | asset_url }}"
+        alt=""
+        class="arc arc--mobile"
+      >
+    </div>
+  </div>
+</section>
+
+{% if section.settings.image_mobile != blank %}
+  <style>
+    #hero--{{ section.id }} .hero__bg--mobile {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+     #hero--{{ section.id }} .hero__bg--mobile {
+        display: block;
+      }
+
+      #hero--{{ section.id }} .hero__bg--desktop {
+        display: none;
+      }
+    }
+  </style>
+{% endif %}
+
+<script>
+  jQuery(document).ready(function ($) {
+    $('#hero--{{ section.id }} select').on('change', function () {
+      var val = $(this).val();
+
+      window.location = val;
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Hero - Default",
+  "settings": [
+    {
+      "id": "video",
+      "type": "video",
+      "label": "Video"
+    },
+    {
+      "id": "image",
+      "type": "image_picker",
+      "label": "Background",
+      "info": "Dimensions: 1920 x 450px"
+    },
+    {
+      "id": "image_mobile",
+      "type": "image_picker",
+      "label": "Background - Mobile",
+      "info": "Dimensions: 750 x 1200px"
+    },
+    {
+      "type": "select",
+      "id": "copy_align",
+      "label": "Copy alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "heading_level",
+      "label": "Heading Level",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h1"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    },
+    {
+      "id": "copy",
+      "type": "richtext",
+      "label": "Copy"
+    },
+    {
+      "type": "select",
+      "id": "arch_color",
+      "label": "Arch Color",
+      "options": [
+        {
+          "value": "green",
+          "label": "Green"
+        },
+        {
+          "value": "orange",
+          "label": "Orange"
+        },
+        {
+          "value": "pink",
+          "label": "Pink"
+        }
+      ],
+      "default": "green"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Hero - Default"
+    }
+  ]
+}
+{% endschema %}

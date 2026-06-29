@@ -1,0 +1,160 @@
+<section
+  class="product-slider product-slider--cart section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+  id="product-slider--{{ section.id }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  <div class="container">
+    <div class="cart-wrap">
+      <div class="product-slider__heading d-flex align-center justify-between">
+        <h2 class="scheme-color">
+          {{ section.settings.title }}
+        </h2>
+        <div class="actions">
+          {% if section.settings.btn_url and section.settings.btn_copy %}
+            <a href="{{ section.settings.btn_url }}" class="btn btn--solid btn--arrow">
+              {{ section.settings.btn_copy }}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+
+      <div id="recommended-products-container">
+        <div class="swiper">
+          <div class="swiper-wrapper"></div>
+        </div>
+      </div>
+      {% render 'swiper-nav', color: section.settings.background %}
+    </div>
+  </div>
+</section>
+
+<script>
+   document.addEventListener('DOMContentLoaded', function () {
+      fetch('/cart.js')
+        .then((response) => response.json())
+        .then((cart) => {
+          let productHandles = cart.items.map((item) => item.product_id);
+
+          // Remove duplicates
+          productHandles = [...new Set(productHandles)];
+
+          // Fetch recommendations for each unique product
+          productHandles.forEach((productId) => {
+            fetch(`/recommendations/products.json?product_id=${productId}&limit=4`)
+              .then((response) => response.json())
+              .then((data) => {
+                if (data.products.length > 0) {
+                  let recommendationsContainer = document.querySelector(
+                    '#recommended-products-container .swiper-wrapper'
+                  );
+
+                  data.products.forEach((product) => {
+                    let productHtml = `
+                    <div class="swiper-slide">
+                      <div class="card card--full">
+                        <div class="card__inner">
+                          <div class="card__image">
+                           <a href="${product.url}">
+                            <img src="${product.featured_image}&width=280&height=280&crop=center" alt="${
+                      product.title
+                    }">
+                          </a>
+                          </div>
+                          <div class="card__info">
+                            <a href="${product.url}">
+                                <h3>${product.title}</h3>
+                            </a>
+                            <div class="card__price">
+                            $${product.price / 100} 
+                            </div>
+                          </div>
+                        </div>
+                      
+                      </div>
+                    </div>
+                    
+                  `;
+                    recommendationsContainer.innerHTML += productHtml;
+                  });
+                }
+              });
+          });
+        });
+    });
+
+  const productSlider_{{ section.index }} = new Swiper('#product-slider--{{ section.id }} .swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    centeredSlides: false,
+    loop: true,
+    navigation: {
+      nextEl: '#product-slider--{{ section.id }} .swiper__nav .arrow--right',
+      prevEl: '#product-slider--{{ section.id }} .swiper__nav .arrow--left',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 4,
+        centeredSlides: false,
+      },
+    },
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Product Slider - Cart",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    },
+    {
+      "id": "btn_url",
+      "type": "url",
+      "label": "Button URL"
+    },
+    {
+      "id": "btn_copy",
+      "type": "text",
+      "label": "Button Copy"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Product Slider - Cart"
+    }
+  ]
+}
+{% endschema %}

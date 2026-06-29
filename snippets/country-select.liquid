@@ -1,0 +1,203 @@
+<section class="country-select">
+  <div class="country-select__inner">
+    <img src="{{ 'triangle-top.svg' | asset_url }}" class="tri" alt="">
+    <ul class="list-reset">
+      {% if settings.australia != blank %}
+        <li>
+          <a href="{{ settings.australia }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-australia.jpg' | asset_img_url: 'master' }}" alt="Australian Flag">
+            </span>
+            <span class="name">Australia</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.austria != blank %}
+        <li>
+          <a href="{{ settings.austria }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-austria.jpg' | asset_img_url: 'master' }}" alt="Austrian Flag">
+            </span>
+            <span class="name">Austria</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.canada != blank %}
+        <li>
+          <a href="{{ settings.canada }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-canada.jpg' | asset_img_url: 'master' }}" alt="Canada Flag">
+            </span>
+            <span class="name">Canada</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.costa_rica != blank %}
+        <li>
+          <a href="{{ settings.costa_rica }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-costa-rica.jpg' | asset_img_url: 'master' }}" alt="Costa Rican Flag">
+            </span>
+            <span class="name">Costa Rica</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.ecuador != blank %}
+        <li>
+          <a href="{{ settings.ecuador }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-ecuador.jpg' | asset_img_url: 'master' }}" alt="Ecuadorian Flag">
+            </span>
+            <span class="name">Ecuador</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.finland != blank %}
+        <li>
+          <a href="{{ settings.finland }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-finland.jpg' | asset_img_url: 'master' }}" alt="Finnish Flag">
+            </span>
+            <span class="name">Finland</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.france != blank %}
+        <li>
+          <a href="{{ settings.france }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-france.jpg' | asset_img_url: 'master' }}" alt="French Flag">
+            </span>
+            <span class="name">France</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.germany != blank %}
+        <li>
+          <a href="{{ settings.germany }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-germany.jpg' | asset_img_url: 'master' }}" alt="German Flag">
+            </span>
+            <span class="name">Germany</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.italy != blank %}
+        <li>
+          <a href="{{ settings.italy }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-italy.jpg' | asset_img_url: 'master' }}" alt="Italian Flag">
+            </span>
+            <span class="name">Italy</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.mexico != blank %}
+        <li>
+          <a href="{{ settings.mexico }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-mexico.jpg' | asset_img_url: 'master' }}" alt="Mexican Flag">
+            </span>
+            <span class="name">Mexico</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.nz != blank %}
+        <li>
+          <a href="{{ settings.nz }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-new-zealand.jpg' | asset_img_url: 'master' }}" alt="New Zealand Flag">
+            </span>
+            <span class="name">New Zealand</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.portugal != blank %}
+        <li>
+          <a href="{{ settings.portugal }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-portugal.jpg' | asset_img_url: 'master' }}" alt="Portuguese Flag">
+            </span>
+            <span class="name">Portugal</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.slovenia != blank %}
+        <li>
+          <a href="{{ settings.slovenia }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-slovenia.jpg' | asset_img_url: 'master' }}" alt="Slovenian Flag">
+            </span>
+            <span class="name">Slovenia</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.south_africa != blank %}
+        <li>
+          <a href="{{ settings.south_africa }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-south-africa.jpg' | asset_img_url: 'master' }}" alt="South African Flag">
+            </span>
+            <span class="name">South Africa</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.spain != blank %}
+        <li>
+          <a href="{{ settings.spain }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-spain.jpg' | asset_img_url: 'master' }}" alt="Spanish Flag">
+            </span>
+            <span class="name">Spain</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.uk != blank %}
+        <li>
+          <a href="{{ settings.uk }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-uk.jpg' | asset_img_url: 'master' }}" alt="United Kingdom Flag">
+            </span>
+            <span class="name">United Kingdom</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if settings.venezuala != blank %}
+        <li>
+          <a href="{{ settings.venezuala }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-venezuala.jpg' | asset_img_url: 'master' }}" alt="Venezuelan Flag">
+            </span>
+            <span class="name">Venezuela</span>
+          </a>
+        </li>
+      {% endif %}
+      {% if settings.netherlands != blank %}
+        <li>
+          <a href="{{ settings.netherlands }}" target="_blank" class="d-flex align-center">
+            <span class="flag-wrap">
+              <img src="{{ 'flag-netherlands.jpg' | asset_img_url: 'master' }}" alt="Netherlands Flag">
+            </span>
+            <span class="name">Netherlands</span>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+</section>

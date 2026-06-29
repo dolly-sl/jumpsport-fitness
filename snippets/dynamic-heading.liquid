@@ -1,0 +1,8 @@
+<{{ level }} class="heading scheme-color {{ classList }}">
+  {%- if internal != blank %}<{{ internal }}>{% endif %}
+  {{- title -}}
+  {% if internal != blank %}</{{ internal }}>{% endif -%}
+  {%- if internal != blank and alt != blank %}<{{ internal }}>{% endif %}
+  {{- alt -}}
+  {% if internal != blank and alt != blank %}</{{ internal }}>{% endif -%}
+</{{ level }}>

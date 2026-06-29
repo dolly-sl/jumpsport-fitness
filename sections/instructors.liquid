@@ -1,0 +1,487 @@
+<section
+  class="instructors section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+  id="instructors--{{ section.id }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  <div class="container">
+    <div class="instructors__heading text-center">
+      {% if section.settings.title != blank %}
+        {% render 'dynamic-heading',
+          level: section.settings.heading_level,
+          title: section.settings.title,
+          classList: section.settings.heading_level_display
+        %}
+      {% endif %}
+      {{ section.settings.copy }}
+    </div>
+    <div class="arrows-wrap">
+      <div class="instructors__list swiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <a
+                href="#"
+                data-modal="{{ block.settings.title | handleize }}--{{ forloop.index }}"
+                class="instructor d-block btn--modal"
+              >
+                <div class="instructor__image">
+                  <img
+                    loading="lazy"
+                    src="{{ block.settings.image | img_url: '265x465', crop:center }}"
+                    srcset="{{ block.settings.image | img_url: '530x930', crop:center }} 2x"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    class="image image--main"
+                  >
+                  {% if block.settings.image_hover != blank %}
+                    <img
+                      loading="lazy"
+                      src="{{ block.settings.image_hover | img_url: '265x465', crop:center }}"
+                      srcset="{{ block.settings.image_hover | img_url: '530x930', crop:center }} 2x"
+                      alt="{{ block.settings.image_hover.alt | escape }}"
+                      class="image image--hover"
+                    >
+                  {% endif %}
+                </div>
+                <div class="instructor__info">
+                  {% render 'dynamic-heading',
+                    level: block.settings.heading_level,
+                    title: block.settings.title,
+                    classList: block.settings.heading_level_display
+                  %}
+                  <span class="link scheme-color"> View Classes </span>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% render 'swiper-nav', color: section.settings.background %}
+    </div>
+  </div>
+</section>
+{% for block in section.blocks %}
+  <div class="modal modal--instructor" id="{{ block.settings.title | handleize }}--{{ forloop.index }}">
+    <div class="modal__bg"></div>
+    <div class="modal__wrap">
+      <div class="modal__inner">
+        <button class="modal--close">
+          <span class="sr-only">Close Modal</span>
+          <img src="{{ 'icon-close.svg' | asset_url }}" alt="">
+        </button>
+        <div class="instructor-block d-flex justify-between">
+          <div class="instructor-block__image">
+            <img
+              src="{{ block.settings.image | img_url: '265x465', crop:center }}"
+              srcset="{{ block.settings.image | img_url: '530x930', crop:center }} 2x"
+              alt="{{ block.settings.image.alt | escape }}"
+              class="image image--main"
+            >
+          </div>
+          <div class="instructor-block__info">
+            <h2 class="heading--three">
+              {{ block.settings.title }}
+            </h2>
+            <span class="subtitle">
+              {{ block.settings.sub_title }}
+            </span>
+            <div class="copy">
+              {{ block.settings.copy }}
+            </div>
+            {% if block.settings.url != blank %}
+              <a href="{{ block.settings.url }}" class="link"> View Profile </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+<script>
+  const productSlider = new Swiper('#instructors--{{ section.id }} .swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    centeredSlides: true,
+    loop: true,
+    navigation: {
+      nextEl: '#instructors--{{ section.id }} .swiper__nav .arrow--right',
+      prevEl: '#instructors--{{ section.id }} .swiper__nav .arrow--left',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 35,
+        centeredSlides: false,
+      },
+    },
+  });
+</script>
+
+{% if section.settings['padding_bottom-mobile'] == 'never-going-to-hit'
+  or section.settings['padding_top-mobile'] == 'never-going-to-hit'
+%}
+  <style>
+    @media(max-width: 768px) {
+      #instructors--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top-mobile }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom-mobile }}px !important;
+      }
+    }
+  </style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Instructors",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "padding_top",
+      "type": "select",
+      "label": "Padding Top",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom",
+      "type": "select",
+      "label": "Padding Bottom",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_top-mobile",
+      "type": "select",
+      "label": "Padding Top - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom-mobile",
+      "type": "select",
+      "label": "Padding Bottom - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "type": "select",
+      "id": "heading_level",
+      "label": "Heading Level",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "heading_level_display",
+      "label": "Heading Level - Display",
+      "options": [
+        {
+          "value": "",
+          "label": "Natural"
+        },
+        {
+          "value": "heading--one",
+          "label": "H1"
+        },
+        {
+          "value": "heading--two",
+          "label": "H2"
+        },
+        {
+          "value": "heading--three",
+          "label": "H3"
+        },
+        {
+          "value": "heading--four",
+          "label": "H4"
+        },
+        {
+          "value": "heading--five",
+          "label": "H5"
+        },
+        {
+          "value": "heading--six",
+          "label": "H6"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    },
+    {
+      "id": "copy",
+      "type": "richtext",
+      "label": "Copy"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Instructor",
+      "settings": [
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image",
+          "info": "Dimensions: 530 x 930px"
+        },
+        {
+          "id": "image_hover",
+          "type": "image_picker",
+          "label": "Image - Hover",
+          "info": "Dimensions: 530 x 930px"
+        },
+        {
+          "type": "select",
+          "id": "heading_level",
+          "label": "Heading Level",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h3"
+        },
+        {
+          "type": "select",
+          "id": "heading_level_display",
+          "label": "Heading Level - Display",
+          "options": [
+            {
+              "value": "",
+              "label": "Natural"
+            },
+            {
+              "value": "heading--one",
+              "label": "H1"
+            },
+            {
+              "value": "heading--two",
+              "label": "H2"
+            },
+            {
+              "value": "heading--three",
+              "label": "H3"
+            },
+            {
+              "value": "heading--four",
+              "label": "H4"
+            },
+            {
+              "value": "heading--five",
+              "label": "H5"
+            },
+            {
+              "value": "heading--six",
+              "label": "H6"
+            }
+          ],
+          "default": "heading--four"
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "label": "Name"
+        },
+        {
+          "id": "sub_title",
+          "type": "text",
+          "label": "Sub Titles"
+        },
+        {
+          "id": "copy",
+          "type": "richtext",
+          "label": "Bio"
+        },
+        {
+          "id": "url",
+          "type": "url",
+          "label": "URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Instructors"
+    }
+  ]
+}
+{% endschema %}

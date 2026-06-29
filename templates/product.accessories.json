@@ -1,0 +1,492 @@
+{
+  "sections": {
+    "pdp_buyflow": {
+      "type": "pdp-buyflow",
+      "blocks": {
+        "pdp_title_d8jacQ": {
+          "type": "pdp_title",
+          "settings": {}
+        },
+        "pdp_price_fw6hk3": {
+          "type": "pdp_price",
+          "settings": {
+            "byline": "Starting at"
+          }
+        },
+        "pdp_intro_gJcDaH": {
+          "type": "pdp_intro",
+          "settings": {}
+        },
+        "pdp_options_7fxeAp": {
+          "type": "pdp_options",
+          "settings": {}
+        },
+        "pdp_addons_CT3nTz": {
+          "type": "pdp_addons",
+          "settings": {
+            "title": "Essential Add-ons:"
+          }
+        },
+        "pdp_atc_CYHBKq": {
+          "type": "pdp_atc",
+          "settings": {}
+        },
+        "pdp_cta_nBcqQA": {
+          "type": "pdp_cta",
+          "disabled": true,
+          "settings": {
+            "title": "Looking to purchase trampolines for your club?",
+            "btn_copy": "Contact Us",
+            "btn_url": "#"
+          }
+        },
+        "pdp_accordions_pagRQp": {
+          "type": "pdp_accordions",
+          "settings": {}
+        },
+        "pdp_icons_neaMNG": {
+          "type": "pdp_icons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "pdp_title_d8jacQ",
+        "pdp_price_fw6hk3",
+        "pdp_intro_gJcDaH",
+        "pdp_options_7fxeAp",
+        "pdp_addons_CT3nTz",
+        "pdp_atc_CYHBKq",
+        "pdp_cta_nBcqQA",
+        "pdp_accordions_pagRQp",
+        "pdp_icons_neaMNG"
+      ],
+      "settings": {}
+    },
+    "hero_cta_HrnN4i": {
+      "type": "hero-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-home_cb67896b-20d8-4440-8a8d-49b5f66e96eb.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/hero-home-mobile.jpg",
+        "copy_align": "left",
+        "color": "light",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Engineered to Perform. Built to Last.",
+        "copy": "<p>Every JumpSport part and accessory is designed with the same precision engineering as our trampolines—so you can jump with confidence. Whether you're replacing a component or upgrading your setup, you’re choosing genuine quality that restores performance, extends lifespan, and keeps every bounce smooth, safe, and strong.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "tab_slider_simple_DfCnPj": {
+      "type": "tab-slider-simple",
+      "blocks": {
+        "slide_ABqXp6": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Perform",
+            "eyebrow": "",
+            "title": "Precision Performance, Every Bounce",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Our parts and accessories are precisely engineered—ensuring optimal tension, alignment, and responsiveness. That means your rebounder feels exactly the way it should: smooth, controlled, and powerful from the first jump to the last.<\/p>",
+            "image": "shopify:\/\/shop_images\/39__standard_handle_lifestyle_1200x1200_2dd5e75c-a36e-47f6-a33a-724984e9239a.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_zw7tNj": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Outlast",
+            "eyebrow": "",
+            "title": "Durability You Can Depend On",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Crafted from premium materials and rigorously tested, JumpSport components are made to withstand thousands of workouts. Replace less often, train with confidence, and keep your equipment performing like new for years.<\/p>",
+            "image": "shopify:\/\/shop_images\/Weighted_bar_1200x1200_51bfcf19-e673-4783-be69-c720b5f4e7cc.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_dAKb4M": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Integrate",
+            "eyebrow": "",
+            "title": "Seamless Integration. Zero Guesswork.",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Designed specifically for JumpSport models, our parts and accessories install easily and fit perfectly—no modifications, no compromises. Get back to bouncing faster with components that work exactly as intended.<\/p>",
+            "image": "shopify:\/\/shop_images\/350_PlyoFit_lifestyle_in_pale_turquoise__61317.1712689286.1280.1280.jpg",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_jwUBkA": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Protect",
+            "eyebrow": "",
+            "title": "Protect Your Investment",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Using genuine JumpSport parts helps maintain safety, performance, and warranty integrity. Don’t risk your rebounder with generic alternatives—trust the components made for your system.<\/p>",
+            "image": "shopify:\/\/shop_images\/JFT-replacement_bumper-1200x.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_B9RcA3": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Upgrade",
+            "eyebrow": "",
+            "title": "Upgrade Your Experience",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>From stability bars to storage solutions, our parts and accessories are designed to enhance your workouts and adapt to your fitness goals. Customize your setup and get more from every session.<\/p>",
+            "image": "shopify:\/\/shop_images\/JFT_-STK-Gisselly-_1200x_01a343af-7ffe-4868-b951-865a787baaec.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_ABqXp6",
+        "slide_zw7tNj",
+        "slide_dAKb4M",
+        "slide_jwUBkA",
+        "slide_B9RcA3"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "black",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "xl",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "The JumpSport Guarantee"
+      }
+    },
+    "compare_zA84rK": {
+      "type": "compare",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "expanded": false,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Find Your Perfect Bounce",
+        "copy": ""
+      }
+    },
+    "product_slider_EfWizt": {
+      "type": "product-slider",
+      "blocks": {
+        "card_MdkEx7": {
+          "type": "card",
+          "settings": {
+            "product": "39-essential-fitness-trampoline"
+          }
+        },
+        "card_9cgzrx": {
+          "type": "card",
+          "settings": {
+            "product": "jumpsport-39-pro-fitness-trampoline"
+          }
+        },
+        "card_bhMCGk": {
+          "type": "card",
+          "settings": {
+            "product": "44-pro-fitness-trampoline"
+          }
+        }
+      },
+      "block_order": [
+        "card_MdkEx7",
+        "card_9cgzrx",
+        "card_bhMCGk"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Find The Perfect Bounce",
+        "btn_url": "shopify:\/\/collections\/all",
+        "btn_copy": "Shop All Products"
+      }
+    },
+    "compare_hrh6QB": {
+      "type": "compare",
+      "disabled": true,
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "expanded": false,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Compare Models",
+        "copy": "<p>Not sure which trampoline is right for you? Let's take a look at them side by side.<\/p>"
+      }
+    },
+    "cta_blocks_4KVFim": {
+      "type": "cta-blocks",
+      "blocks": {
+        "block_K7kthB": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "JumpSport Fitness TV Free Trial",
+            "title_alt": "On Demand Trampoline Workouts",
+            "image": "shopify:\/\/shop_images\/app-imgalt.png",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts"
+          }
+        },
+        "block_Pwf7pj": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Can’t Decide?",
+            "title_alt": "View Our Buyers Guide",
+            "image": "shopify:\/\/shop_images\/trampoline-sizes.webp",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "block_K7kthB",
+        "block_Pwf7pj"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": ""
+      }
+    },
+    "video_peel_eWGtMb": {
+      "type": "video-peel",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Get Inspired. Get Bouncing.",
+        "embed": "<div class=\"videopeel-widget-container\" data-plugin-id=\"d39c6124-d66c-4a79-a00a-81be369999f5\"><\/div>",
+        "btn_url": "https:\/\/www.instagram.com\/jumpsportfitness",
+        "btn_copy": "Follow Us On Instagram"
+      }
+    },
+    "image_grid_9T6rHq": {
+      "type": "image-grid",
+      "blocks": {
+        "image_CngpWD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giphy.webp",
+            "url": "#"
+          }
+        },
+        "image_HLRVMY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-vertical-demo.jpg",
+            "url": ""
+          }
+        },
+        "image_zWi7YD": {
+          "type": "image",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/4911642-hd_1920_1080_30fps.mp4",
+            "url": ""
+          }
+        },
+        "image_TAfBCw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-vertical-demo.jpg",
+            "url": ""
+          }
+        },
+        "image_wUiRHA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giphy.webp",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CngpWD",
+        "image_HLRVMY",
+        "image_zWi7YD",
+        "image_TAfBCw",
+        "image_wUiRHA"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Get Inspired. Get Bouncing.",
+        "btn_url": "#",
+        "btn_copy": "Find A Club"
+      }
+    },
+    "cta_eyebrow_CHRzM4": {
+      "type": "cta-eyebrow",
+      "disabled": true,
+      "name": "CTA Eyebrow",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "xs",
+        "padding_bottom": "xs",
+        "padding_top-mobile": "xs",
+        "padding_bottom-mobile": "xs",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "pdp_reviews_GaNUN7": {
+      "type": "pdp-reviews",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "title": "See What Our Customers Are Saying"
+      }
+    },
+    "1777919287fe69571d": {
+      "type": "apps",
+      "blocks": {
+        "boost_ai_search_filter_recommendation_ssr_XfEkhz": {
+          "type": "shopify:\/\/apps\/boost-ai-search-filter\/blocks\/recommendation-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "productpage-181535",
+            "space_top": 20,
+            "space_bottom": 20,
+            "additional_classes": "",
+            "custom_css": ""
+          }
+        },
+        "boost_ai_search_filter_predictive_bundle_NbKVGw": {
+          "type": "shopify:\/\/apps\/boost-ai-search-filter\/blocks\/predictive-bundle\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "boost_ai_search_filter_recommendation_ssr_XfEkhz",
+        "boost_ai_search_filter_predictive_bundle_NbKVGw"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "collection_slider_AxyRmN": {
+      "type": "collection-slider",
+      "name": "Collection Slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Shop Accessories",
+        "btn_url": "shopify:\/\/collections\/rebounder-accessories",
+        "btn_copy": "Accessories",
+        "collection": "rebounder-accessories"
+      }
+    },
+    "collection_slider_yDbhY4": {
+      "type": "collection-slider",
+      "name": "Collection Slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Shop Replacement Parts",
+        "btn_url": "shopify:\/\/collections\/mini-trampoline-replacement-parts",
+        "btn_copy": "Parts",
+        "collection": "mini-trampoline-replacement-parts"
+      }
+    }
+  },
+  "order": [
+    "pdp_buyflow",
+    "hero_cta_HrnN4i",
+    "tab_slider_simple_DfCnPj",
+    "compare_zA84rK",
+    "product_slider_EfWizt",
+    "compare_hrh6QB",
+    "cta_blocks_4KVFim",
+    "video_peel_eWGtMb",
+    "image_grid_9T6rHq",
+    "cta_eyebrow_CHRzM4",
+    "pdp_reviews_GaNUN7",
+    "1777919287fe69571d",
+    "collection_slider_AxyRmN",
+    "collection_slider_yDbhY4"
+  ]
+}

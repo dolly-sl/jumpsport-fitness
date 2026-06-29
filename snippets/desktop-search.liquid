@@ -1,0 +1,14 @@
+<section class="desktop-search">
+  <div class="absolute-wrap">
+    <div class="container container--xl">
+      <div class="desktop-search__inner">
+        <div class="desktop-search__wrap">
+          <form action="{{ routes.search_url }}" class="d-flex justify-between">
+            <input type="text" placeholder="Search Products" name="q" value="{{ search.terms | escape }}">
+            <button class="btn btn--solid" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

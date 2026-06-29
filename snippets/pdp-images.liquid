@@ -1,0 +1,86 @@
+<div class="images__slider images__slider--main swiper" id="images__slider--{{ section.id }}">
+  <div class="swiper-wrapper">
+    {% for media in product.media %}
+      <div class="swiper-slide d-flex align-center justify-center">
+        {% case media.media_type %}
+          {% when 'image' %}
+            <img
+              src="{{ media | img_url: '610x610' }}"
+              srcset="{{ media | img_url: '1220x1220' }} 2x"
+              alt="{{ media.alt | escape }}"
+            >
+
+          {% when 'external_video' %}
+            <div class="iframe-wrap">
+              {{ media | external_video_tag }}
+            </div>
+
+          {% when 'video' %}
+            <div class="iframe-wrap">
+              {{ media | video_tag: controls: true, image_size: '650x' }}
+            </div>
+
+          {% when 'model' %}
+            {{ media | model_viewer_tag }}
+        {% endcase %}
+      </div>
+    {% endfor %}
+  </div>
+  {% render 'swiper-nav', color: 'white' %}
+</div>
+<div class="images__slider images__slider--thumb swiper">
+  <div class="swiper-wrapper">
+    {% for media in product.media %}
+      <div class="swiper-slide">
+        <div class="swiper-slide__inner  d-flex align-center justify-center">
+          {% case media.media_type %}
+            {% when 'image' %}
+              <img
+                src="{{ media | img_url: '85x85' }}"
+                srcset="{{ media | img_url: '170x170' }} 2x"
+                alt="{{ media.alt | escape }}"
+              >
+
+            {% when 'external_video' %}
+              {{ media | external_video_tag: image_size: '170x170' }}
+
+            {% when 'video' %}
+              {{ media | video_tag: image_size: '170x170', crop: center }}
+
+            {% when 'model' %}
+              {{ media | model_viewer_tag }}
+          {% endcase %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  var swiperThumbs = new Swiper('.images__slider--thumb', {
+    spaceBetween: 10,
+    loop: true,
+    slidesPerView: 5,
+    watchSlidesProgress: true,
+    breakpoints: {
+      768: {
+        slidesPerView: 7,
+      },
+    },
+  });
+
+  var swiperMain = new Swiper('.images__slider--main', {
+    spaceBetween: 10,
+    loop: true,
+    slidesPerView: 1,
+    effect: 'fade',
+    fadeEffect: { crossFade: true },
+    navigation: {
+      nextEl: '.images__slider--main .swiper__nav .arrow--right',
+      prevEl: '.images__slider--main .swiper__nav .arrow--left',
+    },
+    thumbs: {
+      swiper: swiperThumbs,
+    },
+  });
+</script>

@@ -1,0 +1,56 @@
+{% for variant in product.variants %}
+  {% if variant.metafields.variant.add_ons != blank %}
+    <div
+      class="addon-wrap pdp-block {% if forloop.first == true %} active {% endif %}"
+      id="addons-{{ variant.id }}"
+    >
+      <h3 class="heading--six">
+        {{ block.settings.title }}
+      </h3>
+
+      {% for addOn in variant.metafields.variant.add_ons.value %}
+        {% if addOn.available %}
+          <label
+            class="addon d-flex align-center justify-between"
+            data-addon_variant_id="{{ addOn.id }}"
+          >
+            <div class="addon__left d-flex align-center">
+              <div class="custom-checkbox">
+                <input
+                  type="checkbox"
+                  name="addon-{{ addOn.id }}"
+                  value="{{ addOn.id }}"
+                >
+                <span class="check-box"></span>
+              </div>
+
+              {% if addOn.featured_image != blank %}
+                {% assign prodImg = addOn.featured_image %}
+              {% else %}
+                {% assign prodImg = addOn.product.featured_image %}
+              {% endif %}
+
+              <img
+                loading="lazy"
+                src="{{ prodImg | img_url: '40x40' }}"
+                srcset="{{ prodImg | img_url: '80x80' }} 2x"
+                alt="{{ addOn.featured_image.alt | escape }}"
+              >
+
+              <h4 class="heading--six">
+                {{ addOn.product.title -}}
+                {% if addOn.title != 'Default Title' %}
+                  <span class="var-label">{{ addOn.title }}</span>
+                {% endif %}
+              </h4>
+            </div>
+
+            <div class="addon__price">
+              {{ addOn.price | money }}
+            </div>
+          </label>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}

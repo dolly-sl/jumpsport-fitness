@@ -1,0 +1,212 @@
+{
+  "sections": {
+    "hero_collection_xGPFJD": {
+      "type": "hero-collection",
+      "blocks": {
+        "text_QAB8qD": {
+          "type": "text",
+          "settings": {
+            "collection": "shop-all",
+            "title": "Shop All"
+          }
+        },
+        "text_GkckjM": {
+          "type": "text",
+          "settings": {
+            "collection": "fitness-trampolines",
+            "title": ""
+          }
+        },
+        "text_xwG6t6": {
+          "type": "text",
+          "settings": {
+            "collection": "wellness-products",
+            "title": "Wellness Products"
+          }
+        },
+        "text_QRTzhf": {
+          "type": "text",
+          "settings": {
+            "collection": "rebounder-accessories",
+            "title": ""
+          }
+        },
+        "text_ppYGdC": {
+          "type": "text",
+          "settings": {
+            "collection": "mini-trampoline-replacement-parts",
+            "title": ""
+          }
+        },
+        "text_AdiJmQ": {
+          "type": "text",
+          "settings": {
+            "collection": "sales-and-clearance",
+            "title": "Sales & Clearance"
+          }
+        }
+      },
+      "block_order": [
+        "text_QAB8qD",
+        "text_GkckjM",
+        "text_xwG6t6",
+        "text_QRTzhf",
+        "text_ppYGdC",
+        "text_AdiJmQ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sales_1920x450_1.jpg",
+        "copy_align": "left",
+        "heading_level": "h1",
+        "title": "JumpSport Sales",
+        "arch_color": "orange"
+      }
+    },
+    "1741811124fd1208be": {
+      "type": "apps",
+      "blocks": {
+        "boost_ai_search_discovery_filter_product_list_ssr_7j7CpR": {
+          "type": "shopify:\/\/apps\/boost-ai-search-filter\/blocks\/filter-product-list-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "boost_ai_search_discovery_filter_product_list_ssr_7j7CpR"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_cLhKnc": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const discountedHandles = [\n      \"jumpsport-39-pro-fitness-trampoline\",\n\"39-essential-fitness-trampoline\",\n      \"39-premium-fitness-trampoline\"\n    ];\n\n    function applyDiscountToBoostPrices() {\n      const productItems = document.querySelectorAll(\".boost-sd__product-item\");\n\n      productItems.forEach(item => {\n        const dataProductRaw = item.getAttribute(\"data-product\");\n        if (!dataProductRaw) return;\n\n        let productData;\n        try {\n          productData = JSON.parse(dataProductRaw.replace(\/&quot;\/g, '\"'));\n        } catch (e) {\n          console.error(\"Invalid JSON in data-product\", e);\n          return;\n        }\n\n        const handle = productData?.handle;\n        const priceMin = parseFloat(productData?.priceMin);\n\n        if (!handle || !discountedHandles.includes(handle) || isNaN(priceMin)) return;\n\n        const priceSpan = item.querySelector(\".boost-sd__product-price--default .boost-sd__format-currency\");\n        if (!priceSpan || priceSpan.dataset.discountApplied === \"true\") return;\n\n        const discountedPrice = (priceMin * 0.85).toFixed(2);\n\n        \/\/ Create sale price span\n        const salePriceEl = document.createElement(\"span\");\n        salePriceEl.style.marginRight = \"6px\";\n        salePriceEl.style.color = \"black\";\n        salePriceEl.textContent = `$${discountedPrice}`;\n\n        \/\/ Create original price span\n        const originalPriceEl = document.createElement(\"span\");\n        originalPriceEl.style.textDecoration = \"line-through\";\n        originalPriceEl.style.color = \"black\";\n        originalPriceEl.textContent = `$${priceMin.toFixed(2)}`;\n\n        \/\/ Clear and inject new content\n        priceSpan.textContent = \"\";\n        priceSpan.appendChild(salePriceEl);\n        priceSpan.appendChild(originalPriceEl);\n        priceSpan.dataset.discountApplied = \"true\";\n      });\n    }\n\n    \/\/ Initial run after Boost loads products\n    setTimeout(applyDiscountToBoostPrices, 1000);\n\n    \/\/ Observe Boost re-renders\n    const observer = new MutationObserver(applyDiscountToBoostPrices);\n    observer.observe(document.body, { childList: true, subtree: true });\n  });\n<\/script>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const DISCOUNT_HANDLES = [\n      \"jumpsport-39-pro-fitness-trampoline\",\n      \"39-essential-fitness-trampoline\",\n      \"39-premium-fitness-trampoline\"\n    ];\n\n    function applySaleTags() {\n      const products = document.querySelectorAll(\".boost-sd__product-item\");\n\n      products.forEach(product => {\n        const raw = product.getAttribute(\"data-product\");\n        if (!raw) return;\n\n        let parsed;\n        try {\n          parsed = JSON.parse(raw.replace(\/&quot;\/g, '\"'));\n        } catch (e) {\n          console.error(\"Failed to parse product JSON:\", e);\n          return;\n        }\n\n        if (!parsed.handle || !DISCOUNT_HANDLES.includes(parsed.handle)) return;\n\n        \/\/ Avoid duplicate tag\n        const alreadyInjected = product.querySelector('.boost-sd__product-label--sale[data-injected=\"true\"]');\n        if (alreadyInjected) return;\n\n        const labelHTML = `\n          <div class=\"boost-sd__product-label boost-sd__product-label--text boost-sd__product-label--rounded-rectangle boost-sd__product-label--sale\" data-injected=\"true\">\n            <span class=\"boost-sd__product-label-text\"><span>15% Off<\/span><\/span>\n          <\/div>\n        `;\n\n        const target = product.querySelector(\n          \".boost-sd__product-image-column--in-top.boost-sd__product-image-column--left\"\n        );\n\n        if (target) {\n          target.insertAdjacentHTML(\"afterbegin\", labelHTML);\n        }\n      });\n    }\n\n    \/\/ Run on load and observe Boost updates\n    setTimeout(applySaleTags, 1000);\n    const observer = new MutationObserver(applySaleTags);\n    observer.observe(document.body, { childList: true, subtree: true });\n  });\n<\/script>"
+      }
+    },
+    "list": {
+      "type": "collection-list",
+      "settings": {}
+    },
+    "cta_image_Er6LXL": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/JFT-Elevate-girl-doodip-1200x.jpg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Unlock $25 Off Your First Fitness Purchase",
+        "copy": "<p>Shop Now and Save Big on Your Favorite Items.<br\/>Hurry, Limited Stock!<\/p><p><em>(Offer valid for new subscribers only)<\/em><\/p>",
+        "btn_url": "https:\/\/jumpsport.attn.tv\/p\/7mk\/landing-page",
+        "btn_copy": "See Offer"
+      }
+    },
+    "accordions_CMjNNd": {
+      "type": "accordions",
+      "blocks": {
+        "text_zcaBxE": {
+          "type": "text",
+          "settings": {
+            "title": "{{ collection.metafields.custom.faq_one_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "{{ collection.metafields.custom.faq_one_textarea | metafield_tag }}"
+          }
+        },
+        "text_ENKhNx": {
+          "type": "text",
+          "settings": {
+            "title": "{{ collection.metafields.custom.faq_two_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "{{ collection.metafields.custom.faq_two_textarea | metafield_tag }}"
+          }
+        },
+        "text_W4Ui8E": {
+          "type": "text",
+          "settings": {
+            "title": "{{ collection.metafields.custom.faq_three_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "{{ collection.metafields.custom.faq_three_textarea | metafield_tag }}"
+          }
+        },
+        "text_bikWbX": {
+          "type": "text",
+          "settings": {
+            "title": "{{ collection.metafields.custom.faq_four_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "{{ collection.metafields.custom.faq_four_textarea | metafield_tag }}"
+          }
+        },
+        "text_hd6YhU": {
+          "type": "text",
+          "settings": {
+            "title": "{{ collection.metafields.custom.faq_five_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "{{ collection.metafields.custom.faq_five_textarea | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_zcaBxE",
+        "text_ENKhNx",
+        "text_W4Ui8E",
+        "text_bikWbX",
+        "text_hd6YhU"
+      ],
+      "name": "Accordions",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Common Questions",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "cta_image_n9PTFV": {
+      "type": "cta-image",
+      "disabled": true,
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/JFT-Squat-Gisselly-1200x.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Clearance Deals",
+        "copy": "<p>Score incredible deals on inspected, warranty-backed fitness trampolines and accessories! Elevate your cardio workouts, improve balance, and add excitement to your fitness routine. Shop now while supplies last!<\/p>",
+        "btn_url": "shopify:\/\/collections\/fitness-clearance-deals",
+        "btn_copy": "Shop Clearance"
+      }
+    }
+  },
+  "order": [
+    "hero_collection_xGPFJD",
+    "1741811124fd1208be",
+    "custom_liquid_cLhKnc",
+    "list",
+    "cta_image_Er6LXL",
+    "accordions_CMjNNd",
+    "cta_image_n9PTFV"
+  ]
+}

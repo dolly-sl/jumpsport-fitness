@@ -1,0 +1,341 @@
+{
+  "sections": {
+    "pdp_buyflow": {
+      "type": "pdp-buyflow",
+      "blocks": {
+        "pdp_title_d8jacQ": {
+          "type": "pdp_title",
+          "settings": {}
+        },
+        "pdp_price_fw6hk3": {
+          "type": "pdp_price",
+          "disabled": true,
+          "settings": {
+            "byline": "Starting at"
+          }
+        },
+        "pdp_intro_gJcDaH": {
+          "type": "pdp_intro",
+          "settings": {}
+        },
+        "pdp_options_7fxeAp": {
+          "type": "pdp_options",
+          "settings": {}
+        },
+        "pdp_atc_CYHBKq": {
+          "type": "pdp_atc",
+          "settings": {}
+        },
+        "bread_pay_messaging_app_block_product_9x36ye": {
+          "type": "shopify:\/\/apps\/bread-pay-messaging\/blocks\/app-block-product\/17f8811a-68d5-4aab-a4c3-0c2b49a4e68b",
+          "disabled": true,
+          "settings": {
+            "shopId": "a7f99db7-7903-47f0-8008-e89166635ad9",
+            "placementId": "",
+            "showPlaceholder": false
+          }
+        },
+        "pdp_addons_CT3nTz": {
+          "type": "pdp_addons",
+          "settings": {
+            "title": "Essential Add-ons:"
+          }
+        },
+        "pdp_icons_neaMNG": {
+          "type": "pdp_icons",
+          "settings": {}
+        },
+        "pdp_accordions_pagRQp": {
+          "type": "pdp_accordions",
+          "settings": {}
+        },
+        "pdp_cta_nBcqQA": {
+          "type": "pdp_cta",
+          "settings": {
+            "title": "Looking to purchase trampolines for your club?",
+            "btn_copy": "Contact Us",
+            "btn_url": "shopify:\/\/pages\/connect-with-our-team-contact-jumpsport"
+          }
+        }
+      },
+      "block_order": [
+        "pdp_title_d8jacQ",
+        "pdp_price_fw6hk3",
+        "pdp_intro_gJcDaH",
+        "pdp_options_7fxeAp",
+        "pdp_atc_CYHBKq",
+        "bread_pay_messaging_app_block_product_9x36ye",
+        "pdp_addons_CT3nTz",
+        "pdp_icons_neaMNG",
+        "pdp_accordions_pagRQp",
+        "pdp_cta_nBcqQA"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_T9axpe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n  .discount-price {\n    margin-right: 2px;\n  }\n  .original-price {\n    text-decoration: line-through;\n  }\n<\/style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const DISCOUNT_RATE = 0.85;\n\n  if (!document.querySelector('#discount-flag[data-discount=\"true\"]')) return;\n\n  function formatMoney(value) {\n    return `$${parseFloat(value).toFixed(2)}`;\n  }\n\n  function getOriginalPrice() {\n    const selected = document.querySelector('[sm-rc-variant-selector] option:checked');\n    if (!selected) return null;\n\n    let rawPrice = selected.getAttribute('data-compare-price');\n    if (!rawPrice || parseFloat(rawPrice) === 0) {\n      rawPrice = selected.getAttribute('data-price');\n    }\n\n    const price = parseFloat(rawPrice.replace(\/[^0-9.]\/g, ''));\n    return isNaN(price) ? null : price;\n  }\n\n  function updateOrInjectPrice(containerSelector) {\n    const container = document.querySelector(containerSelector);\n    if (!container) return;\n\n    const original = getOriginalPrice();\n    if (!original) return;\n\n    const discounted = original * DISCOUNT_RATE;\n\n    \/\/ If already injected, just update\n    const discountEl = container.querySelector('.discount-price');\n    const originalEl = container.querySelector('.original-price');\n\n    if (discountEl && originalEl) {\n      discountEl.textContent = formatMoney(discounted);\n      originalEl.textContent = formatMoney(original);\n    } else {\n      \/\/ Otherwise inject once\n      container.innerHTML = `\n        <span class=\"discount-price\">${formatMoney(discounted)}<\/span>\n        <span class=\"original-price\">${formatMoney(original)}<\/span>\n      `;\n    }\n  }\n\n  function updateAllPrices() {\n    updateOrInjectPrice('.pdp__price');\n    updateOrInjectPrice('[sm-rc-current-price]');\n  }\n\n  \/\/ Run once\n  setTimeout(updateAllPrices, 400);\n\n  \/\/ Update when variant changes\n  const selector = document.querySelector('[sm-rc-variant-selector]');\n  if (selector) {\n    selector.addEventListener('change', () => {\n      setTimeout(updateAllPrices, 300);\n    });\n  }\n\n  \/\/ Observe dynamic changes\n  const observer = new MutationObserver(() => {\n    setTimeout(updateAllPrices, 300);\n  });\n\n  observer.observe(document.body, { childList: true, subtree: true });\n});\n<\/script>"
+      }
+    },
+    "hero_cta_HrnN4i": {
+      "type": "hero-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/577A1074.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/577A1074.jpg",
+        "copy_align": "left",
+        "color": "light",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Way More Than Just A Trampoline",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "tab_slider_simple_DfCnPj": {
+      "type": "tab-slider-simple",
+      "blocks": {
+        "slide_ABqXp6": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Premium Elastic Cords",
+            "eyebrow": "",
+            "title": "",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p><strong>EnduroLast™ Elastic Cords: <\/strong>Experience the pinnacle of performance, unmatched durability, and a smooth, customizable bounce with our EnduroLast Elastic Cords. Stretching up to two times their resting length, these cords feature patented adjustable tension settings and over 50 feet of premium material, ensuring a quiet, cushioned workout that lasts.<\/p><p><strong>Personalize Your Firmness: <\/strong>Our patented connector and knotted cord system allows you to tighten your cords to your preferred firmness setting available on PREMIUM & PRO options only. (<em>4-knot cords shown)<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/adjustable_4_knot_cords.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_B9RcA3": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Arched Legs",
+            "eyebrow": "",
+            "title": "",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p><strong>No-tip Safety: <\/strong>Step up with confidence on our patented no-tip arched leg trampolines. <\/p><p><strong>Enhanced Versatility: <\/strong>The stable frame enables a variety of exercises such as push-ups and tricep dips. <\/p><p><strong>Stackable: <\/strong>Arched legs make our trampolines stackable for efficient storage and for box jumps onto a dynamic-surface of any height.<\/p>",
+            "image": "shopify:\/\/shop_images\/arched_leg_design_male_box_jump.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_jwUBkA": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Lay Flat Mats",
+            "eyebrow": "",
+            "title": "",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p><strong>Exclusive Design: <\/strong>Enhanced jumping mats provide extended usable jumping space with a unique lay-flat design.<\/p><p><strong>Get Creative With More Space: <\/strong>Gain more room for creative choreography and more freedom for taller or heavier bouncers.<\/p><p><strong>Skirt Or Padded Petal Options: <\/strong>Choose a skirt extension or upgrade to padded petals for more comfort when you step or lay on the cords.<\/p>",
+            "image": "shopify:\/\/shop_images\/1430_4.jpg",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_dAKb4M": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Portability",
+            "eyebrow": "",
+            "title": "",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p><strong>Easy To Move, Easy To Store: <\/strong>With a compact and simple design, you can use it in just about any space and easily move it out of the way when you’re done. <\/p><p><strong>Folding Options Available: <\/strong>39” PREMIUM and 44” PRO trampolines come in a folding option for those who like to workout on-the-go.<\/p>",
+            "image": "shopify:\/\/shop_images\/portability_1430x900_c84bb501-9f0c-4261-89e1-b302a43002f8.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_zw7tNj": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Longevity",
+            "eyebrow": "",
+            "title": "",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p><strong>Only The Best Materials: <\/strong>Real-world tested reliable quality for the most active use.<\/p><p><strong>Rigorous Enough For The Gym: <\/strong>Get the same quality professionals use, in your own home.<\/p><p><strong>Lifetime Frame Warranty: <\/strong>Have peace of mind that you have the best trampoline on the market.<\/p>",
+            "image": "shopify:\/\/shop_images\/1430_6.jpg",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_ABqXp6",
+        "slide_B9RcA3",
+        "slide_jwUBkA",
+        "slide_dAKb4M",
+        "slide_zw7tNj"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "black",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "30",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "The JumpSport Difference"
+      }
+    },
+    "product_slider_pdp_MFjpeK": {
+      "type": "product-slider-PDP",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "50",
+        "padding_bottom": "50",
+        "padding_top-mobile": "30",
+        "padding_bottom-mobile": "30",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Shop Accessories",
+        "btn_url": "shopify:\/\/collections\/rebounder-accessories",
+        "btn_copy": "View Accessories",
+        "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}"
+      }
+    },
+    "compare_hrh6QB": {
+      "type": "compare",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "lg",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "30",
+        "padding_bottom-mobile": "30",
+        "expanded": false,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Compare Models",
+        "copy": "<p>Not sure which trampoline is right for you? Let's take a look at them side by side.<\/p>"
+      }
+    },
+    "cta_blocks_4KVFim": {
+      "type": "cta-blocks",
+      "blocks": {
+        "block_K7kthB": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "400+ On Demand Video Workouts",
+            "title_alt": "with JumpSport Fitness TV",
+            "image": "shopify:\/\/shop_images\/JSFTV-1180x800x.webp",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts"
+          }
+        },
+        "block_Pwf7pj": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Can’t Decide?",
+            "title_alt": "View Our Buyer's Guide",
+            "image": "shopify:\/\/shop_images\/jumpsport-trampoline-sizes.webp",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-trampoline-buyers-guide"
+          }
+        }
+      },
+      "block_order": [
+        "block_K7kthB",
+        "block_Pwf7pj"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": ""
+      }
+    },
+    "video_peel_fxGiWF": {
+      "type": "video-peel",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "50",
+        "padding_top-mobile": "30",
+        "padding_bottom-mobile": "30",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Get Inspired. Get Bouncing.",
+        "embed": "<div class=\"videopeel-widget-container\" data-plugin-id=\"d39c6124-d66c-4a79-a00a-81be369999f5\"><\/div>",
+        "btn_url": "https:\/\/www.instagram.com\/jumpsportfitness",
+        "btn_copy": "Follow Us On Instagram"
+      }
+    },
+    "pdp_reviews_GaNUN7": {
+      "type": "pdp-reviews",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "title": "See What Our Customers Are Saying"
+      }
+    },
+    "177792025466fe3cdb": {
+      "type": "apps",
+      "blocks": {
+        "boost_ai_search_filter_recommendation_ssr_D4RkN8": {
+          "type": "shopify:\/\/apps\/boost-ai-search-filter\/blocks\/recommendation-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "productpage-411256",
+            "space_top": 20,
+            "space_bottom": 20,
+            "additional_classes": "",
+            "custom_css": ""
+          }
+        },
+        "boost_ai_search_filter_recommendation_ssr_cgwK9j": {
+          "type": "shopify:\/\/apps\/boost-ai-search-filter\/blocks\/recommendation-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "productpage-181535",
+            "space_top": 20,
+            "space_bottom": 20,
+            "additional_classes": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "boost_ai_search_filter_recommendation_ssr_D4RkN8",
+        "boost_ai_search_filter_recommendation_ssr_cgwK9j"
+      ],
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "pdp_buyflow",
+    "custom_liquid_T9axpe",
+    "hero_cta_HrnN4i",
+    "tab_slider_simple_DfCnPj",
+    "product_slider_pdp_MFjpeK",
+    "compare_hrh6QB",
+    "cta_blocks_4KVFim",
+    "video_peel_fxGiWF",
+    "pdp_reviews_GaNUN7",
+    "177792025466fe3cdb"
+  ]
+}

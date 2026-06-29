@@ -1,0 +1,421 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-xl",
+      "blocks": {
+        "text_wzabzM": {
+          "type": "text",
+          "settings": {
+            "title": "Add Versatility to Group-X, Small Group, and Personal Training"
+          }
+        }
+      },
+      "block_order": [
+        "text_wzabzM"
+      ],
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/FitJumpUSA Bounce class.mp4",
+        "image": "shopify:\/\/shop_images\/clubs-heroi.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/clubs-hero-mobile.jpg",
+        "copy_align": "left",
+        "eyebrow": "Dynamic Fitness Programming For Clubs & Studios",
+        "heading_level": "h1",
+        "title": "Elevate Your Gym with JumpSport Trampolines",
+        "btn_url": "shopify:\/\/pages\/connect-with-our-team-contact-jumpsport",
+        "btn_copy": "Contact Club Sales",
+        "link_url": "shopify:\/\/collections\/fitness-trampolines",
+        "link_copy": "Shop Trampolines",
+        "arch_color": "orange"
+      }
+    },
+    "cta_eyebrow_yEViNB": {
+      "type": "cta-eyebrow",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "md",
+        "padding_top-mobile": "xl",
+        "padding_bottom-mobile": "md",
+        "eyebrow": "Join Our Worldwide JumpSport Family",
+        "heading_level": "h3",
+        "heading_level_display": "",
+        "title": "With Over 250 Clubs & Studios",
+        "btn_url": "#",
+        "btn_copy": "Find A Club Near Me"
+      }
+    },
+    "cta_heading_deLcjh": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "md",
+        "padding_top-mobile": "xl",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Why Add JumpSport To Your Club?",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "sxs_6RmpLr": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_RzBtGG": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground_club_image.webp",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "title": "Engage Your Members With Fun Workouts",
+            "copy": "<ul><li><strong>Attract & Retain Members<\/strong> – Stand out with unique, high-energy rebounding classes.<\/li><li><strong>Low-Impact, High-Intensity<\/strong> – Offer an effective workout that’s easy on the joints but powerful for cardio, strength, and core training.<\/li><li><strong>Proven Revenue Generator<\/strong> – Premium boutique-style classes increase membership value and drive additional revenue.<\/li><li><strong>Durable, Club-Quality Equipment<\/strong> – Built for daily, high-intensity use with silent, smooth bounce technology.<\/li><\/ul>",
+            "btn_url": "shopify:\/\/pages\/jumpsport-fitness-club-studio-locator",
+            "btn_copy": ""
+          }
+        },
+        "sxs_fWDite": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trampoline_trim.webp",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "title": "Add Variety To Your Schedule",
+            "copy": "<p>JumpSport Fitness Trampolines integrate seamlessly into any number of class formats:<\/p><ul><li><strong>Dance & Cardio <\/strong>– Keep members engaged with fun, rhythm-based trampoline workouts.<\/li><li><strong>HIIT & Bootcamp<\/strong> – Amplify calorie burn with high-intensity, low-impact interval training.<\/li><li><strong>Barre & Pilates <\/strong>– Enhance balance, core stability, and flexibility with Pilates or Barre on a rebounder.<\/li><li><strong>Mind-Body Workouts <\/strong>– Incorporate breathwork, meditation, and controlled movement for a holistic fitness experience.<\/li><\/ul><p>With scientifically proven benefits—including improved cardiovascular health, lymphatic drainage, and muscle toning—rebounding is an ideal workout for all fitness levels.<\/p>",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "sxs_4TXM3L": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jft-edu-training-course-19a__10797.1555633540.1280.1280.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Get Premium Bounce Instructor Education",
+            "copy": "<p>Equip your instructors with core trampoline competencies and discover new programming.<\/p><ul><li>Design Your Own Trampoline Classes<\/li><li>Hone Teaching Skills<\/li><li>Elevate Your Confidence<\/li><li>Get Feedback From Master Trainers<\/li><li>Earn ACE\/AFAA Credits<\/li><\/ul>",
+            "btn_url": "https:\/\/training.jumpsport.com",
+            "btn_copy": "View Online Instructor Training Courses"
+          }
+        }
+      },
+      "block_order": [
+        "sxs_RzBtGG",
+        "sxs_fWDite",
+        "sxs_4TXM3L"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "width": false
+      }
+    },
+    "image_grid_overflow_K67rmf": {
+      "type": "image-grid-overflow",
+      "blocks": {
+        "image_UyEK4g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rolling_cart_500_1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Maximize floor space  with a REBOUNDER CART",
+            "url": "#"
+          }
+        },
+        "image_mBjdDc1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/500_4.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Attach a HANDLE for barre workouts",
+            "url": "#"
+          }
+        },
+        "image_mBjdDc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/500_2.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "STACK trampolines for box jumps",
+            "url": "#"
+          }
+        },
+        "image_ErGg6C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Strength_Training_Gym_500.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Add RESISTANCE BANDS for strength training",
+            "url": "#"
+          }
+        },
+        "image_7QYNCF2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/500_3.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Us a SOFT TONING BALL for coordination training",
+            "url": ""
+          }
+        },
+        "image_mBjdDc4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/577A4455.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Attach a PLYOFIT PRO for plyometrics",
+            "url": "#"
+          }
+        },
+        "image_ErGg6C3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BTC-jsf-210526-2873_1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Use a DYNAMAX medicine ball for agility training",
+            "url": "#"
+          }
+        },
+        "image_7QYNCF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Core_500.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "LAY on the trampoline or floor for core exercises",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UyEK4g",
+        "image_mBjdDc1",
+        "image_mBjdDc",
+        "image_ErGg6C",
+        "image_7QYNCF2",
+        "image_mBjdDc4",
+        "image_ErGg6C3",
+        "image_7QYNCF"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "xl",
+        "padding_bottom-mobile": "xl",
+        "heading_level": "h2",
+        "heading_level_display": "heading--one",
+        "title": "Way More Than Just A Trampoline",
+        "btn_url": "#",
+        "btn_copy": ""
+      }
+    },
+    "cta_heading_8zYGQK": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Ready To Add JumpSport To Your Club?",
+        "copy": "<h4>Contact us today for bulk quantity savings, instructor trainings & education, and exclusive club discounts<\/h4>",
+        "btn_url": "shopify:\/\/pages\/connect-with-our-team-contact-jumpsport",
+        "btn_copy": "Contact Club Sales"
+      }
+    },
+    "product_features_F7JcDe": {
+      "type": "product-features",
+      "blocks": {
+        "feature_LUacFz": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-arched-legs.webp",
+            "title": "Durable & Low Maintenance",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Heavy-duty steel frame, premium bungees, and a patented no-tip design. All pieces are replaceable, offering affordable maintenance over time.",
+            "url": ""
+          }
+        },
+        "feature_UpyY7G": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blue_bumpers-_610x610_2a8bb39a-a23b-471c-ae1b-0afe1ec981b4.jpg",
+            "title": "Stackable & Space-Saving",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Easily store multiple trampolines when not in use. Unique arched-leg design allows for stacking up to 10 units high. Rebounder cart also available for additional storage.",
+            "url": ""
+          }
+        },
+        "feature_cPJYfF": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-space.webp",
+            "title": "Silent, Smooth Bounce",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Easily adjustable and replaceable elastic bungee cords. Virtually silent bounce experience- perfect for group classes, with no squeaky springs or distractions.",
+            "url": ""
+          }
+        },
+        "feature_JLBG3f": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-balance-mental-health-benefits.webp",
+            "title": "Customizable Packages",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Bulk pricing, instructor training discounts, and marketing support available. Reach out today!",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_LUacFz",
+        "feature_UpyY7G",
+        "feature_cPJYfF",
+        "feature_JLBG3f"
+      ],
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": true,
+        "background": "black",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Trampolines Engineered For Club Use",
+        "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+        "btn_copy": "Shop Trampolines"
+      }
+    },
+    "icon_grid_MFtpq8": {
+      "type": "icon-grid",
+      "blocks": {
+        "icon_3p4p3N": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Check_Mark_2x_5ae2b88c-75de-4299-bd1a-787fb8b8fe69.png",
+            "title": "Lifetime Warranty On Frames"
+          }
+        },
+        "icon_dN6QeX": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-placeholder-xl.svg",
+            "title": "Free Shipping in the Contiguous U.S.†"
+          }
+        },
+        "icon_r7zNQX": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-placeholder-xl.svg",
+            "title": "0% APR Availalbe for 3-Month Financing*"
+          }
+        }
+      },
+      "block_order": [
+        "icon_3p4p3N",
+        "icon_dN6QeX",
+        "icon_r7zNQX"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "cta_blocks_MpdTUG": {
+      "type": "cta-blocks",
+      "blocks": {
+        "block_Wz69YQ": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h5",
+            "heading_level_display": "heading--five",
+            "title": "Trusted By Top Fitness Studios",
+            "title_alt": "Find A Club Near You",
+            "image": "shopify:\/\/shop_images\/Find_a_Club_1180x800_63f0d4aa-fe5c-4ea2-9431-c14e64337770.webp",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-club-studio-locator"
+          }
+        },
+        "block_VDVG9R": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h5",
+            "heading_level_display": "heading--five",
+            "title": "Get The Support You Need",
+            "title_alt": "Collaborate With Us",
+            "image": "shopify:\/\/shop_images\/Instructors_1180x800_bb50332a-9ed1-4063-94bd-08b1f6b578cc.webp",
+            "url": "shopify:\/\/pages\/collaborate-with-jumpsport"
+          }
+        }
+      },
+      "block_order": [
+        "block_Wz69YQ",
+        "block_VDVG9R"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "black",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Join The Worldwide JumpSport Family"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "cta_eyebrow_yEViNB",
+    "cta_heading_deLcjh",
+    "sxs_6RmpLr",
+    "image_grid_overflow_K67rmf",
+    "cta_heading_8zYGQK",
+    "product_features_F7JcDe",
+    "icon_grid_MFtpq8",
+    "cta_blocks_MpdTUG"
+  ]
+}

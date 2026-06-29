@@ -1,0 +1,237 @@
+<section
+  class="split-slider section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }}--nopad"
+  id="split-slider--{{ section.id }}"
+>
+  {% render 'arch', color: 'tan' %}
+  <div class="split-slider__slider swiper">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide" {{ block.shopify_attributes }}>
+          <img
+            src="{{ block.settings.image | img_url: '1920x660' }}"
+            alt="{{ block.settings.image.alt | escape }}"
+            class="slide__bg slide__bg--desktop"
+          >
+          {% if block.settings.image_mobile != blank %}
+            <img
+              src="{{ block.settings.image_mobile | img_url: '750x1300' }}"
+              alt="{{ block.settings.image_mobile.alt | escape }}"
+              class="slide__bg slide__bg--mobile"
+            >
+          {% else %}
+            <img
+              src="{{ block.settings.image | img_url: '750x1300' }}"
+              alt="{{ block.settings.image.alt | escape }}"
+              class="slide__bg slide__bg--mobile"
+            >
+          {% endif %}
+          <div class="slide__copy d-flex align-center">
+            <div class="container">
+              {% render 'swiper-nav', color: 'white' %}
+              <div class="inner">
+                {% if block.settings.image_eyebrow != blank %}
+                  <img
+                    src="{{ block.settings.image_eyebrow | img_url: 'master' }}"
+                    alt="{{ block.settings.image_eyebrow.alt | escape }}"
+                    class="eye-logo"
+                  >
+                {% endif %}
+                {% if block.settings.eyebrow != blank %}
+                  <span class="eyebrow">
+                    {{ block.settings.eyebrow }}
+                  </span>
+                {% endif %}
+                {% render 'dynamic-heading',
+                  level: block.settings.heading_level,
+                  title: block.settings.title,
+                  classList: block.settings.heading_level_display
+                %}
+                {{ block.settings.copy }}
+                {% if block.settings.btn_url != blank %}
+                  <div class="actions">
+                    <a href="{{ block.settings.btn_url }}" class="btn btn--solid btn--arrow btn--xl">
+                      {{ block.settings.btn_copy }}
+                    </a>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="swiper__dots">
+    <div class="dots"></div>
+  </div>
+</section>
+
+<script>
+  const splitSlider = new Swiper('#split-slider--{{ section.id }} .swiper', {
+    slidesPerView: 1,
+    loop: true,
+    effect: 'fade',
+    fadeEffect: { crossFade: true },
+    navigation: {
+      nextEl: '#split-slider--{{ section.id }} .swiper__nav .arrow--right',
+      prevEl: '#split-slider--{{ section.id }} .swiper__nav .arrow--left',
+    },
+    pagination: {
+      el: '#split-slider--{{ section.id }} .swiper__dots .dots',
+    },
+  });
+</script>
+
+{% if section.settings['padding_bottom-mobile'] == 'never-going-to-hit'
+  or section.settings['padding_top-mobile'] == 'never-going-to-hit'
+%}
+  <style>
+    @media(max-width: 768px) {
+      #split-slider--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top-mobile }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom-mobile }}px !important;
+      }
+    }
+  </style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Split Slider",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image - Main",
+          "info": "1920 x 660px"
+        },
+        {
+          "id": "image_mobile",
+          "type": "image_picker",
+          "label": "Image - Mobile",
+          "info": "750 x 1300px"
+        },
+        {
+          "id": "image_eyebrow",
+          "type": "image_picker",
+          "label": "Image - Eyebrow ( optional )"
+        },
+        {
+          "id": "eyebrow",
+          "type": "text",
+          "label": "Eyebrow"
+        },
+        {
+          "type": "select",
+          "id": "heading_level",
+          "label": "Heading Level",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h2"
+        },
+        {
+          "type": "select",
+          "id": "heading_level_display",
+          "label": "Heading Level - Display",
+          "options": [
+            {
+              "value": "",
+              "label": "Natural"
+            },
+            {
+              "value": "heading--one",
+              "label": "H1"
+            },
+            {
+              "value": "heading--two",
+              "label": "H2"
+            },
+            {
+              "value": "heading--three",
+              "label": "H3"
+            },
+            {
+              "value": "heading--four",
+              "label": "H4"
+            },
+            {
+              "value": "heading--five",
+              "label": "H5"
+            },
+            {
+              "value": "heading--six",
+              "label": "H6"
+            }
+          ],
+          "default": ""
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "id": "copy",
+          "type": "richtext",
+          "label": "Copy"
+        },
+        {
+          "id": "btn_url",
+          "type": "url",
+          "label": "Button URL"
+        },
+        {
+          "id": "btn_copy",
+          "type": "text",
+          "label": "Button Copy"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Split Slider"
+    }
+  ]
+}
+{% endschema %}

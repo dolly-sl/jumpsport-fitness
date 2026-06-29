@@ -1,0 +1,6 @@
+{% assign arch = '' %}
+{% if section.settings.top_arch == true or section.settings.bottom_arch == true %}
+  {% assign arch = 'has-arch' %}
+{% endif %}
+
+{{ section.settings.top_arch }} - {{ section.settings.bottom_arch }} - {{ arch }}

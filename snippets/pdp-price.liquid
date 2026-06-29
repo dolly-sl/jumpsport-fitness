@@ -1,0 +1,7 @@
+{% if product.price_varies == true %}
+  {{ block.settings.byline }}
+{% endif %}
+{{ product.price | money }}
+{% if product.price != product.compare_at_price %}
+  <span class="compare"> {{ product.compare_at_price | money }}</span>
+{% endif %}

@@ -1,0 +1,159 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "alert_bar": {
+      "type": "alert-bar",
+      "blocks": {
+        "text_AXXK8r": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "alert": ""
+          }
+        },
+        "text_79TyGT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "alert": "<p>Better than Prime Day Sale! 15% Off Select Rebounders & Accessories! Code: PRIMEDAY26 Ends 6\/26 11:59 pm PST<\/p>"
+          }
+        },
+        "text_irjYYU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "alert": "<p>Labor Day Sale! 10% Sitewide- No Code Necessary! Ends 9\/2\/25 11:59pm PST<\/p>"
+          }
+        },
+        "text_GjBGxj": {
+          "type": "text",
+          "settings": {
+            "alert": "<p><a href=\"https:\/\/jumpsport.attn.tv\/p\/7mk\/landing-page\" title=\"https:\/\/jumpsport.attn.tv\/p\/7mk\/landing-page\">Unlock $25 Off Your First Purchase & Free Shipping<\/a>*<\/p>"
+          }
+        },
+        "text_cP9tHx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "alert": "<p>Memorial Day Savings: 10% Off 44\" and 48 PRO Fitness Trampolines (ends 5\/26 11:59pm)<\/p>"
+          }
+        },
+        "text_aQTqC8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "alert": "<p><a href=\"https:\/\/jumpsport.attn.tv\/p\/pXu\/landing-page\" target=\"_blank\" title=\"https:\/\/jumpsport.attn.tv\/p\/pXu\/landing-page\">Mystery Black Friday Gift<\/a><\/p>"
+          }
+        },
+        "text_eGkdzW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "alert": "<p><a href=\"\/collections\/true-colors\" title=\"TRUE COLORS\">Cyber Week: 15% Off All 39\" and 44\" TRUE COLORS PRO Trampolines <\/a><\/p>"
+          }
+        },
+        "text_cUBHHX": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "alert": "<p>New Year Sale: 20% Off Wellness Trampolines, 39\" PROS & 44\" PROS<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_AXXK8r",
+        "text_79TyGT",
+        "text_irjYYU",
+        "text_GjBGxj",
+        "text_cP9tHx",
+        "text_aQTqC8",
+        "text_eGkdzW",
+        "text_cUBHHX"
+      ],
+      "custom_css": [
+        ".alert-bar {background: #d2dd00;}",
+        ".alert-bar .alert {color: #1a1a1a;}",
+        ".alert-bar a {color: #1a1a1a;}"
+      ],
+      "settings": {}
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "sub_products_CW6bCa": {
+          "type": "sub_products",
+          "settings": {
+            "top_level_nav": "Shop",
+            "menu_title": "More From Our Shop",
+            "menu": "header-shop",
+            "cta_title": "Can’t Decide?",
+            "cta_copy": "View Our Buyer’s Guide",
+            "cta_url": "shopify:\/\/pages\/jumpsport-fitness-trampoline-buyers-guide",
+            "product_title": "Shop Our Trampolines",
+            "products_cta_title": "Compare Trampolines",
+            "product_cta_url": "shopify:\/\/pages\/compare-jumpsport-trampolines",
+            "product_list": [
+              "39-essential-fitness-trampoline",
+              "39-premium-fitness-trampoline",
+              "jumpsport-39-pro-fitness-trampoline",
+              "44-essential-fitness-trampoline",
+              "44-pro-fitness-trampoline",
+              "jumpsport-48-pro-fitness-trampoline"
+            ],
+            "feature_image": "shopify:\/\/shop_images\/Thrive_final_featured_image.webp",
+            "feature_title": "",
+            "feature_cta": "Shop Now",
+            "feature_url": "https:\/\/www.jumpsport.com\/products\/44-pro-fitness-trampoline?variant=44522259120175"
+          }
+        },
+        "sub_basic_ryrb3n": {
+          "type": "sub_basic",
+          "settings": {
+            "top_level_nav": "Learn",
+            "menu_title": "Learn About Our Trampolines",
+            "menu": "header-learn",
+            "menu_image": "shopify:\/\/shop_images\/jumpsport-learn-menu.webp",
+            "show_social": false,
+            "cta_url": "",
+            "cta_title": "",
+            "cta_copy": "",
+            "cta_onclick": ""
+          }
+        },
+        "sub_basic_MUjbNM": {
+          "type": "sub_basic",
+          "settings": {
+            "top_level_nav": "Connect",
+            "menu_title": "Connect to Our Community",
+            "menu": "header-connect",
+            "menu_image": "shopify:\/\/shop_images\/jumpsport-connect-menu.webp",
+            "show_social": true,
+            "cta_url": "#",
+            "cta_title": "Contact Us",
+            "cta_copy": "Chat or send an Email",
+            "cta_onclick": "Beacon('open'); Beacon('navigate', '\/ask'); closeNav();"
+          }
+        }
+      },
+      "block_order": [
+        "sub_products_CW6bCa",
+        "sub_basic_ryrb3n",
+        "sub_basic_MUjbNM"
+      ],
+      "custom_css": [
+        ".menu__products .products__cta span {background: #fff; color: #1a1a1a;}",
+        ".header__nav .social-icons,.mobile-menu__links .social-icons {margin-top: 20px;}",
+        ".header__nav .social-icons li > a {display: flex;}",
+        ".products__cta .btn--outline {margin-top: -58px; position: absolute; right: 92px;}"
+      ],
+      "settings": {
+        "menu_main": "main-menu"
+      }
+    }
+  },
+  "order": [
+    "alert_bar",
+    "header"
+  ]
+}

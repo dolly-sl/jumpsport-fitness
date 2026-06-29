@@ -1,0 +1,136 @@
+{
+  "current": {
+    "favicon": "shopify:\/\/shop_images\/favicon-192px_2x_c9ff7c6d-1841-4a3d-8204-0981c2829576.png",
+    "padding-top-xs": 20,
+    "padding-top-sm": 30,
+    "padding-top-md": 50,
+    "padding-top-lg": 70,
+    "padding-top-xl": 100,
+    "padding-bottom-xs": 20,
+    "padding-bottom-sm": 30,
+    "padding-bottom-md": 50,
+    "padding-bottom-lg": 70,
+    "padding-bottom-xl": 100,
+    "padding-top-mobile-xs": 10,
+    "padding-top-mobile-sm": 20,
+    "padding-top-mobile-md": 30,
+    "padding-top-mobile-lg": 50,
+    "padding-top-mobile-xl": 80,
+    "padding-bottom-mobile-xs": 10,
+    "padding-bottom-mobile-sm": 20,
+    "padding-bottom-mobile-md": 30,
+    "padding-bottom-mobile-lg": 50,
+    "padding-bottom-mobile-xl": 80,
+    "compare_products": [
+      "39-essential-fitness-trampoline",
+      "39-premium-fitness-trampoline",
+      "jumpsport-39-pro-fitness-trampoline",
+      "44-essential-fitness-trampoline",
+      "44-pro-fitness-trampoline",
+      "jumpsport-48-pro-fitness-trampoline"
+    ],
+    "australia": "https:\/\/www.jumpsport.com.au\/",
+    "austria": "https:\/\/www.jumpsportfitness.at\/",
+    "costa_rica": "https:\/\/jumpsportcostarica.com\/",
+    "ecuador": "https:\/\/www.fitandjumpec.com\/",
+    "finland": "https:\/\/www.jumpsport.fi\/",
+    "france": "https:\/\/www.jumpsport.fr\/",
+    "germany": "https:\/\/jumpsportfitness.de\/",
+    "italy": "https:\/\/www.jumpsport.it\/",
+    "mexico": "https:\/\/jumpsport.com.mx\/",
+    "nz": "https:\/\/www.jumpsportfitness.co.nz\/",
+    "portugal": "https:\/\/www.jumpsport.pt\/",
+    "slovenia": "https:\/\/www.jumpsport.si\/",
+    "south_africa": "https:\/\/www.jumpsport.co.za\/",
+    "spain": "https:\/\/www.jumpsport.es\/",
+    "canada": "https:\/\/www.jumpsportfitness.ca\/",
+    "uk": "https:\/\/jumpsport.co.uk\/",
+    "venezuala": "",
+    "netherlands": "https:\/\/jumpsportfitness.nl\/",
+    "instagram": "https:\/\/www.instagram.com\/jumpsportfitness\/?hl=en",
+    "facebook": "https:\/\/www.facebook.com\/JumpSportFitness\/",
+    "x": "",
+    "tiktok": "https:\/\/www.tiktok.com\/@jumpsportfitness?lang=en",
+    "youtube": "https:\/\/www.youtube.com\/channel\/UCMZf7K15Vu0bclgtnCIp_iQ",
+    "south-africa": "https:\/\/www.jumpsport.co.za\/",
+    "twitter": "https:\/\/x.com\/jumpsportfit",
+    "content_for_index": [],
+    "blocks": {
+      "16422382648059844097": {
+        "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/instant-search-app-embedded\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": false,
+        "settings": {}
+      },
+      "17428600031447253342": {
+        "type": "shopify:\/\/apps\/attentive\/blocks\/attn-tag\/8df62c72-8fe4-407e-a5b3-72132be30a0d",
+        "disabled": false,
+        "settings": {}
+      },
+      "2987754545405591101": {
+        "type": "shopify:\/\/apps\/shipperhq-all-in-one-solution\/blocks\/ec_scripttag\/e61885c2-949d-46ac-bc1a-38130f5c1c75",
+        "disabled": false,
+        "settings": {}
+      },
+      "07b86391-61a6-44ad-9b2e-1e4837e4dfa9": {
+        "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/boost-sd-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": false,
+        "settings": {
+          "templateId": "fEOeD3I4Nb",
+          "productGridSelector": ""
+        }
+      },
+      "17151115064775110295": {
+        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
+        "disabled": false,
+        "settings": {
+          "color_brand": "#b91e72",
+          "contrast_color": "#FFFFFF",
+          "color_brand_secondary": "#b91e72",
+          "corners": "8px",
+          "app_background": "#f9f8f4",
+          "app_container": 1200,
+          "app_vertical_padding": 32,
+          "images_aspect_ratio": "1",
+          "cards_background": "#FFFFFF",
+          "cards_border_color": "rgba(0,0,0,0)"
+        }
+      },
+      "10605408327587305396": {
+        "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "disabled": false,
+        "settings": {
+          "version": "v3"
+        }
+      },
+      "17676059084223943535": {
+        "type": "shopify:\/\/apps\/triplewhale\/blocks\/triple_pixel_snippet\/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "disabled": false,
+        "settings": {}
+      },
+      "1269195111575427461": {
+        "type": "shopify:\/\/apps\/keepcart-coupon-protect\/blocks\/keepcart\/6c9b264a-3284-48f2-a6f6-2836be6ada2a",
+        "disabled": false,
+        "settings": {
+          "show_discount_banner": true,
+          "banner_message": "Discount [code] applied - [value] off your order!",
+          "banner_position": "bottom",
+          "banner_auto_hide": 7,
+          "banner_animate": true,
+          "banner_font": "sans_serif_n4",
+          "banner_font_size": 15,
+          "banner_bg_color": "#1a1a1a",
+          "banner_text_color": "#f5f5f5",
+          "banner_custom_css": ""
+        }
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".menu__products .card--compare .card__inner {overflow: hidden;}",
+      ".header__nav li .sub-menu--products .menu__products .products__cta .cta__copy {padding: 0 20px 0; text-align: center; align-self: anchor-center; color: #fff;}",
+      ".mini-cart .mini-cart__actions .btn--solid {margin-bottom: 10px;}",
+      ".recharge-subscription-widget {margin-bottom: 20px !important;}"
+    ]
+  }
+}

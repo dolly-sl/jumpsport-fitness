@@ -1,0 +1,51 @@
+{% if block.type == 'pdp_title' %}
+  <div class="pdp__title pdp-block" {{ block.shopify_attributes }}>
+    {% render 'pdp-title', block: block %}
+  </div>
+
+{% elsif block.type == 'pdp_price' %}
+  <div class="pdp__price pdp-block" {{ block.shopify_attributes }}>
+    {% render 'pdp-price', block: block %}
+  </div>
+
+{% elsif block.type == 'pdp_intro' %}
+  <div class="pdp__intro pdp-block" {{ block.shopify_attributes }}>
+    {% if product.metafields.custom.short_description != blank %}
+      {{ product.metafields.custom.short_description | metafield_tag }}
+    {% else %}
+      {{ product.description }}
+    {% endif %}
+  </div>
+
+{% elsif block.type == 'pdp_options' %}
+  {% if product.variants.size > 1 %}
+    <div class="pdp__options pdp-block" {{ block.shopify_attributes }}>
+      {% render 'pdp-options', block: block %}
+    </div>
+  {% endif %}
+
+{% elsif block.type == 'pdp_addons' %}
+  <div class="pdp__addons" {{ block.shopify_attributes }}>
+    {% render 'pdp-addons', block: block %}
+  </div>
+
+{% elsif block.type == 'pdp_atc' %}
+  <div class="pdp__atc pdp-block" {{ block.shopify_attributes }}>
+    {% render 'pdp-atc', block: block %}
+  </div>
+
+{% elsif block.type == 'pdp_cta' %}
+  <div class="pdp__cta pdp-block" {{ block.shopify_attributes }}>
+    {% render 'pdp-cta', block: block %}
+  </div>
+
+{% elsif block.type == 'pdp_accordions' %}
+  <div class="pdp__accordions pdp-block" {{ block.shopify_attributes }}>
+    {% render 'pdp-accordions', block: block %}
+  </div>
+
+{% elsif block.type == 'pdp_icons' %}
+  <div class="pdp__icons pdp-block" {{ block.shopify_attributes }}>
+    {% render 'pdp-icons', block: block %}
+  </div>
+{% endif %}

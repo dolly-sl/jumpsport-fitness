@@ -1,0 +1,12 @@
+<section class="hero hero--static">
+  <div class="hero__content hero__content--left">
+    <div class="container container--md">
+      <div class="inner">
+        <h1>{{ collection.title }}</h1>
+        {% if collection.description != blank %}
+          <p>{{ collection.description }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

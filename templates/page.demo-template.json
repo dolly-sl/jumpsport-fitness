@@ -1,0 +1,585 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-xl",
+      "blocks": {
+        "text_wzabzM": {
+          "type": "text",
+          "settings": {
+            "title": "The most versatile,  effective, and comfortable rebounder trampoline"
+          }
+        }
+      },
+      "block_order": [
+        "text_wzabzM"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rebounder-hero.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/rebounder-hero-mobile.jpg",
+        "copy_align": "left",
+        "eyebrow": "JUMPSPORT FITNESS TRAMPOLINES",
+        "title": "Way More Than Just A Rebounder",
+        "btn_url": "#",
+        "btn_copy": "Shop Rebounder Trampolines",
+        "link_url": "shopify:\/\/collections",
+        "link_copy": "",
+        "arch_color": "pink"
+      }
+    },
+    "cta_eyebrow_yEViNB": {
+      "type": "cta-eyebrow",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "eyebrow": "Receive unique programming & special benefits",
+        "title": "Low-impact and high intensity, the JumpSport Fitness Trampoline delivers HIIT, Circuit, Barre, and Cardio workouts for any fitness level.",
+        "btn_url": "#",
+        "btn_copy": "Button Copy"
+      }
+    },
+    "video_banner_FUcxxY": {
+      "type": "video-banner",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "video": "https:\/\/www.youtube.com\/watch?v=bxV8IMVAzzw"
+      }
+    },
+    "icon_grid_MFtpq8": {
+      "type": "icon-grid",
+      "blocks": {
+        "icon_3p4p3N": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-placeholder-xl.svg",
+            "title": "Lifetime Warranty On Frames"
+          }
+        },
+        "icon_dN6QeX": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-placeholder-xl.svg",
+            "title": "Free Shipping in the Contiguous U.S.†"
+          }
+        },
+        "icon_r7zNQX": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-placeholder-xl.svg",
+            "title": "0% APR Availalbe for 3-Month Financing*"
+          }
+        }
+      },
+      "block_order": [
+        "icon_3p4p3N",
+        "icon_dN6QeX",
+        "icon_r7zNQX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan"
+      }
+    },
+    "quote_slider_XVMrK9": {
+      "type": "quote-slider",
+      "blocks": {
+        "quote_z4rkwN": {
+          "type": "quote",
+          "settings": {
+            "quote": "“The JumpSport Trampoline is a perfect addition to our club.”",
+            "author": "Andrea Peña, Studio Owner"
+          }
+        },
+        "quote_RFDp9G": {
+          "type": "quote",
+          "settings": {
+            "quote": "A Quote",
+            "author": "Quote Author"
+          }
+        }
+      },
+      "block_order": [
+        "quote_z4rkwN",
+        "quote_RFDp9G"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "hide_bg": true,
+        "eyebrow": "WHAT OUR CLUBS ARE SAYING"
+      }
+    },
+    "product_slider_qRaHGU": {
+      "type": "product-slider",
+      "blocks": {
+        "card_bnKmkY": {
+          "type": "card",
+          "settings": {
+            "product": "39-essential-fitness-trampoline"
+          }
+        },
+        "card_bNbFp4": {
+          "type": "card",
+          "settings": {
+            "product": "essential-plus"
+          }
+        },
+        "card_8pEzWt": {
+          "type": "card",
+          "settings": {
+            "product": "39-essential-fitness-trampoline"
+          }
+        },
+        "card_eyfUMX": {
+          "type": "card",
+          "settings": {
+            "product": "essential-plus"
+          }
+        },
+        "card_7E4dVQ": {
+          "type": "card",
+          "settings": {
+            "product": "39-essential-fitness-trampoline"
+          }
+        }
+      },
+      "block_order": [
+        "card_bnKmkY",
+        "card_bNbFp4",
+        "card_8pEzWt",
+        "card_eyfUMX",
+        "card_7E4dVQ"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "heading_size": "lg",
+        "title": "Find The Best Rebounder",
+        "btn_url": "#",
+        "btn_copy": "Shop All"
+      }
+    },
+    "sxs_cYg7xQ": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_fXQaVn": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BTC-jsf-210523-129_4752X3168__42585.1624060056.1280.1280.jpg",
+            "title": "Do More With JumpSport Rebounder Trampolines",
+            "copy": "<p>From Barre Workouts to HIIT training, elevate your workouts with the low-impact and instability benefits of a JumpSport Rebounder Trampoline. Designed for both club and in-home trampoline use, the smooth bouncing elastic cords are ideal for active kids through active aging adults!<\/p>",
+            "btn_url": "",
+            "btn_copy": "SHOP"
+          }
+        }
+      },
+      "block_order": [
+        "sxs_fXQaVn"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "white",
+        "width": false
+      }
+    },
+    "cta_chart_9J7QnF": {
+      "type": "cta-chart",
+      "blocks": {
+        "row_PwhCtU": {
+          "type": "row",
+          "settings": {
+            "title": "Patented Arched Legs",
+            "copy": "<p>Unlike traditional rebounders, JumpSport’s patented arched legs provide unmatched stability and safety, preventing tipping and ensuring a secure workout experience. They also allow multiple trampolines to be stacked easily.<\/p>"
+          }
+        },
+        "row_HttYqJ": {
+          "type": "row",
+          "settings": {
+            "title": "Adjustable Tension EnduroLast™ Elastic Cords",
+            "copy": "<p>Customize your workout intensity with JumpSport’s adjustable tension settings, allowing you to tailor the bounce to your fitness level and preferences. JumpSport EnduroLast™ Elastic Cords stretch 2x their resting length and have been rigorously tested and approved for millions of bounces.<\/p>"
+          }
+        },
+        "row_FpPx4z": {
+          "type": "row",
+          "settings": {
+            "title": "Edge-to-Edge Workouts",
+            "copy": "<p>Extended lay-flat mats allow you to use the whole surface of your rebounder, making prone exercises more comfortable and giving you extra space for more diverse maneuvers.<\/p>"
+          }
+        },
+        "row_jcaeep": {
+          "type": "row",
+          "settings": {
+            "title": "The Most Innovative Workouts",
+            "copy": "<p>JumpSport offers the widest variety of programming, from high-intensity interval training (HIIT) to gentle, low-impact routines, catering to all fitness levels and goals. JumpSport Fitness TV is included with every purchase and exposes you to over 250 different ways of using your fitness trampoline. <a href=\"http:\/\/video.jumpsport.com\"><span style=\"text-decoration:underline\">Try JumpSport Fitness TV<\/span><\/a><\/p>"
+          }
+        },
+        "row_KFdGFU": {
+          "type": "row",
+          "settings": {
+            "title": "Instructor Education Courses",
+            "copy": "<p>Benefit from the best trampoline instructor education courses available, ensuring you get the most effective and safe workout guidance. Get started today with our online courses or contact us for in-person instruction for your team. <a href=\"http:\/\/training.jumpsport.com\"><span style=\"text-decoration:underline\">Enroll Online Today<\/span><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_PwhCtU",
+        "row_HttYqJ",
+        "row_FpPx4z",
+        "row_jcaeep",
+        "row_KFdGFU"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "position": "right",
+        "title": "Why Is JumpSport The Best Trampoline or Rebounder?",
+        "copy": "<p>A rebounder, commonly known as a mini-trampoline, is a versatile piece of fitness equipment originally designed for low-impact cardiovascular workouts. But what sets JumpSport apart from the rest?<\/p>",
+        "btn_url": "",
+        "btn_copy": "TEST BUTTON",
+        "image": "shopify:\/\/shop_images\/sxs-3.jpg",
+        "chart_title": ""
+      }
+    },
+    "cta_chart_6tidjW": {
+      "type": "cta-chart",
+      "blocks": {
+        "row_JdRXYi": {
+          "type": "row",
+          "settings": {
+            "title": "Durability and Quality",
+            "copy": "<p>Built with high-quality materials and superior craftsmanship, JumpSport trampolines are designed to last, providing you with a reliable fitness tool for years to come.<\/p>"
+          }
+        },
+        "row_KgdGt4": {
+          "type": "row",
+          "settings": {
+            "title": "Patented Safety Features",
+            "copy": "<p>With features like patented arched legs, extended and enhanced mats, and the smoothest bouncing adjustable tension elastic cords, JumpSport prioritizes your safety, reducing the risk of injury during workouts.<\/p>"
+          }
+        },
+        "row_bYfTYj": {
+          "type": "row",
+          "settings": {
+            "title": "Premium Elastic",
+            "copy": "<p>Years of testing went into our selection of elastic cords. Our EnduroLast Elastic Cords stretch longer, last longer, and provide a more forgiving bounce than any other bungee trampoline.<\/p>"
+          }
+        },
+        "row_p6VRem": {
+          "type": "row",
+          "settings": {
+            "title": "Unmatched Warranty",
+            "copy": "<p>We stand by our products so you don’t have to worry. From a lifetime warranty on the frame to 4 years for our 4-knot EnduroLast cords, you can be confident that your JumpSport will continue to perform.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_JdRXYi",
+        "row_KgdGt4",
+        "row_bYfTYj",
+        "row_p6VRem"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "position": "left",
+        "title": "Why Does JumpSport Cost More Than Other Rebounders On Amazon?",
+        "copy": "<p>Investing in a JumpSport Fitness Trampoline means investing in quality, durability, and a superior workout experience. Here’s why it’s worth the extra cost:<\/p>",
+        "btn_url": "",
+        "btn_copy": "TEST button",
+        "image": "shopify:\/\/shop_images\/chart-2.png",
+        "chart_title": ""
+      }
+    },
+    "cta_chart_pXtxjD": {
+      "type": "cta-chart",
+      "blocks": {
+        "row_6APCCr": {
+          "type": "row",
+          "settings": {
+            "title": "More Gentle Bounce",
+            "copy": "<p>Bungee cords provide a deeper, more absorbing bounce, which is much easier on the joints compared to the harder impact of metal springs.<\/p>"
+          }
+        },
+        "row_qiewBV": {
+          "type": "row",
+          "settings": {
+            "title": "Virtually Silent",
+            "copy": "<p>Bungee cords are significantly quieter than steel springs, making them perfect for home use without disturbing others.<\/p>"
+          }
+        },
+        "row_eJNJaD": {
+          "type": "row",
+          "settings": {
+            "title": "Enhanced Comfort",
+            "copy": "<p>The smoother bounce of bungee rebounders slows your body down more gradually, making it more comfortable to bounce and decreasing your recovery time between workouts.<\/p>"
+          }
+        },
+        "row_LDwDBB": {
+          "type": "row",
+          "settings": {
+            "title": "Highly Durable",
+            "copy": "<p>Bungee cords tend to last longer and require less maintenance than steel springs, providing a more reliable and long-lasting workout experience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_6APCCr",
+        "row_qiewBV",
+        "row_eJNJaD",
+        "row_LDwDBB"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "position": "right",
+        "title": "Why Are Bungee Rebounders Better Than Spring Rebounders?",
+        "copy": "<p>Steel springs can be noisy and offer a harsher bounce. JumpSport’s EnduroLast Elastic Cords offer several advantages over traditional steel spring rebounders:<\/p>",
+        "btn_url": "",
+        "btn_copy": "TEST button",
+        "image": "shopify:\/\/shop_images\/sxs-about-2.jpg",
+        "chart_title": ""
+      }
+    },
+    "cta_chart_7BKGWB": {
+      "type": "cta-chart",
+      "blocks": {
+        "row_dYVaFD": {
+          "type": "row",
+          "settings": {
+            "title": "Increased Stability",
+            "copy": "<p>The arched design offers greater stability, reducing the risk of tipping over during vigorous workouts. This makes it safer, especially for high-intensity exercise.<\/p>"
+          }
+        },
+        "row_BFcMXc": {
+          "type": "row",
+          "settings": {
+            "title": "Easier Mounting and Dismounting",
+            "copy": "<p>Wider legs reduce the risk of the trampoline tipping when getting on or off of the trampoline. Straight leg trampolines may flip up if the frame is stepped on.<\/p>"
+          }
+        },
+        "row_4Btwa6": {
+          "type": "row",
+          "settings": {
+            "title": "Efficient Stacking",
+            "copy": "<p>JumpSport’s unique leg design allows for multiple trampolines to stack easily for efficient storage. <\/p>"
+          }
+        },
+        "row_xQdYYC": {
+          "type": "row",
+          "settings": {
+            "title": "More Versatile Workouts",
+            "copy": "<p>You can use the stable frame for push-ups, dips, planks, and more. The trampoline also stands up on edge easily, providing you with a portable barre or stability device when doing balance exercises.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_dYVaFD",
+        "row_BFcMXc",
+        "row_4Btwa6",
+        "row_xQdYYC"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "position": "left",
+        "title": "Why Are Rebounders With Arched Legs Best?",
+        "copy": "<p>Fitness trampolines with arched legs provide several benefits over straight legs:<\/p>",
+        "btn_url": "",
+        "btn_copy": "TEST button",
+        "image": "shopify:\/\/shop_images\/image-grid-1.jpg",
+        "chart_title": ""
+      }
+    },
+    "sxs_mKFpTP": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_gVCW9h": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sxs-2.jpg",
+            "title": "Shop The Best Rebounder For You",
+            "copy": "",
+            "btn_url": "#",
+            "btn_copy": "Shop Now"
+          }
+        },
+        "sxs_Viq9DG": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sxs-3.jpg",
+            "title": "Get Credentialed for Your Club",
+            "copy": "<p>Equip yourself and your instructors with core trampoline competencies and discover new programming.<\/p><ul><li>Design Your Own Trampoline Classes<\/li><li>Hone Teaching Skills<\/li><li>Elevate Your Confidence<\/li><li>Get Feedback From Master Trainers<\/li><li>Earn ACE\/AFAA Credits<\/li><\/ul>",
+            "btn_url": "#",
+            "btn_copy": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "sxs_gVCW9h",
+        "sxs_Viq9DG"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "width": false
+      }
+    },
+    "image_grid_overflow_K67rmf": {
+      "type": "image-grid-overflow",
+      "blocks": {
+        "image_mBjdDc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-grid-1.jpg",
+            "title": "Stack trampolines for BOX JUMPS",
+            "url": "#"
+          }
+        },
+        "image_7QYNCF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sled_360_2__75171.1717020760.1280.1280.jpg",
+            "title": "Lay on the trampoline for CORE EXERCISES",
+            "url": ""
+          }
+        },
+        "image_ErGg6C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_BTC-jsf-210525-3357__04740.1688741196.1280.1280.jpg",
+            "title": "Add resistance bands for STRENGTH TRAINING",
+            "url": "#"
+          }
+        },
+        "image_mBjdDc1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sxs-about-1.jpg",
+            "title": "Attach a handle for BARRE WORKOUTS",
+            "url": "#"
+          }
+        },
+        "image_7QYNCF2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PlyoFit-Tony-web__00100.1706660983.1280.1280.jpg",
+            "title": "Us a soft toning ball for COORDINATION WORK",
+            "url": ""
+          }
+        },
+        "image_ErGg6C3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_BTC-jsf-210524-907__78987.1686607907.1280.1280.jpg",
+            "title": "Use medicine balls for AGILITY TRAINING",
+            "url": "#"
+          }
+        },
+        "image_mBjdDc4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/350_PlyoFit_lifestyle_in_pale_turquoise__61317.1712689286.1280.1280.jpg",
+            "title": "Attach a PlyoFit Pro for PLYOMETRICS",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "image_mBjdDc",
+        "image_7QYNCF",
+        "image_ErGg6C",
+        "image_mBjdDc1",
+        "image_7QYNCF2",
+        "image_ErGg6C3",
+        "image_mBjdDc4"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "title": "Did You Know You Can...",
+        "btn_url": "#",
+        "btn_copy": "Shop Now"
+      }
+    },
+    "cta_blocks_MpdTUG": {
+      "type": "cta-blocks",
+      "blocks": {
+        "block_Wz69YQ": {
+          "type": "block",
+          "settings": {
+            "title": "Want to make some extra cash?",
+            "title_alt": "Become an Affiliate",
+            "image": "shopify:\/\/shop_images\/pdp-cta-1_3f5d7da7-d962-42ea-9628-a575e2a8713c.jpg",
+            "url": "#"
+          }
+        },
+        "block_VDVG9R": {
+          "type": "block",
+          "settings": {
+            "title": "Looking for a International Partnership?",
+            "title_alt": "International Opportunities",
+            "image": "shopify:\/\/shop_images\/cta-block-2.jpg",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "block_Wz69YQ",
+        "block_VDVG9R"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "title": "More Ways to Become Part of the Community"
+      }
+    },
+    "cta_heading_8zYGQK": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "hide_bg": false,
+        "eyebrow": "",
+        "title": "Discover The Best Trampoline For You",
+        "copy": "",
+        "btn_url": "#",
+        "btn_copy": "Shop Now"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "cta_eyebrow_yEViNB",
+    "video_banner_FUcxxY",
+    "icon_grid_MFtpq8",
+    "quote_slider_XVMrK9",
+    "product_slider_qRaHGU",
+    "sxs_cYg7xQ",
+    "cta_chart_9J7QnF",
+    "cta_chart_6tidjW",
+    "cta_chart_pXtxjD",
+    "cta_chart_7BKGWB",
+    "sxs_mKFpTP",
+    "image_grid_overflow_K67rmf",
+    "cta_blocks_MpdTUG",
+    "cta_heading_8zYGQK"
+  ]
+}

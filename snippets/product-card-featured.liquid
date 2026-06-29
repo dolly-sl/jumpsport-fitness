@@ -1,0 +1,126 @@
+<div class="card card--compare card--featured" {{ block.shopify_attributes }}>
+  <div class="card__inner text-center">
+    <div class="card-upper">
+      <div class="card__image{% if data.images[1] != blank %} card__image--hover{% endif %}">
+        <a href="{{ data.url }}">
+          {% if data.metafields.product.product_tag != blank %}
+            <div class="card__tag tag" style="background:{{ data.metafields.product.product_tag.value.tag_color }}">
+              <span>
+                {{ data.metafields.product.product_tag.value.tag_copy }}
+              </span>
+            </div>
+          {% endif %}
+          {% unless data.available %}
+            <div class="card__tag tag" style="background:#007DBC;">
+              <span> Sold Out </span>
+            </div>
+          {% endunless %}
+          <img
+            loading="lazy"
+            src="{{ data.featured_image | img_url: '205x205' }}"
+            srcset="{{ data.featured_image | img_url: '410x410' }} 2x"
+            alt="{{ data.featured_image.alt | escape }}"
+            class="image image--main"
+          >
+          {% if data.images[1] != blank %}
+            <img
+              loading="lazy"
+              src="{{ data.images[1].src | img_url: '205x205' }}"
+              srcset="{{data.images[1].src | img_url: '410x410' }} 2x"
+              alt="{{ data.images[1].alt | escape }}"
+              class="image image--two"
+            >
+          {% endif %}
+        </a>
+      </div>
+      <div class="card__info">
+        <a href="{{ data.url }}">
+          <h3 class="heading--five">
+            {{ data.title }}
+          </h3>
+        </a>
+        <div class="price">
+          {% if data.price_varies == true %}
+            Starting at
+          {% endif %}
+          {% if data.available %}
+            {% assign lowest_price = data.first_available_variant.price %}
+
+            {% for variant in data.variants %}
+              {% if variant.available %}
+                {% if variant.price < lowest_price %}
+                  {% assign lowest_price = variant.price %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+            {{ lowest_price | money }}
+          {% else %}
+            {{ data.price | money }}
+          {% endif %}
+        </div>
+        <div class="details text-center">
+          <p class="detail">
+            {{ data.metafields.compare.frame_size }}
+          </p>
+          <p class="detail">
+            {{ data.metafields.compare.bounce_type }}
+          </p>
+          <p class="detail">{{ data.metafields.compare.max_weight }}</p>
+        </div>
+        <div class="swatches">
+          <ul class="list-reset d-flex justify-center">
+            {% for product_option in data.options_with_values %}
+              {% if product_option.name contains 'Color' %}
+                {% for value in product_option.values %}
+                  {% for var in data.variants %}
+                    {% if var.title contains value %}
+                      {% assign variant_image_url = var.image | img_url: '280x280', crop: 'center' %}
+                      {% assign variant_image_url_2x = var.image | img_url: '560x560', crop: 'center' | append: ' 2x' %}
+                      {% break %}
+                    {% else %}
+                      {% assign variant_image_url = 'null' %}
+                    {% endif %}
+                  {% endfor %}
+                  <li>
+                    {% for swatch in shop.metaobjects['shopify--color-pattern'].values %}
+                      {% assign swatchLabel = swatch.label | strip %}
+                      {% assign swatchValue = value | strip %}
+                      {% if swatchLabel == swatchValue %}
+                        {% if swatch.image != blank %}
+                          {% assign syntheticSwatch = swatch.image
+                            | img_url
+                            | prepend: 'background:url('
+                            | append: ') center center/cover no-repeat;'
+                          %}
+                        {% else %}
+                          {% assign syntheticSwatch = swatch.color | prepend: 'background:' | append: ';' %}
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                    <button
+                      class="swatch"
+                      data-image="{{ variant_image_url }}"
+                      data-image-srcset="{{ variant_image_url_2x }}"
+                      data-color="{{ value }}"
+                      style="{{ syntheticSwatch }}"
+                    >
+                      <span class="sr-only">
+                        {{ value }}
+                      </span>
+                    </button>
+                  </li>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="actions">
+      <div>
+        <a href="{{  data.url }}" class="btn btn--solid" aria-label="Shop now for {{ data.title }}"> Shop Now </a>
+      </div>
+      <a href="/pages/compare" class="action"> Compare Model </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "cta_heading_FXTLJm": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "xs",
+        "padding_bottom": "xs",
+        "padding_top-mobile": "xs",
+        "padding_bottom-mobile": "xs",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "sxs_NTUtVX": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_dqANyE": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/940x940_collaborate_jft.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Join the JumpSport Affiliate Program and get rewarded for sharing performance-driven fun and wellness.",
+            "copy": "<p>Whether you're a studio owner, fitness instructor, or influencer, our affiliate program is built to support your hustle. Share the bounce, earn commissions, and enjoy exclusive perks along the way!<\/p><p>✨ Earn commission on every qualified referral—with room to grow<br\/><br\/>🎉 Access to exclusive promotions and partner-only opportunities<br\/><br\/>📈 Track your performance with a personalized affiliate dashboard<br\/><br\/>🔗 Custom referral links for a seamless customer experience<\/p><p><strong>Our affiliate program is currently invite-only.<\/strong><br\/><\/p><p>Questions? Contact us at bouncefam@jumpsport.com<\/p>",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "sxs_dqANyE"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "width": false
+      }
+    },
+    "collabs": {
+      "type": "apps",
+      "blocks": {
+        "69ad740c-e4b2-4dc0-b0d5-710188c87280": {
+          "type": "shopify:\/\/apps\/collabs\/blocks\/application-page\/54758706-9f25-4fa9-a553-64720a4c998b",
+          "disabled": true,
+          "settings": {
+            "heading": "Turn Your Passion for Fitness Into Earnings",
+            "show_square_logo": false,
+            "show_partnership_info": false,
+            "button_text": "",
+            "number_of_images": "4",
+            "logo_position": "above",
+            "corner_style": "rounded",
+            "button_background_color": "#000000",
+            "button_label_color": "#ffffff",
+            "link_color": "#2c6ecb"
+          }
+        }
+      },
+      "block_order": [
+        "69ad740c-e4b2-4dc0-b0d5-710188c87280"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "cta_heading_FXTLJm",
+    "sxs_NTUtVX",
+    "collabs"
+  ]
+}

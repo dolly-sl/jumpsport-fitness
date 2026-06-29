@@ -1,0 +1,342 @@
+<section
+  class="product-tiers section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+  id="product-tiers--{{ section.id }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  <div class="container container--md">
+    <div class="product-tiers__list d-flex justify-center">
+      {% for block in section.blocks %}
+        <div class="tier" {{ block.shopify_attributes }}>
+          <div class="tier__inner text-center">
+            <div class="tier__heading" style="background: {{ block.settings.color }}">
+              <span class="eyebrow">
+                {{ block.settings.eyebrow }}
+              </span>
+              {% render 'dynamic-heading',
+                level: block.settings.heading_level,
+                title: block.settings.title,
+                classList: block.settings.heading_level_display
+              %}
+              <span class="sub">
+                {{ block.settings.sub_title }}
+              </span>
+            </div>
+            <div class="tier__info">
+              {{ block.settings.copy }}
+              {% if block.settings.btn_url != blank %}
+                <div class="actions d-flex justify-center">
+                  <a href="{{ block.settings.btn_url }}" class="btn btn--solid btn--arrow btn--xl">
+                    {{ block.settings.btn_copy }}
+                  </a>
+                </div>
+              {% endif %}
+              <p class="disclaimer">
+                {{ block.settings.disclaimer }}
+              </p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% if section.settings['padding_bottom-mobile'] == 'never-going-to-hit'
+  or section.settings['padding_top-mobile'] == 'never-going-to-hit'
+%}
+  <style>
+    @media(max-width: 768px) {
+      #product-tiers--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top-mobile }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom-mobile }}px !important;
+      }
+    }
+  </style>
+{% endif %}
+{% schema %}
+{
+  "name": "Product Tiers",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "padding_top",
+      "type": "select",
+      "label": "Padding Top",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom",
+      "type": "select",
+      "label": "Padding Bottom",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_top-mobile",
+      "type": "select",
+      "label": "Padding Top - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom-mobile",
+      "type": "select",
+      "label": "Padding Bottom - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tier",
+      "name": "Tier",
+      "limit": 3,
+      "settings": [
+        {
+          "id": "color",
+          "type": "color",
+          "label": "Background Color"
+        },
+        {
+          "id": "eyebrow",
+          "type": "text",
+          "label": "Eyebrow"
+        },
+        {
+          "type": "select",
+          "id": "heading_level",
+          "label": "Heading Level",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h2"
+        },
+        {
+          "type": "select",
+          "id": "heading_level_display",
+          "label": "Heading Level - Display",
+          "options": [
+            {
+              "value": "",
+              "label": "Natural"
+            },
+            {
+              "value": "heading--one",
+              "label": "H1"
+            },
+            {
+              "value": "heading--two",
+              "label": "H2"
+            },
+            {
+              "value": "heading--three",
+              "label": "H3"
+            },
+            {
+              "value": "heading--four",
+              "label": "H4"
+            },
+            {
+              "value": "heading--five",
+              "label": "H5"
+            },
+            {
+              "value": "heading--six",
+              "label": "H6"
+            }
+          ],
+          "default": ""
+        },
+        {
+          "id": "title",
+          "type": "html",
+          "label": "Title"
+        },
+        {
+          "id": "sub_title",
+          "type": "text",
+          "label": "Sub Title"
+        },
+        {
+          "id": "copy",
+          "type": "richtext",
+          "label": "Copy"
+        },
+        {
+          "id": "disclaimer",
+          "type": "text",
+          "label": "Disclaimer"
+        },
+        {
+          "id": "btn_url",
+          "type": "url",
+          "label": "Button URL"
+        },
+        {
+          "id": "btn_copy",
+          "type": "text",
+          "label": "Button Copy"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Product Tiers"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,150 @@
+<div class="card card--full" {{ block.shopify_attributes }}>
+  <div class="card__inner">
+    <div class="card__image{% if data.images[1] != blank %} card__image--hover{% endif %}">
+      <a href="{{ data.url }}">
+        {% if data.metafields.product.product_tag != blank %}
+          <div class="card__tag tag" style="background:{{ data.metafields.product.product_tag.value.tag_color }}">
+            <span>
+              {{ data.metafields.product.product_tag.value.tag_copy }}
+            </span>
+          </div>
+        {% endif %}
+        {% unless data.available %}
+          <div class="card__tag tag" style="background:#007DBC;">
+            <span> Sold Out </span>
+          </div>
+        {% endunless %}
+        <img
+          loading="lazy"
+          data-src="{{ data.featured_image | img_url: '280x280', crop: 'center' }}"
+          src="{{ data.featured_image | img_url: '280x280', crop: 'center' }}"
+          srcset="{{ data.featured_image | img_url: '560x560', crop: 'center' }} 2x"
+          data-srcset="{{ data.featured_image | img_url: '560x560', crop: 'center' }} 2x"
+          alt="{{ data.featured_image.alt | escape }}"
+          class="image image--main"
+        >
+        {% if data.images[1] != blank %}
+          <img
+            loading="lazy"
+            src="{{ data.images[1].src | img_url: '280x280', crop: 'center' }}"
+            srcset="{{data.images[1].src | img_url: '560x560', crop: 'center' }} 2x"
+            alt="{{ data.images[1].alt | escape }}"
+            class="image image--two"
+          >
+        {% endif %}
+      </a>
+    </div>
+
+    <div class="card__info">
+      <a href="{{ data.url }}">
+        <h3 class="heading--four scheme-color">
+          {{ data.title }}
+        </h3>
+      </a>
+      <div class="card__price scheme-color">
+        {% if data.price_varies == true %}
+          Starting at
+        {% endif %}
+        {% if data.available %}
+          {% assign lowest_price = data.first_available_variant.price %}
+
+          {% for variant in data.variants %}
+            {% if variant.available %}
+              {% if variant.price < lowest_price %}
+                {% assign lowest_price = variant.price %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {{ lowest_price | money }}
+        {% else %}
+          {{ data.price | money }}
+        {% endif %}
+      </div>
+      <div class="details">
+        {% if data.metafields.compare.frame_size != blank %}
+          <p class="detail scheme-color">
+            {{ data.metafields.compare.frame_size }}
+          </p>
+        {% endif %}
+        {% if data.metafields.compare.bounce_type != blank %}
+          <p class="detail scheme-color">
+            {{ data.metafields.compare.bounce_type }}
+          </p>
+        {% endif %}
+        {% if data.metafields.compare.max_weight != blank %}
+          <p class="detail scheme-color">{{ data.metafields.compare.max_weight }}</p>
+        {% endif %}
+      </div>
+      <div class="swatches">
+        <ul class="list-reset d-flex">
+          {% for product_option in data.options_with_values %}
+            {% if product_option.name contains 'Color' %}
+              {% for value in product_option.values %}
+                {% for var in data.variants %}
+                  {% if var.title contains value %}
+                    {% assign variant_image_url = var.image | img_url: '280x280', crop: 'center' %}
+                    {% assign variant_image_url_2x = var.image | img_url: '560x560', crop: 'center' | append: ' 2x' %}
+                    {% break %}
+                  {% else %}
+                    {% assign variant_image_url = 'null' %}
+                  {% endif %}
+                {% endfor %}
+                <li>
+                  {% for swatch in shop.metaobjects['shopify--color-pattern'].values %}
+                    {% assign swatchLabel = swatch.label | strip %}
+                    {% assign swatchValue = value | strip %}
+                    {% if swatchLabel == swatchValue %}
+                      {% if swatch.image != blank %}
+                        {% assign syntheticSwatch = swatch.image
+                          | img_url
+                          | prepend: 'background:url('
+                          | append: ') center center/cover no-repeat;'
+                        %}
+                      {% else %}
+                        {% assign syntheticSwatch = swatch.color | prepend: 'background:' | append: ';' %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                  <button
+                    class="swatch"
+                    data-image="{{ variant_image_url }}"
+                    data-image-srcset="{{ variant_image_url_2x }}"
+                    data-color="{{ value }}"
+                    style="{{ syntheticSwatch }}"
+                  >
+                    <span class="sr-only">
+                      {{ value }}
+                    </span>
+                  </button>
+                </li>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="card__reviews">
+        {%- capture sku_list -%}{%- for variant  in data.variants -%}{{- variant.sku -}},{%- endfor -%}{%- endcapture -%}
+        <!-- TrustBox widget - Product Mini -->
+
+        <div
+          class="trustpilot-widget"
+          data-locale="en-US"
+          data-template-id="577258fb31f02306e4e3aaf9"
+          data-businessunit-id="582b8ffe0000ff00059791c8"
+          data-style-height="24px"
+          data-style-width="100%"
+          data-theme="light"
+          data-sku="{{- sku_list | strip | append: data.metafields.product.review_skus -}}"
+          data-no-reviews="show"
+          data-font-family="Poppins"
+          data-scroll-to-list="true"
+          data-style-alignment="left"
+        >
+          <a href="https://www.trustpilot.com/review/www.jumpsport.com" target="_blank" rel="noopener">Trustpilot</a>
+        </div>
+      </div>
+
+      <div class="actions"></div>
+    </div>
+  </div>
+</div>

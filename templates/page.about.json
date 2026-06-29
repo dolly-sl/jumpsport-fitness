@@ -1,0 +1,607 @@
+{
+  "sections": {
+    "heading": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "Our Mission, Values, and Commitment to Community",
+        "heading_level": "h1",
+        "heading_level_display": "",
+        "title": "About JumpSport",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "sxs_7ppaJM": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_NQ6BLF": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BF2A4154.png",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Who We Are",
+            "copy": "<p>As a family-owned business, JumpSport is rooted in integrity, quality, and community. We believe in creating innovative products that enhance well-being and inspire people to enjoy their fitness journey. <\/p><p>Our commitment is to deliver exceptional service, build genuine relationships, and support each customer's wellness goals with products designed to last a lifetime.<\/p>",
+            "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+            "btn_copy": "Explore Our Trampolines"
+          }
+        },
+        "sxs_w8wLkn": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/577A4650_2.png",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Our Values",
+            "copy": "<p><strong>Integrity & Family<br\/><\/strong>We treat every customer like family, fostering trust and operating with high ethical standards in all that we do.<\/p><p><strong>Innovation & Impact<br\/><\/strong>We innovate to create products and experiences that have a meaningful impact on fitness, health, and well-being.<\/p><p><strong>Quality & Service<br\/><\/strong>We stand by the quality of our products and are dedicated to providing exceptional service to ensure long-term satisfaction.<\/p><p><strong>Empowerment & Enjoyment<br\/><\/strong>We believe in making fitness enjoyable and accessible, inspiring everyone to achieve their health goals with a smile.<\/p>",
+            "btn_url": "#",
+            "btn_copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "sxs_NQ6BLF",
+        "sxs_w8wLkn"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "width": false
+      }
+    },
+    "cta_heading_KKe3JM": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "OUR MISSION",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "JumpSport empowers every individual’s fitness journey by creating safe, effective products and bounce experiences that help you feel your best—every step, jump, and bounce along the way.",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "video_banner_WeAHBY": {
+      "type": "video-banner",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "video": "https:\/\/youtu.be\/4CTRTAE2Qcw"
+      }
+    },
+    "accordions_8UrFAN": {
+      "type": "accordions",
+      "blocks": {
+        "text_UqR4AN": {
+          "type": "text",
+          "settings": {
+            "title": "Quality Products",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Engineered for safety, durability, and performance, our trampolines are designed to meet the highest standards for gym or home use. From robust materials to innovative design features, every JumpSport product is built to deliver a superior bounce experience that lasts for years.<\/p>"
+          }
+        },
+        "text_xDREyd": {
+          "type": "text",
+          "settings": {
+            "title": "Premier Bounce Programming",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>We offer a diverse range of expertly designed fitness programming that transform trampolines into powerful training tools. Whether it’s cardio, strength, or flexibility, our programming is crafted to maximize results and make every workout fun, effective, and engaging. We feature professional boutique studios who are all-in on giving you the best bounce experience possible.<\/p>"
+          }
+        },
+        "text_VtbVC8": {
+          "type": "text",
+          "settings": {
+            "title": "Professional Education",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Our comprehensive education platform provides fitness professionals with the knowledge and tools to elevate their training and instruct with confidence. Through certifications, workshops, and online resources, we empower instructors to master rebounding techniques and inspire their clients.<\/p>"
+          }
+        },
+        "text_jRh9VV": {
+          "type": "text",
+          "settings": {
+            "title": "Empowering Community",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>At JumpSport, we’re more than a brand—we’re your bounce family, united by a shared passion for wellness and movement. From local events to online collaborations, we foster a welcoming environment where customers, trainers, and fitness enthusiasts can connect, inspire each other, and celebrate their fitness journeys together.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_UqR4AN",
+        "text_xDREyd",
+        "text_VtbVC8",
+        "text_jRh9VV"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Our Pillars",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "logo_list_cNLGi7": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_chH8KL": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/demo-logo.png",
+            "url": ""
+          }
+        },
+        "logo_mn378p": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/forbes.png",
+            "url": ""
+          }
+        },
+        "logo_jC6GyH": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/vogue.png",
+            "url": ""
+          }
+        },
+        "logo_N6ik4V": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/bazaar.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_chH8KL",
+        "logo_mn378p",
+        "logo_jC6GyH",
+        "logo_N6ik4V"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_line": true,
+        "heading_level": "h3",
+        "heading_level_display": "",
+        "title": "Press Coverage"
+      }
+    },
+    "image_grid_overflow_exRqWp": {
+      "type": "image-grid-overflow",
+      "blocks": {
+        "image_E7GpcF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/demo-logo.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "",
+            "url": ""
+          }
+        },
+        "image_yeQkhW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bazaar.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "",
+            "url": ""
+          }
+        },
+        "image_bqkgFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/prevention-retina.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "",
+            "url": ""
+          }
+        },
+        "image_PCp68P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "",
+            "url": ""
+          }
+        },
+        "image_pRkyJ3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forbes.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "",
+            "url": ""
+          }
+        },
+        "image_acWzaH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/health-retina.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_E7GpcF",
+        "image_yeQkhW",
+        "image_bqkgFX",
+        "image_PCp68P",
+        "image_pRkyJ3",
+        "image_acWzaH"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Press Coverage",
+        "btn_url": "shopify:\/\/pages\/jumpsport-press-media-coverage",
+        "btn_copy": "View Press Articles"
+      }
+    },
+    "sxs_wPjPff": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_Tnc9kQ": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mark-About-Us-BTP-0621.jpg",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Mark Publicover: The Father Of Trampoline Safety™",
+            "copy": "<p><em>Co-Founder and CEO<\/em><\/p><p>Widely known as the <em>“Father of Trampoline Safety,”<\/em> Mark invented the backyard trampoline safety enclosure, a game-changing innovation that now protects millions of children around the world. Driven by the same spirit of ingenuity, he went on to create the JumpSport Fitness Trampoline, empowering people of all ages to embrace a healthier, more active lifestyle. His pioneering vision continues to shape the trampoline industry and inspire positive change globally.<\/p>",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "sxs_Tnc9kQ"
+      ],
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "width": false
+      }
+    },
+    "team_Bi8DVc": {
+      "type": "team",
+      "blocks": {
+        "text_jUxaqc": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Valerie_Head_Shot.webp",
+            "title": "Valerie Publicover",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "sub_title": "Co-Owner, CFO, General Manager",
+            "copy": "<p>Valerie ensures that JumpSport operates efficiently, and consistently delivers excellent customer service. Additionally, she oversees the company’s financial health and resource allocation to support business growth. Her strategic oversight ensures JumpSport remains focused on delivering high-quality products and experiences for every customer.<\/p>",
+            "url": ""
+          }
+        },
+        "text_i39mEn": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1CCD4BA1-A53F-4F57-B806-E50947475673.heic",
+            "title": "Forrest Bless",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "sub_title": "President, CMO",
+            "copy": "<p>Forrest brings a wealth of leadership experience and a passion for fitness to the JumpSport team, guiding our vision and strategic direction. He directs all marketing strategy, business growth initiatives, and brand development to ensure JumpSport remains at the forefront of the fitness trampoline industry. With a focus on expanding our reach and deepening customer engagement, Forrest drives innovation and leads efforts to create impactful programs that resonate with the needs of our diverse community.<br\/><\/p>",
+            "url": ""
+          }
+        },
+        "text_CxaEgn": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/high-res-image.jpg",
+            "title": "Steve Carver",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "sub_title": "Business and Product Development Director, Master Trainer",
+            "copy": "<p>Steve’s unique training methods and passion for fitness drive JumpSport’s product evolution and business growth. In addition to overseeing product development, he focuses on expanding our presence in international markets, establishing new partnerships, and ensuring our product offerings meet the highest standards of quality and innovation. His hands-on approach and dedication to customer needs make him a pivotal force behind JumpSport’s continued global expansion and product excellence.<br\/><\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_jUxaqc",
+        "text_i39mEn",
+        "text_CxaEgn"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Meet Our Leadership",
+        "copy": "<p>We’re a team of passionate individuals who love creating innovative products, delivering amazing customer experiences, and helping you stay active, healthy, and happy.<\/p>"
+      }
+    },
+    "cta_heading_AwFEFU": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "A Foundation Of Safety: JumpSport’s History Of Innovation",
+        "copy": "<p>JumpSport has been a visionary in the trampoline industry since 1996. We’ve come a long way from inventing the world’s first safety enclosure, to creating a range of fitness trampolines that have transformed the way people exercise.<\/p>",
+        "btn_url": "#",
+        "btn_copy": ""
+      }
+    },
+    "timeline_BP8zwV": {
+      "type": "timeline",
+      "blocks": {
+        "event_HzhhKJ": {
+          "type": "event",
+          "settings": {
+            "year": "1996",
+            "title": "Mark Invents The World’s First Affordable Safety Enclosure ",
+            "copy": "<p>Mark Publicover’s groundbreaking safety enclosure design revolutionizes trampoline safety, setting a new industry standard.<\/p>"
+          }
+        },
+        "event_BxRq84": {
+          "type": "event",
+          "settings": {
+            "year": "2000",
+            "title": "AlleyOOP Sports launches",
+            "copy": "<p>We introduce AlleyOOP, a premium line of backyard trampolines known for unmatched quality, safety, and performance.<\/p>"
+          }
+        },
+        "event_caW3r8": {
+          "type": "event",
+          "settings": {
+            "year": "2008",
+            "title": "The JumpSport Fitness Trampoline launches",
+            "copy": "<p>We reimagine trampolining for fitness, offering a low-impact workout solution that combines fun and function.<\/p>"
+          }
+        },
+        "event_mk7Cgq": {
+          "type": "event",
+          "settings": {
+            "year": "2010",
+            "title": "JumpSport expands internationally",
+            "copy": "<p>JumpSport products begin reaching a global audience, inspiring fitness enthusiasts and families around the world.<\/p>"
+          }
+        },
+        "event_pGCYKi": {
+          "type": "event",
+          "settings": {
+            "year": "2013",
+            "title": "The PlyoFit plyometric trampoline launches",
+            "copy": "<p>We launch the angled PlyoFit trampoline, expanding training options by incorporating plyometric exercises for agility, strength, and balance.<\/p>"
+          }
+        },
+        "event_HpGyhq": {
+          "type": "event",
+          "settings": {
+            "year": "2015",
+            "title": "Bounce + Barre programming launches",
+            "copy": "<p>We blend rebounding with barre techniques, creating Bounce + Barre to elevate low-impact group fitness experiences.<\/p>"
+          }
+        },
+        "event_QUKKHe": {
+          "type": "event",
+          "settings": {
+            "year": "2018",
+            "title": "JumpSport Fitness TV launches",
+            "copy": "<p>We debut a digital fitness platform, providing on-demand classes and workouts to our growing community.<\/p>"
+          }
+        },
+        "event_YRpMgD": {
+          "type": "event",
+          "settings": {
+            "year": "2019",
+            "title": "Online Education launches",
+            "copy": "<p>We release comprehensive online training programs, supporting instructors and fitness enthusiasts with expert-led courses.<\/p>"
+          }
+        },
+        "event_JdxGWQ": {
+          "type": "event",
+          "settings": {
+            "year": "2020",
+            "title": "Strength Training Kit launches",
+            "copy": "<p>We introduce the Strength Training Kit, integrating resistance training into rebounding for a full-body workout experience.<\/p>"
+          }
+        },
+        "event_Q4bcfx": {
+          "type": "event",
+          "settings": {
+            "year": "2021",
+            "title": "First co-branded trampoline launches",
+            "copy": "<p>We partner with leading fitness professionals, starting with The Ness NYC to create co-branded products, expanding the reach of JumpSport’s fitness solutions.<\/p>"
+          }
+        },
+        "event_A87cEA": {
+          "type": "event",
+          "settings": {
+            "year": "2023",
+            "title": "The first ever JumpSport Games",
+            "copy": "<p>Hosted in Mexico, the JumpSport Games successfully united a powerful community of women, inspiring them to connect, celebrate their strength, and push their limits through fun and empowering fitness challenges.<\/p>"
+          }
+        },
+        "event_DGP9QK": {
+          "type": "event",
+          "settings": {
+            "year": "2024",
+            "title": "Expands global reach",
+            "copy": "<p>We continue our international growth by entering 10 new countries, bringing JumpSport’s innovative products and fitness experiences to even more communities around the world.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "event_HzhhKJ",
+        "event_BxRq84",
+        "event_caW3r8",
+        "event_mk7Cgq",
+        "event_pGCYKi",
+        "event_HpGyhq",
+        "event_QUKKHe",
+        "event_YRpMgD",
+        "event_JdxGWQ",
+        "event_Q4bcfx",
+        "event_A87cEA",
+        "event_DGP9QK"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "trust_pilot_YnrRLF": {
+      "type": "trust-pilot",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "See What Our Customers are Saying",
+        "embed": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"en-US\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"582b8ffe0000ff00059791c8\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"en\" data-font-family=\"Poppins\" data-text-color=\"#1a1a1a\">\n  <a href=\"https:\/\/www.trustpilot.com\/review\/www.jumpsport.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "blog_cards_article_L7JqcV": {
+      "type": "blog-cards-article",
+      "blocks": {
+        "blog_Gfe9Vq": {
+          "type": "blog",
+          "settings": {
+            "post": "bounce-blog\/rebuild-bone-density-for-seniors"
+          }
+        },
+        "blog_bXj6aE": {
+          "type": "blog",
+          "settings": {
+            "post": "bounce-blog\/improving-joint-health-why-rebounding-is-the-best-low-impact-exercise-for-seniors"
+          }
+        },
+        "blog_E6UbU8": {
+          "type": "blog",
+          "settings": {
+            "post": "bounce-blog\/barre-trampoline-exercise-sculpt-tone-and-bounce-your-way-to-fitness"
+          }
+        }
+      },
+      "block_order": [
+        "blog_Gfe9Vq",
+        "blog_bXj6aE",
+        "blog_E6UbU8"
+      ],
+      "settings": {
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "JumpSport Bounce Blog",
+        "btn_url": "shopify:\/\/blogs\/bounce-blog",
+        "btn_copy": "More Articles"
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "sxs_7ppaJM",
+    "cta_heading_KKe3JM",
+    "video_banner_WeAHBY",
+    "accordions_8UrFAN",
+    "logo_list_cNLGi7",
+    "image_grid_overflow_exRqWp",
+    "sxs_wPjPff",
+    "team_Bi8DVc",
+    "cta_heading_AwFEFU",
+    "timeline_BP8zwV",
+    "trust_pilot_YnrRLF",
+    "blog_cards_article_L7JqcV"
+  ]
+}

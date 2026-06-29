@@ -1,0 +1,48 @@
+<div class="accordion__list">
+  {% if product.metafields.custom.why_it_s_different != blank %}
+    <div class="accordion__group">
+      <button class="accordion__heading d-flex justify-between align-center">
+        <span>Why It’s Different</span>
+      </button>
+      <div class="accordion__copy">
+        {{ product.metafields.custom.why_it_s_different | metafield_tag }}
+      </div>
+    </div>
+  {% endif %}
+  {% if product.metafields.acc.features != blank %}
+    <div class="accordion__group">
+      <button class="accordion__heading d-flex justify-between align-center">
+        <span>Features & Specs</span>
+      </button>
+      <div class="accordion__copy">
+        {{ product.metafields.acc.features | metafield_tag }}
+      </div>
+    </div>
+  {% endif %}
+  {% if product.metafields.acc.warranty != blank %}
+    <div class="accordion__group">
+      <button class="accordion__heading d-flex justify-between align-center">
+        <span>Warranty Info</span>
+      </button>
+      <div class="accordion__copy">
+        {{ product.metafields.acc.warranty | metafield_tag }}
+      </div>
+    </div>
+  {% endif %}
+  {% if product.metafields.acc.shipping_info != blank %}
+    <div class="accordion__group">
+      <button class="accordion__heading d-flex justify-between align-center">
+        <span>Shipping Info</span>
+      </button>
+      <div class="accordion__copy">
+        {{ product.metafields.acc.shipping_info | metafield_tag }}
+      </div>
+    </div>
+  {% endif %}
+  {% if product.metafields.pdp.user_manual != blank %}
+    <div class="pdp__manual d-flex align-center">
+      <img src="{{ 'icon-doc.svg' | asset_url }}" alt="">
+      <a href="{{ product.metafields.pdp.user_manual | file_url }}" target="_blank"> View User Manual </a>
+    </div>
+  {% endif %}
+</div>

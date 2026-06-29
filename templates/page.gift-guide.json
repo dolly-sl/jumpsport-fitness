@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "page": {
+      "type": "page-content",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "hero_default_EXhdqj": {
+      "type": "hero-default",
+      "name": "Hero - Default",
+      "settings": {
+        "copy_align": "left",
+        "heading_level": "h1",
+        "title": "",
+        "copy": "",
+        "arch_color": "green"
+      }
+    },
+    "cta_heading_RJXx8k": {
+      "type": "cta-heading",
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Over $400",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "collection_slider_mJMTBb": {
+      "type": "collection-slider",
+      "name": "Collection Slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "btn_url": "",
+        "btn_copy": "",
+        "collection": "fitness-trampolines"
+      }
+    }
+  },
+  "order": [
+    "page",
+    "hero_default_EXhdqj",
+    "cta_heading_RJXx8k",
+    "collection_slider_mJMTBb"
+  ]
+}

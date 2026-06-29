@@ -1,0 +1,149 @@
+{
+  "sections": {
+    "cta-heading": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "sm",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "Which JumpSport Fitness Trampoline is Best for You?",
+        "heading_level": "h1",
+        "heading_level_display": "heading--two",
+        "title": "Compare JumpSport Trampolines",
+        "copy": "<p>JumpSport’s side-by-side trampoline comparison guide: Discover the best fitness trampoline for your needs by exploring features like bounce tension, durability, and size. Find your perfect fit today!<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "compare_8GBWwb": {
+      "type": "compare",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xs",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "expanded": true,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "",
+        "copy": ""
+      }
+    },
+    "vs_table_QJgW7g": {
+      "type": "vs-table",
+      "blocks": {
+        "row_zmCh6Y": {
+          "type": "row",
+          "settings": {
+            "title": "Height",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>12.5\" - lower for easier step on and off and a lower center of gravity<\/p>",
+            "val_other": "<p>12.5\" - lower for easier step on and off and a lower center of gravity<\/p>"
+          }
+        },
+        "row_W3dE6w": {
+          "type": "row",
+          "settings": {
+            "title": "Legs",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>Arched for unmatched stability - straight and\/or folding available on some models<\/p>",
+            "val_other": "<p>Arched for unmatched stability - straight and\/or folding available on some models<\/p>"
+          }
+        },
+        "row_Va9KtC": {
+          "type": "row",
+          "settings": {
+            "title": "Frame",
+            "heading_level": "h3",
+            "heading_level_display": "heading--six",
+            "val_js": "<p>39\" or 44\" diameter with 1\/2 fold options<\/p>",
+            "val_other": "<p>39\" or 44\" diameter with 1\/2 fold options<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_zmCh6Y",
+        "row_W3dE6w",
+        "row_Va9KtC"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title_col_1": "JumpSport",
+        "image_col_1": "shopify:\/\/shop_images\/celeb-trampoline.png",
+        "title_col_2": "Bellicon",
+        "image_col_2": "shopify:\/\/shop_images\/garner-tramp.png",
+        "btn_url": "#",
+        "btn_copy": "Shop All JumpSport Trampolines",
+        "disclaimer": "<p>NOTE: Listed warranties are for residential use. For commercial warranties, visit individual product pages.<\/p>"
+      }
+    },
+    "cta_blocks_KTJFaL": {
+      "type": "cta-blocks",
+      "blocks": {
+        "block_wRXUnH": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Anytime, Anywhere Fitness",
+            "title_alt": "Explore JumpSport Fitness TV",
+            "image": "shopify:\/\/shop_images\/JSFTV-1180x800x.webp",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts"
+          }
+        },
+        "block_RVRjeX": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Can’t Decide?",
+            "title_alt": "View Our Buyers Guide",
+            "image": "shopify:\/\/shop_images\/jumpsport-trampoline-sizes.webp",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "block_wRXUnH",
+        "block_RVRjeX"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "cta-heading",
+    "compare_8GBWwb",
+    "vs_table_QJgW7g",
+    "cta_blocks_KTJFaL"
+  ]
+}

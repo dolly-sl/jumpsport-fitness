@@ -1,0 +1,556 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-xl",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-tv.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/hero-tv-mobile.jpg",
+        "copy_align": "left",
+        "eyebrow": "On-demand trampoline workout videos",
+        "heading_level": "h1",
+        "title": "JumpSport Fitness TV Memberships",
+        "btn_url": "https:\/\/video.jumpsport.com\/join_us",
+        "btn_copy": "Sign Up Now",
+        "link_url": "https:\/\/video.jumpsport.com\/sign_in",
+        "link_copy": "Account Sign In",
+        "arch_color": "orange"
+      }
+    },
+    "cta_heading_FfTLYJ": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "md",
+        "padding_top-mobile": "xl",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "Sweat. Burn. Bounce.",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Start Your Free Trial Now",
+        "copy": "<p>Transform your fitness routine with JumpSport Fitness TV! Enjoy fun, easy-to-follow workouts that tone your glutes, legs, and core while boosting balance and strength—anytime, anywhere, and at any age. With options from cardio to strength training, you’ll find everything you need for a total body transformation.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "product_tiers_giR37B": {
+      "type": "product-tiers",
+      "blocks": {
+        "tier_TwLDdV": {
+          "type": "tier",
+          "settings": {
+            "color": "#00857f",
+            "eyebrow": "No Risk",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "title": "60 Days Free",
+            "sub_title": "with purchase of a JumpSport Fitness Trampoline",
+            "copy": "<p><strong>Buy a JumpSport Fitness Trampoline and receive an extended 60 day free trial<\/strong><\/p><p>This special offer will be sent after purchase<\/p>",
+            "disclaimer": "*60 day free trial & then $9.99\/month or $69.99\/year. Cancel anytime.",
+            "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+            "btn_copy": "Shop Trampolines"
+          }
+        },
+        "tier_WWQXTh": {
+          "type": "tier",
+          "settings": {
+            "color": "#007dbc",
+            "eyebrow": "Instant access",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "title": "30 Days Free",
+            "sub_title": "No trampoline purchase necessary — start working out instantly",
+            "copy": "<p><strong>Already have a trampoline and want to get started? <\/strong><\/p><p>Gain instant access now for only $9.99\/month or $69.99\/year<\/p>",
+            "disclaimer": "*30 day free trial & then $9.99\/month or $69.99\/year. Cancel anytime.",
+            "btn_url": "https:\/\/video.jumpsport.com\/join_us",
+            "btn_copy": "Sign Up Now"
+          }
+        },
+        "tier_hNt6Re": {
+          "type": "tier",
+          "settings": {
+            "color": "#b91e72",
+            "eyebrow": "Best Deal",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "title": "42% Savings",
+            "sub_title": "when you sign up for an Annual Membership",
+            "copy": "<p><strong>Choose \"Annual Membership\" at sign up <\/strong><\/p><p>Bundle savings with a 60 day free trial when you purchase a JumpSport Fitness Trampoline<\/p>",
+            "disclaimer": "*$69.99\/year after your free trial. Cancel anytime.",
+            "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+            "btn_copy": "Shop Trampolines"
+          }
+        }
+      },
+      "block_order": [
+        "tier_TwLDdV",
+        "tier_WWQXTh",
+        "tier_hNt6Re"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "image_links_pYf3YY": {
+      "type": "image-links",
+      "blocks": {
+        "text_H4bDFw": {
+          "type": "text",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/icon-ios.svg",
+            "title": "Download for iOS",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "url": "https:\/\/apps.apple.com\/us\/app\/jumpsport-fitness-tv\/id1397939568"
+          }
+        },
+        "text_i9zPxm": {
+          "type": "text",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/icon-android.svg",
+            "title": "Download for Android",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "url": "https:\/\/play.google.com\/store\/apps\/details?id=tv.uscreen.jumpsportfitnesstv&hl=en_US"
+          }
+        },
+        "text_qQbqUr": {
+          "type": "text",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/icon-roku.svg",
+            "title": "Download for Roku",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "url": "https:\/\/channelstore.roku.com\/details\/e5bbcdaae0e898dfd19b4df74e705fba\/jumpsport-fitness"
+          }
+        },
+        "text_xE6aF9": {
+          "type": "text",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/icon-apple.svg",
+            "title": "Download for Apple TV",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "url": "https:\/\/apps.apple.com\/us\/app\/jumpsport-fitness-tv\/id1397939568"
+          }
+        }
+      },
+      "block_order": [
+        "text_H4bDFw",
+        "text_i9zPxm",
+        "text_qQbqUr",
+        "text_xE6aF9"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Work Out Anywhere. Download Our App",
+        "copy": "<p>Stream JumpSport Fitness TV on your favorite mobile devices, and on your desktop or laptop with our Apple TV, Roku, iOS, or Android Mobile apps.<\/p>",
+        "image": "shopify:\/\/shop_images\/app-imgalt.png"
+      }
+    },
+    "image_grid_external_MYYhJR": {
+      "type": "image-grid-external",
+      "blocks": {
+        "image_d4a4LY5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Beginners_cover_image_1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Beginner Program",
+            "url": "https:\/\/video.jumpsport.com\/programs\/collection-free-customer-service"
+          }
+        },
+        "image_d4a4LY2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MB_challenge.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Challenges",
+            "url": "https:\/\/video.jumpsport.com\/categories\/category-xr28UiEDL90"
+          }
+        },
+        "image_d4a4LY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_19454_player_image_2073589_Uscreen_Video_Covers_7.1676065019_1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Cardio",
+            "url": "https:\/\/video.jumpsport.com\/catalog\/search?category_id=77612"
+          }
+        },
+        "image_d4a4LY4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_tmp_42-min-hiit-wrkout.1711577219_1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "HIIT",
+            "url": "https:\/\/video.jumpsport.com\/catalog\/search?category_id=71521"
+          }
+        },
+        "image_d4a4LY3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19454_2Fplayer_image_2F927703_2Fvv6gTK54RgKGgKgHMFEY_Kellie_203_20pilates_1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Barre",
+            "url": "https:\/\/video.jumpsport.com\/catalog\/search?category_id=71523"
+          }
+        },
+        "image_d4a4LY8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_Janelle_3_Booty_2.1632243213.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Bootcamp",
+            "url": "https:\/\/video.jumpsport.com\/catalog\/search?category_id=73195"
+          }
+        },
+        "image_d4a4LY6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_stretch_2.1632880419.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Wellness",
+            "url": "https:\/\/video.jumpsport.com\/catalog\/search?category_id=73191"
+          }
+        },
+        "image_d4a4LY7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19454_2Fplayer_image_2F927852_2F8coQ2OEuQI6iZQNkQ0UV_JSF_20Family_20Catalog_20krista_20kids_20_1__1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Family & Kids",
+            "url": "https:\/\/video.jumpsport.com\/catalog\/search?category_id=154009"
+          }
+        }
+      },
+      "block_order": [
+        "image_d4a4LY5",
+        "image_d4a4LY2",
+        "image_d4a4LY",
+        "image_d4a4LY4",
+        "image_d4a4LY3",
+        "image_d4a4LY8",
+        "image_d4a4LY6",
+        "image_d4a4LY7"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "black",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "grid": 4,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "400+ Trampoline Workouts",
+        "btn_url": "https:\/\/video.jumpsport.com\/catalog",
+        "btn_copy": "View More"
+      }
+    },
+    "video_banner_JLPEWg": {
+      "type": "video-banner",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "video": "https:\/\/vimeo.com\/1050212369?share=copy"
+      }
+    },
+    "image_grid_overflow_yQwzaT": {
+      "type": "image-grid-overflow",
+      "blocks": {
+        "image_9RXMPx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bounti_1.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "bounti",
+            "url": "https:\/\/video.jumpsport.com\/programs\/collection-hwbz1ukhh9y?category_id=75788"
+          }
+        },
+        "image_9RXMPx4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/For_website_Radical-Rebounding-eclp9654.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Radical Rebounding",
+            "url": "https:\/\/video.jumpsport.com\/programs\/collection-pbz1xop8n0c?category_id=75788"
+          }
+        },
+        "image_htz6xH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-grid-1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Fit 7\/8",
+            "url": "https:\/\/video.jumpsport.com\/programs\/fit-7-8?category_id=75788"
+          }
+        },
+        "image_9RXMPx2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Briehler_2021_04_1_1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Michelle Briehler",
+            "url": "https:\/\/video.jumpsport.com\/programs\/collection-s_ovtqnrsxa?category_id=75788"
+          }
+        },
+        "image_9RXMPx3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-grid-3.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "The Bounce Habit",
+            "url": "https:\/\/video.jumpsport.com\/programs\/collection-g90spjet_be?category_id=75788"
+          }
+        },
+        "image_HNhhQQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-grid-2.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Perspirology",
+            "url": "https:\/\/video.jumpsport.com\/programs\/perspirology?category_id=75788"
+          }
+        },
+        "image_9RXMPx6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ness0289_copy_1_1.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "the ness",
+            "url": "https:\/\/video.jumpsport.com\/programs\/the-ness"
+          }
+        },
+        "image_VgqCft": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tiffani_robbins_1.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Tiffani Robbins",
+            "url": "https:\/\/video.jumpsport.com\/programs\/collection-w3gxo22u1ey?category_id=75788"
+          }
+        },
+        "image_daKzJr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/APC-Hayes-2025-19_2_1.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Earth & Owl",
+            "url": "https:\/\/video.jumpsport.com\/programs\/earth-owl?category_id=75788"
+          }
+        },
+        "image_Y963yb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/powHERbands_2_1.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "BeccaFit",
+            "url": "https:\/\/video.jumpsport.com\/programs\/collection-ao9qk3occpg?category_id=75788"
+          }
+        },
+        "image_LcPTTz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fitjumpusa.png",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "FitJumpUSA",
+            "url": "https:\/\/video.jumpsport.com\/programs\/collection-w5tbo02le-g?category_id=75788"
+          }
+        }
+      },
+      "block_order": [
+        "image_9RXMPx",
+        "image_9RXMPx4",
+        "image_htz6xH",
+        "image_9RXMPx2",
+        "image_9RXMPx3",
+        "image_HNhhQQ",
+        "image_9RXMPx6",
+        "image_VgqCft",
+        "image_daKzJr",
+        "image_Y963yb",
+        "image_LcPTTz"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Premier Studios From Around World",
+        "btn_url": "https:\/\/video.jumpsport.com\/join_us",
+        "btn_copy": "Sign Up Now"
+      }
+    },
+    "instructors_EKqmqt": {
+      "type": "instructors",
+      "blocks": {
+        "text_eXfc7w": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instructor-1.jpg",
+            "image_hover": "shopify:\/\/shop_images\/instrcutor-hover.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Michelle Briehler",
+            "sub_title": "ACE, AEA, ACSM, AFAA, NASM",
+            "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.<\/p>",
+            "url": "#"
+          }
+        },
+        "text_eXfc7w2": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instructor-1.jpg",
+            "image_hover": "shopify:\/\/shop_images\/instrcutor-hover.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Michelle Briehler",
+            "sub_title": "ACE, AEA, ACSM, AFAA, NASM",
+            "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.<\/p>",
+            "url": "#"
+          }
+        },
+        "text_eXfc7w3": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instructor-1.jpg",
+            "image_hover": "shopify:\/\/shop_images\/instrcutor-hover.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Michelle Briehler",
+            "sub_title": "ACE, AEA, ACSM, AFAA, NASM",
+            "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.<\/p>",
+            "url": "#"
+          }
+        },
+        "text_eXfc7w4": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instructor-1.jpg",
+            "image_hover": "shopify:\/\/shop_images\/instrcutor-hover.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Michelle Briehler",
+            "sub_title": "ACE, AEA, ACSM, AFAA, NASM",
+            "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.<\/p>",
+            "url": "#"
+          }
+        },
+        "text_eXfc7w5": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instructor-1.jpg",
+            "image_hover": "shopify:\/\/shop_images\/instrcutor-hover.jpg",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Michelle Briehler",
+            "sub_title": "ACE, AEA, ACSM, AFAA, NASM",
+            "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.<\/p>",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "text_eXfc7w",
+        "text_eXfc7w2",
+        "text_eXfc7w3",
+        "text_eXfc7w4",
+        "text_eXfc7w5"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Over 50 Professional Instructors",
+        "copy": "<p>Industry professionals each with their own unique style and energy provides the widest variety of trampoline workouts available.<\/p>"
+      }
+    },
+    "cta_heading_WNCtQ4": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "md",
+        "padding_top-mobile": "xl",
+        "padding_bottom-mobile": "md",
+        "hide_bg": false,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Anytime. Anywhere. Join Today.",
+        "copy": "",
+        "btn_url": "https:\/\/video.jumpsport.com\/join_us",
+        "btn_copy": "Sign Up Now"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "cta_heading_FfTLYJ",
+    "product_tiers_giR37B",
+    "image_links_pYf3YY",
+    "image_grid_external_MYYhJR",
+    "video_banner_JLPEWg",
+    "image_grid_overflow_yQwzaT",
+    "instructors_EKqmqt",
+    "cta_heading_WNCtQ4"
+  ]
+}

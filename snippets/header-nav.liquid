@@ -1,0 +1,154 @@
+{% capture has_subs %}
+  {% for block in section.blocks %}
+    {{ block.settings.top_level_nav | append:' ' }}
+  {% endfor %}
+{% endcapture %}
+
+<div class="header__nav">
+  <nav>
+    <ul class="d-flex list-reset">
+      {% for link in linklists[nav].links %}
+        <li
+          class="{% if has_subs contains link.title %}has-children {% endif %}top-level"
+        >
+          <a href="{{ link.url }}">
+            <span>
+              {{ link.title }}
+            </span>
+          </a>
+
+          {% for block in section.blocks %}
+            {% if block.settings.top_level_nav == link.title %}
+              <ul class="container container--xl sub-menu{% if block.type == 'sub_products' %} sub-menu--products{% else %} sub-menu--basic{% endif %} ">
+                <li>
+                  <div class="sub-menu__inner d-flex justify-between">
+                    {% if block.type == 'sub_products' %}
+                      <div class="menu__links">
+                        <div class="inner d-flex">
+                          <div class="upper">
+                            <div class="menu-head">
+                              <h3 class="heading--five">
+                                {{ block.settings.menu_title }}
+                              </h3>
+                            </div>
+                            <ul class="list-reset">
+                              {% for link in linklists[block.settings.menu].links %}
+                                <li>
+                                  <a href="{{ link.url }}">
+                                    {{ link.title }}
+                                  </a>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          </div>
+                          {% if block.settings.cta_url != blank %}
+                            <a
+                              href="{{ block.settings.cta_url }}"
+                              class="menu__cta d-flex align-center justify-between"
+                            >
+                              <div class="copy">
+                                <span>
+                                  {{ block.settings.cta_title }}
+                                </span>
+                                <p>{{ block.settings.cta_copy }}</p>
+                              </div>
+                            </a>
+                          {% endif %}
+                        </div>
+                      </div>
+                      <div class="menu__products">
+                        <div class="inner d-flex justify-between">
+                          <div class="products__heading menu-head d-flex align-center justify-between">
+                            <h3 class="heading--five">
+                              {{ block.settings.product_title }}
+                            </h3>
+                            {% if block.settings.product_cta_url != blank %}
+                              <a href="{{ block.settings.product_cta_url }}" class="link link--arrow">
+                                <span>
+                                  {{ block.settings.products_cta_title }}
+                                </span>
+                              </a>
+                            {% endif %}
+                          </div>
+                          <div class="products__list">
+                            {% for product in block.settings.product_list %}
+                              {% render 'product-card-horizontal', data: product %}
+                            {% endfor %}
+                          </div>
+                          <a
+                            href="{{ block.settings.feature_url }}"
+                            class="products__cta d-flex justify-center"
+                            style="background:url({{ block.settings.feature_image | img_url: 'master' }}) center center/cover no-repeat;"
+                          >
+                            <div class="cta__copy">
+                              <h3 class="heading--four">
+                                {{ block.settings.feature_title }}
+                              </h3>
+                              <span class="btn btn--outline">
+                                {{ block.settings.feature_cta }}
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if block.type == 'sub_basic' %}
+                      <div class="menu__links">
+                        <div class="inner d-flex">
+                          <div class="upper">
+                            <div class="menu-head">
+                              <h3 class="heading--five">
+                                {{ block.settings.menu_title }}
+                              </h3>
+                            </div>
+                            <ul class="list-reset">
+                              {% for link in linklists[block.settings.menu].links %}
+                                <li>
+                                  <a href="{{ link.url }}">
+                                    {{ link.title }}
+                                  </a>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          </div>
+
+                          {% if block.settings.show_social %}
+                            {% render 'social-icons' %}
+                          {% endif %}
+
+                          {% if block.settings.cta_onclick != blank or block.settings.cta_url != blank %}
+                            <a
+                              href="{{ block.settings.cta_url }}"
+                              {% if block.settings.cta_onclick != blank %}
+                                onclick="{{ block.settings.cta_onclick }}"
+                              {% endif %}
+                              class="menu__cta d-flex align-center justify-between"
+                            >
+                              <div class="copy">
+                                <span>
+                                  {{ block.settings.cta_title }}
+                                </span>
+                                <p>{{ block.settings.cta_copy }}</p>
+                              </div>
+                            </a>
+                          {% endif %}
+                        </div>
+                      </div>
+                      <div class="menu__image">
+                        <img
+                          src="{{ block.settings.menu_image | img_url: '750x320' }}"
+                          srcset="{{ block.settings.menu_image | img_url: '1500x640' }}"
+                          alt="{{  block.settings.menu_image.alt | escape }}"
+                        >
+                      </div>
+                    {% endif %}
+                  </div>
+                </li>
+              </ul>
+            {% endif %}
+          {% endfor %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>

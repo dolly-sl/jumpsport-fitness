@@ -1,0 +1,200 @@
+<section class="blog__list section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }}  background--{{ section.settings.background }}">
+  <div class="container">
+    <div class="blog__tags">
+      <div class="desktop-wrap">
+        <ul class="d-flex align-center justify-center list-reset">
+          <li>
+            <span class="label"> View: </span>
+          </li>
+          {% assign featTags = section.settings.tags | split: ',' %}
+
+          {% for feaTag in featTags %}
+            <li>
+              <a
+                href="/blogs/bounce-blog/tagged/{{ feaTag | handleize }}"
+              >
+                {{ feaTag }}
+              </a>
+            </li>
+          {% endfor %}
+          <li>
+            <a
+              href="/blogs/bounce-blog"
+              class="btn {% unless current_tags != blank %}btn--solid{% else %}btn--border{% endunless %} btn--sm"
+              >All Articles</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-wrap">
+        <label class="sr-only">Choose Category</label>
+        <select>
+          <option
+            {% unless current_tags != blank %}
+              selected disabled
+            {% endunless %}
+            value="/blogs/blog"
+          >
+            View All Articles
+          </option>
+          {% for feaTag in featTags %}
+            <option
+              {% if current_tags contains feaTag %}
+                selected disabled
+              {% endif %}
+              value="/blogs/bounce-blog/tagged/{{ feaTag | handleize }}"
+            >
+              {{ feaTag }}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+    {% if current_tags == blank or paginate.current_page < 2 %}
+      <div class="blog__featured">
+        {% if section.settings.featured != blank %}
+          {% assign featured = section.settings.featured %}
+          {% assign offset = 0 %}
+        {% else %}
+          {% for article in blog.articles limit: 1 %}
+            {% assign featured = article %}
+          {% endfor %}
+          {% assign offset = 1 %}
+        {% endif %}
+
+        <div class="article-card article-card--featured">
+          <a
+            href="{{ featured.url }}"
+            class="article-card__inner d-flex align-center justify-between"
+            aria-labelledby="{{ featured.title | strip_html | handleize }}-label"
+          >
+            {% if section.settings.featured_tag != blank %}
+              <div class="article-card__tag card__tag tag">
+                <span>
+                  {{ section.settings.featured_tag }}
+                </span>
+              </div>
+            {% endif %}
+            <div class="article-card__image">
+              <img
+                src="{{ featured.image | img_url: '560x460', crop: 'center' }}"
+                srcset="{{ featured.image | img_url: '1120x920', crop: 'center' }} 2x"
+                alt="{{ featured.image.alt | escape }}"
+              >
+            </div>
+            <div class="article-card__info">
+              {% comment %}
+                <div class="article-card__tags">
+                  {% for tag in featured.tags %}
+                    <span>
+                      {{- tag -}}
+                    </span>
+                    {%- if forloop.last != true %}, {% endif %}
+                  {% endfor %}
+                </div>
+              {% endcomment %}
+              <div class="article-card__heading">
+                <h2 class="heading--three" id="{{ featured.title | strip_html | handleize }}-label">
+                  {{ featured.title }}
+                </h2>
+              </div>
+              <div class="article-card__excerpt">
+                <p>{{ featured.content | truncatewords: 50, '...' | strip_html }}</p>
+              </div>
+              <div class="article-card__link">
+                <span class="btn btn--solid">Read More</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        {% comment %} {% render 'article-card', data: featured %} {% endcomment %}
+      </div>
+    {% endif %}
+    {%- paginate blog.articles by section.settings.posts_per_page -%}
+      <div class="article__wrap d-flex">
+        {% for article in blog.articles offset: offset %}
+          {% render 'article-card', data: article %}
+        {% endfor %}
+      </div>
+      <div class="blog__toolbar">
+        {% comment %}
+          <div class="page-count d-flex align-center">
+            Showing {{ paginate.current_offset | plus: 1 }}-
+            {%- if paginate.next -%}
+              {{- paginate.current_offset | plus: paginate.page_size -}}
+            {%- else -%}
+              {{- paginate.items -}}
+            {%- endif %}
+            of {{ paginate.items }} items
+          </div>
+        {% endcomment %}
+        <div class="pagination d-flex justify-center">
+          <div class="arrow-wrap align-center d-flex justify-left">
+            {%- if paginate.previous -%}
+              <a href="{{ paginate.previous.url }}" class="arrow  d-flex align-center justify-center arrow--prev">
+                <span class="sr-only">Previous Page</span>
+                <img src="{{ 'icon-chevron-left-black.svg' | asset_url }}" alt="">
+              </a>
+            {%- endif -%}
+          </div>
+
+          <ul class="d-flex list-reset justify-center align-center">
+            {% for part in paginate.parts %}
+              <li
+                {% if part.title == paginate.current_page %}
+                  class="current"
+                {% endif %}
+              >
+                {% if part.is_link %}
+                  {{ part.title | link_to: part.url }}
+                {% else %}
+                  <span class="num">{{ part.title }}</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+          <div class="arrow-wrap align-center d-flex justify-right">
+            {%- if paginate.next -%}
+              <a href="{{ paginate.next.url }}" class="arrow d-flex align-center justify-center arrow--next">
+                <span class="sr-only">Next Page</span>
+                <img src="{{ 'icon-chevron-right-black.svg' | asset_url }}" alt="">
+              </a>
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+    {% endpaginate %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Blog List",
+  "settings": [
+    {
+      "id": "posts_per_page",
+      "type": "number",
+      "label": "Articles / Page",
+      "default": 12
+    },
+    {
+      "id": "tags",
+      "type": "text",
+      "label": "Tags",
+      "info": "CSV of Tags"
+    },
+    {
+      "id": "featured_tag",
+      "type": "text",
+      "label": "Featured Tag",
+      "default": "Featured Post"
+    },
+    {
+      "id": "featured",
+      "type": "article",
+      "label": "Featured Article"
+    }
+  ]
+}
+{% endschema %}

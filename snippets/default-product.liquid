@@ -1,0 +1,44 @@
+<div class="product product--default">
+  <div class="product__image product__image--bottom">
+    <a href="{{ data.url }}">
+      <img src="{{ data.featured_image.src | img_url: img_size }}" srcset="{{ data.featured_image.src | img_url: img_size_2x }} 2x" alt="{{ data.featured_image.alt }}" class="image image--one" />
+      {% if data.images[1] != blank %}
+        <img src="{{ data.images[1].src | img_url: img_size }}" srcset="{{data.images[1].src | img_url: img_size_2x }} 2x" alt="{{ data.images[1].alt }}" class="image image--two" />
+      {% endif %}
+    </a>
+    {% comment %}
+      If the product  has variants and this needs to go to the PDP, move the "actions" <div> inside of
+      the <a> above and remove the "--atc" and the data-id ( not needed )
+    {% endcomment %}
+    <div class="product__actions">
+      {% if data.has_only_default_variant == false %}
+				<a href="{{ data.url }}" class="btn btn--coral">
+					Select Options
+				</a>
+			{% else %}
+				<button {% if data.available != true %}disabled="disabled"{% endif %} class="btn btn--coral btn--atc" data-id="{{ data.first_available_variant.id }}" aria-label="Add {{ data.title }} to your cart">
+					{% if data.available != true %}
+						Out of Stock
+					{% else %}
+					Add To Cart
+					{% endif %}
+				</button>
+			{% endif %}
+    </div>
+  </div>
+  <div class="product__info">
+    <div class="product__title">
+      <h3>
+        <a href="{{ data.url }}">
+          {{ data.title }}
+        </a>
+      </h3>
+    </div>
+    <div class="product__price d-flex align-center">
+      {{ data.price | money }}
+      {% if data.price != data.compare_at_price %}
+        <span class="product__discount">{{ data.compare_at_price | money }}</span>
+      {% endif %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,248 @@
+{% if cart.empty? == false %}
+  <section
+    class="cart"
+    {% if settings.free_ship != blank %}
+      data-freeship="{{ settings.free_ship | times: 100 }}"
+    {% endif %}
+  >
+    <div class="container container--xl">
+      <div class="inner">
+        <div class="cart__heading d-flex align-center justify-between">
+          <h1 class="heading--three">{{ section.settings.header }} [{{ cart.item_count }}]</h1>
+          {% if settings.free_ship != blank %}
+            <div class="cart__ship text-center">
+              <span class="title title--unfill"
+                >You are <span class="free-count">{{ settings.free_ship | times: 100 | money }}</span> away from free
+                shipping</span
+              >
+              <span class="title title--fill">Congratulations, you've got free shipping!</span>
+              <div class="shipping-bar">
+                <div class="shipping-bar--progress"></div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+        <div class="d-flex justify-between">
+          <div class="cart__table">
+            <table class="cart-table">
+              <thead>
+                <tr class="cart-row desktop-only">
+                  <th scope="col" class="text-left" width="40%">
+                    <span class="eyebrow eyebrow--sm">Product</span>
+                  </th>
+                  <th scope="col">
+                    <span class="eyebrow eyebrow--sm">Price</span>
+                  </th>
+                  <th scope="col">
+                    <span class="eyebrow eyebrow--sm">Quantity</span>
+                  </th>
+                  <th scope="col" class="text-right">
+                    <span class="eyebrow eyebrow--sm">Total</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for line_item in cart.items %}
+                  <tr
+                    class="cart-row"
+                    data-varid="{{ line_item.variant_id }}"
+                    data-lineid="{{ line_item.id }}"
+                    data-linenum="{{ forloop.index }}"
+                  >
+                    <td class="col col__product" width="40%">
+                      <div class="d-flex">
+                        <div class="product__image">
+                          <a href="{{ line_item.url | within: collection }}">
+                            <img
+                              src="{{ line_item.image.src | img_url: '80x' }}"
+                              srcset="{{ line_item.image.src | img_url: '160x' }} 2x"
+                              alt="{{ line_item.title | escape }}"
+                            >
+                          </a>
+                        </div>
+                        <div class="title">
+                          <h3 class="heading--five">
+                            <a class="no-dec trans" href="{{ line_item.url | within: collection }}">
+                              {{ line_item.product.title }}
+                            </a>
+                          </h3>
+                          <div class="var">
+                            <span> {{ line_item.variant.title }}</span>
+                          </div>
+                          {% comment %} {% if line_item.variant != blank and line_item.variant.title != 'Default Title' %}<span class="var">{{ line_item.variant.title }} </span>{% endif %} {% endcomment %}
+
+                          {% if line_item.selling_plan_allocation.selling_plan.name != blank %}
+                            <span class="delivery">{{ line_item.selling_plan_allocation.selling_plan.name }}</span>
+                          {% endif %}
+                        </div>
+                        <div class="mobile-stuff">
+                          <div class="section d-flex align-center">
+                            <label for="item-qty-{{ forloop.index }}" class="label">Qty:</label>
+                            <div class="qty d-flex align-center">
+                              <button class="js-qty js-qty--cart js-qty--minus trans">
+                                <span class="sr-only">Decrease</span>
+                              </button>
+                              <input
+                                sm-rc-quantity-selector
+                                id="item-qty-{{ forloop.index }}"
+                                type="text"
+                                value="{{ line_item.quantity }}"
+                                min="1"
+                                type="number"
+                                class="qty-val"
+                              >
+                              <button class="js-qty js-qty--cart js-qty--plus trans">
+                                <span class="sr-only">Increase</span>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="section d-flex">
+                            <span class="label">Price:</span>
+                            <span class="data">{{ line_item.price | money }}</span>
+                          </div>
+                          <div class="section section--total d-flex">
+                            <span class="label">Total:</span>
+                            <span class="data">{{ line_item.final_line_price | money }}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="col col__price text-center">
+                      {{ line_item.price | money }}
+                    </td>
+                    <td class="col col__qty  text-center">
+                      <div class="qty d-flex align-center">
+                        <button class="js-qty js-qty--cart js-qty--minus trans">
+                          <span class="sr-only">Decrease</span>
+                        </button>
+                        <input
+                          sm-rc-quantity-selector
+                          type="text"
+                          value="{{ line_item.quantity }}"
+                          min="1"
+                          type="number"
+                          class="qty-val"
+                        >
+                        <button class="js-qty js-qty--cart js-qty--plus trans">
+                          <span class="sr-only">Increase</span>
+                        </button>
+                      </div>
+                      <div class="actions">
+                        <a href="#" class="remove-product trans">Remove</a>
+                      </div>
+                    </td>
+                    <td class="col col__total text-right">
+                      {{ line_item.final_line_price | money }}
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+
+          <div class="cart__footer">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when '@app' %}
+                  {% render block %}
+                {% when 'shipping' %}
+                  <div class="cart__ship text-center d-flex align-center justify-center">
+                    <img src="{{ 'icon-truck-blue.svg' | asset_url }}" alt="">
+                    <span>Free Shipping<sup>*</sup> on all JumpSport Orders</span>
+                  </div>
+                {% when 'order_total' %}
+                  <div class="totals">
+                    <div class="d-flex justify-between">
+                      <h3 class="heading--five">Shipping</h3>
+                      <h3 class="heading--five total-money">Free</h3>
+                    </div>
+                    <div class="d-flex justify-between">
+                      <h3 class="heading--five">Taxes</h3>
+                      <h3 class="heading--five total-money">Calculated at Checkout</h3>
+                    </div>
+                    <div class="total d-flex justify-between">
+                      <h3 class="heading--five">Order Total</h3>
+                      <h3 class="heading--five total-money">
+                        {{ cart.total_price | money }}
+                      </h3>
+                      <div class="disclaimer">
+                        Taxes, shipping and discount codes are entered and calculated at checkout.
+                      </div>
+                    </div>
+                  </div>
+                {% when 'checkout' %}
+                  <div class="shop-label">
+                    <div class="checkout">
+                      <a href="/checkout" class="btn btn--solid btn--arrow"> Proceed To Checkout </a>
+                    </div>
+                    <a href="/" class="trans no-dec link text-center"> Continue Shopping </a>
+                  </div>
+              {% endcase %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script></script>
+
+{% else %}
+  <section class="cart cart--empty d-flex align-center justify-center text-center">
+    <div class="container container--md">
+      <div class="inner ">
+        <h1 class="heading--two">Your Cart Is Empty</h1>
+        <a href="{{ section.settings.btn_url }}" class="btn btn--solid"> Continue Shopping </a>
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Cart Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "header",
+      "default": "YOUR CART"
+    },
+    {
+      "type": "text",
+      "id": "taxes",
+      "label": "Taxes Message"
+    },
+    {
+      "type": "text",
+      "id": "related_heading",
+      "label": "Related Products Heading"
+    },
+    {
+      "type": "text",
+      "id": "btn_url",
+      "label": "Button URL"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "shipping",
+      "name": "Shipping Info",
+      "settings": []
+    },
+    {
+      "type": "order_total",
+      "name": "Order Total",
+      "settings": []
+    },
+    {
+      "type": "checkout",
+      "name": "Checkout",
+      "settings": []
+    }
+  ]
+}
+{% endschema %}

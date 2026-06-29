@@ -1,0 +1,88 @@
+<section
+  class="pdp-reviews section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+  id="pdp-reviews--{{ section.id }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  <div class="container">
+    <div class="pdp-reviews__heading text-center">
+      <h2 class="scheme-color">
+        {{ section.settings.title }}
+      </h2>
+      {%- capture sku_list -%}
+        {%- for variant  in product.variants -%}
+          {{- variant.sku -}},
+        {%- endfor -%}
+      {%- endcapture -%}
+      <!-- TrustBox widget - Product Reviews -->
+      <div
+        class="trustpilot-widget"
+        data-locale="en-US"
+        data-template-id="5763bccae0a06d08e809ecbb"
+        data-businessunit-id="582b8ffe0000ff00059791c8"
+        data-style-height="500px"
+        data-style-width="100%"
+        data-theme="light"
+        data-sku="{{ sku_list |  append: product.metafields.product.review_skus }}"
+        data-name="{{ product.title }}"
+        data-review-languages="en"
+        data-no-reviews="show"
+        data-fullwidth="true"
+      >
+        <a href="https://www.trustpilot.com/review/www.jumpsport.com" target="_blank" rel="noopener">Trustpilot</a>
+      </div>
+      <!-- End TrustBox widget -->
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "PDP - Reviews",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "PDP - Reviews"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["product"]
+  }
+}
+{% endschema %}

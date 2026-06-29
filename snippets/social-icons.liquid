@@ -1,0 +1,50 @@
+<ul class="social-icons d-flex list-reset">
+  {% if settings.instagram != blank %}
+    <li>
+      <a class="d-flex align-center justify-center" href="{{ settings.instagram }}" target="_blank">
+        <span class="sr-only"> instagram </span>
+        <img src="{{ 'icon-social-instagram.svg' | asset_url }}" alt="">
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.facebook != blank %}
+    <li>
+      <a class="d-flex align-center justify-center" href="{{ settings.facebook }}" target="_blank">
+        <span class="sr-only"> facebook </span>
+        <img loading="lazy" src="{{ 'icon-social-facebook.svg' | asset_url }}" alt="">
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.x != blank %}
+    <li>
+      <a class="d-flex align-center justify-center" href="{{ settings.x }}" target="_blank">
+        <span class="sr-only"> x </span>
+        <img loading="lazy" src="{{ 'icon-social-x.svg' | asset_url }}" alt="">
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.pinterest != blank %}
+    <li>
+      <a class="d-flex align-center justify-center" href="{{ settings.pinterest }}" target="_blank">
+        <span class="sr-only"> pinterest </span>
+        <img loading="lazy" src="{{ 'icon-social-pinterest.svg' | asset_url }}" alt="">
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.tiktok != blank %}
+    <li>
+      <a class="d-flex align-center justify-center" href="{{ settings.tiktok }}" target="_blank">
+        <span class="sr-only"> tiktok </span>
+        <img loading="lazy" src="{{ 'icon-social-tiktok.svg' | asset_url }}" alt="">
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.youtube != blank %}
+    <li>
+      <a class="d-flex align-center justify-center" href="{{ settings.youtube }}" target="_blank">
+        <span class="sr-only"> youtube </span>
+        <img loading="lazy" src="{{ 'icon-social-youtube.svg' | asset_url }}" alt="">
+      </a>
+    </li>
+  {% endif %}
+</ul>

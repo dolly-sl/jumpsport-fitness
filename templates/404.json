@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "title_copy": {
+      "type": "404",
+      "settings": {
+        "eyebrow": "Error 404",
+        "heading": "Page Not Found",
+        "copy": "<p>Uh oh, looks like the page you are looking for has moved or no longer exists.<br\/><br\/>Please use the button below to return to the homepage, or try using our search feature to find what you're looking for.<\/p>",
+        "btn_url": "\/",
+        "btn_copy": "Home",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "150",
+        "padding_bottom-mobile": "100"
+      }
+    }
+  },
+  "order": [
+    "title_copy"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "menu_AqzrgW": {
+          "type": "menu",
+          "settings": {
+            "title": "Company",
+            "menu": "footer-company"
+          }
+        },
+        "menu_GyPFPM": {
+          "type": "menu",
+          "settings": {
+            "title": "Help & Support",
+            "menu": "footer-help"
+          }
+        }
+      },
+      "block_order": [
+        "menu_AqzrgW",
+        "menu_GyPFPM"
+      ],
+      "settings": {
+        "footer_copy": "<p>Bringing joy to your fitness journey<\/p>",
+        "footer_contact": "<p class=\"menu__heading heading--six\">Phone Hours:<\/p>\n<p>Monday - Friday 10AM-5PM EST<\/p>\n\n<p style=\"margin-top:10px;display:none;\">(Closed Dec. 24-25, 31 and Jan. 1)<\/p>\n\n<p style=\"margin-top:10px;display:none;\">For estimated shipping times see our\n<a href=\"https:\/\/support.jumpsport.com\/article\/173-holiday-shipping\" target=\"_blank\">HOLIDAY SHIPPING DETAILS PAGE<\/a><\/p>\n\n<p style=\"margin-top:10px;\">Toll Free Number: <a href=\"tel:888-567-5867\"> 888.567.5867<\/a><\/p>\n          <p>Email: <a href=\"mailto:orders@jumpsport.com\" style=\"color:#fff;\">orders@jumpsport.com<\/a><\/p>",
+        "news_title": "Newsletter Sign Up",
+        "footer_disclaimer": "<p>Always consult your physician before starting a new exercise program. <br\/>*<a href=\"https:\/\/support.jumpsport.com\/article\/47-do-you-offer-free-shipping-on-all-your-products\" title=\"https:\/\/support.jumpsport.com\/article\/47-do-you-offer-free-shipping-on-all-your-products\">free shipping details<\/a>. Patent and trademark information at jumpsport.com\/patents. Recall information at jumpsport.com\/recalls.\u2028<\/p>",
+        "utility_menu": "footer-utility"
+      }
+    },
+    "mini-cart": {
+      "type": "mini-cart",
+      "settings": {
+        "ship_cta": "Free Shipping on all JumpSport Orders",
+        "title": "You May Also Like"
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "mini-cart"
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "sections": {
+    "page": {
+      "type": "page-content",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "hero_xl_qRpcUr": {
+      "type": "hero-xl",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/jumpsport-media-kit-hero.webp",
+        "copy_align": "left",
+        "eyebrow": "",
+        "heading_level": "h1",
+        "title": "Media Kit",
+        "subtitle": "<p><\/p>",
+        "btn_url": "https:\/\/drive.google.com\/drive\/folders\/12p7rd0D-FloZLwMvPzuhcr9sZiZYOK_K?usp=drive_link",
+        "btn_copy": "Download Media Kit",
+        "link_url": "",
+        "link_copy": "",
+        "arch_color": "green"
+      }
+    },
+    "cta_chart_fwqVD3": {
+      "type": "cta-chart",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "position": "left",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "JumpSport® Logo",
+        "copy": "<p>Download the JumpSport® logo files here.<\/p>",
+        "btn_url": "https:\/\/drive.google.com\/drive\/folders\/1d_Cy1mwIAPs3QeTpW5eMCMPxoxmtCa7x?usp=sharing",
+        "btn_copy": "Download Now",
+        "image": "shopify:\/\/shop_images\/JFT_Logo_2023_Black_Logo.webp",
+        "chart_title": "",
+        "chart_heading_level": "h3"
+      }
+    },
+    "hero_cta_FjqKkD": {
+      "type": "hero-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/jumpsport-v3-lifestyle-hero.webp",
+        "copy_align": "right",
+        "color": "light",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Lifestyle Images",
+        "copy": "<p>Download official lifestyle images of JumpSport trampolines ideal for digital or print.<\/p>",
+        "btn_url": "https:\/\/drive.google.com\/drive\/folders\/1ucMLKZL860vYKTo29PK2relV_2CesQic?usp=sharing",
+        "btn_copy": "Download Now"
+      }
+    },
+    "cta_image_Rx8yDy": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "lg",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/fitness-trampolines-v3.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Product Images",
+        "copy": "<p>Download official studio images featuring different angles of the various JumpSport trampoline models.<\/p>",
+        "btn_url": "https:\/\/drive.google.com\/drive\/folders\/1ysn2Gwo3pWfkJjjk6zDIgubnDqyCLG0i?usp=sharing",
+        "btn_copy": "Download Now"
+      }
+    },
+    "hero_cta_Dy3YUX": {
+      "type": "hero-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/jumpsport-banner3-guide.webp",
+        "copy_align": "right",
+        "color": "light",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Trampoline Guide",
+        "copy": "<p>Details and specs breakdown of individual models in each series in tear sheet format.<\/p>",
+        "btn_url": "https:\/\/drive.google.com\/drive\/folders\/1IM9hDIdeB1I1oSgpT2fdI7yTI2pAvxys?usp=drive_link",
+        "btn_copy": "Download Now"
+      }
+    },
+    "cta_image_TRG8GX": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "lg",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/jumpsport-banner-4-tags.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Hang Tags",
+        "copy": "<p>Ready to print hang tags for product showrooms or displays. Can be customized with QR code for specific URLs. For these requests, please contact: <a href=\"mailto:marketing@jumpsport.com\" target=\"_blank\">marketing@jumpsport.com<\/a><\/p>",
+        "btn_url": "https:\/\/drive.google.com\/drive\/folders\/1ejuSg0mG0XU59z9jEM9aao-_n5XYZ4BT?usp=sharing",
+        "btn_copy": "Download Now"
+      }
+    },
+    "cta_image_3Cfwm3": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "lg",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/jumpsport-patterns.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Textures \/ Patterns",
+        "copy": "",
+        "btn_url": "https:\/\/drive.google.com\/drive\/folders\/10G1tZP99HINoeRFv3kgCN5BTK7lAAWlF?usp=sharing",
+        "btn_copy": "Download Now"
+      }
+    },
+    "image_grid_external_yJpUHz": {
+      "type": "image-grid-external",
+      "blocks": {
+        "image_iLVhJE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-jft-online-video-tn-youtube-channel.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "JumpSport Fitness YouTube Channel",
+            "url": "https:\/\/www.youtube.com\/user\/JumpSportFitness\/videos"
+          }
+        },
+        "image_Ndyrb9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-jft-online-video-tn-change-your-life-eric-intense.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Change Your Life – Eric High-Intensity Teaser",
+            "url": "https:\/\/vimeo.com\/285010227"
+          }
+        },
+        "image_ANLDmF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-jft-online-video-tn-change-your-life-lisa.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Change Your Life – Lisa Teaser",
+            "url": "https:\/\/vimeo.com\/284981164"
+          }
+        },
+        "image_znGWY7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-jft-online-video-tn-change-your-life-lynda-teaser.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Change Your Life – Lynda Teaser",
+            "url": "https:\/\/vimeo.com\/284981035"
+          }
+        },
+        "image_kxj9yD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-jft-online-video-tn-change-your-life-eric-stronger.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Change Your Life – Eric Stronger Teaser",
+            "url": "https:\/\/vimeo.com\/284980941"
+          }
+        },
+        "image_j8gHCX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-jft-online-video-tn-change-your-life-rick.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Change Your Life – Rick Teaser",
+            "url": "https:\/\/vimeo.com\/284980790"
+          }
+        },
+        "image_K6wazQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-jft-online-video-tn-change-your-life-eric-lisa.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Change Your Life – Eric & Lisa",
+            "url": "https:\/\/vimeo.com\/284815292"
+          }
+        },
+        "image_nkmWJe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-jft-online-video-tn-change-your-life-rick-lynda.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Change Your Life – Rick & Lynda",
+            "url": "https:\/\/vimeo.com\/284814977"
+          }
+        },
+        "image_peUdKx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-jft-online-video-tn-change-your-life-lynda.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Change Your Life – Lynda",
+            "url": "https:\/\/vimeo.com\/284814720"
+          }
+        }
+      },
+      "block_order": [
+        "image_iLVhJE",
+        "image_Ndyrb9",
+        "image_ANLDmF",
+        "image_znGWY7",
+        "image_kxj9yD",
+        "image_j8gHCX",
+        "image_K6wazQ",
+        "image_nkmWJe",
+        "image_peUdKx"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "grid": 3,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Promotional Videos",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    }
+  },
+  "order": [
+    "page",
+    "hero_xl_qRpcUr",
+    "cta_chart_fwqVD3",
+    "hero_cta_FjqKkD",
+    "cta_image_Rx8yDy",
+    "hero_cta_Dy3YUX",
+    "cta_image_TRG8GX",
+    "cta_image_3Cfwm3",
+    "image_grid_external_yJpUHz"
+  ]
+}

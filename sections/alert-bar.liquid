@@ -1,0 +1,36 @@
+<section class="alert-bar">
+  <div class="container">
+    <div class="alert-bar__slider">
+      {% for block in section.blocks %}
+        <div class="alert text-center" {{ block.shopify_attributes }}>
+          {{ block.settings.alert }}
+        </div>
+      {% endfor %}
+    </div>
+    {% comment %}
+      <button class="close close--alert">
+        <span class="sr-only">Close Alert Bar</span>
+        <img src="{{ 'icon-close.svg' | asset_url }}" alt="" />
+      </button>
+    {% endcomment %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Alert Bar",
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Alert",
+      "settings": [
+        {
+          "id": "alert",
+          "type": "richtext",
+          "label": "Alert Copy"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

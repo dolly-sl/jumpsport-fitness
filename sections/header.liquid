@@ -1,0 +1,231 @@
+<header class="header">
+  <div class="container container--xl">
+    <div class="header__inner d-flex align-center justify-between">
+      <div class="header__mobile-only">
+        <div class="inner d-flex align-center">
+          <div class="header__mobile-trigger">
+            <button class="hamburger hamburger--collapse" type="button">
+              <span class="sr-only">Mobile Menu</span>
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+          <button class="icon icon--search">
+            <span class="sr-only">Search</span>
+            <img src="{{ 'icon-search.svg' | asset_url }}" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div class="header__logo">
+        <a href="/">
+          <img
+            class="logo logo--full"
+            src="{{ 'logo-full.svg' | asset_url }}"
+            alt="Jumpsport Fitness Logo"
+          >
+          <img
+            class="logo logo--mark"
+            src="{{ 'logo-mark.svg' | asset_url }}"
+            alt="Jumpsport Fitness Logo Mark"
+          >
+        </a>
+      </div>
+
+      {% render 'header-nav', nav: section.settings.menu_main %}
+
+      <div class="header__icons d-flex justify-between">
+        <a href="/account" class="icon icon--account">
+          <span class="sr-only">Account</span>
+          <img src="{{ 'icon-account.svg' | asset_url }}" alt="">
+        </a>
+        <div class="icon-relative">
+          <button class="icon icon--globe">
+            <span class="sr-only">International Markets</span>
+            <img src="{{ 'icon-globe.svg' | asset_url }}" alt="">
+          </button>
+          {% render 'country-select' %}
+        </div>
+
+        <button class="icon icon--search">
+          <span class="sr-only">Search</span>
+          <img src="{{ 'icon-search.svg' | asset_url }}" alt="">
+        </button>
+        <button class="icon icon--cart">
+          <span
+            class="cart-count"
+            {% if cart.item_count == 0 %}
+              style="display:none"
+            {% endif %}
+          >
+            <span>{{ cart.item_count }}</span>
+          </span>
+          <span class="sr-only">Cart</span>
+          <img src="{{ 'icon-cart.svg' | asset_url }}" alt="">
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="header__bg"></div>
+  {% render 'mobile-menu', nav: section.settings.menu_main %}
+</header>
+{% render 'desktop-search' %}
+
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    {
+      "id": "menu_main",
+      "type": "link_list",
+      "label": "Main Menu"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "sub_products",
+      "name": "Sub Menu - Products",
+      "settings": [
+        {
+          "id": "top_level_nav",
+          "type": "text",
+          "label": "Top Level Nav Item"
+        },
+        {
+          "id": "menu_title",
+          "type": "text",
+          "label": "Menu Title"
+        },
+        {
+          "id": "menu",
+          "type": "link_list",
+          "label": "Menu"
+        },
+        {
+          "type": "header",
+          "content": "Menu CTA"
+        },
+        {
+          "id": "cta_title",
+          "type": "text",
+          "label": "CTA Title"
+        },
+        {
+          "id": "cta_copy",
+          "type": "text",
+          "label": "CTA Copy"
+        },
+        {
+          "id": "cta_url",
+          "type": "url",
+          "label": "CTA URL"
+        },
+        {
+          "type": "header",
+          "content": "Products"
+        },
+        {
+          "id": "product_title",
+          "type": "text",
+          "label": "Products Title"
+        },
+        {
+          "id": "products_cta_title",
+          "type": "text",
+          "label": "CTA Title"
+        },
+        {
+          "id": "product_cta_url",
+          "type": "url",
+          "label": "CTA URL"
+        },
+        {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "Products",
+          "limit": 6
+        },
+        {
+          "type": "header",
+          "content": "Feature"
+        },
+        {
+          "id": "feature_image",
+          "type": "image_picker",
+          "label": "Featured Image",
+          "info": "430 x 830px"
+        },
+        {
+          "id": "feature_title",
+          "type": "text",
+          "label": "Featured Title"
+        },
+        {
+          "id": "feature_cta",
+          "type": "text",
+          "label": "Feature Text"
+        },
+        {
+          "id": "feature_url",
+          "type": "url",
+          "label": "Feature Text"
+        }
+      ]
+    },
+    {
+      "type": "sub_basic",
+      "name": "Sub Menu - Basic",
+      "settings": [
+        {
+          "id": "top_level_nav",
+          "type": "text",
+          "label": "Top Level Nav Item"
+        },
+        {
+          "id": "menu_title",
+          "type": "text",
+          "label": "Menu Title"
+        },
+        {
+          "id": "menu",
+          "type": "link_list",
+          "label": "Menu"
+        },
+        {
+          "id": "menu_image",
+          "type": "image_picker",
+          "label": "Menu Image",
+          "info": "1500 x 640px"
+        },
+        {
+          "id": "show_social",
+          "type": "checkbox",
+          "label": "Show Social",
+          "default": false
+        },
+        {
+          "id": "cta_url",
+          "type": "url",
+          "label": "CTA URL"
+        },
+        {
+          "id": "cta_title",
+          "type": "text",
+          "label": "CTA Title"
+        },
+        {
+          "id": "cta_copy",
+          "type": "text",
+          "label": "CTA Copy"
+        },
+        {
+          "id": "cta_onclick",
+          "type": "text",
+          "label": "CTA OnClick"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

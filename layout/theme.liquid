@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ shop.locale }}">
+  <head>
+    {% include 'head' %}
+    {{ content_for_header }}
+    {% if template contains 'article' and article.metafields.custom.schema_code %}
+      <script type="application/ld+json">
+        {{ article.metafields.custom.schema_code | strip }}
+      </script>
+
+    {% elsif template contains 'product' and product.metafields.custom.schema_code %}
+      <script type="application/ld+json">
+        {{ product.metafields.custom.schema_code | strip }}
+      </script>
+
+    {% elsif template contains 'collection' and collection.metafields.custom.schema_code %}
+      <script type="application/ld+json">
+        {{ collection.metafields.custom.schema_code | strip }}
+      </script>
+    {% endif %}
+  </head>
+  <body class="template__{{ template.name }}{% if template.suffix != blank %} template__{{ template.name }}--{{ template.suffix }}{% endif %}">
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQ4RGDS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    {% render 'skip-to-link' %}
+    <div class="fixed-wrap">
+      {% sections 'header-group' %}
+    </div>
+    <main id="main">
+      {{ content_for_layout }}
+    </main>
+    {% sections 'footer-group' %}
+    {% if shop.cookies_consent %}
+      <script src="https://cdn.shopify.com/s/assets/storefront/cookie-consent-1.0.js"></script>
+    {% endif %}
+  </body>
+</html>

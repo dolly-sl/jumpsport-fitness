@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "cta_heading_c9VFyr": {
+      "type": "cta-heading",
+      "disabled": true,
+      "name": "CTA Heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Reviews",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "page_content_cnjHUz": {
+      "type": "page-content",
+      "name": "Page Content",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "custom_liquid_KPawfF": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<!-- TrustBox widget - Grid -->\n<div class=\"trustpilot-widget\" data-locale=\"en-US\" data-template-id=\"539adbd6dec7e10e686debee\" data-businessunit-id=\"582b8ffe0000ff00059791c8\" data-style-height=\"500px\" data-style-width=\"100%\" data-token=\"5367d2c9-b79c-41e2-807b-afd783de625d\" data-stars=\"1,2,3,4,5\" data-review-languages=\"en\" data-font-family=\"Poppins\" data-text-color=\"#1a1a1a\">\n  <a href=\"https:\/\/www.trustpilot.com\/review\/www.jumpsport.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
+      }
+    }
+  },
+  "order": [
+    "cta_heading_c9VFyr",
+    "page_content_cnjHUz",
+    "custom_liquid_KPawfF"
+  ]
+}

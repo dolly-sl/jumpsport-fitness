@@ -1,0 +1,41 @@
+<div class="article-card article-card--default">
+  <a
+    href="{{ data.url }}"
+    class="article-card__inner d-flex"
+    aria-labelledby="{{ data.title | strip_html | handleize }}-label"
+  >
+    <div class="article-card__upper">
+      <div class="article-card__image">
+        <img
+          loading="lazy"
+          src="{{ data.image | img_url: '345x270', crop: 'center' }}"
+          srcset="{{ data.image | img_url: '690x540', crop: 'center' }} 2x"
+          alt="{{ data.image.alt | escape }}"
+        >
+      </div>
+      {% comment %}
+        <div class="article-card__tags">
+          {% for tag in data.tags %}
+            <span>
+              {{- tag -}}
+            </span>
+            {%- if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </div>
+      {% endcomment %}
+      <div class="article-card__heading">
+        <h3 class="heading--four" id="{{ data.title | strip_html | handleize }}-label">
+          {{ data.title }}
+        </h3>
+      </div>
+      <div class="article-card__excerpt">
+        <p>{{ data.content | strip_html | truncatewords: 19, '...' }}</p>
+      </div>
+    </div>
+    <div class="article-card__lower">
+      <div class="article-card__link">
+        <span class="link">Read More</span>
+      </div>
+    </div>
+  </a>
+</div>

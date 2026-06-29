@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-default",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-blog.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/hero-blog-mobile.jpg",
+        "copy_align": "left",
+        "heading_level": "h1",
+        "title": "JumpSport Bouncer Blog",
+        "copy": "<p>Welcome to the JumpSport Bouncer Blog! Here, you’ll find expert tips, inspiring stories, and helpful resources to elevate your fitness journey and trampoline experience. Whether you’re exploring low-impact workouts, searching for product advice, or just looking to maximize the fun and benefits of your JumpSport trampoline, we’ve got you covered. Let’s bounce into better health, performance, and play together!<\/p>",
+        "arch_color": "green"
+      }
+    },
+    "blog-list": {
+      "type": "blog-list",
+      "settings": {
+        "posts_per_page": 9,
+        "tags": "benefits,wellness,press,testimonials,exercises",
+        "featured_tag": "Featured Post",
+        "featured": "bounce-blog\/discover-the-best-trampoline-cardio-workouts"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "blog-list"
+  ]
+}

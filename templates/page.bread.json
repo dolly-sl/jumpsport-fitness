@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "page-bread": {
+      "type": "page-content-bread",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-bread"
+  ]
+}

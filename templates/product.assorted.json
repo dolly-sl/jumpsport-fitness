@@ -1,0 +1,311 @@
+{
+  "sections": {
+    "pdp_buyflow": {
+      "type": "pdp-buyflow",
+      "blocks": {
+        "pdp_title_d8jacQ": {
+          "type": "pdp_title",
+          "settings": {}
+        },
+        "pdp_price_fw6hk3": {
+          "type": "pdp_price",
+          "settings": {
+            "byline": "Starting at"
+          }
+        },
+        "pdp_intro_gJcDaH": {
+          "type": "pdp_intro",
+          "settings": {}
+        },
+        "pdp_options_7fxeAp": {
+          "type": "pdp_options",
+          "settings": {}
+        },
+        "pdp_addons_CT3nTz": {
+          "type": "pdp_addons",
+          "settings": {
+            "title": "Essential Add-ons:"
+          }
+        },
+        "pdp_atc_CYHBKq": {
+          "type": "pdp_atc",
+          "settings": {}
+        },
+        "pdp_cta_nBcqQA": {
+          "type": "pdp_cta",
+          "settings": {
+            "title": "Looking to purchase trampolines for your club?",
+            "btn_copy": "Contact Us",
+            "btn_url": "#"
+          }
+        },
+        "pdp_accordions_pagRQp": {
+          "type": "pdp_accordions",
+          "settings": {}
+        },
+        "pdp_icons_neaMNG": {
+          "type": "pdp_icons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "pdp_title_d8jacQ",
+        "pdp_price_fw6hk3",
+        "pdp_intro_gJcDaH",
+        "pdp_options_7fxeAp",
+        "pdp_addons_CT3nTz",
+        "pdp_atc_CYHBKq",
+        "pdp_cta_nBcqQA",
+        "pdp_accordions_pagRQp",
+        "pdp_icons_neaMNG"
+      ],
+      "settings": {}
+    },
+    "tab_slider_simple_DfCnPj": {
+      "type": "tab-slider-simple",
+      "blocks": {
+        "slide_ABqXp6": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Cord Technology",
+            "title": "EnduroLast™ Elastic Cords",
+            "copy": "<p>Deliver the smoothest, deepest, and most supportive low-impact bounce on the market. With a stretch length 2x the resting length and over 50 ft of bungee material, our cords significantly outlast trampolines with shorter bungees. <\/p><p><strong>FlexBounce connectors & knotted cords<\/strong><\/p><p> Allow you to choose your preferred firmness setting.<\/p>",
+            "image": "shopify:\/\/shop_images\/tab-slider-demo.jpg"
+          }
+        },
+        "slide_B9RcA3": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Arched Legs",
+            "title": "Legs",
+            "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non velit sed justo blandit fermentum. Fusce pretium varius sem sit amet sodales. Maecenas in magna efficitur, scelerisque magna non, placerat metus. Aliquam ac mattis purus. In dolor eros, varius a felis eget, rhoncus aliquam nibh. Ut at enim eu neque sollicitudin laoreet. Maecenas fringilla tincidunt mattis. Vivamus vehicula porttitor iaculis. Quisque maximus blandit ante, quis sodales nulla porta et. Fusce pulvinar aliquet nisi, quis congue libero finibus eget.<\/p>",
+            "video": "shopify:\/\/files\/videos\/4911642-hd_1920_1080_30fps.mp4"
+          }
+        },
+        "slide_jwUBkA": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Lay Flat Mats",
+            "title": "Mats",
+            "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non velit sed justo blandit fermentum. Fusce pretium varius sem sit amet sodales. Maecenas in magna efficitur, scelerisque magna non, placerat metus. Aliquam ac mattis purus. In dolor eros, varius a felis eget, rhoncus aliquam nibh. Ut at enim eu neque sollicitudin laoreet. Maecenas fringilla tincidunt mattis. Vivamus vehicula porttitor iaculis. Quisque maximus blandit ante, quis sodales nulla porta et. Fusce pulvinar aliquet nisi, quis congue libero finibus eget.<\/p>",
+            "image": "shopify:\/\/shop_images\/tab-slider-demo.jpg"
+          }
+        },
+        "slide_zw7tNj": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Durability",
+            "title": "Strong",
+            "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non velit sed justo blandit fermentum. Fusce pretium varius sem sit amet sodales. Maecenas in magna efficitur, scelerisque magna non, placerat metus. Aliquam ac mattis purus. In dolor eros, varius a felis eget, rhoncus aliquam nibh. Ut at enim eu neque sollicitudin laoreet. Maecenas fringilla tincidunt mattis. Vivamus vehicula porttitor iaculis. Quisque maximus blandit ante, quis sodales nulla porta et. Fusce pulvinar aliquet nisi, quis congue libero finibus eget.<\/p>",
+            "video": "shopify:\/\/files\/videos\/4911642-hd_1920_1080_30fps.mp4"
+          }
+        },
+        "slide_dAKb4M": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Foldable",
+            "title": "Folds",
+            "copy": "<p>Ut at enim eu neque sollicitudin laoreet. Maecenas fringilla tincidunt mattis<\/p>",
+            "image": "shopify:\/\/shop_images\/tab-slider-demo.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ABqXp6",
+        "slide_B9RcA3",
+        "slide_jwUBkA",
+        "slide_zw7tNj",
+        "slide_dAKb4M"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "black",
+        "title": "Customize Your Bounce"
+      }
+    },
+    "product_slider_EfWizt": {
+      "type": "product-slider",
+      "blocks": {
+        "card_nexyMK": {
+          "type": "card",
+          "settings": {
+            "product": "28oz-blender-bottle"
+          }
+        },
+        "card_XqVEin": {
+          "type": "card",
+          "settings": {
+            "product": "39-handle-bar-for-arched-leg-fitness-trampolines"
+          }
+        },
+        "card_MdkEx7": {
+          "type": "card",
+          "settings": {
+            "product": "39-essential-fitness-trampoline"
+          }
+        },
+        "card_9cgzrx": {
+          "type": "card",
+          "settings": {
+            "product": "jumpsport-39-pro-fitness-trampoline"
+          }
+        },
+        "card_bhMCGk": {
+          "type": "card",
+          "settings": {
+            "product": "44-pro-fitness-trampoline"
+          }
+        },
+        "card_RnXVpX": {
+          "type": "card",
+          "settings": {
+            "product": "28oz-blender-bottle"
+          }
+        }
+      },
+      "block_order": [
+        "card_nexyMK",
+        "card_XqVEin",
+        "card_MdkEx7",
+        "card_9cgzrx",
+        "card_bhMCGk",
+        "card_RnXVpX"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "title": "Enhance Your Workout",
+        "btn_url": "#",
+        "btn_copy": "View Accessories"
+      }
+    },
+    "hero_cta_HrnN4i": {
+      "type": "hero-cta",
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/4911642-hd_1920_1080_30fps.mp4",
+        "image": "shopify:\/\/shop_images\/video-placeholder.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/video-placeholder-mobile.jpg",
+        "copy_align": "left",
+        "title": "Experience The Best Bounce"
+      }
+    },
+    "cta_blocks_4KVFim": {
+      "type": "cta-blocks",
+      "blocks": {
+        "block_K7kthB": {
+          "type": "block",
+          "settings": {
+            "title": "Get Fitness on Demand",
+            "title_alt": "with JumpSport Tv",
+            "image": "shopify:\/\/shop_images\/pdp-cta-1.jpg",
+            "url": "#"
+          }
+        },
+        "block_Pwf7pj": {
+          "type": "block",
+          "settings": {
+            "title": "Can’t Decide?",
+            "title_alt": "View Our Buyers Guide",
+            "image": "shopify:\/\/shop_images\/pdp-cta-2.jpg",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "block_K7kthB",
+        "block_Pwf7pj"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white"
+      }
+    },
+    "pdp_reviews_GaNUN7": {
+      "type": "pdp-reviews",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "title": "See What Our Customers Are Saying"
+      }
+    },
+    "compare_hrh6QB": {
+      "type": "compare",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "title": "Compare Models",
+        "copy": "<p>Not sure which trampoline is right for you? Let's take a look at them side by side.<\/p>"
+      }
+    },
+    "image_grid_9T6rHq": {
+      "type": "image-grid",
+      "blocks": {
+        "image_CngpWD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giphy.webp",
+            "url": "#"
+          }
+        },
+        "image_HLRVMY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-vertical-demo.jpg",
+            "url": ""
+          }
+        },
+        "image_zWi7YD": {
+          "type": "image",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/4911642-hd_1920_1080_30fps.mp4",
+            "url": ""
+          }
+        },
+        "image_TAfBCw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-vertical-demo.jpg",
+            "url": ""
+          }
+        },
+        "image_wUiRHA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giphy.webp",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CngpWD",
+        "image_HLRVMY",
+        "image_zWi7YD",
+        "image_TAfBCw",
+        "image_wUiRHA"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "white",
+        "title": "Get Inspired. Get Bouncing.",
+        "btn_url": "#",
+        "btn_copy": "View Classes"
+      }
+    }
+  },
+  "order": [
+    "pdp_buyflow",
+    "tab_slider_simple_DfCnPj",
+    "product_slider_EfWizt",
+    "hero_cta_HrnN4i",
+    "cta_blocks_4KVFim",
+    "pdp_reviews_GaNUN7",
+    "compare_hrh6QB",
+    "image_grid_9T6rHq"
+  ]
+}

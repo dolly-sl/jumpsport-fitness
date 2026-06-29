@@ -1,0 +1,478 @@
+<section
+  class="product-features section-block pad-top--{{  section.settings.padding_top }} pad-bottom--{{  section.settings.padding_bottom }} pad-top__mobile--{{  section.settings.padding_top-mobile }} pad-bottom__mobile--{{  section.settings.padding_bottom-mobile }} background--{{ section.settings.background }}"
+  id="product-features--{{ section.id }}"
+>
+  {% render 'arch', color: section.settings.background %}
+  <div class="container container--xl">
+    <div class="product-features__heading text-center">
+      {% if section.settings.title != blank %}
+        {% render 'dynamic-heading',
+          level: section.settings.heading_level,
+          title: section.settings.title,
+          classList: section.settings.heading_level_display
+        %}
+      {% endif %}
+      {% if section.settings.btn_url != blank and section.settings.btn_copy != blank %}
+        <div class="actions d-flex justify-center">
+          <a href="{{ section.settings.btn_url }}" class="btn btn--white btn--arrow btn--xl">
+            {{ section.settings.btn_copy }}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+    <div class="product-features__main">
+      <div class="image-wrap">
+        {% for block in section.blocks %}
+          <div
+            {{ block.shopify_attributes }}
+            class="image{% if forloop.first == true %} active{% endif %}"
+            data-index="{{ forloop.index }}"
+          >
+            {{ block.settings.image | image_url: width: 600, height: 600 | image_tag: preload: true }}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="feat-wrap">
+        {% for block in section.blocks %}
+          <div
+            class="feat feat--{{ forloop.index }}{% if forloop.first == true %} active{% endif %}"
+            data-index="{{ forloop.index }}"
+            {{ block.shopify_attributes }}
+          >
+            {% render 'dynamic-heading',
+              level: block.settings.heading_level,
+              title: block.settings.title,
+              classList: block.settings.heading_level_display
+            %}
+            {% if block.settings.copy != blank %}
+              <div class="feat__copy scheme-color">
+                <p>{{ block.settings.copy }}</p>
+              </div>
+            {% endif %}
+            {% if block.settings.url != blank %}
+              <div class="actions scheme-color">
+                <a href="{{ block.settings.url }}" aria-label="learn about {{ block.settings.title }}"> Learn More </a>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="product-features__slider swiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <div class="image{% if forloop.first == true %} active{% endif %}" data-index="{{ forloop.index }}">
+              {{ block.settings.image | image_url: width: 600, height: 600 | image_tag: preload: true }}
+            </div>
+            <div class="copy scheme-color">
+              {% render 'dynamic-heading',
+                level: block.settings.heading_level,
+                title: block.settings.title,
+                classList: block.settings.heading_level_display
+              %}
+              {% if block.settings.copy != blank %}
+                <p>{{ block.settings.copy }}</p>
+              {% endif %}
+              {% if block.settings.url != blank %}
+                <div class="actions">
+                  <a href="{{ block.settings.url }}" class="link"> Learn More </a>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="swiper__dots">
+      <div class="dots"></div>
+    </div>
+  </div>
+</section>
+<script>
+  jQuery(document).ready(function () {
+    $('#product-features--{{ section.id }} .feat').on('mouseenter', function () {
+      const imageIndex = $(this).attr('data-index');
+
+      $('#product-features--{{ section.id }} .feat').removeClass('active');
+      $(this).addClass('active');
+
+      $('#product-features--{{ section.id }} .image').removeClass('active');
+      $('#product-features--{{ section.id }} .image[data-index=' + imageIndex + ']').addClass('active');
+      console.log(imageIndex);
+    });
+
+    const featureSlider = new Swiper('#product-features--{{ section.id }} .swiper', {
+      slidesPerView: 1,
+      loop: true,
+      pagination: {
+        el: '#product-features--{{ section.id }} .swiper__dots .dots',
+      },
+      // effect: 'fade',
+      // fadeEffect: { crossFade: true },
+    });
+  });
+</script>
+{% if section.settings['padding_bottom-mobile'] == 'never-going-to-hit'
+  or section.settings['padding_top-mobile'] == 'never-going-to-hit'
+%}
+  <style>
+    @media(max-width: 768px) {
+      #product-features--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top-mobile }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom-mobile }}px !important;
+      }
+    }
+  </style>
+{% endif %}
+{% schema %}
+{
+  "name": "Product Features",
+  "settings": [
+    {
+      "id": "top_arch",
+      "type": "checkbox",
+      "label": "Top Arch?"
+    },
+    {
+      "id": "bottom_arch",
+      "type": "checkbox",
+      "label": "Bottom Arch?"
+    },
+    {
+      "id": "background",
+      "type": "select",
+      "options": [
+        {
+          "value": "black",
+          "label": "Black"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "tan",
+          "label": "Tan"
+        }
+      ],
+      "default": "white",
+      "label": "Background Color"
+    },
+    {
+      "id": "padding_top",
+      "type": "select",
+      "label": "Padding Top",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom",
+      "type": "select",
+      "label": "Padding Bottom",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_top-mobile",
+      "type": "select",
+      "label": "Padding Top - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "id": "padding_bottom-mobile",
+      "type": "select",
+      "label": "Padding Bottom - Mobile",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "xs",
+          "label": "XS"
+        },
+        {
+          "value": "sm",
+          "label": "SM"
+        },
+        {
+          "value": "md",
+          "label": "MD"
+        },
+        {
+          "value": "lg",
+          "label": "LG"
+        },
+        {
+          "value": "xl",
+          "label": "XL"
+        }
+      ],
+      "default": "md"
+    },
+    {
+      "type": "select",
+      "id": "heading_level",
+      "label": "Heading Level",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "heading_level_display",
+      "label": "Heading Level - Display",
+      "options": [
+        {
+          "value": "",
+          "label": "Natural"
+        },
+        {
+          "value": "heading--one",
+          "label": "H1"
+        },
+        {
+          "value": "heading--two",
+          "label": "H2"
+        },
+        {
+          "value": "heading--three",
+          "label": "H3"
+        },
+        {
+          "value": "heading--four",
+          "label": "H4"
+        },
+        {
+          "value": "heading--five",
+          "label": "H5"
+        },
+        {
+          "value": "heading--six",
+          "label": "H6"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    },
+    {
+      "id": "btn_url",
+      "type": "url",
+      "label": "Button URL"
+    },
+    {
+      "id": "btn_copy",
+      "type": "text",
+      "label": "Button Copy"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "limit": 4,
+      "settings": [
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image",
+          "info": "1200 x 1200px"
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "type": "select",
+          "id": "heading_level",
+          "label": "Heading Level",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h3"
+        },
+        {
+          "type": "select",
+          "id": "heading_level_display",
+          "label": "Heading Level - Display",
+          "options": [
+            {
+              "value": "",
+              "label": "Natural"
+            },
+            {
+              "value": "heading--one",
+              "label": "H1"
+            },
+            {
+              "value": "heading--two",
+              "label": "H2"
+            },
+            {
+              "value": "heading--three",
+              "label": "H3"
+            },
+            {
+              "value": "heading--four",
+              "label": "H4"
+            },
+            {
+              "value": "heading--five",
+              "label": "H5"
+            },
+            {
+              "value": "heading--six",
+              "label": "H6"
+            }
+          ],
+          "default": "heading--five"
+        },
+        {
+          "id": "copy",
+          "type": "textarea",
+          "label": "Copy"
+        },
+        {
+          "id": "url",
+          "type": "url",
+          "label": "URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Features"
+    }
+  ]
+}
+{% endschema %}

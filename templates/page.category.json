@@ -1,0 +1,180 @@
+{
+  "sections": {
+    "cta-heading": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "title": "Get Fit With JumpSport Products",
+        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "cta_image_b7YdtN": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/sxs-img-1.png",
+        "heading_level": "h2",
+        "title": "JumpSport Fitness Trampolines",
+        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+        "btn_url": "#",
+        "btn_copy": "Shop The Pro"
+      }
+    },
+    "product_slider_FQrjhT": {
+      "type": "product-slider",
+      "blocks": {
+        "card_ddFkxA": {
+          "type": "card",
+          "settings": {
+            "product": "clearance-jumpsport-wearable-weights"
+          }
+        },
+        "card_LN6ETE": {
+          "type": "card",
+          "settings": {
+            "product": "trampoline-workout-videos-fitness-trampoline-workout-dvd-bundle"
+          }
+        },
+        "card_LPCbpp": {
+          "type": "card",
+          "settings": {
+            "product": "fitness-accessories-standard-rebounder-cover"
+          }
+        },
+        "card_6KeUVx": {
+          "type": "card",
+          "settings": {
+            "product": "350-plyometric-rebounder-bundle"
+          }
+        },
+        "card_NfNPwd": {
+          "type": "card",
+          "settings": {
+            "product": "trampoline-workout-videos-balance-movements-workout-dvd"
+          }
+        }
+      },
+      "block_order": [
+        "card_ddFkxA",
+        "card_LN6ETE",
+        "card_LPCbpp",
+        "card_6KeUVx",
+        "card_NfNPwd"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "sm",
+        "heading_level": "h2",
+        "title": "For a Limited Time Only",
+        "btn_url": "#",
+        "btn_copy": "Shop All"
+      }
+    },
+    "cta_image_bJKp99": {
+      "type": "cta-image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/sxs-img-1.png",
+        "heading_level": "h2",
+        "title": "JumpSport Limited Edition Trampolines",
+        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+        "btn_url": "#",
+        "btn_copy": "Shop Now"
+      }
+    },
+    "product_slider_KVNbGA": {
+      "type": "product-slider",
+      "blocks": {
+        "card_KqNRT7": {
+          "type": "card",
+          "settings": {
+            "product": "28oz-blender-bottle"
+          }
+        },
+        "card_LnnHdC": {
+          "type": "card",
+          "settings": {
+            "product": "350-pro-handle-bundle-white-39"
+          }
+        },
+        "card_x3BTKY": {
+          "type": "card",
+          "settings": {
+            "product": "39-handle-bar-for-arched-leg-fitness-trampolines"
+          }
+        },
+        "card_zkjFWR": {
+          "type": "card",
+          "settings": {
+            "product": "30-connector-replacement-fitness-mat-39"
+          }
+        },
+        "card_amMFrr": {
+          "type": "card",
+          "settings": {
+            "product": "39-handle-bar-for-arched-leg-fitness-trampolines"
+          }
+        }
+      },
+      "block_order": [
+        "card_KqNRT7",
+        "card_LnnHdC",
+        "card_x3BTKY",
+        "card_zkjFWR",
+        "card_amMFrr"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "sm",
+        "heading_level": "h2",
+        "title": "For a Limited Time Only",
+        "btn_url": "#",
+        "btn_copy": "Button"
+      }
+    }
+  },
+  "order": [
+    "cta-heading",
+    "cta_image_b7YdtN",
+    "product_slider_FQrjhT",
+    "cta_image_bJKp99",
+    "product_slider_KVNbGA"
+  ]
+}

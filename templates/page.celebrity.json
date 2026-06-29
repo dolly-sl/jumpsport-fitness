@@ -1,0 +1,514 @@
+{
+  "sections": {
+    "cta-heading": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "JumpSport Fitness Trampolines",
+        "heading_level": "h1",
+        "heading_level_display": "heading--two",
+        "title": "Celebrities' Top Pick For Rebounding",
+        "copy": "<p>The most versatile training tool for at-home or gym workouts<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "instagram_embed_RbmM8h": {
+      "type": "instagram-embed",
+      "blocks": {
+        "embed_fTYp9r": {
+          "type": "embed",
+          "settings": {
+            "embed": "<blockquote class=\"instagram-media\" data-instgrm-permalink=\"https:\/\/www.instagram.com\/p\/CAI8vCNHwfV\/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https:\/\/www.instagram.com\/p\/CAI8vCNHwfV\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"><\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"><\/div>\n<\/div>\n<\/div>\n<div style=\"padding: 19% 0;\"><\/div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewbox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"https:\/\/www.w3.org\/1999\/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"><\/path><\/g><\/g><\/g><\/svg><\/div>\n<div style=\"padding-top: 8px;\"> <div style=\" color:#009AD5; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">View this post on Instagram<\/div>\n<\/div>\n<div style=\"padding: 12.5% 0;\"><\/div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\">\n<div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"><\/div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"><\/div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"><\/div>\n<\/div>\n<div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"><\/div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"><\/div>\n<\/div>\n<div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"><\/div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"><\/div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"><\/div>\n<\/div>\n<\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"><\/div>\n<\/div><\/a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https:\/\/www.instagram.com\/p\/CAI8vCNHwfV\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A post shared by Goldie Hawn (@goldiehawn)<\/a><\/p>\n<\/div><\/blockquote>\n<script async=\"\" src=\"\/\/www.instagram.com\/embed.js\"><\/script>",
+            "title": "Goldie Hawn",
+            "heading_level": "div",
+            "url": "shopify:\/\/products\/39-essential-fitness-trampoline"
+          }
+        },
+        "embed_hht3tb": {
+          "type": "embed",
+          "settings": {
+            "embed": "<blockquote class=\"instagram-media\" data-instgrm-permalink=\"https:\/\/www.instagram.com\/reel\/CdV67y6AlnY\/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https:\/\/www.instagram.com\/reel\/CdV67y6AlnY\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"><\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"><\/div>\n<\/div>\n<\/div>\n<div style=\"padding: 19% 0;\"><\/div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewbox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"https:\/\/www.w3.org\/1999\/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"><\/path><\/g><\/g><\/g><\/svg><\/div>\n<div style=\"padding-top: 8px;\"> <div style=\" color:#009AD5; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">View this post on Instagram<\/div>\n<\/div>\n<div style=\"padding: 12.5% 0;\"><\/div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\">\n<div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"><\/div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"><\/div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"><\/div>\n<\/div>\n<div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"><\/div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"><\/div>\n<\/div>\n<div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"><\/div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"><\/div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"><\/div>\n<\/div>\n<\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"><\/div>\n<\/div><\/a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https:\/\/www.instagram.com\/reel\/CdV67y6AlnY\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A post shared by Eva Longoria Baston (@evalongoria)<\/a><\/p>\n<\/div><\/blockquote>\n<script async=\"\" src=\"\/\/www.instagram.com\/embed.js\"><\/script>",
+            "title": "Eva Longoria",
+            "heading_level": "div",
+            "url": "shopify:\/\/products\/39-premium-fitness-trampoline"
+          }
+        },
+        "embed_WmEhiR": {
+          "type": "embed",
+          "settings": {
+            "embed": "<blockquote class=\"instagram-media\" data-instgrm-permalink=\"https:\/\/www.instagram.com\/reel\/CfopZDmgS_t\/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https:\/\/www.instagram.com\/reel\/CfopZDmgS_t\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"><\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"><\/div>\n<\/div>\n<\/div>\n<div style=\"padding: 19% 0;\"><\/div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewbox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"https:\/\/www.w3.org\/1999\/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"><\/path><\/g><\/g><\/g><\/svg><\/div>\n<div style=\"padding-top: 8px;\"> <div style=\" color:#009AD5; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">View this post on Instagram<\/div>\n<\/div>\n<div style=\"padding: 12.5% 0;\"><\/div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\">\n<div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"><\/div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"><\/div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"><\/div>\n<\/div>\n<div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"><\/div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"><\/div>\n<\/div>\n<div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"><\/div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"><\/div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"><\/div>\n<\/div>\n<\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"><\/div>\n<\/div><\/a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https:\/\/www.instagram.com\/reel\/CfopZDmgS_t\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A post shared by JumpSport Fitness Trampolines (@jumpsportfitness)<\/a><\/p>\n<\/div><\/blockquote>\n<script async=\"\" src=\"\/\/www.instagram.com\/embed.js\"><\/script>",
+            "title": "Jennifer Garner",
+            "heading_level": "div",
+            "url": "shopify:\/\/products\/jumpsport-39-pro-fitness-trampoline"
+          }
+        },
+        "embed_3PEJNe": {
+          "type": "embed",
+          "settings": {
+            "embed": "<blockquote class=\"instagram-media\" data-instgrm-permalink=\"https:\/\/www.instagram.com\/p\/B0mIZZTHn8i\/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https:\/\/www.instagram.com\/p\/B0mIZZTHn8i\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"><\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"><\/div>\n<\/div>\n<\/div>\n<div style=\"padding: 19% 0;\"><\/div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewbox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"https:\/\/www.w3.org\/1999\/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"><\/path><\/g><\/g><\/g><\/svg><\/div>\n<div style=\"padding-top: 8px;\"> <div style=\" color:#009AD5; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">View this post on Instagram<\/div>\n<\/div>\n<div style=\"padding: 12.5% 0;\"><\/div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\">\n<div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"><\/div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"><\/div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"><\/div>\n<\/div>\n<div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"><\/div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"><\/div>\n<\/div>\n<div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"><\/div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"><\/div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"><\/div>\n<\/div>\n<\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"><\/div>\n<\/div><\/a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https:\/\/www.instagram.com\/p\/B0mIZZTHn8i\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A post shared by the ness (@thenessnyc)<\/a><\/p>\n<\/div><\/blockquote>\n<script async=\"\" src=\"\/\/www.instagram.com\/embed.js\"><\/script>",
+            "title": "Gweneth Paltrow",
+            "heading_level": "div",
+            "url": "shopify:\/\/products\/39-premium-fitness-trampoline"
+          }
+        },
+        "embed_nxRfmj": {
+          "type": "embed",
+          "settings": {
+            "embed": "<blockquote class=\"instagram-media\" data-instgrm-permalink=\"https:\/\/www.instagram.com\/reel\/CVLtV__gEb6\/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https:\/\/www.instagram.com\/reel\/CVLtV__gEb6\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"><\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"><\/div>\n<\/div>\n<\/div>\n<div style=\"padding: 19% 0;\"><\/div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewbox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"https:\/\/www.w3.org\/1999\/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"><\/path><\/g><\/g><\/g><\/svg><\/div>\n<div style=\"padding-top: 8px;\"> <div style=\" color:#009AD5; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">View this post on Instagram<\/div>\n<\/div>\n<div style=\"padding: 12.5% 0;\"><\/div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\">\n<div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"><\/div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"><\/div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"><\/div>\n<\/div>\n<div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"><\/div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"><\/div>\n<\/div>\n<div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"><\/div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"><\/div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"><\/div>\n<\/div>\n<\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"><\/div>\n<\/div><\/a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https:\/\/www.instagram.com\/reel\/CVLtV__gEb6\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A post shared by Trampoline TRIM™️ (@trampolinetrim)<\/a><\/p>\n<\/div><\/blockquote>\n<script async=\"\" src=\"\/\/www.instagram.com\/embed.js\"><\/script>",
+            "title": "Milla Jovovich",
+            "heading_level": "div",
+            "url": "shopify:\/\/products\/jumpsport-39-pro-fitness-trampoline"
+          }
+        },
+        "embed_wkjpxn": {
+          "type": "embed",
+          "settings": {
+            "embed": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@jennaushkowitz\/video\/6982572264696941830\" data-video-id=\"6982572264696941830\" style=\"max-width: 319.5px;min-width: 319.5px;max-height: 607px;margin:0px auto;\"> <section> <a target=\"_blank\" title=\"@jennaushkowitz\" href=\"https:\/\/www.tiktok.com\/@jennaushkowitz?refer=embed\">@jennaushkowitz<\/a> <p>❤️<\/p> <a target=\"_blank\" title=\"♬ Valerie (Glee Cast Version) - Glee Cast\" href=\"https:\/\/www.tiktok.com\/music\/Valerie-Glee-Cast-Version-6696418881503758338?refer=embed\">♬ Valerie (Glee Cast Version) - Glee Cast<\/a> <\/section> <\/blockquote> <script async=\"\" src=\"https:\/\/www.tiktok.com\/embed.js\"><\/script>",
+            "title": "Jenna Ushkowitz",
+            "heading_level": "div",
+            "url": "shopify:\/\/products\/jumpsport-39-pro-fitness-trampoline"
+          }
+        }
+      },
+      "block_order": [
+        "embed_fTYp9r",
+        "embed_hht3tb",
+        "embed_WmEhiR",
+        "embed_3PEJNe",
+        "embed_nxRfmj",
+        "embed_wkjpxn"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "md",
+        "padding_top-mobile": "",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "team_8zWjLG": {
+      "type": "team",
+      "blocks": {
+        "text_KzFrrY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tony-robbins-jumpsport.webp",
+            "title": "Tony Robbins",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "sub_title": "Tony unleashes his power within using a JumpSport to energize before presenting and to lymphasize.",
+            "copy": "<p>Tony Robbins has a JumpSport Fitness Trampoline shipped ahead of time to his large events so that he can energize before he goes on stage. <\/p><p>His Platinum Lions Members rebound regularly to help detox and cleanse the body.<\/p><p>The TonyRobbins.com article <a href=\"https:\/\/www.tonyrobbins.com\/blog\/the-10-day-pure-energy-challenge\" target=\"_blank\" title=\"Visit tonyrobbins.com to read the article\">The 10-day health challenge<\/a> says, \"Research has shown that an exercise technique called <em>rebounding <\/em>will help your lymphatic system the most. Each day, 20–30 minutes of rebounding, or bouncing, preferably on a “rebounder,” will help provide the ideal conditions for cleansing your cells.\"<\/p>",
+            "url": ""
+          }
+        },
+        "text_wHrkaC": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Milla-Jovovich-jumpsport-celebrity.webp",
+            "title": "Milla Jovovich",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "sub_title": "Unconventional training with the trampoline keeps Milla conditioned for any physically active role.",
+            "copy": "<p>Milla incorporates rebounding into her circuit training routine with <a href=\"https:\/\/www.instagram.com\/trampolinetrim\/\" target=\"_blank\" title=\"Visit Trampoline Trim's page on Instagram\">Trampoline Trim<\/a> just outside of LA. These unconventional challenge her in ways no other piece of equipment can.<\/p>",
+            "url": ""
+          }
+        },
+        "text_z9TDXE": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jenna_Ushkowitz-jumpsport-celebrity.webp",
+            "title": "Jenna Ushkowitz",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "sub_title": "\"Prepare to become addicted to one of the best workouts ever.\"",
+            "copy": "<p>Jenna completed 380+ online workouts from the ness in about a year. <\/p><p>\"If someone asked me what three things i could bring to a deserted island, it'd be a machete, my dog bear and my trampoline.\"<\/p><p>Read the article: <a href=\"https:\/\/www.thenessnyc.com\/news\/p\/actress-singer-and-producer-jenna-ushkowitz-shares-7-things-she-wishes-she-knew-before-her-first-bounce-class\/\" target=\"_blank\" title=\"Visit thenessnyc.com to read the article about Jenna Ushkowitz\">Actress, singer and producer Jenna Ushkowitz shares 7 things she wishes she knew before her first bounce class<\/a><\/p>",
+            "url": ""
+          }
+        },
+        "text_X6hQFG": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kate-beckinsale-jumpsport-celebirty.webp",
+            "title": "Kate Beckinsale",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "sub_title": "\"I just got into trampolining, and it's the greatest thing.\"",
+            "copy": "<p>Women's Health featured a cover article  detailing Kate's extensive training including doing online trampoline workouts from the comfort of her own home.<\/p><p>\"It makes you feel kind of jolly!\"<\/p>",
+            "url": ""
+          }
+        },
+        "text_YcVtPR": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Julianne-Hough-jumpsport-celebrity.webp",
+            "title": "Julianne Hough",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "sub_title": "\"I’m a high-energy person, so I really like those high-energy, sweat-it-out workouts,\"",
+            "copy": "<p>Julianne loves trampoline workouts with Simone De La Rue, founder of <a href=\"https:\/\/www.bodybysimone.com\/\" target=\"_blank\" title=\"Visit bodybysimone.com \">Body By Simone<\/a>, an LA based studio. <\/p><p>She says, \"My whole thing is, I’m not doing it necessarily to make my body look good—I’m doing it because I love it and it's fun\"<\/p>",
+            "url": ""
+          }
+        },
+        "text_QdztBc": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gweneth-paltrow-jumpsport-celebrity.webp",
+            "title": "Gweneth Paltrow",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "sub_title": "“Feeling like a happy kid doing thenessnyc workout! So good!”",
+            "copy": "<p>Gweneth Paltrow has trained with the ness studio in New York. Her company, Goop, has featured the ness online and at local events.<\/p><p>Read the article: <a href=\"https:\/\/goop.com\/wellness\/fitness\/trampoline-cardio-workout\/\" target=\"_blank\" title=\"Visit goop.com to read the article about the ness studio\">A Trampoline Cardio Workout You Can Do in Your Living Room<\/a><\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_KzFrrY",
+        "text_wHrkaC",
+        "text_z9TDXE",
+        "text_X6hQFG",
+        "text_YcVtPR",
+        "text_QdztBc"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Why Celebrities Love JumpSport",
+        "copy": "<p>Rebounding has become a go-to workout for many celebrities, and for good reason! Here are the top three reasons why stars love bouncing on a mini-trampoline:<\/p><ol><li><strong>Rebounding engages muscles<\/strong> from head to toe while being gentle on the joints, making it perfect for staying fit without strain.<\/li><li><strong>The up-and-down motion stimulates lymphatic drainage<\/strong>, helping to flush out toxins and keep energy levels high.<\/li><li><strong>Unlike traditional workouts, rebounding feels playful and enjoyable<\/strong> while still delivering serious results in strength, balance, and endurance.<\/li><\/ol>"
+      }
+    },
+    "image_accordions_celeb_aQgrkX": {
+      "type": "image-accordions-celeb",
+      "blocks": {
+        "text_mqthMF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "",
+            "copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_mqthMF"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/headshot.jpg",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "Goldie Hawn’s JumpSport 39\" ESSENTIAL Trampoline",
+        "copy": "<p>Goldie Hawn’s first ever Instagram post showed her rebounding on her JumpSport Fitness Trampoline. But when her trampoline dance post went viral, it was featured in articles on Vogue, Today, Women’s Health, and Good Morning America. Why? Because bouncing on a trampoline is fun and the massive endorphin rush helps you let loose “like nobody’s watching.\"<\/p>",
+        "btn_url": "shopify:\/\/products\/39-essential-fitness-trampoline",
+        "btn_copy": "Shop 39\" ESSENTIAL Trampolines",
+        "image_lg": "shopify:\/\/shop_images\/transparent_220_1400x1400_6dcd7dfb-55be-4fe9-bb1c-37e11e5d3ab4.png"
+      }
+    },
+    "product_slider_pHVUeD": {
+      "type": "product-slider",
+      "blocks": {
+        "card_7X3kNM": {
+          "type": "card",
+          "settings": {
+            "product": "39-essential-fitness-trampoline"
+          }
+        },
+        "card_4daGmC": {
+          "type": "card",
+          "settings": {
+            "product": "strength-training-kit-bundles"
+          }
+        },
+        "card_bDgrtW": {
+          "type": "card",
+          "settings": {
+            "product": "60-day-jumpsport-tv-subscription-free-trial"
+          }
+        },
+        "card_ApkTPa": {
+          "type": "card",
+          "settings": {
+            "product": "quick-release-handle-bar-for-39-fitness-trampolines"
+          }
+        }
+      },
+      "block_order": [
+        "card_7X3kNM",
+        "card_4daGmC",
+        "card_bDgrtW",
+        "card_ApkTPa"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Get Goldie Fit",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "image_accordions_celeb_63xhzg": {
+      "type": "image-accordions-celeb",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/eva-longoria.webp",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "Eva Longoria's JumpSport 39\" PREMIUM Trampoline",
+        "copy": "<p>Eva Longoria's love of the JumpSport fitness trampoline was shared with the world during an unboxing video on Instagram of a model 350 her friend gifted to her. Since then, she proudly shows off her trampoline with regular postings about her rebounder workouts and has been the topic of discussion for many major magazines who follow celebrity health trends; especially ones that work! She is healthy, strong, toned, and still has energy to maintain a busy work and busy mom schedule.<\/p>",
+        "btn_url": "shopify:\/\/products\/39-premium-fitness-trampoline",
+        "btn_copy": "Shop 39\" PREMIUM Trampolines",
+        "image_lg": "shopify:\/\/shop_images\/transparent_350_1400x1400_afb1b9af-8ef3-4002-b07a-5d98e9bc2314.png"
+      }
+    },
+    "product_slider_jkYCEW": {
+      "type": "product-slider",
+      "blocks": {
+        "card_PExf6N": {
+          "type": "card",
+          "settings": {
+            "product": "39-premium-fitness-trampoline"
+          }
+        },
+        "card_NHUNxd": {
+          "type": "card",
+          "settings": {
+            "product": "weighted-toning-ball"
+          }
+        },
+        "card_FWa7TP": {
+          "type": "card",
+          "settings": {
+            "product": "hiit-cardio-workout-fitness-trampoline-workout-dvd"
+          }
+        },
+        "card_nyAEjr": {
+          "type": "card",
+          "settings": {
+            "product": "fitness-accessories-jumpsport-fitness-blender-bottle"
+          }
+        }
+      },
+      "block_order": [
+        "card_PExf6N",
+        "card_NHUNxd",
+        "card_FWa7TP",
+        "card_nyAEjr"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Get Eva Fit",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "image_accordions_celeb_yLVtUN": {
+      "type": "image-accordions-celeb",
+      "blocks": {
+        "text_KcyM9R": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Trampoline Features",
+            "copy": "<p>Features Here<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_KcyM9R"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/garner.jpg",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "Jennifer Garner's JumpSport 39\" PRO Trampoline",
+        "copy": "<p>Jennifer Garner reveals in Women’s Health how she sets herself up for success by preparing her workout clothes and coffee maker the night before so she is ready for her trampoline or circuit workout in the morning. \"Even if I can only do it for 20 minutes, I make sure I'm sweating by the end, and that's a victory. I don't judge myself.\"<\/p>",
+        "btn_url": "shopify:\/\/products\/jumpsport-39-pro-fitness-trampoline",
+        "btn_copy": "Shop 39\" PRO Trampolines",
+        "image_lg": "shopify:\/\/shop_images\/transparent_350_PRO_1400x1400_78fac257-14ad-4aae-b0fe-7ae6bc51960b.png"
+      }
+    },
+    "product_slider_VA9ib8": {
+      "type": "product-slider",
+      "blocks": {
+        "card_TPTPQJ": {
+          "type": "card",
+          "settings": {
+            "product": "jumpsport-39-pro-fitness-trampoline"
+          }
+        },
+        "card_6LerPK": {
+          "type": "card",
+          "settings": {
+            "product": "60-day-jumpsport-tv-subscription-free-trial"
+          }
+        },
+        "card_jY8jPM": {
+          "type": "card",
+          "settings": {
+            "product": "hiit-strength-training-with-handle-bar-bands-workout-dvd"
+          }
+        },
+        "card_HN8F76": {
+          "type": "card",
+          "settings": {
+            "product": "plyofit-pro-adapter"
+          }
+        }
+      },
+      "block_order": [
+        "card_TPTPQJ",
+        "card_6LerPK",
+        "card_jY8jPM",
+        "card_HN8F76"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Get Jennifer Fit",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "hero_cta_CLiLxn": {
+      "type": "hero-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-tv_80fb8c86-b3e4-40e7-810f-c0bebc9d542f.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/hero-tv-mobile_3f7cdc72-699c-432e-a09f-ec4fc4bd0454.jpg",
+        "copy_align": "left",
+        "color": "light",
+        "image_eyebrow": "shopify:\/\/shop_images\/jumpsport-fitness-tv-logo-2x.webp",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Online Trampoline Workouts",
+        "copy": "<p>Exclusive 60-Day Free Trail with trampoline purchase for $9.99\/month or $59.99\/year<\/p>",
+        "btn_url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts",
+        "btn_copy": "Explore JumpSport Fitness TV"
+      }
+    },
+    "cta_blocks_NedbTw": {
+      "type": "cta-blocks",
+      "blocks": {
+        "block_UNwLBB": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Can’t Decide?",
+            "title_alt": "View Our Buyers Guide",
+            "image": "shopify:\/\/shop_images\/jumpsport-trampoline-sizes.webp",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-trampoline-buyers-guide"
+          }
+        },
+        "block_e6mqUE": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "title": "Want To Try A Class In Person?",
+            "title_alt": "Find A Club Near You",
+            "image": "shopify:\/\/shop_images\/Find_a_Club_1180x800_63f0d4aa-fe5c-4ea2-9431-c14e64337770.webp",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-club-studio-locator"
+          }
+        }
+      },
+      "block_order": [
+        "block_UNwLBB",
+        "block_e6mqUE"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Experience JumpSport For Yourself"
+      }
+    }
+  },
+  "order": [
+    "cta-heading",
+    "instagram_embed_RbmM8h",
+    "team_8zWjLG",
+    "image_accordions_celeb_aQgrkX",
+    "product_slider_pHVUeD",
+    "image_accordions_celeb_63xhzg",
+    "product_slider_jkYCEW",
+    "image_accordions_celeb_yLVtUN",
+    "product_slider_VA9ib8",
+    "hero_cta_CLiLxn",
+    "cta_blocks_NedbTw"
+  ]
+}

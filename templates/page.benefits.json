@@ -1,0 +1,676 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-xl",
+      "blocks": {
+        "text_cFJNf9": {
+          "type": "text",
+          "settings": {
+            "title": "CARDO + WEIGHTLOSS"
+          }
+        },
+        "text_UcT7Bp": {
+          "type": "text",
+          "settings": {
+            "title": "BALANCE + MENTAL HEALTH"
+          }
+        },
+        "text_E9V6My": {
+          "type": "text",
+          "settings": {
+            "title": "WELLNESS + RECOVERY"
+          }
+        }
+      },
+      "block_order": [
+        "text_cFJNf9",
+        "text_UcT7Bp",
+        "text_E9V6My"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JS-BenefitsofRebounding.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/mobile-benefits.png",
+        "copy_align": "left",
+        "eyebrow": "Rethink Your Workout",
+        "heading_level": "h1",
+        "title": "The Benefits of Rebounding",
+        "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+        "btn_copy": "Shop Trampolines",
+        "link_url": "",
+        "link_copy": "",
+        "arch_color": "pink"
+      }
+    },
+    "cta_heading_c74jnY": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Rebounding is a simple yet effective low-impact exercise that involves bouncing on a mini-trampoline.",
+        "copy": "",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "sxs_Py8T9x": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_3AVEXt": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Benefits_940x940_b820fe1e-bb17-4a3c-87c5-8a3a6d6bcc1c.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Top Benefits Of Rebounding",
+            "copy": "<p>Rebounding is perfect for all fitness levels, ages, and works with almost any modality.<\/p><ul><li>Cardio: Stronger Heart<\/li><li>Weight Loss: Efficient Calorie Burn<\/li><li>Balance: Heightened Proprioception<\/li><li>Mental Health: Stress Relief<\/li><li>Wellness: Increased Lymphatic Flow<\/li><li>Recovery: Fast Muscle Recuperation<\/li><li>Fun Factor: Bouncing Brings Joy!<\/li><\/ul>",
+            "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+            "btn_copy": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "sxs_3AVEXt"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "width": true
+      }
+    },
+    "cta_chart_8EyEBa": {
+      "type": "cta-chart",
+      "blocks": {
+        "row_JxCtGF": {
+          "type": "row",
+          "settings": {
+            "title": "Boosts Metabolism ",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding supercharges your metabolism, helping you burn calories even after your workout.<\/p>"
+          }
+        },
+        "row_6wcLKm": {
+          "type": "row",
+          "settings": {
+            "title": "Strengthens the Heart",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Regular rebounding fortifies the heart and other muscles in the body, promoting overall cardiovascular health.<\/p>"
+          }
+        },
+        "row_FA83JY": {
+          "type": "row",
+          "settings": {
+            "title": "Lowers Cholesterol",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding can effectively lower circulating cholesterol and triglyceride levels, contributing to a healthier lipid profile.<\/p>"
+          }
+        },
+        "row_inTEUN": {
+          "type": "row",
+          "settings": {
+            "title": "Improves Circulation",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>The exercise enhances blood circulation, which can contribute to better oxygen supply throughout the body. <\/p>"
+          }
+        },
+        "row_X6XNxh": {
+          "type": "row",
+          "settings": {
+            "title": "Prevents Chronic Edema\/Swelling",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Bouncing decreases the volume of blood pooling in the veins of the cardiovascular system.<\/p>"
+          }
+        },
+        "row_mFCftr": {
+          "type": "row",
+          "settings": {
+            "title": "Manages Body Composition",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding helps manage body composition and improves muscle-to-fat ratio, aiding in weight management.<\/p>"
+          }
+        },
+        "row_7ErqtL": {
+          "type": "row",
+          "settings": {
+            "title": "Improves Endurance",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding increases respiration and capacity for breathing, which can lead to improved lung health and endurance.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_JxCtGF",
+        "row_6wcLKm",
+        "row_FA83JY",
+        "row_inTEUN",
+        "row_X6XNxh",
+        "row_mFCftr",
+        "row_7ErqtL"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "position": "left",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "Cardio & Weightloss",
+        "copy": "<p>Rebounding is a low impact, total body workout that enhances your cardiovascular health and aids in weight loss. It boosts metabolism, burns calories, and strengthens the heart muscle.<\/p>",
+        "btn_url": "shopify:\/\/blogs\/bounce-blog\/discover-the-best-trampoline-cardio-workouts",
+        "btn_copy": "View Cardio Exercises",
+        "image": "shopify:\/\/shop_images\/jumpsport_games_cardio_700x700_ef4d2641-a464-48bf-a620-89276245a75a.webp",
+        "chart_title": "Key cardiovascular and weight loss benefits:",
+        "chart_heading_level": "h3"
+      }
+    },
+    "cta_chart_Uppd9J": {
+      "type": "cta-chart",
+      "blocks": {
+        "row_HjECaA": {
+          "type": "row",
+          "settings": {
+            "title": "Improves Coordination",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding improves coordination between the proprioceptors in the joints, enhancing balance and motor skills. <\/p>"
+          }
+        },
+        "row_3fbnxi": {
+          "type": "row",
+          "settings": {
+            "title": "Boosts Mental Performance",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding can lead to better mental performance, sharpening your learning processes and improving memory.<\/p>"
+          }
+        },
+        "row_LwKJPm": {
+          "type": "row",
+          "settings": {
+            "title": "Reduces Anxiety",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding can reduce feelings of anxiety and depression by increasing endorphins, the body’s natural mood boosters.<\/p>"
+          }
+        },
+        "row_zgFj7i": {
+          "type": "row",
+          "settings": {
+            "title": "Stimulates the Vestibular System",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding stimulates the vestibular system, which controls balance, contributing to improved stability and coordination.<\/p>"
+          }
+        },
+        "row_QRYEc7": {
+          "type": "row",
+          "settings": {
+            "title": "Enhances Self-Image",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding is an effective form of exercise that gives you a greater sense of control and an improved self-image—while having fun!<\/p>"
+          }
+        },
+        "row_YqHCQm": {
+          "type": "row",
+          "settings": {
+            "title": "Improves Cognitive Function",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding can help increase blood flow to the brain, delivering oxygen and nutrients that support optimal cognitive performance.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_HjECaA",
+        "row_3fbnxi",
+        "row_LwKJPm",
+        "row_zgFj7i",
+        "row_QRYEc7",
+        "row_YqHCQm"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "position": "right",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "Balance & Mental Health",
+        "copy": "<p>Rebounding can have several positive effects on mental health, thanks to its unique combination of physical activity, stress reduction, and enjoyment. Furthermore, it enhances proprioception and equilibrium, which are essential for maintaining and improving balance and coordination.<\/p>",
+        "btn_url": "shopify:\/\/blogs\/bounce-blog\/rebounding-the-best-mental-health-exercise-for-balanced-wellness",
+        "btn_copy": "Full Mental Health Benefits",
+        "image": "shopify:\/\/shop_images\/mental_health_700x700_89c832da-336c-402d-bf7f-718b1f7c1309.webp",
+        "chart_title": "Key balance and mental well-being benefits:",
+        "chart_heading_level": "h3"
+      }
+    },
+    "cta_chart_3RQdqJ": {
+      "type": "cta-chart",
+      "blocks": {
+        "row_DWtjqt": {
+          "type": "row",
+          "settings": {
+            "title": "Increases Lymphatic Drainage",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding stimulates the millions of one-way valves in the lymphatic system, naturally helping flush out excess fluids and toxins. <\/p>"
+          }
+        },
+        "row_7AdPGx": {
+          "type": "row",
+          "settings": {
+            "title": "Promotes Tissue Repair",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding promotes tissue repair and protects the joints from the chronic fatigue and impact delivered by exercising on hard surfaces.<\/p>"
+          }
+        },
+        "row_Be3ccF": {
+          "type": "row",
+          "settings": {
+            "title": "Improves Sleep",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding allows for deeper sleep and easier relaxation, contributing to overall wellness.<\/p>"
+          }
+        },
+        "row_xiBQJ6": {
+          "type": "row",
+          "settings": {
+            "title": "Keeps You Young",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding slows down atrophy in the aging process, helping you stay young and vibrant.<\/p>"
+          }
+        },
+        "row_YUUfKF": {
+          "type": "row",
+          "settings": {
+            "title": "Relieves Pain",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding can relieve pain from sore neck and back, headaches, and discomfort caused by lack of exercise. It’s easier on joints than the impact of running.<\/p>"
+          }
+        },
+        "row_wXqrUC": {
+          "type": "row",
+          "settings": {
+            "title": "Increases Energy Levels",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding combats feelings of fatigue and lethargy, through the combination of cardiovascular activity and oxygen circulation, so you feel more energized and alert.<\/p>"
+          }
+        },
+        "row_KMrNJr": {
+          "type": "row",
+          "settings": {
+            "title": "Naturally Boosts Immune System",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p>Rebounding can help reduce the number of colds, allergies, digestive disturbances, and abdominal problems<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_DWtjqt",
+        "row_7AdPGx",
+        "row_Be3ccF",
+        "row_xiBQJ6",
+        "row_YUUfKF",
+        "row_wXqrUC",
+        "row_KMrNJr"
+      ],
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "position": "left",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "Wellness & Recovery",
+        "copy": "<p>Rebounding plays a significant role in overall wellness, most notably how it improves lymphatic flow. Additionally, it allows the body to recover faster due to the low-impactive nature of the exercise.<\/p>",
+        "btn_url": "shopify:\/\/blogs\/bounce-blog\/how-rebounding-supports-your-lymphatic-system-for-optimal-wellness-and-recovery",
+        "btn_copy": "Discover More Wellness Benefits",
+        "image": "shopify:\/\/shop_images\/recovery_700x700_1.webp",
+        "chart_title": "Key balance and mental well-being benefits:",
+        "chart_heading_level": "h3"
+      }
+    },
+    "product_slider_6QC8g6": {
+      "type": "product-slider",
+      "blocks": {
+        "card_7JnyRV": {
+          "type": "card",
+          "settings": {
+            "product": "jumpsport-39-pro-fitness-trampoline"
+          }
+        },
+        "card_LgFFjP": {
+          "type": "card",
+          "settings": {
+            "product": "39-premium-fitness-trampoline"
+          }
+        },
+        "card_deRWjA": {
+          "type": "card",
+          "settings": {
+            "product": "44-essential-fitness-trampoline"
+          }
+        },
+        "card_eBj4MH": {
+          "type": "card",
+          "settings": {
+            "product": "39-essential-fitness-trampoline"
+          }
+        }
+      },
+      "block_order": [
+        "card_7JnyRV",
+        "card_LgFFjP",
+        "card_deRWjA",
+        "card_eBj4MH"
+      ],
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Enhance Your Workout",
+        "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+        "btn_copy": "Shop All"
+      }
+    },
+    "research_rJVPnA": {
+      "type": "research",
+      "blocks": {
+        "row_h6UCaM": {
+          "type": "row",
+          "settings": {
+            "title": "Total Calories Burned",
+            "jumpsport": "236",
+            "treadmill": "179"
+          }
+        },
+        "row_eamAKj": {
+          "type": "row",
+          "settings": {
+            "title": "Calories per Minute",
+            "jumpsport": "12.4",
+            "treadmill": "9.4"
+          }
+        },
+        "row_8mHj4T": {
+          "type": "row",
+          "settings": {
+            "title": "Avg. Heart Rate (BPM)",
+            "jumpsport": "141",
+            "treadmill": "149"
+          }
+        },
+        "row_8bFeVc": {
+          "type": "row",
+          "settings": {
+            "title": "% Heart Rate Max",
+            "jumpsport": "77",
+            "treadmill": "88"
+          }
+        },
+        "row_X8h6fW": {
+          "type": "row",
+          "settings": {
+            "title": "VO2",
+            "jumpsport": "29.7",
+            "treadmill": "29.1"
+          }
+        },
+        "row_pMAyCJ": {
+          "type": "row",
+          "settings": {
+            "title": "%VO2max",
+            "jumpsport": "58",
+            "treadmill": "61"
+          }
+        },
+        "row_4fdeCB": {
+          "type": "row",
+          "settings": {
+            "title": "RPE",
+            "jumpsport": "11.8",
+            "treadmill": "11.6"
+          }
+        },
+        "study_cUCjPe": {
+          "type": "study",
+          "settings": {
+            "title": "<p><strong>Burn Calories 1.5x Faster: <br\/><\/strong>The 19-minute JumpSport beginner workout burned up to 280 calories. The American College of Sports Medicine only recommends a caloric burn of 200-300 calories in 30 minutes. This makes rebounding a time-efficient way to achieve calorie burn comparable to running or cycling.<\/p>"
+          }
+        },
+        "study_GYPXBi": {
+          "type": "study",
+          "settings": {
+            "title": "<p><strong>Increased Cardiovascular Fitness: <br\/><\/strong>Participants experienced improved cardiovascular fitness after regular rebounding sessions. The study showed increases in VO2 max (a measure of aerobic capacity) and overall heart health. These improvements are crucial for enhancing endurance and reducing the risk of cardiovascular diseases.<\/p>"
+          }
+        },
+        "study_CrAFNA": {
+          "type": "study",
+          "settings": {
+            "title": "<p><strong>11% Perceived Less Exertion: <br\/><\/strong>One of the standout benefits of rebounding highlighted by the ACE study is the perceived exertion level. While the fitness metrics indicated significant cardiovascular effectiveness, participants perceived the workout to be 11% easier than it should have been. “We would expect participants to report ratings of perceived exertion (RPE) of about 13 at this intensity level, but the subjects averaged an RPE of 11.7, or a light to moderate intensity.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_h6UCaM",
+        "row_eamAKj",
+        "row_8mHj4T",
+        "row_8bFeVc",
+        "row_X8h6fW",
+        "row_pMAyCJ",
+        "row_4fdeCB",
+        "study_cUCjPe",
+        "study_GYPXBi",
+        "study_CrAFNA"
+      ],
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "black",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "ACE-Sponsored Research",
+        "copy": "<p>The American Council on Exercise (ACE) conducted a study to evaluate the benefits of rebounding on fitness trampolines. The study aimed to determine the effectiveness of this exercise modality in improving cardiovascular fitness and aiding in weight loss. <\/p><p>“The 19-minute JumpSport exercise video featured motivational music and incorporated a variety of choreography and movements to create a full-body workout. Heart rates and VO2max were collected every minute and caloric expenditure was calculated from the VO2 data. RPE was also assessed every five minutes.”<\/p><p>“It is clear that the JumpSport workout offered sufficient intensity to improve cardiorespiratory fitness over time.” - John Porcari, Ph.D.<\/p>",
+        "btn_url": "https:\/\/acewebcontent.azureedge.net\/certifiednews\/images\/article\/pdfs\/ACE_MiniTrampoline.pdf",
+        "btn_copy": "View Full Study",
+        "col_1_title": "Men",
+        "col_2_title": "Women",
+        "studies_title": "Key Findings From The ACE Study",
+        "disclaimer": "Results table based on a PROSOURCE™: OCTOBER 2016 study of a 19-minute JumpSport exercise video with male and female college age participants"
+      }
+    },
+    "accordions_LMVUCh": {
+      "type": "accordions",
+      "blocks": {
+        "text_tcCqte": {
+          "type": "text",
+          "settings": {
+            "title": "How many minutes a day should I rebound?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Most fitness professionals recommend that you rebound at least 10 minutes per day. For a more effective workout, gradually increase your bounce time up to 60 minutes. Be sure to take breaks and stay hydrated.<\/p>"
+          }
+        },
+        "text_QwrE7C": {
+          "type": "text",
+          "settings": {
+            "title": "Does bouncing reduce belly fat?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Rebounding can contribute to overall fat loss, including belly fat, when combined with a healthy diet and regular exercise routine. For optimal results, combine your favorite trampoline workout with other forms of exercise, such as strength training and cardiovascular workouts.<\/p>"
+          }
+        },
+        "text_Cd4jPd": {
+          "type": "text",
+          "settings": {
+            "title": "How long should I rebound for lymphatic drainage?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>The ideal duration and frequency of rebounding for lymphatic drainage may vary from person to person. It's essential to listen to your body, start gradually, and adjust your routine based on how you feel. In her 2008 book, <em>Rebounding To Better Health<\/em>, Linda Brooks states that even 5-10 minutes a day can jumpstart lymphatic flow by 15-30x! <\/p><p><em>If you have any underlying health conditions or concerns, consult with a healthcare professional before beginning a new exercise program, including rebounding.<\/em><\/p>"
+          }
+        },
+        "text_RrNUKN": {
+          "type": "text",
+          "settings": {
+            "title": "Is rebounding better than walking? ",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Ultimately, the best exercise is one that you enjoy and can consistently incorporate into your lifestyle. Both rebounding and walking offer numerous health benefits and can be valuable components of a well-rounded fitness program. Consider your personal preferences, fitness goals, and any physical limitations when choosing between the two activities, and don't hesitate to mix and match based on your needs and interests.<\/p>"
+          }
+        },
+        "text_bYfKne": {
+          "type": "text",
+          "settings": {
+            "title": "Can you overdo it with rebounding?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Like any form of exercise, it is possible to overdo it with rebounding. While there are many benefits of rebounding, excessive or improper use can lead to various issues, including fatigue, muscle soreness, joint strain, and overuse injuries.<\/p>"
+          }
+        },
+        "text_bn4Tpe": {
+          "type": "text",
+          "settings": {
+            "title": "What are the NASA findings on the benefits of rebounding?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>While the NASA study, published in the <a href=\"https:\/\/ntrs.nasa.gov\/citations\/19810029519\"><span style=\"text-decoration:underline\">1980 Journal of Applied Physiology<\/span><\/a>, conducted their study using a full-size trampoline, there are still significant learnings that apply to rebounding on a mini-trampoline. <\/p><ol><li>\"...for similar levels of heart rate and oxygen consumption, the magnitude of the bio mechanical stimuli is greater with jumping on a trampoline than with running, a finding that might help identify acceleration parameters needed for the design of remedial procedures to avert deconditioning in persons exposed to weightlessness.\"<\/li><li>\"The external work output at equivalent levels of oxygen uptake were significantly greater while trampolining than running. The greatest difference was about 68%.”<\/li><li>\"While trampolining, as long as the G-force remained below 4-G's, the ratio of oxygen consumption compared to biomechanical conditioning was sometimes more than twice as efficient as treadmill running.\"<\/li><li>\"The G-force measured at the ankle was always more than twice the G-force measured at the back and forehead while running on a treadmill.…While jumping on a trampoline, the G-force was almost the same at all three points, (ankle, back, forehead) and well below the rupture threshold of a normal healthy individual.”<\/li><li>\" ...averting the deconditioning that occurs during the immobilization of bed rest or space flight, due to a lack of gravireceptor stimulation (in addition to other factors), requires an acceleration profile that can be delivered at a relatively low metabolic cost….for equivalent metabolic cost, and acceleration profile from jumping [on a trampoline] will provide greater stimuli to gravireceptors.\"<\/li><\/ol>"
+          }
+        },
+        "text_CrtVYX": {
+          "type": "text",
+          "settings": {
+            "title": "Are there more scientific studies on the benefits of rebounding?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Yes! Here are 18 studies:<\/p><ol><li>Aalizadeh B, Mohammadzadeh H, Khazani A, Dadras A. <em>Effect of a Trampoline Exercise on the Anthropometric Measures and Motor Performance of Adolescent Students<\/em>. Int J Prev Med. 2016 Jul 13;7:91. doi: 10.4103\/2008-7802.186225. PMID: 27512557; PMCID: PMC4966200.<br\/><a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/27512557\/\"><span style=\"text-decoration:underline\">https:\/\/pubmed.ncbi.nlm.nih.gov\/27512557\/<\/span><\/a> <\/li><li>Beerse, M., Wu, J. Spring-like leg dynamics and neuromuscular strategies for hopping on a mini-trampoline in adults and children. Exp Brain Res 238, 2087–2096 (2020). <a href=\"https:\/\/doi.org\/10.1007\/s00221-020-05873-0\"><span style=\"text-decoration:underline\">https:\/\/doi.org\/10.1007\/s00221-020-05873-0<\/span><\/a><\/li><li>Bereza, D.; Sokołowska, K.; Kulak, M.; Moreau, I.; Polańska, P.; Lang, M.; Woch, B. Springing to Life: Unveiling the Transformative Effects of Trampoline Bouncing on Human Health. J Educ Health Sport 2024, 54, 200-214.<br\/><a href=\"https:\/\/apcz.umk.pl\/JEHS\/article\/view\/47853\"><span style=\"text-decoration:underline\">https:\/\/apcz.umk.pl\/JEHS\/article\/view\/47853<\/span><\/a> <\/li><li>Bhattacharya A, McCutcheon EP, Shvartz E, Greenleaf JE. <em>Body acceleration distribution and O2 uptake in humans during running and jumping<\/em>. J Appl Physiol Respir Environ Exerc Physiol. 1980 Nov;49(5):881-7. doi: 10.1152\/jappl.1980.49.5.881. PMID: 7429911. <a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/7429911\/\"><span style=\"text-decoration:underline\">https:\/\/pubmed.ncbi.nlm.nih.gov\/7429911\/<\/span><\/a><\/li><li>Burandt P, Porcar JP, Cress ML, Doberstein S, Foster C, Green DJ. <em>ACE-SPONSORED RESEARCH: Putting Mini-trampolines to the Test<\/em>. PROSOURCE™. 2016 Oct. <br\/><a href=\"https:\/\/www.acefitness.org\/continuing-education\/prosource\/october-2016\/6081\/ace-sponsored-research-putting-mini-trampolines-to-the-test\/\"><span style=\"text-decoration:underline\">https:\/\/www.acefitness.org\/continuing-education\/prosource\/october-2016\/6081\/ace-sponsored-research-putting-mini-trampolines-to-the-test\/<\/span><\/a> <\/li><li>Burt LA, Schipilow JD, Boyd SK. <em>Competitive trampolining influences trabecular bone structure, bone size, and bone strength<\/em>. J Sport Health Sci. 2016 Dec;5(4):469-475. doi: 10.1016\/j.jshs.2015.01.007. Epub 2015 Apr 30. PMID: 30356528; PMCID: PMC6188882.<br\/><a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/30356528\/\"><span style=\"text-decoration:underline\">https:\/\/pubmed.ncbi.nlm.nih.gov\/30356528\/<\/span><\/a><\/li><li>Cogoli A. <em>Changes observed in lymphocyte behavior during gravitational unloading<\/em>. ASGSB Bull. 1991 Jul;4(2):107-15. PMID: 11537173.<br\/><a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/11537173\/\"><span style=\"text-decoration:underline\">https:\/\/pubmed.ncbi.nlm.nih.gov\/11537173\/<\/span><\/a><\/li><li>Cogoli A, Valluchi M, Reck J, Müller M, Briegleb W, Cordt I, Michel C. <em>Human lymphocyte activation is depressed at low-g and enhanced at high-g<\/em>. Physiologist. 1979 Dec;22(6):S29-30. PMID: 545374.<br\/><a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/545374\/\"><span style=\"text-decoration:underline\">https:\/\/pubmed.ncbi.nlm.nih.gov\/545374\/<\/span><\/a> <\/li><li>de Oliveira MR, da Silva RA, Dascal JB, Teixeira DC. <em>Effect of different types of exercise on postural balance in elderly women: a randomized controlled trial<\/em>. Archives of Gerontology and Geriatrics. 2014 Nov-Dec;59(3):506-514. DOI: 10.1016\/j.archger.2014.08.009. PMID: 25239512.<br\/><a href=\"https:\/\/europepmc.org\/article\/med\/25239512\"><span style=\"text-decoration:underline\">https:\/\/europepmc.org\/article\/med\/25239512<\/span><\/a><\/li><li>Edin, J.B. et al. (1990). <em>Analysis of the training effects of minitrampoline rebounding on physical fitness, body composition, and blood lipids<\/em>. Journal of Cardiopulmonary Rehabilitation, 10, 401–408. <br\/><a href=\"https:\/\/journals.lww.com\/jcrjournal\/abstract\/1990\/11000\/analysis_of_the_training_effects_of_minitrampoline.2.aspx\"><span style=\"text-decoration:underline\">https:\/\/journals.lww.com\/jcrjournal\/abstract\/1990\/11000\/analysis_of_the_training_effects_of_minitrampoline.2.aspx<\/span><\/a><\/li><li>Esposito PW, Esposito LM. The reemergence of the trampoline as a recreational activity and competitive sport. Curr Sports Med Rep. 2009 Sep-Oct;8(5):273-7. doi: 10.1249\/JSR.0b013e3181b8f60a. PMID: 19741356.<br\/><a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/19741356\/\"><span style=\"text-decoration:underline\">https:\/\/pubmed.ncbi.nlm.nih.gov\/19741356\/<\/span><\/a> <\/li><li>Gerberich, Susan Goodwin PhD*; Leon, Arthur S. MD, FACSM†; McNally, Carl BS‡; Serfass, Robert PhD, FACSM§; Edin, Joan Bartlett MPH∥. Analysis of the Acute Physiologic Effects of Minitrampoline Rebounding Exercise. Journal of Cardiopulmonary Rehabilitation 10(11):p 395-400, November 1990. <br\/><a href=\"https:\/\/journals.lww.com\/jcrjournal\/Abstract\/1990\/11000\/Analysis_of_the_Acute_Physiologic_Effects_of.1.aspx\"><span style=\"text-decoration:underline\">https:\/\/journals.lww.com\/jcrjournal\/Abstract\/1990\/11000\/Analysis_of_the_Acute_Physiologic_Effects_of.1.aspx<\/span><\/a> <\/li><li>McGlone, Colleen B.S.; Kravitz, Len Ph.D.; Janot, Jeffrey M. Ph.D.. Rebounding: A Low-Impact Exercise Alternative. ACSM'S Health & Fitness Journal 6(2):p 11-15, March 2002. <br\/><a href=\"https:\/\/journals.lww.com\/acsm-healthfitness\/Citation\/2002\/06020\/Rebounding__A_Low_Impact_Exercise_Alternative.6.aspx\"><span style=\"text-decoration:underline\">https:\/\/journals.lww.com\/acsm-healthfitness\/Citation\/2002\/06020\/Rebounding__A_Low_Impact_Exercise_Alternative.6.aspx<\/span><\/a> <\/li><li>Okemuo AJ, Gallagher D, Dairo YM. <em>Effects of rebound exercises on balance and mobility of people with neurological disorders: A systematic review<\/em>. PLoS One. 2023 Oct 5;18(10):e0292312. doi: 10.1371\/journal.pone.0292312. PMID: 37797042; PMCID: PMC10553300.<br\/><a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/37797042\/\"><span style=\"text-decoration:underline\">https:\/\/pubmed.ncbi.nlm.nih.gov\/37797042\/<\/span><\/a><\/li><li>Schöffl, I., Ehrlich, B., Rottermann, K. et al. <em>Jumping into a Healthier Future: Trampolining for Increasing Physical Activity in Children<\/em>. Sports Med - Open 7, 53 (2021). <a href=\"https:\/\/doi.org\/10.1186\/s40798-021-00335-5\"><span style=\"text-decoration:underline\">https:\/\/doi.org\/10.1186\/s40798-021-00335-5<\/span><\/a> <\/li><li>Stanghelle JK, Hjeltnes N, Bangstad HJ, Michalsen H. Effect of daily short bouts of trampoline exercise during 8 weeks on the pulmonary function and the maximal oxygen uptake of children with cystic fibrosis. Int J Sports Med. 1988 Feb;9 Suppl 1:32-6. doi: 10.1055\/s-2007-1025059. PMID: 3360541.<br\/><a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/3360541\/\"><span style=\"text-decoration:underline\">https:\/\/pubmed.ncbi.nlm.nih.gov\/3360541\/<\/span><\/a><\/li><li>Sukkeaw W, Kritpet T, Bunyaratavej N. <em>A Comparison between the Effects of Aerobic Dance Training on Mini-Trampoline and Hard Wooden Surface on Bone Resorption, Health-Related Physical Fitness, Balance, and Foot Plantar Pressure in Thai Working Women<\/em>. J Med Assoc Thai. 2015 Sep;98 Suppl 8:S58-64. PMID: 26529816.<br\/><a href=\"https:\/\/pubmed.ncbi.nlm.nih.gov\/26529816\/\"><span style=\"text-decoration:underline\">https:\/\/pubmed.ncbi.nlm.nih.gov\/26529816\/<\/span><\/a> <\/li><li>Witassek C, Nitzsche N, Schulz H. <em>The effect of several weeks of training with minitrampolines on jump performance, trunk strength and endurance performance<\/em>. Dtsch Z Sportmed. 2018; 69: 38-44. doi:10.5960\/dzsm.2018.318<br\/><a href=\"https:\/\/www.germanjournalsportsmedicine.com\/archive\/archive-2018\/heft-2\/the-effect-of-several-weeks-of-training-with-mini-trampolines-on-jump-performance-trunk-strength-and-endurance-performance\/\"><span style=\"text-decoration:underline\">https:\/\/www.germanjournalsportsmedicine.com\/archive\/archive-2018\/heft-2\/the-effect-of-several-weeks-of-training-with-mini-trampolines-on-jump-performance-trunk-strength-and-endurance-performance\/<\/span><\/a><\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "text_tcCqte",
+        "text_QwrE7C",
+        "text_Cd4jPd",
+        "text_RrNUKN",
+        "text_bYfKne",
+        "text_bn4Tpe",
+        "text_CrtVYX"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "lg",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Rebounding Benefits FAQs",
+        "btn_url": "",
+        "btn_copy": "View FAQs"
+      }
+    },
+    "blog_cards_article_RpbWne": {
+      "type": "blog-cards-article",
+      "blocks": {
+        "blog_iQMLwX": {
+          "type": "blog",
+          "settings": {
+            "post": "bounce-blog\/rebuild-bone-density-for-seniors"
+          }
+        },
+        "blog_MLQbEA": {
+          "type": "blog",
+          "settings": {
+            "post": "bounce-blog\/improving-joint-health-why-rebounding-is-the-best-low-impact-exercise-for-seniors"
+          }
+        },
+        "blog_M4ARiD": {
+          "type": "blog",
+          "settings": {
+            "post": "bounce-blog\/balance-training-for-seniors-enhancing-stability-with-rebounding"
+          }
+        }
+      },
+      "block_order": [
+        "blog_iQMLwX",
+        "blog_MLQbEA",
+        "blog_M4ARiD"
+      ],
+      "settings": {
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "heading--three",
+        "title": "Visit our blog for more info",
+        "btn_url": "shopify:\/\/blogs\/bounce-blog",
+        "btn_copy": "More Articles"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "cta_heading_c74jnY",
+    "sxs_Py8T9x",
+    "cta_chart_8EyEBa",
+    "cta_chart_Uppd9J",
+    "cta_chart_3RQdqJ",
+    "product_slider_6QC8g6",
+    "research_rJVPnA",
+    "accordions_LMVUCh",
+    "blog_cards_article_RpbWne"
+  ]
+}

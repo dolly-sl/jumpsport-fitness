@@ -1,0 +1,250 @@
+<section class="mini-cart" data-freeship="{{ settings.free_ship | times: 100 }}">
+  <div class="mini-cart__bg"></div>
+  <div class="mini-cart__content">
+    <div class="mini-cart__header d-flex align-center justify-between">
+      <div class="intro d-flex align-center justify-between">
+        <div class="copy">
+          <div class="title heading--four">
+            Your Cart <span>[{{ cart.item_count }}]</span>
+          </div>
+          {% comment %} <p>Free shipping on all orders over {{ settings.free_ship | times: 100 | money }}</p> {% endcomment %}
+        </div>
+        <button class="close">
+          <span class="sr-only">Close Mini-Cart</span>
+          <img src="{{ 'icon-close.svg' | asset_url }}" alt="">
+        </button>
+      </div>
+    </div>
+    {% comment %}
+      <div class="mini-cart__ship text-center d-flex align-center justify-center">
+        <img src="{{ 'icon-truck-blue.svg' | asset_url }}" alt="">
+        <span>
+          {{ section.settings.ship_cta }}
+        </span>
+      </div>
+    {% endcomment %}
+    <div class="mini-cart__list">
+      {% if cart.empty? == true %}
+        <h3 class="text-center">Cart is empty</h3>
+      {% else %}
+        {% for line_item in cart.items %}
+          <div
+            class="product product--cart d-flex justify-between"
+            data-lineid="{{ forloop.index }}"
+            data-varid="{{ line_item.id }}"
+          >
+            <div class="product__image">
+              <a href="{{ line_item.url | within: collection }}">
+                <img
+                  loading="lazy"
+                  src="{{ line_item.image.src | img_url: '80x' }}"
+                  srcset="{{ line_item.image.src | img_url: '160x' }} 2x"
+                  alt="{{ line_item.title | escape }}"
+                >
+              </a>
+            </div>
+            <div class="product__info">
+              <div class="upper d-flex justify-between">
+                <div class="title d-flex">
+                  <h3 class="heading--five d-flex justify-between">
+                    <a class="no-dec trans" href="{{ line_item.url | within: collection }}">
+                      {{ line_item.product.title }}
+                    </a>
+                  </h3>
+                  {% if line_item.variant.title != 'Default Title' %}
+                    <div class="var">
+                      {{ line_item.variant.title }}
+                    </div>
+                  {% endif %}
+                  {% if line_item.variant.sku != blank %}
+                    <div class="sku">
+                      {{ line_item.variant.sku }}
+                    </div>
+                  {% endif %}
+                  {% for allocation in line_item.discount_allocations %}
+                    <span class="cart-item-discount d-flex align-center">
+                      <img src="{{ 'icon-discount.svg' | asset_url }}" alt="">
+                      <span>{{ allocation.discount_application.title }} (-{{ allocation.amount | money }})</span>
+                    </span>
+                  {% endfor %}
+                  {% comment %} {% if line_item.variant != blank and line_item.variant.title != 'Default Title' %}<span class="var">{{ line_item.variant.title }} </span>{% endif %} {% endcomment %}
+
+                  {% if line_item.selling_plan_allocation.selling_plan.name != blank %}
+                    <span class="delivery">{{ line_item.selling_plan_allocation.selling_plan.name }}</span>
+                  {% endif %}
+                  <span class="unit-price">
+                    {{ line_item.price | money }}
+                  </span>
+                </div>
+                <div class="price">
+                  {{ line_item.final_line_price | money }}
+                </div>
+              </div>
+
+              <div class="actions d-flex align-center justify-between">
+                <div class="action action--qty">
+                  <label for="item-qty-{{ forloop.index }}" class="sr-only">quantity</label>
+                  <div class="qty d-flex align-center">
+                    <button class="js-qty js-qty--mini js-qty--minus trans">
+                      <span class="sr-only">Decrease</span>
+                    </button>
+                    <input
+                      type="text"
+                      value="{{ line_item.quantity }}"
+                      min="1"
+                      id="item-qty-{{ forloop.index }}"
+                      type="number"
+                      class="qty-val"
+                    >
+                    <button class="js-qty js-qty--mini js-qty--plus trans">
+                      <span class="sr-only">Increase</span>
+                    </button>
+                  </div>
+                </div>
+                <button class="remove-product trans">Remove</button>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <div class="mini-cart__footer">
+      <div class="inner">
+        <div class="sub-total d-flex justify-between">
+          <span class="label">Subtotal</span>
+          <span class="total">{{ cart.total_price | money }}</span>
+        </div>
+        <div class="shipping d-flex justify-between" style="margin-bottom: 15px;">
+          <span class="label">Shipping</span>
+          <span class="total">Free</span>
+        </div>
+        <div class="disclaimer">Discount codes are entered and calculated at checkout</div>
+      </div>
+    </div>
+    <div class="mini-cart__slider">
+      <h3 class="heading--six">
+        {{ section.settings.title }}
+      </h3>
+      <div id="recommended-products-container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            {% comment %}
+              {% for item in cart.items %}
+                {% assign cart_product = all_products[item.product.handle] %}
+                {% for prod in cart_product.metafields['shopify--discovery--product_recommendation'].related_products.value %}
+                  {% comment %} {% assign newProd = all_products[prod.handle] %} {% endcomment %}
+                  <div class="swiper-slide" {{ block.shopify_attributes }}>
+                    {% render 'product-card-full', data: prod %}
+                  </div>
+                {% endfor %}
+              {% endfor %}
+            {% endcomment %}
+          </div>
+        </div>
+      </div>
+      {% comment %}
+      {% endcomment %}
+    </div>
+    <div
+      class="mini-cart__actions"
+      {% if cart.empty? == true %}
+        style="display:none;"
+      {% endif %}
+    >
+      <div
+        class="inner text-center"
+      >
+        <a href="/checkout" class="btn btn--solid btn--arrow btn--xl justify-center"> Checkout Now </a>
+        {% if additional_checkout_buttons %}
+          {{ content_for_additional_checkout_buttons }}
+        {% endif %}
+        <a href="/cart" class="link text-center"> View Cart </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    fetch('/cart.js')
+      .then((response) => response.json())
+      .then((cart) => {
+        let productHandles = cart.items.map((item) => item.product_id);
+
+        // Remove duplicates
+        productHandles = [...new Set(productHandles)];
+
+        // Fetch recommendations for each unique product
+        productHandles.forEach((productId) => {
+          fetch(`/recommendations/products.json?product_id=${productId}&limit=4`)
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.products.length > 0) {
+                let recommendationsContainer = document.querySelector(
+                  '#recommended-products-container .swiper-wrapper'
+                );
+                console.log(Shopify);
+
+                data.products.forEach((product) => {
+                  let productHtml = `
+                    <div class="swiper-slide">
+                      <div class="card card--full">
+                        <div class="card__inner">
+                          <div class="card__image">
+                           <a href="${product.url}">
+                            <img src="${product.featured_image}&width=280&height=280&crop=center" alt="${
+                    product.title
+                  }">
+                          </a>
+                          </div>
+                          <div class="card__info">
+                            <a href="${product.url}">
+                                <h3>${product.title}</h3>
+                            </a>
+                            <div class="card__price">
+                           $${product.price / 100} 
+                            </div>
+                          </div>
+                        </div>
+                      
+                      </div>
+                    </div>
+                    
+                  `;
+                  recommendationsContainer.innerHTML += productHtml;
+                });
+              }
+            });
+        });
+      });
+  });
+
+  const miniCartSlider = new Swiper('.mini-cart__slider .swiper', {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    centeredSlides: false,
+    loop: true,
+
+    breakpoints: {
+      768: {},
+    },
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Mini Cart",
+  "settings": [
+    {
+      "id": "ship_cta",
+      "type": "text",
+      "label": "Free Shipping Copy"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Related Heading"
+    }
+  ]
+}
+{% endschema %}

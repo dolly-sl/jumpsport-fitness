@@ -1,0 +1,677 @@
+{
+  "sections": {
+    "main": {
+      "type": "hero-xl",
+      "blocks": {
+        "text_3WHz8k": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-check.svg",
+            "title": "Lifetime Warranty"
+          }
+        },
+        "text_9GRCY7": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-money.svg",
+            "title": "Pay Over Time"
+          }
+        },
+        "text_XCVEH3": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-truck.svg",
+            "title": "Free Shipping"
+          }
+        }
+      },
+      "block_order": [
+        "text_3WHz8k",
+        "text_9GRCY7",
+        "text_XCVEH3"
+      ],
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/JumpSport Homepage Video.mov",
+        "image": "shopify:\/\/shop_images\/hero-home_4482cfe5-016d-4332-960a-f3ef2e3890f2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/hero-home-mobile.jpg",
+        "copy_align": "left",
+        "eyebrow": "Trusted by Trainers, Studios, and Fitness Enthusiasts",
+        "heading_level": "h1",
+        "title": "Way More Than Just A Trampoline",
+        "subtitle": "Premium fitness trampolines and wellness gear designed for low-impact, joint-friendly workouts, on-demand training, and stronger living.",
+        "btn_url": "shopify:\/\/collections\/shop-all",
+        "btn_copy": "Shop Now",
+        "link_url": "shopify:\/\/collections\/fitness-trampolines",
+        "link_copy": "",
+        "arch_color": "green"
+      }
+    },
+    "cta_image_aAwwkk": {
+      "type": "cta-image",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "xl",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/Weighted_Ring_1200x1200_b86a321a-9aa8-4628-bfd8-4769950ad315.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Better Than Prime Day Savings",
+        "copy": "<p><strong>Get 15% off 44\" PROs, 48\" PROs, and Strength Training Accessories <\/strong>(Bells, Cuffs, Ring, and Wave) applied at checkout with code: <strong>PRIMEDAY26<\/strong><\/p>",
+        "btn_url": "shopify:\/\/collections\/better-than-prime-day-2026",
+        "btn_copy": "Shop Now"
+      }
+    },
+    "featured_yWPEfq": {
+      "type": "featured",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "md",
+        "padding_top-mobile": "xl",
+        "padding_bottom-mobile": "sm",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Find the Perfect Fitness Trampoline",
+        "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+        "btn_copy": "View All Trampolines"
+      }
+    },
+    "heading_copy_7MXdkM": {
+      "type": "heading-copy",
+      "name": "Heading \/ Copy",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "",
+        "padding_bottom": "",
+        "padding_top-mobile": "",
+        "padding_bottom-mobile": "md",
+        "copy_align": "center",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "eyebrow": "",
+        "title": "",
+        "copy": "",
+        "liquid": "<div class=\"trustpilot-widget\" data-locale=\"en-US\" data-template-id=\"5406e65db0d04a09e042d5fc\" data-businessunit-id=\"582b8ffe0000ff00059791c8\" data-style-height=\"28px\" data-style-width=\"100%\" data-token=\"6f99e3aa-d44d-4ade-a746-884522f7e80b\">\n  <a href=\"https:\/\/www.trustpilot.com\/review\/www.jumpsport.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "product_features_RPJGex": {
+      "type": "product-features",
+      "blocks": {
+        "feature_DnNb73": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-mat.webp",
+            "title": "Enhanced Mat",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Featuring reinforced stitching and enhanced lay-flat mat technology, JumpSport extends your usable space and provides added protection.",
+            "url": "shopify:\/\/pages\/best-rebounder-trampoline"
+          }
+        },
+        "feature_m48grE": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-arched-legs.webp",
+            "title": "Arched Legs",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Smart engineering meets real-world stability. Arched legs keep your rebounder steady, stackable, and tip-resistant—so every jump feels solid, every time.",
+            "url": "shopify:\/\/pages\/best-rebounder-trampoline"
+          }
+        },
+        "feature_YaWCKF": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-elastic-cords.webp",
+            "title": "Premium Elastic Cords",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Experience the premium bounce that made us famous. Our long-lasting and smooth EnduroLast™ elastic cords are quiet, joint-friendly, and adjustable to fit any intensity.",
+            "url": "shopify:\/\/pages\/best-rebounder-trampoline"
+          }
+        },
+        "feature_Ljcdxp": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-space.webp",
+            "title": "More Space",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Be free to move more. The durable jumping surface extends over the cords to add protection and additional space for increased creativity.",
+            "url": "shopify:\/\/pages\/best-rebounder-trampoline"
+          }
+        }
+      },
+      "block_order": [
+        "feature_DnNb73",
+        "feature_m48grE",
+        "feature_YaWCKF",
+        "feature_Ljcdxp"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "black",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "sm",
+        "padding_bottom-mobile": "sm",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Why JumpSport Fitness Trampolines Are Built Different",
+        "btn_url": "shopify:\/\/pages\/best-rebounder-trampoline",
+        "btn_copy": "Discover The Difference"
+      }
+    },
+    "sxs_JhwyEh": {
+      "type": "sxs",
+      "blocks": {
+        "sxs_xiJLrQ": {
+          "type": "sxs",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift-guide-thumbnail.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "JumpSport 2025 Gift Guide",
+            "copy": "<p>Find the perfect gift for every type of mover — from beginners to pros, and every bounce in between.<\/p>",
+            "btn_url": "shopify:\/\/collections\/gift-guide",
+            "btn_copy": "View Gift Guide"
+          }
+        },
+        "sxs_bGP6FV": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-jumpsport.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Leaders in Low-Impact Fitness and Joint-Friendly Movement",
+            "copy": "<p>For over 25 years, JumpSport has engineered trampolines trusted by trainers, rehab specialists, and active families worldwide. We’re proud to lead the rebound fitness movement with science-backed designs and a focus on safety, joy, and performance.<\/p>",
+            "btn_url": "shopify:\/\/pages\/about-jumpsport-company-history-mission-values",
+            "btn_copy": "Who We Are"
+          }
+        },
+        "sxs_ge4wPb": {
+          "type": "sxs",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FathersDayBundlelifestyle1220x1220.webp",
+            "heading_level": "h2",
+            "heading_level_display": "heading--three",
+            "title": "Your Guide to Choosing the Right Fitness Trampoline",
+            "copy": "<p>Find the right rebounder and training tools for how you move. From beginners to performance athletes—and every bounce in between—this guide helps you build a fitness routine that fits your goals, space, and style.<\/p>",
+            "btn_url": "shopify:\/\/collections\/fitness-guide",
+            "btn_copy": "View The Guide"
+          }
+        }
+      },
+      "block_order": [
+        "sxs_xiJLrQ",
+        "sxs_bGP6FV",
+        "sxs_ge4wPb"
+      ],
+      "name": "Side x Side",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "width": false
+      }
+    },
+    "image_accordions_GJaLqF": {
+      "type": "image-accordions",
+      "blocks": {
+        "text_TpdPeH": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-cardio-weightloss-benefits.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Low-Impact Cardio and Weight Loss",
+            "copy": "<p>Rebounding is the ultimate low-impact, full-body workout, renowned for enhancing cardiovascular health and facilitating weight loss. It effectively boosts metabolism, burns calories, and strengthens the heart muscle, making it an essential activity for achieving optimal fitness and health.<\/p>",
+            "btn_url": "shopify:\/\/pages\/benefits-of-rebounding",
+            "btn_copy": "Explore More Benefits"
+          }
+        },
+        "text_6QHYzj": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-wellness-recovery-benefits.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Wellness, Recovery, and Joint Health",
+            "copy": "<p>Rebounding is celebrated for its substantial mental health benefits, combining physical activity with stress reduction and enjoyment. It enhances proprioception and equilibrium, which are critical for maintaining and improving balance and coordination.<\/p>",
+            "btn_url": "shopify:\/\/pages\/benefits-of-rebounding",
+            "btn_copy": "Explore More Benefits"
+          }
+        },
+        "text_CkDpc8": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-balance-mental-health-benefits.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Balance, Coordination, and Mental Health",
+            "copy": "<p>Rebounding is a key component of overall wellness, notably improving lymphatic flow and supporting faster recovery. Its gentle, low-impact nature allows the body to heal and rejuvenate efficiently, making it an indispensable exercise for holistic health and recovery.<\/p>",
+            "btn_url": "shopify:\/\/pages\/benefits-of-rebounding",
+            "btn_copy": "Explore More Benefits"
+          }
+        }
+      },
+      "block_order": [
+        "text_TpdPeH",
+        "text_6QHYzj",
+        "text_CkDpc8"
+      ],
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "sm",
+        "padding_bottom-mobile": "sm",
+        "title": "The Health Benefits of Rebounding",
+        "image_accordion_copy": "",
+        "heading_level": "h2",
+        "heading_level_display": "heading--two"
+      }
+    },
+    "heading_copy_gmePbi": {
+      "type": "heading-copy",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "copy_align": "center",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "eyebrow": "Eyebrow",
+        "title": "Demo Heading",
+        "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+        "liquid": "<div class=\"iframe-wrap\"><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/FadcwRA591o?si=f_N75guWeLFiJVlg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe><\/div>",
+        "btn_url": "#",
+        "btn_copy": "Demo Button"
+      }
+    },
+    "logo_list_nXpN6j": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_JfJgi9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/forbes.png",
+            "url": ""
+          }
+        },
+        "logo_dVehEz": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/demo-logo.png",
+            "url": ""
+          }
+        },
+        "logo_NpCB7b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/bazaar.png",
+            "url": ""
+          }
+        },
+        "logo_MdKVbx": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/vogue.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_JfJgi9",
+        "logo_dVehEz",
+        "logo_NpCB7b",
+        "logo_MdKVbx"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "sm",
+        "padding_bottom-mobile": "sm",
+        "hide_line": false,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Featured In"
+      }
+    },
+    "tab_slider_8daLXT": {
+      "type": "tab-slider",
+      "blocks": {
+        "slide_mRgRNF": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 1",
+            "title": "Trampoline Frame",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>Selecting the right trampoline frame ensures you get the comfort, performance, and convenience you need for your fitness routine.<\/strong><\/p><p>The 39\" frame is a great choice for smaller spaces or those who want a compact, versatile option, while the 44\" provides a more spacious jumping area, perfect for taller users, heavier bouncers, or anyone who wants extra room to move. <\/p><p>Folding frames are ideal for smaller spaces, easy storage, or on-the-go use. 3-piece self-assembly frames are a budget friendly option with the same stability as our other frames. Think about your height, space, and how you’ll use it to find your perfect match.<\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-weight-capacity.webp",
+            "glance": "<ul><li><strong>39\" Frame:<\/strong> Compact, versatile, great for smaller spaces.<\/li><li><strong>44\" Frame:<\/strong> Spacious surface, ideal for taller\/heavier users or bigger movement.<\/li><li><strong>Folding Frames:<\/strong> Portable, easy to store or travel with.<\/li><li><strong>3-Piece Frames:<\/strong> Durable, self assembly, budget friendly.<\/li><li><strong>Usage Needs:<\/strong> Choose based on space and workout style.<\/li><\/ul>"
+          }
+        },
+        "slide_EtMiyy": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 2",
+            "title": "Firmness",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>One of our best features is our unique cord system that gives you the freedom to customize your bounce firmness. <\/strong><\/p><p>A softer bounce delivers a deeper, smoother rebound, increasing workout intensity while being gentle on joints. A firmer bounce provides a shorter, quicker rebound, making it ideal for fast-paced exercises and high repetitions. <\/p><p>Adjustable cords allow you to customize the firmness and extend the life of your trampoline by tightening the cords as they wear. Cords can also be replaced or upgraded over time, expanding the bounce experience. <\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-firmness.webp",
+            "glance": "<ul><li><strong>Softer Bounce:<\/strong> Deeper, smoother rebound, gentle on joints.<\/li><li><strong>Firmer Bounce:<\/strong> Quick, more stable, perfect for fast choreography or stability workouts.<\/li><li><strong>Adjustability:<\/strong> Customize bounce firmness and extend longevity as cords wear.<\/li><li><strong>Maintenance:<\/strong> Check & adjust cords regularly for optimal performance. <\/li><\/ul>"
+          }
+        },
+        "slide_AF9Rw6": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 3",
+            "title": "Weight Capacity",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>JumpSport trampolines provide a sturdy, stable platform that can be adapted to the bouncers’ weight or bounce intensity. Understanding weight capacity ensures safe, durable trampoline performance.<\/strong><\/p><p>Weight capacity includes two factors: static load, the maximum weight the frame and cords can hold, and user weight rating, the highest weight for safe, active use during workouts. <\/p><p>Depending on the model, our trampolines support weights from 225 to 325 pounds, offering a range of options for different users. For heavy or frequent use, PRO models provide extra cords and adjustable tension for added durability and comfort. Selecting a trampoline that matches the highest user weight ensures safety, performance, and longevity for every workout.<\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-mat-styles.webp",
+            "glance": "<ul><li><strong>User Weight Rating:<\/strong> Depending on model, 225 to 325 pounds.<\/li><li><strong>PRO Models:<\/strong> More cords for a firmer bounce.<\/li><li><strong>44” Models:<\/strong> Extra Firm cords for heavy bouncers or frequent use.<\/li><li><strong>Durability:<\/strong> Designed to handle high-intensity, long-term use.<\/li><li><strong>Safety Tip:<\/strong> Select weight rating based on the heaviest active user.<\/li><li><strong>Customizable:<\/strong> Adjustable cords for personalized tension and performance.<\/li><\/ul>"
+          }
+        },
+        "slide_G98RzC": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 4",
+            "title": "Mat Styles",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>Are you a skirt mat or padded petal person? The mat style you chose can affect comfort, stability on the trampoline, and your overall jumping experience.<\/strong><\/p><p>Skirt-style mats offer a lay-flat extended skirt over the bungees, maximizing the jumping area for unrestricted movement. Padded petal mats provide extra padding over the cords for enhanced comfort and safety, additionally making them ideal if you plan to lay on the mat or use your hands during workouts. <\/p><p>All models include reinforced stitching and lay-flat mat technology, keeping the jumping skirt or padded petals secure for added protection and space. Select a mat style based on your comfort, safety, and workout needs.<\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-trampoline-frame.webp",
+            "glance": "<ul><li><strong>Skirt-Style Mats:<\/strong> Structured surface for maximum jumping area.<\/li><li><strong>Padded Petal Mats:<\/strong> Extra padding for added comfort and safety.<\/li><li><strong>Lay-Flat Technology:<\/strong> Prevents lifting for secure, stable performance.<\/li><li><strong>Comfort:<\/strong> Padded petals are ideal for hand or mat-based use.<\/li><li><strong>Durability:<\/strong> High-quality materials designed for long-term use.<\/li><li><strong>Safety:<\/strong> Minimized cord exposure with padded extensions.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_mRgRNF",
+        "slide_EtMiyy",
+        "slide_AF9Rw6",
+        "slide_G98RzC"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "sm",
+        "padding_bottom-mobile": "sm",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "How to Choose a Fitness Trampoline",
+        "btn_url": "shopify:\/\/pages\/jumpsport-fitness-trampoline-buyers-guide",
+        "btn_copy": "View Buyer's Guide"
+      }
+    },
+    "tab_slider_simple_M6BdK8": {
+      "type": "tab-slider-simple",
+      "blocks": {
+        "slide_3HLrtP": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "JumpSport Fitness TV",
+            "eyebrow": "",
+            "image_eyebrow": "shopify:\/\/shop_images\/jumpsport-fitness-tv-logo-black.webp",
+            "title": "On-Demand Trampoline Workouts",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "copy": "<p>Access 2000+ hours of programming including classes from the best trampoline studios on the JumpSport Fitness TV app for iOS, Android Mobile, Apple TV, or Roku.<\/p>",
+            "image": "shopify:\/\/shop_images\/banner-1-retina.webp",
+            "btn_url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts",
+            "btn_copy": "Explore Workouts"
+          }
+        },
+        "slide_crMH6X": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Find A Club",
+            "eyebrow": "",
+            "title": "Find A Fitness Studio Near You",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "copy": "<p>Ready to try a bounce class? Search for the closest club or studio near you and visit to experience rebounding on a JumpSport. <\/p>",
+            "image": "shopify:\/\/shop_images\/banner-2-retina.webp",
+            "btn_url": "shopify:\/\/pages\/jumpsport-fitness-club-studio-locator",
+            "btn_copy": "Find A Club"
+          }
+        },
+        "slide_pmeUPm": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Instructor Training",
+            "eyebrow": "",
+            "title": "Become A Bounce Instructor",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "copy": "<p>Interested in learning how to teach the JumpSport method? Take our Primary Training Course and earn .5 ACE credits or advance your skills with continued education. <\/p>",
+            "image": "shopify:\/\/shop_images\/banner-3-retina.webp",
+            "btn_url": "shopify:\/\/pages\/become-a-jumpsport-instructor",
+            "btn_copy": "Explore Courses"
+          }
+        }
+      },
+      "block_order": [
+        "slide_3HLrtP",
+        "slide_crMH6X",
+        "slide_pmeUPm"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": ""
+      }
+    },
+    "split_slider_ieGjXU": {
+      "type": "split-slider",
+      "blocks": {
+        "slide_BV3RFz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2025-02-11_at_1.42.16_PM.png",
+            "image_mobile": "shopify:\/\/shop_images\/split-slider-mobile.jpg",
+            "image_eyebrow": "shopify:\/\/shop_images\/jumpsport-fitness-tv-black.webp",
+            "eyebrow": "",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "title": "Anytime, Anywhere Workouts",
+            "copy": "<p>Access 2000+ hours of programming including classes from the best trampoline studios on the JumpSport Fitness TV app for iOS, Android Mobile, Apple TV, or Roku.<\/p>",
+            "btn_url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts",
+            "btn_copy": "Start Free Trial"
+          }
+        },
+        "slide_naFJFb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-earth-owl.webp",
+            "image_mobile": "shopify:\/\/shop_images\/Earth_and_Owl-mobile.jpg",
+            "eyebrow": "jumpsport + fitness studios",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "title": "Find A Fitness Studio Near You",
+            "copy": "<p>Ready to try a bounce class? Search for the closest club or studio near you and visit to experience rebounding on a JumpSport. <\/p>",
+            "btn_url": "shopify:\/\/pages\/store-locator",
+            "btn_copy": "Find A Club"
+          }
+        },
+        "slide_7FHbWb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-get-certified.webp",
+            "image_mobile": "shopify:\/\/shop_images\/Michelle_Briehler-mobile.jpg",
+            "eyebrow": "JumpSport Education",
+            "heading_level": "h2",
+            "heading_level_display": "",
+            "title": "Get Bounce Certified",
+            "copy": "<p>Interested in learning how to teach the JumpSport method? Take our Primary Training Course and earn .5 ACE credits or advance your skills with continued education. <\/p>",
+            "btn_url": "shopify:\/\/pages\/become-a-jumpsport-instructor",
+            "btn_copy": "Start Training Course"
+          }
+        }
+      },
+      "block_order": [
+        "slide_BV3RFz",
+        "slide_naFJFb",
+        "slide_7FHbWb"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false
+      }
+    },
+    "video_peel_xyqnBf": {
+      "type": "video-peel",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "sm",
+        "padding_bottom-mobile": "sm",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Join the JumpSport Fitness Community",
+        "embed": "<div class=\"videopeel-widget-container\" data-plugin-id=\"d39c6124-d66c-4a79-a00a-81be369999f5\"><\/div>",
+        "btn_url": "https:\/\/www.instagram.com\/jumpsportfitness\/?hl=en",
+        "btn_copy": "Follow Us"
+      }
+    },
+    "quote_slider_eeyyGU": {
+      "type": "quote-slider",
+      "blocks": {
+        "quote_yVjj4j": {
+          "type": "quote",
+          "settings": {
+            "quote": "\"JumpSport has EXCELLENT customer service.  The quality of the equipment is outstanding and I'm soo glad to be on my rebounding journey!\"",
+            "heading_level": "h3",
+            "author": "Reyna C.",
+            "heading_level_display": ""
+          }
+        },
+        "quote_FxyzhT": {
+          "type": "quote",
+          "settings": {
+            "quote": "\"The best investment that I have made. Love getting my daily cardio and lymphatic drainage while having fun bouncing!\"",
+            "heading_level": "h3",
+            "author": "Addie M.",
+            "heading_level_display": ""
+          }
+        },
+        "quote_WzcR6k": {
+          "type": "quote",
+          "settings": {
+            "quote": "\"The quality is amazing, the assembly is simple, and the feel is awesome!\"",
+            "heading_level": "h3",
+            "author": "Jenny G.",
+            "heading_level_display": ""
+          }
+        },
+        "quote_XGrhAJ": {
+          "type": "quote",
+          "settings": {
+            "quote": "\"In our 70’s, we feel JumpSport is the ultimate way to stay healthy and has made a difference in our energy levels.\"",
+            "heading_level": "h3",
+            "author": "Lyn H.",
+            "heading_level_display": ""
+          }
+        },
+        "quote_rqgCYC": {
+          "type": "quote",
+          "settings": {
+            "quote": "\"The JumpSport mini trampoline is incredibly quiet and easier to bounce on than other rebounders.\"",
+            "heading_level": "h3",
+            "author": "Donna G.",
+            "heading_level_display": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_yVjj4j",
+        "quote_FxyzhT",
+        "quote_WzcR6k",
+        "quote_XGrhAJ",
+        "quote_rqgCYC"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "sm",
+        "padding_bottom-mobile": "sm",
+        "hide_bg": false,
+        "eyebrow": "Trusted by Thousands of JumpSport Customers"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cta_image_aAwwkk",
+    "featured_yWPEfq",
+    "heading_copy_7MXdkM",
+    "product_features_RPJGex",
+    "sxs_JhwyEh",
+    "image_accordions_GJaLqF",
+    "heading_copy_gmePbi",
+    "logo_list_nXpN6j",
+    "tab_slider_8daLXT",
+    "tab_slider_simple_M6BdK8",
+    "split_slider_ieGjXU",
+    "video_peel_xyqnBf",
+    "quote_slider_eeyyGU"
+  ]
+}

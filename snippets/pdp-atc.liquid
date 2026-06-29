@@ -1,0 +1,44 @@
+<button
+  {% if template.suffix contains 'liquid-hydrogen' %}
+    type="submit"
+  {% endif %}
+  sm-rc-add-to-cart
+  class="btn btn--coral btn--atc"
+>
+  {% if template.suffix contains 'liquid-hydrogen' %}
+    <span class="oos-text">
+      Out Of Stock
+      {%- unless template.suffix contains 'liquid-hydrogen' %} - <span sm-rc-current-price></span>{% endunless -%}
+    </span>
+    <span class="is-text"
+      >Add To Cart
+      {%- unless template.suffix contains 'liquid-hydrogen' %} - <span sm-rc-current-price></span>{% endunless -%}
+    </span>
+  {% else %}
+    <span class="oos-text">
+      Out Of Stock
+      {%- unless template.suffix contains 'liquid-hydrogen' %} - <span sm-rc-current-price></span>{% endunless -%}
+    </span>
+    <span class="is-text"
+      >Add To Cart
+      {%- unless template.suffix contains 'liquid-hydrogen' %} - <span sm-rc-current-price></span>{% endunless -%}
+    </span>
+  {% endif %}
+</button>
+<script>
+  jQuery(document).ready(function ($) {
+    var productForm = $('.shopify-product-form');
+
+    $('[sm-rc-variant-selector]').on('change', function () {
+      $('shopify-payment-terms').attr('variant-id', $(this).val());
+    });
+  });
+</script>
+{% form 'product', product, data-product-form: '', data-product-handle: product.handle %}
+  {{ form | payment_button }}
+  <div class="shopify-pay-wrap">
+    {{ form | payment_terms }}
+  </div>
+
+  {% render 'sm-rc-widget' %}
+{% endform %}

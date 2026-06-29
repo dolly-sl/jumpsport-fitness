@@ -1,0 +1,530 @@
+{
+  "sections": {
+    "pdp_buyflow": {
+      "type": "pdp-buyflow",
+      "blocks": {
+        "pdp_title_d8jacQ": {
+          "type": "pdp_title",
+          "settings": {}
+        },
+        "pdp_price_fw6hk3": {
+          "type": "pdp_price",
+          "settings": {
+            "byline": "Starting at"
+          }
+        },
+        "pdp_intro_gJcDaH": {
+          "type": "pdp_intro",
+          "settings": {}
+        },
+        "pdp_options_7fxeAp": {
+          "type": "pdp_options",
+          "settings": {}
+        },
+        "pdp_addons_CT3nTz": {
+          "type": "pdp_addons",
+          "disabled": true,
+          "settings": {
+            "title": "Essential Add-ons:"
+          }
+        },
+        "recharge_subscriptions_subscription_widget_v2_3LTU6y": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget-v2\/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {}
+        },
+        "pdp_atc_CYHBKq": {
+          "type": "pdp_atc",
+          "settings": {}
+        },
+        "pdp_cta_nBcqQA": {
+          "type": "pdp_cta",
+          "disabled": true,
+          "settings": {
+            "title": "Looking to purchase trampolines for your club?",
+            "btn_copy": "Contact Us",
+            "btn_url": "#"
+          }
+        },
+        "pdp_accordions_pagRQp": {
+          "type": "pdp_accordions",
+          "settings": {}
+        },
+        "pdp_icons_neaMNG": {
+          "type": "pdp_icons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "pdp_title_d8jacQ",
+        "pdp_price_fw6hk3",
+        "pdp_intro_gJcDaH",
+        "pdp_options_7fxeAp",
+        "pdp_addons_CT3nTz",
+        "recharge_subscriptions_subscription_widget_v2_3LTU6y",
+        "pdp_atc_CYHBKq",
+        "pdp_cta_nBcqQA",
+        "pdp_accordions_pagRQp",
+        "pdp_icons_neaMNG"
+      ],
+      "settings": {}
+    },
+    "hero_cta_TEfcRU": {
+      "type": "hero-cta",
+      "name": "Hero - CTA",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/liquid_hydrogendark_1920x580_3a1bd826-afce-45dd-8e8e-a33b3d598e25.webp",
+        "copy_align": "right",
+        "color": "light",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Supporting Every Lift In Life",
+        "copy": "<h6>Whether you're chasing PRs, deadlines, wild trails, or tiny humans—Liquid Hydrogen fuels the lifts that matter. Hydration with purpose, for every version of you.<\/h6>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "hero_cta_HrnN4i": {
+      "type": "hero-cta",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TANIA_1120x920_23d2989d-6948-4bbf-ac63-5ed6fb04debf.webp",
+        "copy_align": "left",
+        "color": "light",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Feel the  H₂ Lift",
+        "copy": "<ol><li><strong>Tear & Pour:<\/strong> Add one packet to 16 oz of water<\/li><li><strong>Let It Dissolve:<\/strong> Allow it to dissolve naturally—no stirring (stirring releases the H₂ faster)<\/li><li><strong>Drink Within 20 Minutes:<\/strong> Hydrogen molecules are escape artists—consume quickly for full benefits<\/li><\/ol>",
+        "btn_url": "shopify:\/\/pages\/benefits-of-rebounding",
+        "btn_copy": "Explore Benefits Of Rebounding"
+      }
+    },
+    "tab_slider_simple_DfCnPj": {
+      "type": "tab-slider-simple",
+      "blocks": {
+        "slide_ABqXp6": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Hydrocharge",
+            "eyebrow": "",
+            "title": "H₂ + Electrolytes",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Hydrocharge your performance with our unique blend of molecular hydrogen and vital electrolytes, packed into a sleek, go-anywhere packet. Discover how this dynamic formula unlocks peak athletic potential by optimizing, revitalizing, energizing, and defending your body like never before.<\/p>",
+            "image": "shopify:\/\/shop_images\/Hydrocharge1_1430x900_f437ac2d-e04c-47fe-b924-a3c0f0df9d75.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_zw7tNj": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Optimize",
+            "eyebrow": "",
+            "title": "Cellular Optimization",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Molecular hydrogen is like your cellular DJ—adjusting the levels to get everything in perfect harmony. As pioneering researcher Dr. Shigeo Ohta discovered, H₂ helps bring your cells back to their optimal state by selectively neutralizing only harmful free radicals while preserving beneficial ones.<\/p><p>Unlike other antioxidants that indiscriminately eliminate all free radicals, H₂ is smart enough to target only the troublemakers—maintaining your body's delicate balance.<\/p>",
+            "image": "shopify:\/\/shop_images\/Hydrocharge5_1430x900_759c5f45-f09c-4f67-a0cb-7dd2a61cee5d.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_B9RcA3": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Revitalize",
+            "eyebrow": "",
+            "title": "More Than Just Electrolytes",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Rehydrate faster and more efficiently with our precision H₂ + electrolyte blend.<\/p><p>Step into First Class Hydration: Our formula delivers molecular hydrogen while replenishing vital electrolytes to support hydration at the cellular level.<\/p><p>The smallest molecule in the universe packs a surprising punch for recovery and performance.<\/p>",
+            "image": "shopify:\/\/shop_images\/Hydrocharge6_1430x900_673eca9e-4d6e-47e7-b590-f15f9ffce8ff.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_jwUBkA": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Energize",
+            "eyebrow": "",
+            "title": "Natural Energy & Speeds Recovery",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Experience smoother, more sustained energy without the crash or jitters.<\/p><p>Molecular hydrogen helps combat fatigue and speeds recovery by optimizing cellular function and ATP production—your body's energy currency.<\/p><p>Instead of borrowing energy from tomorrow, you're maximizing what you have today.<\/p>",
+            "image": "shopify:\/\/shop_images\/Hydrocharge3_1430x900_8a539bf1-1178-43c8-98c1-abfb847f6fd6.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "slide_dAKb4M": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Defend",
+            "eyebrow": "",
+            "title": "Protect Your Cells",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Molecular hydrogen is nature's original antioxidant, perfected over billions of years.<\/p><p>As Tyler LeBaron of the Molecular Hydrogen Institute explains, H₂ works differently than traditional antioxidants by selectively targeting harmful hydroxyl radicals, activating your body's own antioxidant defenses through the Nrf2 pathway, and supporting healthy inflammatory responses.<\/p><p>Think of it as upgrading your body's entire security system rather than just adding a guard.<\/p>",
+            "image": "shopify:\/\/shop_images\/Hydrocharge2_1430x900_29e5d8ca-3cf6-4954-8aba-11396d419e78.webp",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_ABqXp6",
+        "slide_zw7tNj",
+        "slide_B9RcA3",
+        "slide_jwUBkA",
+        "slide_dAKb4M"
+      ],
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "black",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Feel The Lift"
+      }
+    },
+    "cta_image_XqxN8c": {
+      "type": "cta-image",
+      "name": "CTA Image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "left",
+        "image": "shopify:\/\/shop_images\/1200x1200_1.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "How To Use",
+        "copy": "<p>To maximize your molecular hydrogen lift:<\/p><ol><li><strong>Tear & Pour:<\/strong> Add one packet to 16 oz of water<\/li><li><strong>Let It Dissolve:<\/strong> Allow it to dissolve naturally—no stirring (stirring releases the H₂ faster)<\/li><li><strong>Drink Within 20 Minutes:<\/strong> Hydrogen molecules are escape artists—consume quickly for full benefits<\/li><\/ol><p>Ideal Times to Feel The Lift:<\/p><ul><li>30 minutes before workouts to prime cells for performance<\/li><li>First thing in the morning to start your day optimized<\/li><li>After intense activity to support recovery<\/li><\/ul>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "cta_image_LN3wdT": {
+      "type": "cta-image",
+      "name": "CTA Image",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "align": "right",
+        "image": "shopify:\/\/shop_images\/Whatsinthemix_1200x1200_6f7f1611-65b8-4ca0-be53-43450e4ffbaf.webp",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "What's In The Mix",
+        "copy": "<p>We're all about transparency, so here's the full scoop on our ingredients: <\/p><ul><li>Citric Acid<\/li><li>Natural Lemon Flavor (with a splash of other natural flavors)<\/li><li>Sodium Chloride<\/li><li>Potassium Phosphate<\/li><li>Sodium Citrate<\/li><li>Magnesium<\/li><li>Natural Stevia Extract<\/li><li>Ascorbic Acid (Vitamin C)<\/li><li>A pinch of Turmeric Extract for that sunny, vibrant color<\/li><\/ul><p>A bright, tangy lemon flavor that's like sunshine in a glass—crisp, refreshing, and leaves you smiling, not wincing.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "accordions_FtPqc6": {
+      "type": "accordions",
+      "blocks": {
+        "text_LWW3T8": {
+          "type": "text",
+          "settings": {
+            "title": "Why is molecular hydrogen important?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>As the smallest molecule in the universe, molecular hydrogen (H₂) can reach areas other supplements can't—penetrating cell membranes, mitochondria, and even crossing the blood-brain barrier.<\/p><p>H₂ is nature's selective antioxidant: it neutralizes harmful free radicals while preserving beneficial ones your body needs for signaling. This unique selectivity helps bring your cells back to their optimal state without disrupting normal cellular function.<\/p><p>When cells are at their peak performance, you see and feel the impact like reduced inflammation and faster recovery time. <\/p>"
+          }
+        },
+        "text_yAQi3f": {
+          "type": "text",
+          "settings": {
+            "title": "How much should I drink per day?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>For best results, most people feel the lift with 1–2 packets a day. Athletes often use one 30 minutes pre-workout to power up, and another post-sweat to recharge.<\/p><p>The beauty of molecular hydrogen? No known upper limit. Your body takes what it needs and naturally breathes out the rest. That’s why we crafted each packet with a high-performance 5mg dose—so you're always covered, whether you're lifting weights or lifting toddlers.<\/p>"
+          }
+        },
+        "text_zqqx84": {
+          "type": "text",
+          "settings": {
+            "title": "When should I drink it for best results?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<ul><li><strong>Pre-workout (30 minutes before):<\/strong> H₂ primes your cells for performance and electrolytes fuel your body<\/li><li><strong>Morning:<\/strong> Start your day with cellular optimization and the nutrients you need<\/li><li><strong>Post-workout:<\/strong> Support recovery when your body needs it most<\/li><\/ul><p>The key is drinking it within 20 minutes of making it to maximize your hydrogen dose before it dissipates.<\/p>"
+          }
+        },
+        "text_cFhaHz": {
+          "type": "text",
+          "settings": {
+            "title": "How does it compare to other electrolyte drinks?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>Most electrolyte drinks just replace what you lose through sweat. Liquid Hydrogen goes further:<\/p><ol><li><strong>Beyond Hydration:<\/strong> We've added molecular hydrogen that works at the cellular level to optimize how your body uses those electrolytes<\/li><li><strong>Selective Antioxidant Action:<\/strong> H₂ is a precision tool that targets only harmful free radicals<\/li><li><strong>Nothing Artificial:<\/strong> Unlike many sports drinks, we use zero artificial colors, flavors, or sweeteners<\/li><\/ol><p>It's like comparing basic transportation to a premium experience—both get you there, but one elevates the journey.<\/p>"
+          }
+        },
+        "text_Gt3y48": {
+          "type": "text",
+          "settings": {
+            "title": "How does it work (Won't the gas just escape)?",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>You're right—molecular hydrogen is the smallest molecule in the universe and naturally wants to escape. That's why we've engineered our powder to dissolve quickly without stirring.<\/p><p>Each packet creates a supersaturated hydrogen solution when it hits water, reaching concentrations of 5mg per dose. While the hydrogen will gradually escape over time (about 50% within 60-90 minutes), drinking it within 20 minutes ensures you get the full effects.<\/p><p><strong>Pro tips from the Lab:<\/strong><\/p><ul><li><strong>One-Shot Wonder: <\/strong>Studies by Dr. Kajiyama suggest consuming a full dose (at least 1mg) all at once is more effective than sipping throughout the day.<\/li><li><strong>Consistency is Key: <\/strong>Research shows daily consumption provides cumulative benefits beyond acute effects.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LWW3T8",
+        "text_yAQi3f",
+        "text_zqqx84",
+        "text_cFhaHz",
+        "text_Gt3y48"
+      ],
+      "name": "Accordions",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "FAQs",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "pdp_reviews_GaNUN7": {
+      "type": "pdp-reviews",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "title": "See What Our Customers Are Saying"
+      }
+    },
+    "product_slider_EfWizt": {
+      "type": "product-slider",
+      "blocks": {
+        "card_MdkEx7": {
+          "type": "card",
+          "settings": {
+            "product": "39-essential-fitness-trampoline"
+          }
+        },
+        "card_7TKHBh": {
+          "type": "card",
+          "settings": {
+            "product": "39-premium-fitness-trampoline"
+          }
+        },
+        "card_9cgzrx": {
+          "type": "card",
+          "settings": {
+            "product": "jumpsport-39-pro-fitness-trampoline"
+          }
+        },
+        "card_bhMCGk": {
+          "type": "card",
+          "settings": {
+            "product": "44-pro-fitness-trampoline"
+          }
+        }
+      },
+      "block_order": [
+        "card_MdkEx7",
+        "card_7TKHBh",
+        "card_9cgzrx",
+        "card_bhMCGk"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Trampolines That Lift",
+        "btn_url": "shopify:\/\/collections\/all",
+        "btn_copy": "Shop All Products"
+      }
+    },
+    "compare_hrh6QB": {
+      "type": "compare",
+      "disabled": true,
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "expanded": false,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Compare Models",
+        "copy": "<p>Not sure which trampoline is right for you? Let's take a look at them side by side.<\/p>"
+      }
+    },
+    "cta_blocks_4KVFim": {
+      "type": "cta-blocks",
+      "blocks": {
+        "block_K7kthB": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "JumpSport Fitness TV Free Trial",
+            "title_alt": "On Demand Trampoline Workouts",
+            "image": "shopify:\/\/shop_images\/app-imgalt.png",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts"
+          }
+        },
+        "block_Pwf7pj": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Can’t Decide?",
+            "title_alt": "View Our Buyers Guide",
+            "image": "shopify:\/\/shop_images\/trampoline-sizes.webp",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "block_K7kthB",
+        "block_Pwf7pj"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": ""
+      }
+    },
+    "video_peel_eWGtMb": {
+      "type": "video-peel",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Get Inspired. Get Bouncing.",
+        "embed": "<div class=\"videopeel-widget-container\" data-plugin-id=\"d39c6124-d66c-4a79-a00a-81be369999f5\"><\/div>",
+        "btn_url": "https:\/\/www.instagram.com\/jumpsportfitness",
+        "btn_copy": "Follow Us On Instagram"
+      }
+    },
+    "image_grid_9T6rHq": {
+      "type": "image-grid",
+      "blocks": {
+        "image_CngpWD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giphy.webp",
+            "url": "#"
+          }
+        },
+        "image_HLRVMY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-vertical-demo.jpg",
+            "url": ""
+          }
+        },
+        "image_zWi7YD": {
+          "type": "image",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/4911642-hd_1920_1080_30fps.mp4",
+            "url": ""
+          }
+        },
+        "image_TAfBCw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-vertical-demo.jpg",
+            "url": ""
+          }
+        },
+        "image_wUiRHA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giphy.webp",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CngpWD",
+        "image_HLRVMY",
+        "image_zWi7YD",
+        "image_TAfBCw",
+        "image_wUiRHA"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Get Inspired. Get Bouncing.",
+        "btn_url": "#",
+        "btn_copy": "Find A Club"
+      }
+    }
+  },
+  "order": [
+    "pdp_buyflow",
+    "hero_cta_TEfcRU",
+    "hero_cta_HrnN4i",
+    "tab_slider_simple_DfCnPj",
+    "cta_image_XqxN8c",
+    "cta_image_LN3wdT",
+    "accordions_FtPqc6",
+    "pdp_reviews_GaNUN7",
+    "product_slider_EfWizt",
+    "compare_hrh6QB",
+    "cta_blocks_4KVFim",
+    "video_peel_eWGtMb",
+    "image_grid_9T6rHq"
+  ]
+}

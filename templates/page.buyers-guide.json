@@ -1,0 +1,329 @@
+{
+  "sections": {
+    "page": {
+      "type": "page-content",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md"
+      }
+    },
+    "cta_heading_96mp9y": {
+      "type": "cta-heading",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "tan",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "hide_bg": true,
+        "eyebrow": "",
+        "heading_level": "h1",
+        "heading_level_display": "",
+        "title": "Ultimate Guide to Choosing Your Fitness Trampoline",
+        "copy": "<p>Personalize your workout experience by exploring key features that can only be found on a JumpSport Fitness Trampoline. This comprehensive guide breaks down the key factors to consider so you can pick the perfect model for your fitness goals and lifestyle.<\/p>",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "tab_slider_simple_XXjHab": {
+      "type": "tab-slider-simple",
+      "blocks": {
+        "slide_gQCnmC": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Beginner",
+            "eyebrow": "",
+            "title": "The Beginner & Weight Loss Seeker",
+            "heading_level": "h3",
+            "heading_level_display": "heading--three",
+            "copy": "<ul><li><strong>Who You Are:<\/strong> New to rebounding or focused on achieving weight loss goals.<\/li><li><strong>What To Consider:<\/strong> A firmer tension helps new bouncers feel more stable and eases them into rebounding.<\/li><li><strong>Our Recommendation:<\/strong> The JumpSport 39\" PRO has a firm bounce with the option to adjust your tension firmer.<\/li><\/ul>",
+            "image": "shopify:\/\/shop_images\/Beginners-1430x900.webp",
+            "btn_url": "shopify:\/\/products\/jumpsport-39-pro-fitness-trampoline",
+            "btn_copy": "Shop JumpSport 39\" PRO"
+          }
+        },
+        "slide_awQUrA": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Wellness",
+            "eyebrow": "",
+            "title": "Wellness",
+            "heading_level": "h3",
+            "heading_level_display": "heading--three",
+            "copy": "<ul><li><strong>Who You Are:<\/strong> Interested in detox, mindfulness, balance, and low-impact fitness.<\/li><li><strong>What To Consider:<\/strong> A soft tension provides a gentle and smooth bounce supporting relaxation and joint-friendly movement.<\/li><li><strong>Our Recommendation:<\/strong> The JumpSport 39\" PREMIUM has a soft bounce with the option to adjust your tension firmer.<\/li><\/ul>",
+            "image": "shopify:\/\/shop_images\/wellness.webp",
+            "btn_url": "shopify:\/\/products\/premium",
+            "btn_copy": "Shop JumpSport 39\" PREMIUM"
+          }
+        },
+        "slide_QHzJyX": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Active Agers",
+            "eyebrow": "",
+            "title": "Active Agers",
+            "heading_level": "h3",
+            "heading_level_display": "heading--three",
+            "copy": "<ul><li><strong>Who You Are:<\/strong> An older adult who prioritizes balance, joint health, and low-impact exercise.<\/li><li><strong>What To Consider:<\/strong> A firmer tension allows for more body control and more stability for your joints.<\/li><li><strong>Our Recommendation:<\/strong> The JumpSport 39\" PRO has a firm bounce with the option to adjust your tension firmer <\/li><\/ul>",
+            "image": "shopify:\/\/shop_images\/active_ager-1430x900x.webp",
+            "btn_url": "shopify:\/\/products\/jumpsport-39-pro-fitness-trampoline",
+            "btn_copy": "Shop JumpSport 39\" PRO"
+          }
+        },
+        "slide_PgMgWq": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Fitness Enthusiast",
+            "eyebrow": "",
+            "title": "The Fitness Enthusiast",
+            "heading_level": "h3",
+            "heading_level_display": "heading--three",
+            "copy": "<ul><li><strong>Who You Are:<\/strong> Dedicated to frequent and advanced fitness routines.<\/li><li><strong>What To Consider:<\/strong> A firmer tension is preferred for intensive and high-tempo training. A larger surface area allows for more dynamic movements.<\/li><li><strong>Our Recommendation:<\/strong> The JumpSport 44\" PRO has firm, adjustable cords as well as a larger surface area compared with the 39\" PRO.<\/li><\/ul>",
+            "image": "shopify:\/\/shop_images\/fitness_enthusiast-1430x900x.webp",
+            "btn_url": "shopify:\/\/products\/44-pro-fitness-trampoline",
+            "btn_copy": "Shop JumpSport 44\" PRO"
+          }
+        },
+        "slide_MbEgNB": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "On-The-Go",
+            "eyebrow": "",
+            "title": "On-The-Go",
+            "heading_level": "h3",
+            "heading_level_display": "heading--three",
+            "copy": "<ul><li><strong>Who You Are:<\/strong> Need a portable option for workouts anywhere.<\/li><li><strong>What To Consider:<\/strong> A folding frame and easily removable legs provide maximum portability.<\/li><li><strong>Our Recommendation:<\/strong> The JumpSport 39\" PREMIUM - Folding Option or 44\" PRO - Folding Option. The PRO is larger and firmer and is a better seller.<\/li><\/ul>",
+            "image": "shopify:\/\/shop_images\/on-the-go-1430x900x_1.webp",
+            "btn_url": "https:\/\/jumpsport-fitness.myshopify.com\/products\/44-pro-fitness-trampoline?variant=43259908915247",
+            "btn_copy": "Shop 44\" PRO Folding"
+          }
+        },
+        "slide_cbyFH7": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Recovery",
+            "eyebrow": "",
+            "title": "Recovery",
+            "heading_level": "h3",
+            "heading_level_display": "heading--three",
+            "copy": "<ul><li><strong>Who You Are:<\/strong> Rehabilitating from injury, seeking low-impact movement, or taking an active recovery day.<\/li><li><strong>What To Consider:<\/strong> A soft tension provides a gentle and smooth bounce supporting recovery and joint-friendly movement.<\/li><li><strong>Our Recommendation:<\/strong> The JumpSport 39\" PREMIUM has a soft bounce with the option to adjust your tension firmer.<\/li><\/ul>",
+            "image": "shopify:\/\/shop_images\/recovery-1430x900x.webp",
+            "btn_url": "shopify:\/\/products\/premium",
+            "btn_copy": "Shop JumpSport 39\" PREMIUM"
+          }
+        }
+      },
+      "block_order": [
+        "slide_gQCnmC",
+        "slide_awQUrA",
+        "slide_QHzJyX",
+        "slide_PgMgWq",
+        "slide_MbEgNB",
+        "slide_cbyFH7"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Find Your Perfect Fit"
+      }
+    },
+    "tab_slider_simple_LjJzcz": {
+      "type": "tab-slider-simple",
+      "blocks": {
+        "slide_e6G3fF": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Soft",
+            "eyebrow": "",
+            "title": "Soft Bounce",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>30x EnduroLast 2 elastic cords have 2 knots on each cord and are non-adjustable, providing a soft bounce experience. <\/p>",
+            "image": "shopify:\/\/shop_images\/NEW_220.jpg",
+            "btn_url": "shopify:\/\/products\/39-essential-fitness-trampoline",
+            "btn_copy": "Shop 39\" ESSENTIAL"
+          }
+        },
+        "slide_ADgUVa": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Soft to Firm",
+            "eyebrow": "",
+            "title": "Soft to Firm Bounce",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>30x EnduroLast 4 elastic cords have 4 knots on each cord, provide a soft bounce out of the box, and can be adjusted across 7 different firmness settings up to a firm bounce. <\/p>",
+            "image": "shopify:\/\/shop_images\/350_transparent_1220x1220_1.png",
+            "btn_url": "shopify:\/\/products\/39-premium-fitness-trampoline",
+            "btn_copy": "Shop 39\" PREMIUM"
+          }
+        },
+        "slide_LBfEdU": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Firm",
+            "eyebrow": "",
+            "title": "Firm Bounce",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>36x EnduroLast 2 extra firm elastic cords have 2 knots on each cord and are non-adjustable, providing a firm bounce experience. <\/p>",
+            "image": "shopify:\/\/shop_images\/transparent_430_1220x1220_1_1.png",
+            "btn_url": "shopify:\/\/products\/44-essential-fitness-trampoline",
+            "btn_copy": "Shop 44\" ESSENTIAL"
+          }
+        },
+        "slide_yd9U7D": {
+          "type": "slide",
+          "settings": {
+            "tab_title": "Firm to Extra Firm",
+            "eyebrow": "",
+            "title": "Firm to Extra Firm Bounce",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>36x EnduroLast 4 elastic cords have 4 knots on each cord, provide a firm bounce out of the box, and can be adjusted across 7 different firmness settings up to an extra firm bounce. <\/p><p>To maintain a consistent feel between different frame sizes, the 39\" models use our Firm EnduroLast 4 cords while 44\" models use our Extra Firm EnduroLast 4 cords.<\/p>",
+            "image": "shopify:\/\/shop_images\/350_PRO_1220x1220_2.png",
+            "btn_url": "shopify:\/\/products\/jumpsport-39-pro-fitness-trampoline",
+            "btn_copy": "Shop 39\" PRO"
+          }
+        }
+      },
+      "block_order": [
+        "slide_e6G3fF",
+        "slide_ADgUVa",
+        "slide_LBfEdU",
+        "slide_yd9U7D"
+      ],
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "What Are My Firmness Options?"
+      }
+    },
+    "tab_slider_XpDUeG": {
+      "type": "tab-slider",
+      "blocks": {
+        "slide_QfUnch": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 1",
+            "title": "Trampoline Frame",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>Selecting the right trampoline frame ensures you get the comfort, performance, and convenience you need for your fitness routine.<\/strong><\/p><p>The 39\" frame is a great choice for smaller spaces or those who want a compact, versatile option, while the 44\" provides a more spacious jumping area, perfect for taller users, heavier bouncers, or anyone who wants extra room to move. <\/p><p>Folding frames are ideal for smaller spaces, easy storage, or on-the-go use. 3-piece self-assembly frames are a budget friendly option with the same stability as our other frames. . Think about your height, space, and how you’ll use it to find your perfect match.<\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-weight-capacity.webp",
+            "glance": "<ul><li><strong>39\" Frame:<\/strong> Compact, versatile, great for smaller spaces.<\/li><li><strong>44\" Frame:<\/strong> Spacious surface, ideal for taller\/heavier users or bigger movement.<\/li><li><strong>Folding Frames:<\/strong> Portable, easy to store or travel with.<\/li><li><strong>3-Piece Frames:<\/strong> Durable, self assembly, budget friendly.<\/li><li><strong>Usage Needs:<\/strong> Choose based on space and workout style.<\/li><\/ul>"
+          }
+        },
+        "slide_EMyayz": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 2",
+            "title": "Firmness",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>One of our best features is our unique cord system that gives you the freedom to customize your bounce firmness. <\/strong><\/p><p>A softer bounce delivers a deeper, smoother rebound, increasing workout intensity while being gentle on joints. A firmer bounce provides a shorter, quicker rebound, making it ideal for fast-paced exercises and high repetitions. <\/p><p>Adjustable cords allow you to customize the firmness and extend the life of your trampoline by tightening the cords as they wear. Cords can also be replaced or upgraded over time, expanding the bounce experience. <\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-firmness.webp",
+            "glance": "<ul><li><strong>Softer Bounce:<\/strong> Deeper, smoother rebound, gentle on joints.<\/li><li><strong>Firmer Bounce:<\/strong> Quick, more stable, perfect for fast choreography or stability workouts.<\/li><li><strong>Adjustability:<\/strong> Customize bounce firmness and extend longevity as cords wear.<\/li><li><strong>Maintenance:<\/strong> Check & adjust cords regularly for optimal performance. <\/li><\/ul>"
+          }
+        },
+        "slide_V6mXTt": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 3",
+            "title": "Weight Capacity",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>JumpSport trampolines provide a sturdy, stable platform that can be adapted to the bouncers’ weight or bounce intensity. Understanding weight capacity ensures safe, durable trampoline performance.<\/strong><\/p><p>Weight capacity includes two factors: static load, the maximum weight the frame and cords can hold, and user weight rating, the highest weight for safe, active use during workouts. <\/p><p>Depending on the model, our trampolines support weights from 225 to 325 pounds, offering a range of options for different users. For heavy or frequent use, PRO models provide extra cords and adjustable tension for added durability and comfort. Selecting a trampoline that matches the highest user weight ensures safety, performance, and longevity for every workout.<\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-mat-styles.webp",
+            "glance": "<ul><li><strong>User Weight Rating:<\/strong> Depending on model, 225 to 325 pounds.<\/li><li><strong>PRO Models:<\/strong> More cords for a firmer bounce.<\/li><li><strong>44” Models:<\/strong> Extra Firm cords for heavy bouncers or frequent use.<\/li><li><strong>Durability:<\/strong> Designed to handle high-intensity, long-term use.<\/li><li><strong>Safety Tip:<\/strong> Select weight rating based on the heaviest active user.<\/li><li><strong>Customizable:<\/strong> Adjustable cords for personalized tension and performance.<\/li><\/ul>"
+          }
+        },
+        "slide_J34jEe": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Step 4",
+            "title": "Mat Styles",
+            "heading_level": "h3",
+            "heading_level_display": "",
+            "copy": "<p><strong>Are you a skirt mat or padded petal person? The mat style you chose can affect comfort, stability on the trampoline, and your overall jumping experience.<\/strong><\/p><p>Skirt-style mats offer a lay-flat extended skirt over the bungees, maximizing the jumping area for unrestricted movement. Padded petal mats provide extra padding over the cords for enhanced comfort and safety, additionally making them ideal if you plan to lay on the mat or use your hands during workouts. <\/p><p>All models include reinforced stitching and lay-flat mat technology, keeping the jumping skirt or padded petals secure for added protection and space. Select a mat style based on your comfort, safety, and workout needs.<\/p>",
+            "btn_url": "",
+            "btn_copy": "",
+            "image": "shopify:\/\/shop_images\/jumpsport-trampoline-frame.webp",
+            "glance": "<ul><li><strong>Skirt-Style Mats:<\/strong> Structured surface for maximum jumping area.<\/li><li><strong>Padded Petal Mats:<\/strong> Extra padding for added comfort and safety.<\/li><li><strong>Lay-Flat Technology:<\/strong> Prevents lifting for secure, stable performance.<\/li><li><strong>Comfort:<\/strong> Padded petals are ideal for hand or mat-based use.<\/li><li><strong>Durability:<\/strong> High-quality materials designed for long-term use.<\/li><li><strong>Safety:<\/strong> Minimized cord exposure with padded extensions.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_QfUnch",
+        "slide_EMyayz",
+        "slide_V6mXTt",
+        "slide_J34jEe"
+      ],
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "black",
+        "padding_top": "xl",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "What to Consider",
+        "btn_url": "shopify:\/\/collections\/fitness-trampolines",
+        "btn_copy": "Shop Trampolines"
+      }
+    },
+    "hero_cta_aJFzaq": {
+      "type": "hero-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1920x580_2.webp",
+        "copy_align": "left",
+        "color": "light",
+        "eyebrow": "",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Top Celebrity Picks",
+        "copy": "<p>Want to bounce like the stars? Celebrities and fitness pros love JumpSport trampolines for their low-impact, high-energy workouts. From Hollywood icons to elite athletes, our trampolines are a top pick for fun, fitness, and performance.<\/p>",
+        "btn_url": "shopify:\/\/pages\/celebrity-top-picks-jumpsport-trampolines",
+        "btn_copy": "View Celebrity Favorites"
+      }
+    }
+  },
+  "order": [
+    "page",
+    "cta_heading_96mp9y",
+    "tab_slider_simple_XXjHab",
+    "tab_slider_simple_LjJzcz",
+    "tab_slider_XpDUeG",
+    "hero_cta_aJFzaq"
+  ]
+}

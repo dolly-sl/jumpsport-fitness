@@ -1,0 +1,545 @@
+{
+  "sections": {
+    "pdp_buyflow": {
+      "type": "pdp-buyflow",
+      "blocks": {
+        "pdp_title_d8jacQ": {
+          "type": "pdp_title",
+          "settings": {}
+        },
+        "pdp_price_fw6hk3": {
+          "type": "pdp_price",
+          "disabled": true,
+          "settings": {
+            "byline": "Starting at"
+          }
+        },
+        "pdp_intro_gJcDaH": {
+          "type": "pdp_intro",
+          "settings": {}
+        },
+        "pdp_options_7fxeAp": {
+          "type": "pdp_options",
+          "settings": {}
+        },
+        "pdp_atc_CYHBKq": {
+          "type": "pdp_atc",
+          "settings": {}
+        },
+        "bread_pay_messaging_app_block_product_9x36ye": {
+          "type": "shopify:\/\/apps\/bread-pay-messaging\/blocks\/app-block-product\/17f8811a-68d5-4aab-a4c3-0c2b49a4e68b",
+          "disabled": true,
+          "settings": {
+            "shopId": "a7f99db7-7903-47f0-8008-e89166635ad9",
+            "placementId": "",
+            "showPlaceholder": false
+          }
+        },
+        "pdp_icons_neaMNG": {
+          "type": "pdp_icons",
+          "settings": {}
+        },
+        "pdp_addons_CT3nTz": {
+          "type": "pdp_addons",
+          "settings": {
+            "title": "Essential Add-ons:"
+          }
+        },
+        "pdp_accordions_pagRQp": {
+          "type": "pdp_accordions",
+          "settings": {}
+        },
+        "pdp_cta_nBcqQA": {
+          "type": "pdp_cta",
+          "settings": {
+            "title": "Looking to purchase trampolines for your club?",
+            "btn_copy": "Contact Us",
+            "btn_url": "shopify:\/\/pages\/connect-with-our-team-contact-jumpsport"
+          }
+        }
+      },
+      "block_order": [
+        "pdp_title_d8jacQ",
+        "pdp_price_fw6hk3",
+        "pdp_intro_gJcDaH",
+        "pdp_options_7fxeAp",
+        "pdp_atc_CYHBKq",
+        "bread_pay_messaging_app_block_product_9x36ye",
+        "pdp_icons_neaMNG",
+        "pdp_addons_CT3nTz",
+        "pdp_accordions_pagRQp",
+        "pdp_cta_nBcqQA"
+      ],
+      "settings": {}
+    },
+    "image_accordions_qdjM3y": {
+      "type": "image-accordions",
+      "blocks": {
+        "text_FQJJTA": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-cardio-weightloss-benefits.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Low-Impact Cardio",
+            "copy": "<p>Burn calories, elevate your heart rate, and improve endurance — all with less stress on your knees, hips, and ankles than running or plyometric workouts.<\/p>",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "text_r4WQCg": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-wellness-recovery-benefits.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Strength & Balance Training",
+            "copy": "<p>From squats and lunges to single-leg stability work and athletic drills, the firm-to-extra-firm bounce creates controlled resistance that challenges your muscles and core.<\/p>",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        },
+        "text_36VtX7": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-balance-mental-health-benefits.webp",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Recovery & Joint Health",
+            "copy": "<p>EnduroLast™ elastic cords provide a cushioned, quiet rebound that absorbs shock and supports joint-friendly movement.<\/p>",
+            "btn_url": "",
+            "btn_copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_FQJJTA",
+        "text_r4WQCg",
+        "text_36VtX7"
+      ],
+      "name": "Image Accordions",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "white",
+        "padding_top": "lg",
+        "padding_bottom": "",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "title": "Way More Than Just a Trampoline",
+        "image_accordion_copy": "<p>JumpSport fitness trampolines are more than rebounders — they’re compact, low-impact fitness systems designed for cardio, strength, balance, and recovery. Built for home workouts and trusted by professional studios, they deliver powerful performance with less joint stress than traditional high-impact training.<\/p>",
+        "heading_level": "h2",
+        "heading_level_display": "heading--two"
+      }
+    },
+    "product_features_dhBUHe": {
+      "type": "product-features",
+      "blocks": {
+        "feature_BzRGzg": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-mat.webp",
+            "title": "Enhanced Mat",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Featuring reinforced stitching and enhanced lay-flat mat technology, JumpSport extends your usable space and provides added protection.",
+            "url": ""
+          }
+        },
+        "feature_nwAhJU": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-arched-legs.webp",
+            "title": "Arched Legs",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Smart engineering meets real-world stability. Arched legs keep your rebounder steady, stackable, and tip-resistant—so every jump feels solid, every time.",
+            "url": ""
+          }
+        },
+        "feature_C8VnaP": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-elastic-cords.webp",
+            "title": "Premium Elastic Cords",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Experience the premium bounce that made us famous. Our long-lasting and smooth EnduroLast™ elastic cords are quiet, joint-friendly, and adjustable to fit any intensity.",
+            "url": ""
+          }
+        },
+        "feature_qEBYnw": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumpsport-space.webp",
+            "title": "More Space",
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "copy": "Be free to move more. The durable jumping surface extends over the cords to add protection and additional space for increased creativity.",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_BzRGzg",
+        "feature_nwAhJU",
+        "feature_C8VnaP",
+        "feature_qEBYnw"
+      ],
+      "name": "Product Features",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "black",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "sm",
+        "padding_bottom-mobile": "sm",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Why JumpSport Fitness Trampolines Are Built Different",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "custom_liquid_T9axpe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n  .discount-price {\n    margin-right: 2px;\n  }\n  .original-price {\n    text-decoration: line-through;\n  }\n<\/style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const DISCOUNT_RATE = 0.85;\n\n  if (!document.querySelector('#discount-flag[data-discount=\"true\"]')) return;\n\n  function formatMoney(value) {\n    return `$${parseFloat(value).toFixed(2)}`;\n  }\n\n  function getOriginalPrice() {\n    const selected = document.querySelector('[sm-rc-variant-selector] option:checked');\n    if (!selected) return null;\n\n    let rawPrice = selected.getAttribute('data-compare-price');\n    if (!rawPrice || parseFloat(rawPrice) === 0) {\n      rawPrice = selected.getAttribute('data-price');\n    }\n\n    const price = parseFloat(rawPrice.replace(\/[^0-9.]\/g, ''));\n    return isNaN(price) ? null : price;\n  }\n\n  function updateOrInjectPrice(containerSelector) {\n    const container = document.querySelector(containerSelector);\n    if (!container) return;\n\n    const original = getOriginalPrice();\n    if (!original) return;\n\n    const discounted = original * DISCOUNT_RATE;\n\n    \/\/ If already injected, just update\n    const discountEl = container.querySelector('.discount-price');\n    const originalEl = container.querySelector('.original-price');\n\n    if (discountEl && originalEl) {\n      discountEl.textContent = formatMoney(discounted);\n      originalEl.textContent = formatMoney(original);\n    } else {\n      \/\/ Otherwise inject once\n      container.innerHTML = `\n        <span class=\"discount-price\">${formatMoney(discounted)}<\/span>\n        <span class=\"original-price\">${formatMoney(original)}<\/span>\n      `;\n    }\n  }\n\n  function updateAllPrices() {\n    updateOrInjectPrice('.pdp__price');\n    updateOrInjectPrice('[sm-rc-current-price]');\n  }\n\n  \/\/ Run once\n  setTimeout(updateAllPrices, 400);\n\n  \/\/ Update when variant changes\n  const selector = document.querySelector('[sm-rc-variant-selector]');\n  if (selector) {\n    selector.addEventListener('change', () => {\n      setTimeout(updateAllPrices, 300);\n    });\n  }\n\n  \/\/ Observe dynamic changes\n  const observer = new MutationObserver(() => {\n    setTimeout(updateAllPrices, 300);\n  });\n\n  observer.observe(document.body, { childList: true, subtree: true });\n});\n<\/script>"
+      }
+    },
+    "image_links_aXFfd8": {
+      "type": "image-links",
+      "name": "Image Links",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Your Workouts, Built In — 60 Days Included",
+        "copy": "<p>Every JumpSport Fitness Trampoline includes a <strong>60-Day Free Trial to JumpSport Fitness TV<\/strong>, our on-demand workout platform designed specifically for rebounder training.<\/p><p>You don’t have to guess what to do — just press play.<\/p><p><strong>What You Get:<\/strong><\/p><ul><li>400+ on-demand workouts<\/li><li>Professional instructors<\/li><li>Beginner to advanced levels<\/li><li>Cardio, strength, balance, and recovery sessions<\/li><li>Programs built specifically for JumpSport trampoline dimensions and bounce<\/li><\/ul><p>Whether you're just getting started or training multiple times per week, Fitness TV helps you stay consistent and see results.<\/p>",
+        "image": "shopify:\/\/shop_images\/app-imgalt_1.webp"
+      }
+    },
+    "compare_hrh6QB": {
+      "type": "compare",
+      "settings": {
+        "top_arch": true,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "lg",
+        "padding_bottom": "lg",
+        "padding_top-mobile": "30",
+        "padding_bottom-mobile": "30",
+        "expanded": false,
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Compare Models",
+        "copy": "<p>Not sure which trampoline is right for you? Let's take a look at them side by side.<\/p>"
+      }
+    },
+    "image_links_7mbnca": {
+      "type": "image-links",
+      "name": "Image Links",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "{{ product.metafields.custom.right_for_you_headline.value }}",
+        "copy": "{{ product.metafields.custom.right_for_you_textarea | metafield_tag }}",
+        "image": "{{ product.featured_image }}"
+      }
+    },
+    "product_slider_pdp_MFjpeK": {
+      "type": "product-slider-PDP",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "padding_top": "50",
+        "padding_bottom": "md",
+        "padding_top-mobile": "30",
+        "padding_bottom-mobile": "30",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Shop Accessories",
+        "btn_url": "shopify:\/\/collections\/rebounder-accessories",
+        "btn_copy": "View Accessories",
+        "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}"
+      }
+    },
+    "accordions_9WEaeh": {
+      "type": "accordions",
+      "blocks": {
+        "text_XgDEa7": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_one_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>{{ product.metafields.custom.faq_one_textarea | metafield_tag }}<\/p>"
+          }
+        },
+        "text_PWH34G": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_two_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>{{ product.metafields.custom.faq_two_textarea | metafield_tag }}<\/p>"
+          }
+        },
+        "text_gNpnzE": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_three_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>{{ product.metafields.custom.faq_three_textarea | metafield_tag }}<\/p>"
+          }
+        },
+        "text_VMYKAK": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_four_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>{{ product.metafields.custom.faq_four_textarea | metafield_tag }}<\/p>"
+          }
+        },
+        "text_VECeY7": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_five_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>{{ product.metafields.custom.faq_five_textarea | metafield_tag }}<\/p>"
+          }
+        },
+        "text_gw7qBq": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_six_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "{{ product.metafields.custom.faq_six_textarea | metafield_tag }}"
+          }
+        },
+        "text_Rihdgg": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_seven_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "{{ product.metafields.custom.faq_seven_textarea | metafield_tag }}"
+          }
+        },
+        "text_aNggn9": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_eight_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>{{ product.metafields.custom.faq_eight_textarea.value }}<\/p>"
+          }
+        },
+        "text_GEwXKU": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_nine_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>{{ product.metafields.custom.faq_nine_textarea | metafield_tag }}<\/p>"
+          }
+        },
+        "text_WVY7Dh": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_ten_headline.value }}",
+            "heading_level": "h3",
+            "heading_level_display": "heading--four",
+            "copy": "<p>{{ product.metafields.custom.faq_ten_textarea | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XgDEa7",
+        "text_PWH34G",
+        "text_gNpnzE",
+        "text_VMYKAK",
+        "text_VECeY7",
+        "text_gw7qBq",
+        "text_Rihdgg",
+        "text_aNggn9",
+        "text_GEwXKU",
+        "text_WVY7Dh"
+      ],
+      "name": "Accordions",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "white",
+        "padding_top": "lg",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Common Questions",
+        "btn_url": "",
+        "btn_copy": ""
+      }
+    },
+    "cta_blocks_4KVFim": {
+      "type": "cta-blocks",
+      "blocks": {
+        "block_K7kthB": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "400+ On Demand Video Workouts",
+            "title_alt": "with JumpSport Fitness TV",
+            "image": "shopify:\/\/shop_images\/JSFTV-1180x800x.webp",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-tv-trampoline-workouts"
+          }
+        },
+        "block_Pwf7pj": {
+          "type": "block",
+          "settings": {
+            "heading_level": "h3",
+            "heading_level_display": "heading--five",
+            "title": "Can’t Decide?",
+            "title_alt": "View Our Buyer's Guide",
+            "image": "shopify:\/\/shop_images\/jumpsport-trampoline-sizes.webp",
+            "url": "shopify:\/\/pages\/jumpsport-fitness-trampoline-buyers-guide"
+          }
+        }
+      },
+      "block_order": [
+        "block_K7kthB",
+        "block_Pwf7pj"
+      ],
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "xl",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": ""
+      }
+    },
+    "video_peel_fxGiWF": {
+      "type": "video-peel",
+      "disabled": true,
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": true,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "50",
+        "padding_top-mobile": "30",
+        "padding_bottom-mobile": "30",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Get Inspired. Get Bouncing.",
+        "embed": "<div class=\"videopeel-widget-container\" data-plugin-id=\"d39c6124-d66c-4a79-a00a-81be369999f5\"><\/div>",
+        "btn_url": "https:\/\/www.instagram.com\/jumpsportfitness",
+        "btn_copy": "Follow Us On Instagram"
+      }
+    },
+    "pdp_reviews_GaNUN7": {
+      "type": "pdp-reviews",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "tan",
+        "title": "See What Our Customers Are Saying"
+      }
+    },
+    "1777939233b974776d": {
+      "type": "apps",
+      "blocks": {
+        "boost_ai_search_filter_recommendation_ssr_WJNT3F": {
+          "type": "shopify:\/\/apps\/boost-ai-search-filter\/blocks\/recommendation-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "productpage-411256",
+            "space_top": 20,
+            "space_bottom": 20,
+            "additional_classes": "",
+            "custom_css": ""
+          }
+        },
+        "boost_ai_search_filter_recommendation_ssr_ixmLTU": {
+          "type": "shopify:\/\/apps\/boost-ai-search-filter\/blocks\/recommendation-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "productpage-181535",
+            "space_top": 20,
+            "space_bottom": 20,
+            "additional_classes": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "boost_ai_search_filter_recommendation_ssr_WJNT3F",
+        "boost_ai_search_filter_recommendation_ssr_ixmLTU"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "collection_slider_CTDCiH": {
+      "type": "collection-slider",
+      "name": "Collection Slider",
+      "settings": {
+        "top_arch": false,
+        "bottom_arch": false,
+        "background": "white",
+        "padding_top": "md",
+        "padding_bottom": "md",
+        "padding_top-mobile": "md",
+        "padding_bottom-mobile": "md",
+        "heading_size": "lg",
+        "heading_level": "h2",
+        "heading_level_display": "",
+        "title": "Shop Accessories",
+        "btn_url": "shopify:\/\/collections\/rebounder-accessories",
+        "btn_copy": "Accessories",
+        "collection": "rebounder-accessories"
+      }
+    }
+  },
+  "order": [
+    "pdp_buyflow",
+    "image_accordions_qdjM3y",
+    "product_features_dhBUHe",
+    "custom_liquid_T9axpe",
+    "image_links_aXFfd8",
+    "compare_hrh6QB",
+    "image_links_7mbnca",
+    "product_slider_pdp_MFjpeK",
+    "accordions_9WEaeh",
+    "cta_blocks_4KVFim",
+    "video_peel_fxGiWF",
+    "pdp_reviews_GaNUN7",
+    "1777939233b974776d",
+    "collection_slider_CTDCiH"
+  ]
+}
