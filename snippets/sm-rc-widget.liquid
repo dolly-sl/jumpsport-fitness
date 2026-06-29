@@ -377,6 +377,12 @@
         $('[sm-rc-add-to-cart]').on('click', function () {
           var qty = 1;
 
+          // Guard against adding an option combination that has no real variant.
+          if (!isCurrentVariantPurchasable()) {
+            updateAddToCartState();
+            return;
+          }
+
           if (currentPlan.id == 'false') {
             CartJS.addItem(
               parseInt(currentVariant.id),
